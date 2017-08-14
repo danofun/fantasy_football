@@ -1,0 +1,629 @@
+@import url("http://faithworkcamps.com/fantasy_football_2012/site/css/adblocker.css");
+
+:-moz-any-link:focus {outline: none;}
+:focus {outline: none;}
+.pageheader {display:none;}
+.pagefooter {display:none;}
+
+html {overflow-y: scroll;margin:0px; padding:0px;}
+#head {background: transparent;width:1200px; margin:0 auto;margin-top:20px;
+border-bottom:none;
+height:108px;
+padding-top:0px;
+}
+.pagebody {
+text-align: left; 
+position:relative;
+background: #000;
+width : 1200px;
+margin: 0 auto;
+min-height:780px;
+color:#fff;
+padding:0;
+border: 1px solid rgb(255, 208, 0);
+border: 1px solid rgba(255, 208, 0, .16);
+-moz-border-radius-topleft: 0px 0px;
+ -moz-border-radius-topright: 0px 0px;
+-moz-border-radius-bottomleft: 5px 5px;
+-moz-border-radius-bottomright: 5px 5px;
+-webkit-border-radius-topleft: 0px 0px;
+-webkit-border-radius-topright: 0px 0px;
+-webkit-border-radius-bottomleft: 5px 5px;
+-webkit-border-radius-bottomright: 5px 5px;
+padding-bottom:40px;
+border-top:none;
+margin-bottom:70px;
+}
+body{
+font:11pt/1.8;
+font-weight:bold;
+font-family:Arial, Helvetica, sans-serif;
+color: #fff;
+background:#000 url(http://faithworkcamps.com/fantasy_football_2012/site/img/bg.jpg);
+background-repeat:repeat;  
+background-attachment: fixed;
+background-position:center top;
+margin:0px;
+}
+#topmenu{
+position:absolute;
+top:34px;
+left:986px;
+z-index:4;
+color:#ffc000 ;
+width:264px;;
+}
+#topmenu ul li{
+display:inline;
+padding:0px 10px 0px 10px;
+}
+#topmenu ul li a{
+color:#ffc000;
+text-decoration:none;
+font-size:10px;
+font-weight:bold;
+}
+#topmenu ul li a:hover{
+color:#fff;
+text-decoration:none;
+}
+#banner {position:absolute; top:0px;z-index:4;
+border: 1px solid rgb(255, 208, 0);
+border: 1px solid rgba(255, 208, 0, .16);
+border-left:none;border-right:none;border-bottom:none;
+}
+#logo {position:absolute; top:9px;z-index:5;}
+#linebottom {position:absolute;bottom:0px}
+#designby {position:absolute;bottom:-50px;left:500px;}
+.homepagemessage {border:1px solid #d5a42b;margin-top:10px;}
+
+/* ######### SEARCH ######### */
+#search-nav-wrap {
+position:absolute;
+top:-26px;
+z-index:5;
+left:992px;
+}
+#home #search-nav-wrap {
+visibility:visible;
+}
+#search {
+position:relative;
+top:0; 
+left:0px;
+width:154px; 
+height:55px;
+float:left;
+clear:left;
+}
+#search form {
+position:absolute;
+top:33px; left:0;
+}
+#search input {
+background: transparent url() no-repeat 50% 50%;
+width:158px; 
+height:23px;
+height:24px\9;
+padding-top:0px; #padding-top:4px;
+color:#fff;
+font:italic 11px Verdana, Tahoma, Arial, sans-serif;
+text-align:center;
+border: none;
+font-weight:bold;
+}
+#search .btn {
+width: auto; 
+height: auto; 
+position: absolute; 
+top: -1px;
+left: 168px; 
+background: transparent; border: none;
+}
+/* ######### END ######### */
+
+
+/* ######### Start MFL Top Menu ######### */
+div#menu0 {
+border:0 !important;
+top:29px !important;
+top:30px\9 !important;
+left:50% !important;
+margin-left:-166px;
+margin-left:-174px\9;
+margin-top:0 !important;
+text-transform:uppercase;
+}
+.mainmenuoff, a.mainmenuoff:link, a.mainmenuoff:visited, a.mainmenuoff:hover, a.mainmenuoff:active, a.mainmenucurrent:link, a.mainmenucurrent:visited, a.mainmenucurrent:hover, a.mainmenucurrent:active {
+background: #000;
+color:#6f5b4a;
+font-size: 11px;
+text-decoration:none;
+text-transform:uppercase;
+}
+.mainmenucurrent { 
+background-color: #000; 
+font-size: 11px;
+text-transform:uppercase;
+}
+.mainmenuon, A.mainmenuon:link, A.mainmenuon:visited, A.mainmenuon:hover, A.mainmenuon:active { 
+color:#ffc000; 
+background: #000!Important; 
+font-weight:bold; 
+font-size: 11px; 
+text-decoration: none; 
+text-transform:uppercase;
+}
+.milonictable td#e10 {
+margin-right:10px;
+}
+* #menu1, * #menu2, * #menu3, * #menu4, * #menu5, * #menu6, * #menu8, * #menu9, * #menu10, * #menu11, * #menu12, * #menu13, * #menu14, * #menu15, * #menu16, * #menu18, * #menu19, * #menu20, * #menu21, * #menu22, * #menu23, * #menu24, * #menu25, * #menu26, * #menu28, * #menu29, * #menu30 { 
+border:0px !important; 
+}
+.mmenucontainer {
+filter:
+progid:DXImageTransform.Microsoft.randomdissolve(duration=0)
+progid:DXImageTransform.Microsoft.Fade(Duration=0)
+progid:DXImageTransform.Microsoft.Alpha(opacity=100)
+progid:DXImageTransform.Microsoft.Shadow(enabled=false) !important;
+}  
+/* ######### End MFL Top Menu ######### */
+
+/* ######### CAPTIONS ######### */
+caption, .homepagecolumn .homepagemodule caption, .dctop, #options_02 .panel2 caption {
+text-align:left;
+font-weight:600;
+font-family:'FuturaW01-BoldCondensed 774893';
+font-size:15pt;
+color:#000;
+font-style:italic;
+text-indent:8px;
+-moz-border-radius-topleft: 2px 2px;
+-moz-border-radius-topright: 2px 2px;
+-moz-border-radius-bottomleft: 0px 0px;
+-moz-border-radius-bottomright: 0px 0px;
+-webkit-border-radius-topleft: 2px 2px;
+-webkit-border-radius-topright: 2px 2px;
+-webkit-border-radius-bottomleft: 0px 0px;
+-webkit-border-radius-bottomright: 0px 0px;
+border:none;
+width:auto;
+background:#e0e0e0 url(http://faithworkcamps.com/fantasy_football_2012/site/img/cap.png);
+background-repeat:repeat;  
+background-position:bottom;
+}
+/* ######### END ######### */
+
+/* ######### TH ######### */
+th, #standings h3, #brief_standings h3, .chartmenudivisionhd, .playoffbracket th {
+text-align:left;
+font-weight:600;
+font-family:'FuturaW01-BoldCondensed 774893';
+font-size:11pt;
+color:#a16424;
+font-style:italic;
+border: none;
+background:#0e0900 url();
+background-repeat:repeat;  
+background-position:center;border-bottom:1px solid #a16424;
+}
+/* ######### END ######### */
+
+/* ######### Text Coloring ######### */
+.oddtablerow td {
+border: 0px solid #000;
+}
+.eventablerow td {
+border: 0px solid #000;
+}
+.oddtablerow{
+background: #292019;
+color:#ffc000;
+border:1px solid #000;
+font-weight:bold;
+}
+.eventablerow{
+background: #1f1813;
+color:#ffc000;
+border:1px solid #000;
+font-weight:bold;
+}
+.newposition td, .newposition th {
+border-top: 1px solid rgb(255, 208, 0);
+border-top: 1px solid rgba(255, 208, 0, .16);
+-moz-border-radius-topleft: 0px 0px;
+ -moz-border-radius-topright: 0px 0px;
+-moz-border-radius-bottomleft: 5px 5px;
+-moz-border-radius-bottomright: 5px 5px;
+-webkit-border-radius-topleft: 0px 0px;
+-webkit-border-radius-topright: 0px 0px;
+-webkit-border-radius-bottomleft: 5px 5px;
+-webkit-border-radius-bottomright: 5px 5px;
+}
+.oddtablerow td.status span.freeagent {
+color: #ffc000;
+}
+.eventablerow td.status span.freeagent  {
+color: #ffc000;
+}
+caption a:link, caption a:active, caption a:visited{
+color: #fff;
+text-decoration:none;
+}
+caption a:hover{
+color: #fff;
+text-decoration:none;
+}
+a:link, a:active, a:visited{
+color: #fff;
+}
+th a:link, th a:active, th a:visited{
+color: #fff;
+}
+.oddtablerow a:link, .oddtablerow a:active, .oddtablerow a:visited, .oddtablerow{
+color:#ffc000;
+}
+.eventablerow a:link, .eventablerow a:active, .eventablerow a:visited, .eventablerow{
+color:#ffc000;
+}
+a:hover{
+color: #fff;
+}
+.oddtablerow a:hover{
+color: #fff;
+}
+.eventablerow a:hover{
+color: #fff;
+}
+.warning a:link, .warning a:active, .warning a:visited {
+        color: #fff;
+}
+.oddtablerow  .warning a:link, .oddtablerow .warning a:active, .oddtablerow .warning a:visited, .eventablerow  .warning a:link, .eventablerow .warning a:active, .eventablerow .warning a:visited  {
+        color: #fff;
+}
+.oddtablerow .warning, .eventablerow .warning {
+        color: #fff;
+}
+.warning {
+        color: #fff;
+}
+A:link img, A:visited img {border-color: transparent;}
+A:hover img{
+border-color: transparent;
+}
+h3 a:hover{
+color: #ffc000;
+}
+h3 a:link, h3 a:visited, h3 a:active{
+color: #fff;
+}
+h3 {
+font-size: 10pt;
+font-weight: bold;
+color: #fff;
+background-color: #a16424;
+border-top: 1px solid #222; 
+border-bottom: 1px solid #222;
+padding:4px;
+margin-bottom:6px;
+margin-top:4px;
+}
+h3.warning,h3.warning a:link, h3.warning a:visited, h3.warning a:active {
+width: 100%; 
+margin-left: -3px; 
+background: transparent; 
+border: none; 
+color: #fff;
+}
+.myfranchise, .myfranchise a, .myfranchise a:link, .myfranchise a:visited, .myfranchise a:hover, .myfranchise a:active, tr.myfranchise, tr.myfranchise A {
+font-weight: bold;
+color: #fff;
+}
+#league_chat b {
+color: #fff; 
+}
+/* ######### END ######### */
+
+/* ######### TABLE REPORTS CUSTOM ######### */
+
+.report, .two_column_layout table{
+border:none; 
+padding:2px; 
+padding-bottom:12px;
+text-align: left;
+width:96%;
+border:none;
+background:#180f00 url();
+background-repeat:repeat-x;  
+background-position:bottom;
+-moz-border-radius-topleft: 0px 0px;
+ -moz-border-radius-topright: 0px 0px;
+-moz-border-radius-bottomleft: 3px 3px;
+-moz-border-radius-bottomright: 3px 3px;
+-webkit-border-radius-topleft: 0px 0px;
+-webkit-border-radius-topright: 0px 0px;
+-webkit-border-radius-bottomleft: 3px 3px;
+-webkit-border-radius-bottomright: 3px 3px;
+border: 1px solid rgb(255, 208, 0);
+border: 1px solid rgba(255, 208, 0, .16);
+-moz-border-radius-topleft: 0px 0px;
+ -moz-border-radius-topright: 0px 0px;
+-moz-border-radius-bottomleft: 5px 5px;
+-moz-border-radius-bottomright: 5px 5px;
+-webkit-border-radius-topleft: 0px 0px;
+-webkit-border-radius-topright: 0px 0px;
+-webkit-border-radius-bottomleft: 5px 5px;
+-webkit-border-radius-bottomright: 5px 5px;
+}
+#body_live_scoring_summary h2,#body_live_scoring h2{display:none;}
+#board_show td {
+vertical-align: top;
+}
+#body_board_show form {
+width: 90%; 
+margin:0 auto;
+}
+#body_board_show textarea {
+width: 100%; 
+margin:0 auto; 
+height:auto;
+}
+#body_board_show th.messageboardbar  {
+color: #fbcb21; 
+background:transparent; 
+font-size: 14px; 
+font-weight:bold;
+border:none; 
+padding-right: 0px;
+text-decoration:underline;
+}
+#body_board_show .messageboardlink {
+padding:4px;
+font-size: 12px;
+}
+#body_board_show #Footer form {
+width: auto;
+}
+#monthly_calendar  {
+margin-top: 10px;
+margin-bottom: 10px;
+width:1100px;
+}
+#monthly_calendar th {
+border: 1px solid #000;
+border:1px solid #666;
+}
+#monthly_calendar caption {
+color: #000;
+}
+#monthly_calendar td {
+border: 1px solid #444;
+}
+#body_options_02 form .franchiselogo, #body_options_02 form .franchiseicon{
+display:none;
+}
+#body_options_02 form caption{
+background: url(http://faithworkcamps.com/fantasy_football_2012/site/img/roster_lineup.png) 0 0;
+border: none;
+height:180px;
+background-repeat: no-repeat;
+margin-left: 280px;
+-webkit-box-shadow: none;
+-moz-box-shadow: none;
+box-shadow: none;
+}
+textarea {
+width:90%;
+height:500px;
+margin-left: 13px;
+}
+#body_options_46 textarea {
+width: 110px;
+}
+#body_options_02 textarea {
+height:50px;
+}
+form table{
+width:90%;
+}	
+.two_column_layout table{
+width: 552px;      
+}
+#body_options_07 #single_roster .two_column_layout .report{
+width:1100px;
+}
+#body_live_scoring .report, #body_live_scoring_summary .report {
+width:550px;
+}
+#body_live_scoring_summary .report{
+width:550px;
+margin-left:auto;
+margin-right:auto;
+}
+#choose_schedule .report, #options_121 .report, #options_118 .report{ 
+width: 550px; 
+}
+#column2 form, #column3 form{
+text-align:center;
+}
+#home select {
+font-size: 12px;
+}
+#options_06 .report, #options_169 .report, #options_07 .report, #submit_lineups .report, #options_178 .report, #options_49 .report, #options_16 .report, #options_15 .report, #options_68 .report { 
+width: 480px;
+}
+#body_options_31 table, #body_options_16 table, #body_player .report  {
+width: 90%;
+}
+#body_live_scoring h2, #body_live_scoring_summary h2{
+width:1200px;
+margin-left:auto;
+margin-right:auto;
+}
+#options_12 #MSG {
+width: 1000px;	
+margin-bottom: 10px; 
+margin-left:60px;
+background: #fff; 
+padding: 0px; 
+color: #000;
+}
+.scoresummary {
+width: 400px;
+}
+#options_01 table.report{
+width: 700px;
+}
+#body_submit_lineups .report {
+width: 800px;
+}
+#body_submit_lineups textarea {
+height: 200px;
+}
+input {
+margin-bottom: 10px;
+}
+#live_scoring_summary {
+margin-bottom:0px;
+}
+#options_22 .scoresummary{
+width: 250px; 
+background: #222; 
+padding: 10px;
+border:1px solid #111;
+margin-top: 5px; 
+margin-bottom: 5px;
+}
+#commish_email textarea {
+height:auto;
+margin-left: 13px;
+}
+#body_options_156 .report,#commish_email .report,#accounting_report .report,#body_options_187 .report,#body_options_153 .report,#body_options_119 .report,#body_options_204 .report,#body_options_194 .report {
+width: 600px; 
+height: auto;
+}
+#standings .report {
+width: 1100px;
+}
+#standings .confwlt,#standings .acct,#standings .salary,#standings .vp,#standings .bbidbalance,#standings .pwr, #standings .h2hw, #standings .h2hl, #standings .bbidspent, #standings .h2ht, #standings .gb,  #standings .strk, #standings .pf, #standings .pa, #standings .divw, #standings .divl, #standings .h2hwlt, #standings .h2hpct, #standings .avgpf, #standings .avgpa, #standings .divwlt { 
+width: 95px; 
+text-align: center; 
+font-size: 12px;
+}
+#standings #division00 h3,#standings #division01 h3,#standings #division02 h3,#standings #division03 h3 {background: transparent;color:#000;border:none;padding:2px;color:#000;font-size:13pt;text-align:center;}
+.standingslogo {}
+#power_rank tr:first-child, .total_points, .total_potential_points, .efficiency, .bench_points, .maxpf, .minpf, .coulda_won, .woulda_lost, .all_play_w, .all_play_l, .all_play_t, .all_play_pct {
+width: 58px; 
+text-align: center;
+}
+.playoffbracket td { 
+border: 0px solid #000;
+}
+.playoffbracket { 
+width: 1100px;
+border:none;
+padding:4px;
+}
+.playoffbracket .oddtablerow { 
+color: #fff; 
+font-size: 11pt; 
+font-weight: bold;
+background: #;
+}
+.playoffbracket td.topteam{ 
+border-bottom: 2px solid #fbcb21;
+font-weight: bold;
+}
+.playoffbracket td.bracket { 
+border-right: 2px solid #fbcb21;
+}
+.playoffbracket td.bottomteam { 	
+border-bottom: 2px solid #fbcb21; 
+border-right: 2px solid #fbcb21;
+font-weight: bold;
+}
+.playoffbracket th{border:none;}
+/* ######### End ######### */
+
+/* ######### ARTICLES LAYOUT ######### */
+#fantasy_articles .oddtablerow a:link, #fantasy_articles .oddtablerow a:active, #fantasy_articles .oddtablerow a:visited{
+color:#000;
+}
+#fantasy_articles th{
+background:#000; 
+border: 1px solid #fbcb21;
+color:#fff;
+}
+#article .articleheadline {
+padding:2px 4px 4px;
+font-size:16px;
+font-weight:bold;
+text-align:left;
+color:#000;
+}
+#article th.articleauthor {
+padding-left:4px;
+text-align:left;
+}
+.articlepicture {
+border:1px solid #fbcb21; 
+padding:2px; 
+background:#000; 
+}
+#commish_article .articlecaption  {
+border:1px solid #000; 
+padding:2px; 
+background:#fbcb21; 
+}
+.articlepicturetable td {
+padding:0px !important;
+}
+.articlepicturetable {
+padding-left:5px;
+}
+#article .oddtablerow td, #options_73 #main-content .oddtablerow td{
+padding:5px; background-color:transparent;
+}
+#article td div, #options_73 #main-content td div{
+padding:5px; 
+}
+#article p, #options_73 #main-content p{
+margin-top:0px;
+}
+#article a, #options_73 #main-content a{
+color:#fbcb21;
+}
+#article img, #commish_article img {
+max-width:240px;
+height: auto;
+}
+#article th {
+background:transparent; 
+color:#000;
+border:none;
+}
+#article .articlepicturetable th {
+background:#fbcb21;;color:#000;
+border:1px solid #000;
+text-align:center;
+}
+#options_73 img.articlepicture {
+max-width:300px;
+height: auto;
+}
+#fantasy_articles .oddtablerow a:link, #fantasy_articles .oddtablerow a:active, #fantasy_articles .oddtablerow a:visited{
+color:#000;
+}
+#fantasy_articles .articlecaption {
+background: #fbcb21; 
+border: 1px solid #000;
+color:#000;
+}
+
+
+#addtrade {display:none;}
+
+#body_options_07 .report td{text-align:center;}
+#body_options_07 .report td.player{text-align:left;}
+
+#alphacup h6 {font-size:18pt;text-align:center;height:1px;}

@@ -1,0 +1,214 @@
+/*   ZOZO TABS - HISTORY
+================================ */
+#mflhistorytabs {
+    width:100%;
+}
+#mflhistorytabs .z-content .report{
+    border:0;
+    margin:0!important;
+    padding:0!important;
+}
+#mflhistorytabs .z-tabs > ul.z-tabs-nav > li,#mflhistorytabs .z-tabs > ul.z-tabs-nav > li > a.z-link {
+    cursor:pointer;
+}
+#mflhistorytabs .z-tabs > .z-container { 
+    padding:0; 
+    margin:0; 
+    background:none; 
+    position:relative;
+}
+#mflhistorytabs .z-tabs > .z-container > .z-content { 
+    display:none; 
+    background:none; 
+}
+#mflhistorytabs .z-tabs > .z-container > .z-content > .z-content-inner { 
+    padding:0px; 
+    height:auto;
+}
+#mflhistorytabs .z-tabs > .z-container > .z-content::after#mflhistorytabs ,#mflhistorytabs .z-tabs > .z-container > .z-content > .z-content-inner::after { 
+    content:"."; 
+    display:block; 
+    height:0; 
+    clear:both; 
+    visibility:hidden; 
+}
+#mflhistorytabs .z-tabs > .z-container > .z-content,#mflhistorytabs .z-tabs > .z-container > .z-content > .z-content-inner { 
+    zoom:1; 
+}
+.z-tabs.z-slide > .z-container { 
+    overflow:hidden; 
+}
+#mflhistorytabs .z-tabs.z-slide > .z-container > .z-content,#mflhistorytabs .z-tabs > .z-container.z-animating > .z-content { 
+    position:absolute; 
+    width:100%; 
+    height:100%; 
+    overflow:hidden; 
+    padding:0; 
+    z-index:0!important; 
+}
+#mflhistorytabs .z-tabs.horizontal > .z-container { 
+    clear:both; 
+    width:100%; 
+    zoom:1; 
+}
+#mflhistorytabs .z-hide-menu,#mflhistorytabs .z-tabs.horizontal > ul.z-tabs-nav {
+    text-align:center;
+    width:auto;
+    margin:0!important;
+    padding:0!important;
+}
+#mflhistorytabs .z-hide-menu > li,#mflhistorytabs .z-tabs.horizontal > ul.z-tabs-nav > li {
+    display:table-cell!important;
+    width:1%!important; 
+    white-space:nowrap;
+    font-size:10pt;
+    margin-left:0!important;
+}
+#mflhistorytabs div#tabbed-nav4 .z-tabs-nav{
+    height:34px;
+    line-height:30px;
+    margin-bottom:5px!important;
+    background:none;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.5);
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.5);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.5);
+    border-bottom:1px solid #eee;
+    margin-bottom:30px!important;
+}
+#mflhistorytabs div#tabbed-nav4 .z-tabs-nav li {
+    font-size:10pt;
+    color:#65287d;
+    border:0;
+}
+#mflhistorytabs div#tabbed-nav4 .z-tabs-nav li:hover {
+    font-size:10pt;
+    color:#202020;
+}
+#mflhistorytabs div#tabbed-nav4 .z-tabs-nav li:first-of-type {
+    border-right:0!important;
+}
+#mflhistorytabs div#tabbed-nav4 .z-tabs-nav li:last-of-type {
+    border-left:0!important;
+}
+#mflhistorytabs div#tabbed-nav4 .z-tabs-nav li.z-active {
+    color:#202020;
+    border-bottom:0;
+}
+#mflhistorytabs div#tabbed-nav4 .z-tabs-nav li a{
+    border-radius: 5px;padding:4px 10px;
+    text-transform:uppercase;
+}
+#mflhistorytabs div#tabbed-nav4 .z-tabs-nav li.z-active a{
+    color:#ddd;
+    background:url(../images/hover.png);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding:4px 10px;
+}
+#mflhistorytabs {
+    border:none;
+}
+
+
+/***  ADMIN LINK  ***/
+#admin {text-decoration:none;float:left;height:0px;}
+#admin a{text-decoration:none;color:#202020;font-size:8pt;position:absolute;right:5px;margin-top:44px;text-transform:uppercase;}
+#admin > a:hover{color:#65287d;}
+
+/***  ADJUST TABLES AND SELECT BOXES  ***/
+#mflhistory .report {border-spacing:1px;}
+#mflhistory select {background:#fff;color:#000;border:1px solid #ddd;height:25px!important;line-height:25px!important;vertical-align:top!important;margin-bottom:10px;margin-left:5px;}
+#mflhistory #teamselect {margin-left:5px;color:#444;text-transform:uppercase;}
+.newalign div td{text-align:center;}
+.newalign div th {display:table-cell;width:10%!important;text-align:center;white-space:nowrap;}
+
+/***  CUSTOM TABLES LAYOUT FLOAT AND WIDTH  ***/
+#mfl-singlegame .column-left,#mfl-singleseason .column-left,#mfl-career .column-left,#mfl-postseason .column-left,#mfl-milestones .column-left 
+{vertical-align:top;display:inline-block;width:49%;}
+
+#mfl-singlegame .column-right,#mfl-singleseason .column-right,#mfl-career .column-right,#mfl-postseason .column-right,#mfl-milestones .column-right   
+{vertical-align:top;display:inline-block;width:49%;margin-left:14px!important;}
+
+
+#tabselect > p:nth-child(1),#mfl-players > select:nth-child(1),#mfl-players > input:nth-child(2),#mfl-players > select:nth-child(4),#mfl-players > input:nth-child(1) {display:none;}
+
+#mfl-singlegame #tabselect > p {display:block;border:1px solid #ddd;margin:0!important;padding:0!important;padding:10px!important;margin-bottom:10px!important;font-weight:bold;text-transform:uppercase;}
+#mfl-singlegame #tabselect > p select{border:1px solid #ddd;margin:0!important;padding:0!important;}
+#mfl-singlegame #tabselect > p input{border:1px solid #ddd;margin:0!important;height:25px!important;vertical-align:bottom!important}
+
+
+th.gametypehead {display:none;}
+#standings .report{padding:0!important;padding-top:0!important;border-top:0!important;
+  -webkit-border-top-right-radius: 5px;
+  -webkit-border-top-left-radius: 5px;
+  -moz-border-radius-topright: 5px;
+  -moz-border-radius-topleft: 5px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-spacing:0!important;border-collaspe:collaspe!important;
+}
+
+/***  STANDINGS  ***/
+.standingstable th.divname,.standingstable th.overallhead,.standingstable th.divisionhead {
+padding:0;
+  color:#ddd;
+  width:auto;
+  cursor:default;
+  text-transform:uppercase;
+  text-align:right;
+  padding-right:3px;
+  font-weight:400;
+  font-size:10.5pt;
+  line-height:38px;
+  height:33px;
+  background:url(../menu/menu_bg.png)center!important;
+  border:1px solid #7777;
+  margin-bottom:-1px;
+  border-bottom:1px solid rgba(0,105,222,.1)
+}
+
+.standingstable th.divname {border-right:0;}
+.standingstable th.overallhead {border-left:0;border-right:0;}
+th.divisionhead {border-left:0;}
+.standingstable th.divname {border-right:0;}
+.standingstable th.overallhead {border-left:0;border-right:0;}
+th.divisionhead {border-left:0;}
+#standings_seasonmenu {color:#444;text-transform:uppercase;font-size:11pt;margin-left:10px;}
+#standings_seasonmenu a {font-size:11pt;text-decoration:none;}
+.standingstable ,#mfl-teampages .report,#mfl-players .report{padding:0!important;margin:0!important;width:99.9%!important}
+#mfl-teampages div{margin-bottom:10px;}
+.standingsheaderrow a{color:#333!important;}
+.standingsheaderrow{color:#333!important;background:#f7f7f7;}
+.standingstable  th.blankhead {background:url(../images/menu/menu_bg.png)center;}
+
+
+/***  GAME CENTER  ***/
+.gamecentertable tbody {vertical-align:top!important;}
+.gamecentertable .gamematchup,.gamecentertable .gamematchup .prevmatchups {border:none!important;padding:0!important;border-radius:0;box-shadow:none!important;}
+#gamecenter_seasonmenu,#gamecenter_weekmenu {color:#202020;text-transform:uppercase;font-size:11pt;margin-left:10px;}
+#gamecenter_seasonmenu a,#gamecenter_weekmenu a{font-size:11pt;text-decoration:none;}
+.gamecentertable th.scorehead {width:80px;}
+.gamecentertable td.gamescore {width:80px;text-align:center}
+.gamecentertable .winnermark {float:right;clear:both;color:#65287d;margin-right:5px;}
+.gamecentertable .prevmatchups td {text-align:center;}
+.gamecenter_weekmenu_current,.gamecenter_seasonmenu_current,.standings_seasonmenu_current {color:#202020}
+#gamecenter .homepagemodule.report{padding:0!important;border:0!important;}
+#gamecenter .homepagemodule.report .report{border:1px solid #d3d3d3!important;padding:3px!important;}
+#gamecenter .gamematchup tbody {background:#fff;border:0!important;}
+#gamecenter .gamematchup.report {margin:0 auto;margin-top:10px;margin-bottom:10px;}
+#gamecenter .prevmatchups.report {border-collapse:collapse!important;background:none!important;}
+.gamecentertable td.gamehistorycell {background:none!important;border:2px solid #65287d;}
+.gamecentertable > tbody:nth-child(1) > tr:nth-child(2) > td:nth-child(1) > table:nth-child(1) {margin-right:5px;}
+.gamecentertable table.prevmatchups caption {background:#fff;border:none;text-align:center!important;}
+.gamecentertable table.prevmatchups caption span {color:#65287d!important;line-height:30px;}
+TD.gamehistorycell {border-bottom:0;margin-bottom:0;padding-bottom:0}
+
+#mfl-singlegame .column-right,#mfl-singleseason .column-right,#mfl-career .column-right,#mfl-postseason .column-right,#mfl-milestones .column-right   
+{vertical-align:top;display:inline-block;width:49%;margin-left:14px!important;}
+
+.homepagemodule.gamematchup.report  
+{vertical-align:top;width:97%!important;}

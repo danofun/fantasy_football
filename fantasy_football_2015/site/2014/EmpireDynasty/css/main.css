@@ -1,0 +1,414 @@
+@import url("http://faithworkcamps.com/fantasy_football_2015/site/2013Nike/css/logos.css");
+@import url("http://faithworkcamps.com/fantasy_football_2015/site/2013Nike/css/commissionersetup.css");
+@import url("http://faithworkcamps.com/fantasy_football_2015/site/2013Nike/css/adblocker.css");
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,300,700);
+
+/* REMOVE MFL DEFAULT MENU */
+div#menu0{display:none}
+
+:-moz-any-link:focus { outline:none; }
+:focus { outline:none; }
+.brandlogo,.welcome,.pagetitle{display:none}
+.pagefooter{display:none}
+
+.homepagemessage{border:1px solid #333;position:absolute;z-index:9999;width:400px;background:#fff;overflow:visible;right:0;display:none}
+
+html,body{margin:0}
+.pageheader{background:none;height:50px;position:fixed;top:0;z-index:1}
+body{background:#c0c0c0 url(http://faithworkcamps.com/fantasy_football_2015/site/2013Nike/img/html_bg.jpg) 50% 0%;background-repeat:no-repeat;background-attachment:fixed;font:900 15px 'Oswald',sans-serif}
+
+div#banner{width:100%;padding:0;margin-top:50px;background: url(http://faithworkcamps.com/fantasy_football_2015/site/2013Nike/img/banner_bg.png);}
+div#bannershadow{background:#000;height:1px;width:100%;position:absolute;margin-top:-1px;-webkit-box-shadow:1px -1px 3px rgba(0,0,0,1);-moz-box-shadow:1px -1px 3px rgba(0,0,0,1);box-shadow:1px -1px 3px rgba(0,0,0,1)}
+div#banner img{margin:0 auto;display:block}
+
+#content{width:1080px;margin:0 auto;background:transparent;padding-bottom:10px;min-height:600px;background-image:url(http://faithworkcamps.com/fantasy_football_2015/site/2013Nike/img/contentbody_borderright.jpg),url(http://faithworkcamps.com/fantasy_football_2015/site/2013Nike/img/contentbody_borderleft.jpg);
+  background-position:100% 0%,0% 0%;background-repeat:repeat-y;-webkit-box-shadow:3px 3px 3px -3px #999,3px 3px 3px -3px #999,-3px 3px 3px -3px #999;-moz-box-shadow:3px 3px 3px -3px #999,3px 3px 3px -3px #999,-3px 3px 3px -3px #999;
+  box-shadow:3px 3px 3px -3px #999,3px 3px 3px -3px #999,-3px 3px 3px -3px #999;background:#fff;padding-right:5px;padding-left:5px;}
+
+#textfooter{background:transparent url(http://faithworkcamps.com/fantasy_football_2015/site/2013Nike/img/footer_bg.jpg);float:left;width:100%;height:70px;-webkit-box-shadow:0 2px 2px rgba(0,0,0,0.5);-moz-box-shadow:0 2px 2px rgba(0,0,0,0.5);box-shadow:0 0 2px rgba(0,0,0,0.9)}
+#textfooter p{float:right;margin-right:10px;font-weight:400;font-size:9pt;padding-top:6px}
+#textfooter p.design{float:left;margin-left:10px}
+#textfooter p.design a{text-decoration:none;color:#0e81b6}
+#textfooter p.design a:hover{text-decoration:none;color:#999}
+div.footerbottom{background:#333;height:10px;width:100%;position:relative;top:60px;border-top:2px groove #fff}
+div#toppage{position:absolute;top:-300px;background:none:width:0;height:0}
+div#topofpage{position:absolute;right:15px;margin-top:-33px}
+div#topofpage a{text-decoration:none;color:#333;font-size:12px;font-weight:400;background:url(http://faithworkcamps.com/fantasy_football_2015/site/2013Nike/img/backtotop_icon.png)no-repeat top right;padding:7px 28px 7px 21px}
+div#topofpage a:hover{text-decoration:none;color:#000}
+
+/* START HomePage Tabs Layout */
+div#homepagetabsbg{background:url(http://faithworkcamps.com/fantasy_football_2015/site/2013Nike/img/hometabs_bg.jpg)center top repeat-x;width:100%;height:54px}
+#homepagetabs{float:none;color:#fff;border:0;margin-top:-54px;}
+#homepagetabs ul{float:none;}
+#homepagetabs li{float:none;color:#333;display:inline-block;list-style-type:none;background:transparent;padding:0;margin:0;text-decoration:none;border:none;text-transform:uppercase;text-align:center;height:30px;font-weight:bold;font-size:11pt;font-weight:400;line-height:40px;padding-top:10px!important;padding-bottom:15px!important;width:143px;background:transparent url(http://faithworkcamps.com/fantasy_football_2015/site/2013Nike/img/tab_bg.png)center top no-repeat;padding:0;margin:0 -19px;z-index:-99999}
+ul#homepagetabs{height:35px!important;background:url(http://faithworkcamps.com/fantasy_football_2015/site/2013Nike/img/hometabs_bg.jpg)center top repeat-x;margin-bottom:20px;margin-right:-8px;margin-left:-8px;}
+#home ul#homepagetabs{height:auto}
+#homepagetabs ul:first-of-type,#homepagetabs li:first-of-type{background:url(http://faithworkcamps.com/fantasy_football_2015/site/2013Nike/img/first_tab_bg.png)no-repeat}
+#homepagetabs ul:last-of-type,#homepagetabs li:last-of-type{background:url(http://faithworkcamps.com/fantasy_football_2015/site/2013Nike/img/last_tab_bg.png)no-repeat}
+#homepagetabs li:hover{z-index:1;position:relative;background:transparent url(http://faithworkcamps.com/fantasy_football_2015/site/2013Nike/img/tab_hover.png)center top no-repeat;
+  -webkit-transition: color 300ms linear;
+  -moz-transition: color 300ms linear;
+  -o-transition: color 300ms linear;
+  -ms-transition: color 300ms linear;
+  transition: color 300ms linear;}
+#homepagetabs li.currenttab{color:#0e81b6;border:0;background:url(http://faithworkcamps.com/fantasy_football_2015/site/2013Nike/img/tab_current.png)center top;background-repeat:no-repeat;z-index:2!important;position:relative}
+
+/* Start HomePage Content */
+.homepagetabcontent .report{width:100%!important}
+.homepagecolumn .homepagemodule{width:100%;margin-bottom:15px}
+.homepagecolumn{padding:5px;padding-top:0}
+
+/* Start Captions */
+caption,.homepagecolumn .homepagemodule caption,.playoffbracket .playoffbracketname{padding:0;color:#fff;width:auto;cursor:default;text-transform:uppercase;text-align:left;text-indent:10px;font-weight:400;font-size:12pt;line-height:29px;height:29px;
+  background: url(http://faithworkcamps.com/fantasy_football_2015/site/2013Nike/img/caption_bg.png);border-bottom:2px solid #fff;
+-webkit-border-top-left-radius: 5px;
+-webkit-border-top-right-radius: 5px;
+-moz-border-radius-topleft: 5px;
+-moz-border-radius-topright: 5px;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;}
+caption a:link,caption a:active,caption a:visited{color:#fff;text-decoration:none}
+caption a:hover{color:#fff;text-decoration:none}
+caption.withfranchiseicon{padding:2px}
+.withfranchiseicon span.ownername{display:none}
+caption>span.module_expand{display:none}
+caption span.module_expand{display:none}
+caption span {background:transparent url('http://faithworkcamps.com/fantasy_football_2015/site/2013Nike/img/caption_afterWHITE.png') right center no-repeat;padding-right:15px;}
+caption.withfranchiseicon span {background:none;padding-right:0px;}
+caption a img,th a img,h3 a img {vertical-align:middle}
+
+/* TH */
+th,#standings h3,#brief_standings h3,.chartmenudivisionhd,.playoffbracket th{text-align:left;color:#666;border:none;background:#fff;font-weight:400;font-size:13px;font-style:normal;text-indent:2px;border:1px solid #eee}
+th a:link,th a:active,th a:visited{color:#666;text-decoration:none}
+th a:hover{color:#666;text-decoration:none}
+
+/* Text Coloring */
+.oddtablerow{background:none;font-weight:400;font-size:12px;color:#888}
+.eventablerow{background:none;font-weight:400;font-size:12px;color:#888}
+.oddtablerow td{border:0}
+.eventablerow td{border:0}
+.newposition td,.newposition th{border-top:2px solid #333}
+.oddtablerow td.status span.freeagent{color:red}
+.eventablerow td.status span.freeagent{color:red}
+.oddtablerow a:link,.oddtablerow a:active,.oddtablerow a:visited,.eventablerow a:link,.eventablerow a:active,.eventablerow a:visited{color:#555;font-weight:400;font-size:12px}
+a:link,a:active,a:visited{color:#333}
+a:hover{color:#0e81b6}
+.oddtablerow a:hover,.eventablerow a:hover{color:#0e81b6;}
+.warning,.oddtablerow .warning,.eventablerow .warning,.warning a:link,.warning a:active,.warning a:visited,.oddtablerow .warning a:link,.oddtablerow .warning a:active,.oddtablerow .warning a:visited,.eventablerow .warning a:link,.eventablerow .warning a:active,.eventablerow .warning a:visited{color:#0e81b6}
+A:link img,A:visited img{border-color:transparent}
+A:hover img{border-color:transparent}
+a:active { background:none; }
+h3 a:link,h3 a:visited,h3 a:active{color:#333}
+h3 a:hover{color:#0e81b6}
+h3{font-size:15px;color:#0e81b6;background-color:none;border:none;padding:4px;margin-bottom:6px;margin-top:4px}
+h3.warning,h3.warning a:link,h3.warning a:visited,h3.warning a:active{width:100%;margin-left:-3px;background:transparent;border:none;color:#0e81b6;font-size:15px}
+.myfranchise,.myfranchise a,.myfranchise a:link,.myfranchise a:visited,.myfranchise a:hover,.myfranchise a:active,tr.myfranchise,tr.myfranchise A{font-weight:400;color:#0e81b6;background:#ddd}
+#league_chat b{color:#0e81b6}
+#livescoring_summary .oddtablerow,#livescoring_summary .eventablerow{font-size:16px;font-weight:400}
+
+* {-webkit-transition:color .6s;-moz-transition:color .6s;-o-transition:color .6s;-ms-transition:color .6s;transition:color .6s; }
+* select option {-webkit-transition:color 0s;-moz-transition:color 0s;-o-transition:color 0s;-ms-transition:color .6s;transition:color 0s; }
+
+/* TABLE REPORTS CUSTOM */
+.report,.two_column_layout table{border:none;padding:5px;padding-top:8px;text-align:left;width:99%;border:none;background:#fff url(http://faithworkcamps.com/fantasy_football_2015/site/2013Nike/img/bg-noise.png);border:2px solid #fff;outline:1px solid #eee}
+@media screen and (-webkit-min-device-pixel-ratio:0)
+{.report,.two_column_layout table { outline:none;border:1px solid#eee; } }
+div#player.pagebody table tbody tr td table#player_stats_table.report{width:715px}
+#board_show td{vertical-align:top}
+#body_board_show textarea{width:99%;margin:0 auto;height:auto;margin-bottom:10px;}
+#body_board_show th.messageboardbar{color:#0e81b6;background:transparent;font-size:14px;font-weight:bold;border:none;padding-right:0;text-decoration:underline}
+#body_board_show .messageboardlink{padding:4px}
+#body_board_show #Footer form{width:auto}
+#body_options_02 form .franchiselogo,#body_options_02 form .franchiseicon{display:none}
+#body_options_02 form caption{background:url(http://faithworkcamps.com/fantasy_football_2015/site/2013Nike/img/roster_lineup.png) 0 0;border:none;height:180px;background-repeat:no-repeat;margin-left:280px;-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none}
+textarea{width:90%;height:500px;margin-left:13px}
+#body_options_46 textarea{width:110px}
+#body_options_02 textarea{height:50px}
+form table{width:90%}
+.two_column_layout table{width:532px}
+#body_options_07 #single_roster .two_column_layout .report{width:1070px}
+#choose_schedule .report,#options_121 .report,#options_118 .report{width:532px}
+#home select{font-size:12px}
+#options_06 .report,#options_169 .report,#options_07 .report,#submit_lineups .report,#options_178 .report,#options_49 .report,#options_16 .report,#options_15 .report,#options_68 .report{width:532px}
+#body_player .report{width:98%}
+#options_12 #MSG{width:1060px;margin-bottom:10px;margin-left:10px;background:#fff;padding:0;color:#000}
+#options_01 table.report{width:1070px}
+#body_submit_lineups .report{width:750px}
+#body_submit_lineups textarea{height:200px}
+input{margin-bottom:10px}
+.scoresummary{width:516px;border:1px solid #eee}
+div#options_31.pagebody table tbody tr td{width:516px}
+#options_22 .scoresummary{margin-bottom:10px}
+div#options_06.pagebody table.report,div#options_169.pagebody table.report{width:524px}
+#commish_email textarea{height:auto;margin-left:13px}
+#power_rank tr:first-child,.total_points,.total_potential_points,.efficiency,.bench_points,.maxpf,.minpf,.coulda_won,.woulda_lost,.all_play_w,.all_play_l,.all_play_t,.all_play_pct{width:58px;text-align:center}
+div#pro_matchup.pagebody table.two_column_layout table.report{width:510px}
+#body_options_156 .report,#commish_email .report,#accounting_report .report,#body_options_187 .report,#body_options_153 .report,#body_options_119 .report,#body_options_204 .report,#body_options_194 .report{width:550px;height:auto}
+#body_options_07 .report td{text-align:center}
+#body_options_07 .report td.player{text-align:left}
+
+/* STANDINGS */
+#standings #division00 h3,#standings #division01 h3,#standings #division02 h3,#standings #division03 h3,#standings #division04 h3,#standings #division05 h3{background:url(http://faithworkcamps.com/fantasy_football_2015/site/2013Nike/img/bg.jpg);padding:2px;color:#0e81b6;text-align:center;font-size:20pt;font-weight:900;border:1px solid #ddd;margin:5px 0;text-transform:uppercase}
+#brief_standings #division00 h3,#brief_standings #division01 h3,#brief_standings #division02 h3,#brief_standings #division03 h3{background:url(http://faithworkcamps.com/fantasy_football_2015/site/2013Nike/img/bg.jpg);padding:2px;color:#0e81b6;text-align:center;font-size:14pt;font-weight:900;border:1px solid #ddd;margin:5px 0;text-transform:uppercase}
+#standings td.fname,#standings th.fname {width:300px;text-align:left}
+#standings td,#standings th {text-align:center;}
+#brief_standings td.fname,#brief_standings th.fname {text-align:left}
+#brief_standings td,#brief_standings th {text-align:center;}
+
+/* Bulliton Board */
+#body_options_13 img.franchiselogo{display:none}
+#options_13 .franchiselogo{display:none}
+#body_options_13 h3{background:none;border:none}
+#body_options_13 form{text-align:center}
+
+/* Calendar */
+#monthly_calendar{margin-top:10px;margin-bottom:10px;width:1070px;outline:none}
+#home #monthly_calendar{width:100%;margin-top:0}
+#monthly_calendar th{border:1px solid #eee}
+#monthly_calendar td{border:1px solid #eee}
+table#monthly_calendar.report div.calendarday{color:#333}
+#monthly_calendar td.today{border-color:#0e81b6}
+
+/* Articles */
+#fantasy_preview th,#fantasy_recap th{text-align:center;padding:5px;vertical-align:middle}
+.articlepicture,.articlecaption,table#commish_article td img{border:1px solid #eee;padding:2px;color:#333;text-align:center;background:#fff}
+table#fantasy_articles.homepagemodule.report th select{width:100%!important;margin-left:-2px}
+.articlepicture {max-height:250px;width:auto;}
+
+/* PLAYOFF BRACKETS */
+.playoffbracket td{border:0}
+.playoffbracket{width:1070px;border-top:none;padding:4px;padding-bottom:15px;background:#fff;border:1px solid #eee}
+#home .playoffbracket{margin-top:30px;margin-bottom:50px;}
+#home .playoffbracket:last-child{margin-bottom:auto;}
+.playoffbracket .oddtablerow{color:#333;font-size:11pt;font-weight:bold;background:#fff}
+.playoffbracket td.topteam{border-bottom:2px solid #999;font-weight:bold}
+.playoffbracket td.bracket{border-right:2px solid #999}
+.playoffbracket td.bottomteam{border-bottom:2px solid #999;border-right:2px solid #999;font-weight:bold}
+.playoffbracket .playoffbracketname{ background: url(http://faithworkcamps.com/fantasy_football_2015/site/2013Nike/img/caption_bg.png);border:0;text-transform:uppercase;color:#fff;font-weight:900;font-size:13pt;text-align:center;position:absolute;width:100%;margin-top:-35px;left:0;}
+.playoffbracket td b{color:#0e81b6}
+.playoffbracket td{text-align:center}
+.playoffbracket caption{text-transform:uppercase;color:#fff;font-weight:900;font-size:13pt;text-align:center}
+#home .playoffbracket caption{display:none}
+
+/* CHAMPIONS PLAQUE */
+table#championship_plaque tbody tr td div{background:#fff;border:2px solid #eee}
+table#championship_plaque tbody tr td div div{background:#ccc url(http://faithworkcamps.com/fantasy_football_2015/site/2013Nike/img/bg-noise.png);background-position:center}
+table#championship_plaque tbody tr td div div h2{margin:19px;letter-spacing:1px;background:url(http://faithworkcamps.com/fantasy_football_2015/site/2013Nike/img/bg.jpg);font:900 20px 'Oswald',sans-serif;color:#0e81b6;text-transform:uppercase;border-width:2px;border-right-color:#eee;border-bottom-color:#eee;border-top-color:#aaa;border-left-color:#aaa}
+table#championship_plaque tbody tr td div div div h3{color:#000!important;font-size:12pt;padding-bottom:6px;padding-left:22px}
+table#championship_plaque tbody tr td div div div h4{color:#000!important;font-weight:bold;padding-left:22p;text-align:center!important;width:100%;background:#fff;padding:0!important;margin-left:10px;height:25px;line-height:25px;border:2px groove #fff;}
+table#championship_plaque tbody tr td div div div{margin-bottom:5px;margin-left:21px;background:url(http://faithworkcamps.com/fantasy_football_2015/site/2013Nike/img/plaquenamebg.png)no-repeat;padding-right:22px!important;border:none}
+table#championship_plaque>tbody>tr>td>div>div>div>p {display:none;}
+
+/* BODY CHAT */
+#chat{width:auto;margin-bottom:0;padding-bottom:0;margin-top:0}
+#body_chat h2{display:none;margin-top:10px;background:#fff}
+#league_chat{margin:0}
+
+table#youtubevideo.homepagemodule.report embed{text-align:center;width:100%}
+img.videoconferenceicon{display:none}
+#my_options li{padding:2px;font-size:10pt}
+
+/* LIVE SCORING REPORTS */
+#body_live_scoring_summary h2,#body_live_scoring h2{width:100%;margin:0 auto;font-size:30pt;color:#000;
+background:#ddd url(http://faithworkcamps.com/fantasy_football_2015/site/2013Nike/img/bg-noise.png);padding-top:50px;padding-bottom:50px;
+-webkit-box-shadow: 0 -1px 5px rgba(0,0,0,0.7);-moz-box-shadow: 0 -1px 5px rgba(0,0,0,0.7);box-shadow:0 -1px 5px rgba(0,0,0,0.7);margin-bottom:3px;}
+#body_live_scoring_summary .scoresummary,body#body_live_scoring .scoresummary{border:none;outline:none;}
+#body_live_scoring_summary,body#body_live_scoring{background:#111 url(http://faithworkcamps.com/fantasy_football_2015/site/2013Nike/img/html_bg.jpg) center top;background-attachment:fixed;}
+div#live_scoring_summary.pagebody,div#live_scoring.pagebody{background:#fff;margin:0 auto;width:1080px;padding-bottom:20px;
+background-image:url(http://faithworkcamps.com/fantasy_football_2015/site/2013Nike/img/contentbody_borderright.jpg),url(http://faithworkcamps.com/fantasy_football_2015/site/2013Nike/img/contentbody_borderleft.jpg);background-position:100% 0%,0% 0%;background-repeat:repeat-y;-webkit-box-shadow:3px 3px 3px -3px #999,3px 3px 3px -3px #999,-3px 3px 3px -3px #999;-moz-box-shadow:3px 3px 3px -3px #999,3px 3px 3px -3px #999,-3px 3px 3px -3px #999;box-shadow:3px 3px 3px -3px #999,3px 3px 3px -3px #999,-3px 3px 3px -3px #999;
+}
+#live_scoring_summary h3,#live_scoring h3{margin-bottom:10px;border:1px solid #ccc;padding:5px}
+#live_scoring_summary h3,#live_scoring h3.warning{margin-bottom:0;border:1px solid #eee;padding:0;text-align:center;font-size:10pt}
+#live_scoring_summary .scoresummary{width:400px;margin-top:10px}
+#live_scoring_summary table{width:1080px}
+#live_scoring_summary table.report{width:532px}
+#live_scoring table{width:1080px}
+#live_scoring table.report{width:532px}
+div#live_scoring_summary.pagebody tr.total{color:#000;font-size:18px;background:#fff}
+div#live_scoring_summary.pagebody tr.total th{font-size:18px;text-align:center}
+div#live_scoring_summary.pagebody th{text-align:left}
+div#live_scoring.pagebody tr.grand_total{color:#000;font-size:18px;background:#fff;text-align:center}
+#body_live_scoring_summary h2.warning,#body_live_scoring h2.warning{background:#000;width:auto;height:auto;font-size:20px;color:#fff;margin-top:0}
+
+/* LIVE SCORING REPORTS HIDE TEMPLATE CONTENT WHEN LEAGUE NOT PURCHASED */
+body#body_live_scoring div#live_scoring.pagebody div#content div#homepagetabsdiv ul#homepagetabs,#body_live_scoring_summary div#live_scoring_summary.pagebody div#content div#homepagetabsdiv ul#homepagetabs {display:none;}
+body#body_live_scoring div#live_scoring.pagebody div#content div#navigation_horiz ul,#body_live_scoring_summary div#live_scoring_summary.pagebody div#content div#navigation_horiz ul{display:none;}
+body#body_live_scoring div#live_scoring.pagebody div#content,#body_live_scoring_summary div#live_scoring_summary.pagebody div#content  {visibility:hidden}
+body#body_live_scoring div#live_scoring.pagebody div#banner,#body_live_scoring_summary div#live_scoring_summary.pagebody div#banner{display:none;}
+body#body_live_scoring div#live_scoring.pagebody div#content h3,#body_live_scoring_summary div#live_scoring_summary div#content h3 {visibility:visible;border:none}
+
+/*   TABBED ROSTERS
+===================== */
+
+#btn_run {
+     text-align:center;
+     text-decoration:none;
+     background:#f7f7f7;
+     border:1px solid #263e68;
+     width:99%;
+     margin:0 auto;
+}
+
+#btn_run a{
+     text-decoration:none;
+}
+
+#rosterTradeLinkDIV #rostertabs li {
+     list-style:none;
+     position:absolute;
+     width:100px;
+     text-align:center;
+     margin:0 auto;
+     margin-left:-12px;
+     margin-top:14px;
+}
+
+#rosterTradeLinkDIV #rostertabs li a{
+     text-decoration:none;
+     background: none repeat scroll 0px 0px rgba(38, 62, 104, 0.7);
+     border-radius: 5px;
+     border: 1px solid #263e68;
+     color: #eeeeee;
+     cursor: pointer;
+     font-weight: 900;
+     margin: 2px;
+     padding: 4px ! important;
+     text-transform: uppercase;
+     font-family: "Oswald",sans-serif ! important;
+     font-style: normal;
+     font-weight: 400;
+     text-transform: uppercase;
+}
+
+ul#rostertabs .currenttab {
+     display:none;
+}
+
+#nitro-roster td {
+     vertical-align:top!important;
+}
+
+#nitro-roster .report td{
+     text-align:center;
+}
+
+#nitro-roster th.points,#nitro-roster th.week,#nitro-roster th.salary,#nitro-roster th.year,#nitro-roster th.status,#nitro-roster th.drafted {
+     white-space:nowrap;
+     text-align:center;
+}
+
+#nitro-roster th {
+     white-space: nowrap;
+     text-align:left;
+}
+
+#nitro-roster td.player {
+     text-align:left;
+     white-space: nowrap;
+}
+
+#nitro-roster .report caption.withfranchiseicon {
+     text-align:center;
+     padding:0;
+     text-indent:0;
+     background:none!important;
+     border:0;
+     height:42px!important;
+     line-height:42px!important;
+}
+
+#nitro-roster .report caption.withfranchiseicon span{
+     padding:0;
+     text-indent:0;
+     margin:0;
+     background:none;
+}
+
+#nitro-roster .withfranchiseicon {
+     box-shadow:none;
+}
+
+#nitro-roster .withfranchiseicon img {
+     width:250px;
+     height:auto;
+}
+
+#roster_column_left {
+     margin-top:40px;margin-left:-5px
+}
+
+#roster_column_left .franchiseicon {
+     width:150px;
+     height:auto;
+     margin-bottom:2px;
+}
+
+#messageBoxDIV th{
+    text-align:center;
+}
+
+#messageBoxDIV textarea{
+     width:100%;
+     margin:0;
+     padding:0;
+     height:100px;
+}
+
+#nitro-roster {
+     border:none!important;
+     padding:0;
+     padding-top:20px!important;
+     width:100%;
+     margin:0 auto;
+     padding-bottom:10px!important
+}
+
+#nitro-roster table{
+     width:100%;
+}
+
+#nitro-roster.report {
+     background:none;
+     border:none;
+     box-shadow:none;
+     padding:0;
+}
+
+#roster_column_left {
+     width:150px;
+}
+
+#roster_column_middle,#roster_column_right{
+     width:100%;
+     display:table;
+     table-layout:fixed;
+}
+
+#roster_column_middle .report,#roster_column_right .report{
+     padding:6px;
+}
+
+#roster th.drafted,#roster td.drafted,
+#roster th.contractinfo,#roster td.contractinfo,
+#options_07 .report th.contractinfo,#options_07 .report td.contractinfo {
+     display:none;
+}
+
+#roster th.contractinfo,#roster td.contractinfo,#options_07 .report th.contractinfo,#roster th.contractyear,#roster th.contractstatus  {
+     text-align:center;
+     width:80px;
+}
+
+#roster td {
+     vertical-align:middle!important;
+}
+
+#roster td.week,#roster td.points{
+     text-align:center;
+}
+
+/* 
+#division00 > h3 {background:url(http://faithworkcamps.com/fantasy_football_2015/site/2014/EmpireDynasty/img/athens-sm.jpg)!important;color:transparent!important;font-size:0!important;height:33px!important}
+#division01 > h3 {background:url(http://faithworkcamps.com/fantasy_football_2015/site/2014/EmpireDynasty/img/babylon-sm.jpg)!important;color:transparent!important;font-size:0!important;height:33px!important}
+#division02 > h3 {background:url(http://faithworkcamps.com/fantasy_football_2015/site/2014/EmpireDynasty/img/rome-sm.jpg)!important;color:transparent!important;font-size:0!important;height:33px!important}
+*/

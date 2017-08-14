@@ -1,0 +1,52 @@
+#imgslide{margin-top:23px;margin-left:5px;position:absolute}
+#multi_t1 ul li{list-style:none}
+#multi_t1{width:575px;height:282px;margin:0 auto;border:0 solid red;;padding:6px;background-color:transparent;overflow:hidden;float:left;margin-bottom:0;padding:0}
+#multi_t1_buttons{position:absolute;width:530px;height:20px;margin-top:-23px;margin-left:7px;z-index:9;display:none}
+div#multi_t1_buttons ul#selector{background:transparent url("../img/slider_buttons_bg10.png")left top;width:383px;height:46px;background-repeat:no-repeat}
+#selector{position:relative;float:left;margin:0;padding:0}
+#selector li{background-color:#800000;width:24px;float:left;border:none;margin:10px -16px 0 12px;margin-left:32px}
+#selector li.current{background-color:#000}
+#selector li:hover,#selector li:active{background-color:#000}
+.multi_t1_slides{position:absolute;width:640px;height:360px;/*background-color:#fff;*/
+display:none}
+.multi_t1_image{position:absolute;width:640px;height:360px;/*background-color:#fff;*/
+}
+#multi_t1_slideshow{display:block;overflow:hidden;width:640px;height:360px;#height:360;z-index:0;}
+/* ###### Customize Each Button ###### */
+#multi_t1_buttons #nav0{background:url("../img/number1.png") no-repeat 0 0;width:19px;height:17px;background-color:}
+#multi_t1_buttons #nav0:hover{background:url("../img/number1_hover.png") no-repeat 0 0;height:17px;width:19px;background-color:}
+#multi_t1_buttons #nav0.current{background:url("../img/number1_hover.png") no-repeat 0 0;width:19px;height:17px;background-color:}
+#multi_t1_buttons #nav1{background:url("../img/number2.png") no-repeat 0 0;width:19px;height:17px;background-color:}
+#multi_t1_buttons #nav1:hover{background:url("../img/number2_hover.png") no-repeat 0 0;height:17px;width:19px;background-color:}
+#multi_t1_buttons #nav1.current{background:url("../img/number2_hover.png") no-repeat 0 0;width:19px;height:17px;background-color:}
+#multi_t1_buttons #nav2{background:url("../img/number3.png") no-repeat 0 0;width:19px;height:17px;background-color:}
+#multi_t1_buttons #nav2:hover{background:url("../img/number3_hover.png") no-repeat 0 0;height:17px;width:19px;background-color:}
+#multi_t1_buttons #nav2.current{background:url("../img/number3_hover.png") no-repeat 0 0;width:19px;height:17px;background-color:}
+#multi_t1_buttons #nav3{background:url("../img/number4.png") no-repeat 0 0;width:19px;height:17px;background-color:}
+#multi_t1_buttons #nav3:hover{background:url("../img/number4_hover.png") no-repeat 0 0;height:17px;width:19px;background-color:}
+#multi_t1_buttons #nav3.current{background:url("../img/number4_hover.png") no-repeat 0 0;width:19px;height:17px;background-color:}
+#multi_t1_buttons #nav4{background:url("../img/number5.png") no-repeat 0 0;width:19px;height:17px;background-color:}
+#multi_t1_buttons #nav4:hover{background:url("../img/number5_hover.png") no-repeat 0 0;height:17px;width:19px;background-color:}
+#multi_t1_buttons #nav4.current{background:url("../img/number5_hover.png") no-repeat 0 0;width:19px;height:17px;background-color:}
+#multi_t1_buttons #nav5{background:url("../img/number6.png") no-repeat 0 0;width:19px;height:17px;background-color:}
+#multi_t1_buttons #nav5:hover{background:url("../img/number6_hover.png") no-repeat 0 0;height:17px;width:19px;background-color:}
+#multi_t1_buttons #nav5.current{background:url("../img/number6_hover.png") no-repeat 0 0;width:19px;height:17px;background-color:}
+#multi_t1_buttons #nav6{background:url("../img/number7.png") no-repeat 0 0;width:19px;height:17px;background-color:}
+#multi_t1_buttons #nav6:hover{background:url("../img/number7_hover.png") no-repeat 0 0;height:17px;width:19px;background-color:}
+#multi_t1_buttons #nav6.current{background:url("../img/number7_hover.png") no-repeat 0 0;width:19px;height:17px;background-color:}
+#multi_t1_buttons #nav7{background:url("../img/number8.png") no-repeat 0 0;width:19px;height:17px;background-color:}
+#multi_t1_buttons #nav7:hover{background:url("../img/number8_hover.png") no-repeat 0 0;height:17px;width:19px;background-color:}
+#multi_t1_buttons #nav7.current{background:url("../img/number8_hover.png") no-repeat 0 0;width:19px;height:17px;background-color:}
+#multi_t1_buttons #nav8{background:url("../img/number9.png") no-repeat 0 0;width:19px;height:17px;background-color:}
+#multi_t1_buttons #nav8:hover{background:url("../img/number9_hover.png") no-repeat 0 0;height:17px;width:19px;background-color:}
+#multi_t1_buttons #nav8.current{background:url("../img/number9_hover.png") no-repeat 0 0;width:19px;height:17px;background-color:}
+#multi_t1_buttons #nav9{background:url("../img/number10.png") no-repeat 0 0;width:19px;height:17px;background-color:}
+#multi_t1_buttons #nav9:hover{background:url("../img/number10_hover.png") no-repeat 0 0;height:17px;width:19px;background-color:}
+#multi_t1_buttons #nav9.current{background:url("../img/number10_hover.png") no-repeat 0 0;width:19px;height:17px;background-color:}
+/* ###### End ###### */
+div#multi_t1_slideshow div#slide1.multi_t1_slides div.multi_t1_image a1,div#multi_t1_slideshow div#slide2.multi_t1_slides div.multi_t1_image a1,div#multi_t1_slideshow div#slide3.multi_t1_slides div.multi_t1_image a1,div#multi_t1_slideshow div#slide4.multi_t1_slides div.multi_t1_image a1,div#multi_t1_slideshow div#slide5.multi_t1_slides div.multi_t1_image a1,div#multi_t1_slideshow div#slide6.multi_t1_slides div.multi_t1_image a1,div#multi_t1_slideshow div#slide7.multi_t1_slides div.multi_t1_image a1,div#multi_t1_slideshow div#slide8.multi_t1_slides div.multi_t1_image a1,div#multi_t1_slideshow div#slide9.multi_t1_slides div.multi_t1_image a1,div#multi_t1_slideshow div#slide0.multi_t1_slides div.multi_t1_image a1{position:absolute;top:263px;width:561px;margin-left:2px;color:#fff;text-align:center}
+#textbg{opacity:0.5;filter:alpha(opacity=50);background:#000;width:500px;height:22px;position:absolute;top:259px;width:571px;margin-left:2px;}
+
+div#multi_t1 table#draft_status{width:600px;float:left;margin-top:24px;}
+div#multi_t1 table#recent_draft_picks{width:600px;float:left;margin-top:-6px;}
+div#multi_t1 table#recent_draft_picks caption,div#multi_t1 table#draft_status caption{display:none;}

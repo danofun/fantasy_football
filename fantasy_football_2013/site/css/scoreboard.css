@@ -1,0 +1,205 @@
+/* HIDE AS MUCH OF THE DEFAULT HTML AS POSSIBLE WITH CSS */
+#scrollingText,#shield,#banner,#search,#toppage,#tabheader,#menu0,#helmetbarheader,#line1,#Footer,img#da_cta,#topmenu,.welcome,.pagefooter,#topmenutabs,.pageheader,.pagetitle,.brandlogo,#footer,#topofpage,#menu,shield img,#banner img,#toppage img,
+div#chromemenu.chromestyle,div#theheader,div#team_logos,#vsubmenu,#hsubmenu,div.quicklinks,div#maincontainer,div#team-sites-header-bar.dd,div#mflline,div#footer-nav-wrap,img.leaguelogo,#scoreboardlink,div#linebottom,div#logo,
+div#head,table#nav_ticker_wrapper,div#designby,div#HabmanBar,div#utility,div#bannermenu,div#bannermenu,div#flashfooter,div#scoreboardheader1,table#scoreboardheader,h1,div#hd-scorestrip,div#habboxscore,ul#nitrolink.nitromenu,#league_reminders.homepagemessage
+,#nav_buttons,#league_logo,#footer_links_wrapper,div#pulldown.close,div#menutop,table.homepagemessage,div#mybanner,div#mypageheader,#textfooter,#togglelogin
+{ display:none; }
+
+	/* ADVANCED: by wrapping any custom headers that you have added to your site
+	   you can hide them by wrapping them in a div tag <div id="myCustomerHeader"> </div>
+	*/
+	#myCustomHeader { display:none; }
+	#myCustomFooter { display:none; }
+
+/*** AT THIS POINT WE SHOULD NOW HAVE NO HTML ON OUR SCREEN HOWEVER THERE STILL MIGHT BE A BACKGROUND IMAGE TO DEAL WITH  ***/
+body,.pagebody,html,body#body_home,#home #contentframe  { 
+background-image: url(http://www.faithworkcamps.com/fantasy_football_2013/site/img/scoreboardbg_bottom.jpg), url(http://www.faithworkcamps.com/fantasy_football_2013/site/img/scoreboard_bg.jpg);
+background-position: center bottom, center top;
+background-repeat: no-repeat;
+background-attachment:fixed;    
+padding:0; margin:0; border:0; font:normal bold 8pt Arial,Helvetica,sans-serif; width:auto;  overflow:auto; -moz-box-shadow:none; -webkit-box-shadow:none; box-shadow:none; min-height:200px; 
+}
+#home #contentframe,.pagebody{ position:relative;
+background-image: url(http://www.faithworkcamps.com/fantasy_football_2013/site/img/top_bg.jpg), url(http://www.faithworkcamps.com/fantasy_football_2013/site/img/bottom_bg.jpg), url(http://www.faithworkcamps.com/fantasy_football_2013/site/img/nitro/center_bg.png);
+background-position: center top, center bottom, center top;background-repeat: no-repeat,no-repeat,repeat-y; background-attachment:scroll;min-height:800px;} 
+
+body#body_home { margin-top:10px; margin-bottom:0px;}
+li { display:inline;  list-style-image:none;  margin:0px;  padding:0px; }
+a:link,a:active,a:visited { color:#a1a1a1; text-decoration:none; font:normal bold 8pt Arial,Helvetica; }
+td { margin:0; padding:0; vertical-align:middle;}
+th { font:normal bold 8pt Arial,Helvetica,sans-serif; }
+#home {margin: 0px;}
+
+/*** SCOREBOARD OUTER TABLE  ***/
+.cbsOuterTable { width:auto;  border-collapse:collaspe;  border:0px;  border-bottom:0px;  background:none;  padding:0px;   box-shadow: 0px 0px 0px 0px #000; }
+table.cbsOuterTable { width:1000px; background:transparent; padding:5px; border:0; font:normal bold 8pt Arial,Helvetica,sans-serif; margin-top:10px;}
+.cbsOuterTable a:hover { color:#fff; background:none!important; }
+
+/***  LIVE SCORING WEEKLY NAV MENU ***/
+td#myNavigationHolder {background:none; }
+table.cbsWeeklyNavigation { font:normal bold 8pt Arial,Helvetica,sans-serif; text-align:center; background:none; border:0;  width:100%; color:#fff; margin-bottom:8px;}
+span.navWeekLink,span.navWeekCurr,span.navWeekInactive { vertical-align:middle!important; line-height:16px; font:normal bold 8pt Arial,Helvetica,sans-serif; }
+span.navWeekLink a { text-decoration:none; color:#a1a1a1; padding:0 2px; }
+span.navWeekLink a:hover { text-decoration:none; color:#fff; }
+span.navWeekCurr { color:#fff; padding:0 2px; font-size:11pt; background:none;}
+span.navWeekInactive { color:#e05d15; padding:0 0px; }
+
+/****** MOBILE ICON ******/
+#mobilelink { position:absolute; margin-top:-11px!important; margin-left:6px!important; }
+#mobilelink img{ height:17px; width:auto; padding-right:2px; }
+
+/*** TICKER TABLE  ***/
+table.cbsMainScoreboard { background:#000 url(http://www.faithworkcamps.com/fantasy_football_2013/site/img/header_bg.png) center bottom; border:2px solid transparent; width:100%; border-collapse:collapse; font:normal bold 8pt Arial,Helvetica,sans-serif; margin-bottom:8px; margin-top:-2px;}
+     /***  League Name box settings  ***/
+td#cbsCenterTop { background:transparent; color:#fff; text-align:center; font:normal bold 0pt Arial,Helvetica,sans-serif; height:80px;border:none;border-left:1px solid #000; border-right:0px solid #000;}    /***  Set color:transparency and font-size:0pt if you want to install custom bg header ***/
+/****** TICKER W-L-T ******/
+td#cbsRoadTeamRecord,td#cbsHomeTeamRecord { width:auto!important; font:normal bold 9pt Arial,Helvetica,sans-serif; letter-spacing:0px; }
+td#cbsRoadTeamRecord  { background:url(http://www.faithworkcamps.com/fantasy_football_2013/site/cbsscoreboard/img/nitro/wlt_left.png) center center; color:#fff; text-align:center; height:16px; }
+td#cbsHomeTeamRecord  { background:url(http://www.faithworkcamps.com/fantasy_football_2013/site/cbsscoreboard/img/nitro/wlt_left.png) center center; color:#fff; text-align:center; height:16px; }
+     /***  Countdown Update setttings  ***/
+td#cbsScoreboardMessage { background:transparent; color:#000; text-align:center; font:normal bold 11px Arial;}
+#cbsScoreboardMessageResetTimer { text-align:center; color:#fff;background-color:transparent;	cursor:pointer; }
+     /***  P-YTD-PMR settings  ***/
+td.cbsScoreboardTitle { background:transparent url(http://www.faithworkcamps.com/fantasy_football_2013/site/cbsscoreboard/img/nitro/digitholder.png) center top no-repeat; color:#fff; text-align:center; padding-top:2px!important;}
+td#cbsRoadPlayers,td#cbsRoadYTP,td#cbsRoadPMR,td#cbsHomePlayers,td#cbsHomeYTP,td#cbsHomePMR { background:transparent url(http://www.faithworkcamps.com/fantasy_football_2013/site/cbsscoreboard/img/nitro/digitholder.png) center bottom no-repeat; color:#ccc;width:66px!important;text-align:center; }
+     /*** MFL-NFL logo box  ***/
+table.cbsMainScoreboard td#cbsBlank { background:transparent; }
+table.cbsMainScoreboard td#cbsBlank img{ height:30px; width:43px; }
+     /***  Settings for Logos on side  ***/
+td#cbsRoadLogo,td#cbsHomeLogo { background:#171717; vertical-align:middle; text-align:center; width:7%; }
+td#cbsRoadLogo img,td#cbsHomeLogo img { max-width:60px; max-height:100px; border:none; }
+     /***  Settings for Logos on top  ***/
+td#cbsRoadTeamName img,td#cbsHomeTeamName img{ max-height:40px; max-width:250px; border:none; }
+     /***  Settings for Franchise Names on top   ***/
+td#cbsRoadTeamName,td#cbsHomeTeamName { background:#000; color:#e05d15; text-align:center; font:normal bold 12pt Arial,Helvetica,sans-serif; height:60px; width:26%; }
+     /***  Adjust size of scoring numerals  ***/
+td#cbsRoadScore,td#cbsHomeScore  { background:#000; color:#ff0000; text-align:center; font:normal bold 28pt Arial,Helvetica; }
+td#cbsRoadScore img,td#cbsHomeScore img  { width:36px; height:42px;padding-top:2px; margin:0!important;}
+		/****** FLIP HOME TEAM ICON TO FACE CENTER ******/
+td#cbsHomeLogo img { -moz-transform: scaleX(-1); -o-transform: scaleX(-1); -webkit-transform: scaleX(-1); transform: scaleX(-1); filter: FlipH; -ms-filter: "FlipH"; }
+
+/****** FANTASY MATCHUPS BOXSCORES TABLE ******/
+td#myMiddleTableHolder {height:68px!important;padding:2px!important; padding-bottom:0px!important; }
+.cbsGameLinks { width:100%;  /* important to fill table width */  border:0; border-collapse:collapse; margin-bottom:0px; margin-top:2px; }
+.cbsGameLinks td { margin:0; padding:0; }
+.cbsGameTable { border-collapse:collapse; margin:0; padding:0; border:0; }
+table.cbsGameTable { width:100%!important; background:#151515; height:64px; color:#a1a1a1;}
+.cbsGameTable td { padding:4px; border:1px solid #000; }
+.matchupLolite:hover { border:1px solid transparent; border-right:1px solid #fff!important; color:#fff; background:url(http://www.faithworkcamps.com/fantasy_football_2013/site/cbsscoreboard/img/nitro/th.png); }
+.matchupLolite { text-align:center; font-weight:bold; font-size:9px; width:10px; cursor:pointer; border-right:1px solid #fff!important; color:#fff; background:url(http://www.faithworkcamps.com/fantasy_football_2013/site/cbsscoreboard/img/nitro/th.png); }
+.matchupHilite {	text-align:center;font-weight:bold; font-size:9px; width:10px; color:#e05d15; background:url(http://www.faithworkcamps.com/fantasy_football_2013/site/cbsscoreboard/img/nitro/th.png); cursor:pointer;	border-right:1px solid #e05d15!important; }
+
+/****** NFL MATCHUPS BOXSCORES TABLE ******/
+table.cbsNFLGameTable {color:#999999!important;background:#151515;border:0px solid #000!important; height:62px;}
+div#cbsNFLMatchups>table.cbsGameLinks>tbody>tr>td {border:1px solid #000;}
+
+/****** STARTING LINEUPS BENCH PLAYERS TABLE ******/
+.cbsLineups { width:100%; padding:0; margin:0; border:0px; background:none; margin-bottom:10px;}
+table.cbsLineups td#cbsBlankLineup { display:none;  }
+table.cbsTeamLineup {border:0px;}
+.cbsGameLinks a:link,.cbsGameLinks a:active,.cbsGameLinks a:visited{  text-decoration:none; font:bold 8pt"Times New Roman",Georgia,Serif; }
+.cbsTeamLineup { width:100%; border-collapse:collapse; border:0; }
+td#cbsRoadLineup { width:50%; }
+td#cbsRoadLineup { width:50%; }
+.cbsTeamLineup td { border-bottom:1px solid #000; padding:2px; }
+.cbsTeamLineup a:link,.cbsTeamLineup a:active,.cbsTeamLineup a:visited { color:#a1a1a1; text-decoration:none; font:normal bold 8pt Arial,Helvetica }
+.cbsTeamLineup a:hover { color:#fff!important; }
+table.cbsTeamLineup th { background:#000 url(http://www.faithworkcamps.com/fantasy_football_2013/site/cbsscoreboard/img/nitro/th.png); border:0; border-bottom:1px solid #fff; height:14px; color:#fff; text-align:center; line-height:14px; font-size:11px; font-weight:bold; font-style:normal; }
+.rowGameOver { background-color:#121212; color:#a1a1a1; }
+.rowYTP,.rowYTP a:link,.rowYTP a:visited { background-color:#121212; color:#fff;	}
+.rowCurrentlyPlaying,.rowCurrentlyPlaying a:link,.rowCurrentlyPlaying a:visited { background-color:#121212; color:#fff;	}
+td#cbsHomeLineup,td#cbsRoadLineup {vertical-align:top;}
+td.cbsPlayerGame>img {vertical-align:middle;}
+td.hasball img { vertical-align:middle!important; }
+td.hasball { width:28px; text-align:center; padding:0px; }
+td.cbsPlayerName { text-align:left; }
+td.cbsPlayerGame { width:104px; text-indent:3px; text-align:left; }
+td.cbsGameClock { text-align:center; width:60px; }
+td.cbsPlayerProjections { width:36px; text-align:center; }
+td.oppRankAvgMatchup { width:22px; }
+td.cbsPlayerPoints { width:40px; text-align:center; cursor:pointer; color:#a1a1a1}
+td.cbsPlayerPoints:hover { text-align:center; color:#fff; }
+th.pointTotalTitle,th.pointTotalProj,th.pointTotalActual { background:#000!important; color:#e05d15!important; font-size:10pt!important; border-bottom:1px solid #000!important;border-top:2px solid #555!important; height:18px!important; line-height:18px!important;}
+th.pointTotalActual { background:#e05d15!important; color:#000!important; }
+span.injuredPlayer { color:#e05d15; font-weight:bold; }
+
+/****** GAME STRENGTH OF SCHEDULE TD VALUE COLORING ******/
+.oppRankBadMatchup { background-color:#F00; color:#FFF; font-size:10px; text-align:center; }
+.oppRankPoorMatchup { background-color:#FF8000; color:#000; font-size:10px; text-align:center; }
+.oppRankAvgMatchup { background-color:#FF0; color:#000; font-size:10px; text-align:center; }
+.oppRankGoodMatchup { background-color:#01DF01; color:#000; font-size:10px; text-align:center; }
+.oppRankGreatMatchup { background-color:#04B404; color:#FFF; font-size:10px; text-align:center; }
+td.oppRankNA { background-color:#000; color:#FFF; font-size:10px; text-align:center; border:none;}
+
+/****** FOOTER NAV MENU ******/
+#homelink { margin:0; margin-top:6px; border:0; background:none; padding:0px; position:absolute; bottom:33px; margin-left:48px; width:auto; }   /****** Set width 2px smaller in width then scoreboard outer table ******/
+#homelink li { display:inline; list-style-image:none; margin:0px; padding:0px; }
+#homelink li a { color:#999999; text-decoration:none; font-weight:bold; font-size:10pt; letter-spacing:2px; padding-right:24px; padding-left:24px; font:normal bold 10pt Arial,Helvetica,sans-serif; height:18px!important; line-height:18px!important;}
+#homelink li a:hover { color:#ffffff; text-decoration:none; background:none; }
+#chatlink { position:absolute; margin-top:-31px!important; margin-left:966px!important; }   /****** Set absolute position of chat icon image  ******/
+#chatlink a:hover { background:none!important; }
+
+/****** PLAYER UPDATES TABLE ******/
+table.playerUpdateContainer { width:auto; background:none; border:0px; padding-bottom:0px; margin-bottom:75px; font:normal bold 9pt Arial,Helvetica,sans-serif;  box-shadow: none;}
+tr.playerUpdateHeaderRow { background:#e05d15; color:#000; }
+table.updateHistoryHeader>tbody>tr>td>i{ color:#000; padding-left:10px; }
+td#playerUpdateHeader { background:#fff!important; color:#000!important; }
+table.updateHistoryPlayer { margin:0 auto; background:#fff; width:690px; border-collapse:collapse; }
+th { background:#000 url(http://www.faithworkcamps.com/fantasy_football_2013/site/cbsscoreboard/img/nitro/th.png); border-bottom:1px solid #fff; height:14px; color:#fff; text-align:center; line-height:14px; font-size:11px; font-weight:bold; font-style:normal; padding:0px; margin:0; text-transform:none;}
+table.updateHistoryPlayer td a { color:#a1a1a1; font-weight:bold; }
+table.updateHistoryPlayer td a:hover { color:#fff; text-decoration:none; }
+table.updateHistoryPlayer>tbody>tr>td { border-bottom:1px solid #000!important; background:#121212!important; color:#a1a1a1; font-size:8pt; }
+table.updateHistoryHeader>tbody>tr>td>form>select#fantasyteamselect,table.updateHistoryHeader>tbody>tr>td>form>select#fantasyplayerselect { width:170px!important; overflow:hidden; margin:0; padding:0; margin-right:10px; }
+table.updateHistoryHeader input {margin:0;padding:0;}
+table.updateHistoryHeader select {margin:0;padding:0;font-size:10pt!important;}
+
+/****** NEWS AND SCORE POP OUT WINDOW CONTROL ******/
+.dhtmlwindow{  border: 2px solid #333!important; background-color: #000!important; color:#000!important; }
+.drag-handle{ background-color: #e05d15!important; color: #000!important; }
+.drag-contentarea{ border-top: 2px solid #333!important; background-color: #000!important; padding: 2px 4px 2px 0px!important; color:transparent!important; }
+body#habPopupWindow {background:#000!important;}
+
+/****** CHAT POP OUT  ******/
+div#root_CBS { background:#777!important; color:#000!important; border:0px!important; }
+div#handle_CBS>table>tbody>tr>td>img {margin-right:2px!important; }
+div#handle_CBS { background:#e05d15!important; color:#000!important; border:0px!important; padding:2px 0px!important; margin:0px!important; margin-bottom:2px!important; width:auto!important;}
+#habMiniChatContainer_CBS { background:#777!important; border:0px!important; width:auto!important; } 
+#habMiniChatOuterTable_CBS { border:2px solid #777!important; border-top:none!important; } 
+#habMiniChatOuterTable_CBS td { border:0px!important; background:#000!important; } 
+#habMiniChatTable_CBS td { border:1px solid #000!important; } 
+#habMiniChatTable_CBS .oddtablerow td { background:#222!important; color:#fff!important; } 
+#habMiniChatTable_CBS .eventablerow td { background:#111!important; color:#fff!important; } 
+#habMiniChatTable_CBS .pmoddtablerow td { background:#222!important; color:#e05d15!important; }  
+#habMiniChatTable_CBS .pmeventablerow td { background:#111!important; color:#e05d15!important; } 
+div#habMiniChatContainer_CBS>table { margin-left:2px!important; margin-bottom:2px!important; border:px solid #222!important; }
+td#chatTextAreaBottom_CBS { padding-bottom:10px!important; }
+table#habMiniChatTable_CBS.homepagemodule.report td > i {color:#fff!important;}
+div#habMiniChatOnline { padding:3px!important; background: #fff!important; color:#000!important; border:2px solid #777!important; border-top:0!important; }
+div#habMiniChatContainer_CBS>table>tbody>tr>td {border:1px solid #777!important; background:#fff!important; color:#000!important;}
+div#habMiniChatHideOnline_CBS> a,div#habMiniChatShowOnline_CBS> a { color:#000!important; }
+
+/****** LINEUP POP OUT  ******/
+table#submit_lineup.cbsTeamLineup caption,table#submit_lineup.cbsTeamLineup caption.withfranchiseicon   { background:none!important; height:auto!important; text-align:center!important; padding:2px!important; margin:0!important; border:none!important; }
+table#submit_lineup.cbsTeamLineup caption span a { color:#e05d15!important; background:none!important; font:normal bold 12pt Arial,Helvetica!important; }
+table#submit_lineup.cbsTeamLineup caption span a:hover { color:#000!important; background:none!important; }
+table#submit_lineup.cbsTeamLineup>tbody>tr>th.pointTotalTitle { border:none!important; border-bottom:1px solid #222!important;}
+table#submit_lineup.cbsTeamLineup caption.withfranchiseicon .franchiseicon { height:auto!important; width:auto!important; padding:0px!important; margin:0px!important; vertical-align:middle!important; background:none!important; }
+
+/****** LOGIN POP OUT  ******/
+table#welcome.cbsTeamLineup caption  { background:none!important; height:auto!important; text-align:center!important; padding:2px!important; margin:0!important; border:none!important; }
+table#welcome.cbsTeamLineup caption span  { color:#000!important; background:none!important;  display:block; font:normal bold 12pt Arial,Helvetica!important; }
+
+/****** MY NEWS POP OUT  ******/
+table#my_news.cbsTeamLineup caption { background:none!important; height:auto!important; text-align:center!important; padding:2px!important; margin:0!important; border:none!important; }
+table#my_news.cbsTeamLineup caption span  { color:#000!important; background:none!important; display:block;  font:normal bold 12pt Arial,Helvetica!important; }
+
+/****** Text for Scoring Message Site Down  ******/
+table.cbsGameLinks>tbody>tr>td>center {color:#fff;font-size:12pt}
+
+
+
+
+
+
+
+

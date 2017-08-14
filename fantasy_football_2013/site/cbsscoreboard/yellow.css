@@ -1,0 +1,414 @@
+@import url(http://fonts.googleapis.com/css?family=Wallpoet); /* custom font for score numerals when graphics not used - do not remove */
+
+/*****************
+IF YOUR SCOREBOARD DOES NOT LOOK CORRECTLY SEE BELOW INSTRUCTIONS......YELLOW STYLE INSTRUCTIONS
+
+Any changes made to this css and you will need to select var 0 in your HPM and link your custom style sheet
+If you have chosen this css sheet is important to view these setting below for instruction on how to set up your var in the HPM area
+
+//DISPLAY OPTIONS
+var scoreboardOnTop=false;		!!!!!!!! set this to true !!!!!!!!
+var matchupsPerRow = 6;			!!!!!!!! 12 team leagues set to 6  - 10 team leagues set to 5 - 16 team leagues set to 4 !!!!!!!!
+var includeWeeklyNavigation = true;
+var includeProjections = true;
+var includeSOS = true;
+var includeNewsBreakers = true;
+var includeStarterTotals = true;
+var includeBenchTotals = true;
+var useNicknamesInScoreboard = true;
+var allPlaySetup = false;
+//SKIN SELECTIONS
+// Style Sheet Options
+// 0 none
+// 1 habman default
+// 2 theohiostate Yellow
+// 3 theohiostate Red 
+// 4 theohiostate Blue 
+// 5 theohiostate CBS 
+var useStyleSheet = 1;			!!!!!!!! set to 2 for YELLOW skin !!!!!!!!
+// SCOREBOARD SETUP 
+// =0  text only
+// =1  team icons on sides of scoreboard
+// =2  team logos on sides of scoreboard
+// =3  team icon replacing team name (also auto hides sides of scoreboard)
+// =4  team logo replacing team name (also auto hides sides of scoreboard)
+var scoreboardImage = 3;			//MUST SELECT 0,3 OR 4 WHEN USING TOS SKIN SELECTION
+// TEXT TO IMAGES FOR TEAM SCORE (leave blank if you don't want to use an image)
+// 		default has been set to show image "white" images courtesy of theohiostate
+//      for other colours change "white" to blue, red, yellow, lights 
+//      See this directory for complete list http://nitrografixx.com/cbsscoreboard/numerals/
+var numberImageDir = "http://nitrografixx.com/cbsscoreboard/numerals/white/";		!!!!!!!! edit to direct to this link http://nitrografixx.com/cbsscoreboard/numerals/yellow/ !!!!!!!!
+var numberImageExt = "png";
+var numberImageMinimumDigits = 6;			!!!!!!!! set this to 7 for best results it will auto fill in a blank img to keep the nice scoring numerals effect !!!!!!!!
+
+************/
+
+
+/* ***** Scoreboard Body Display ***** */
+#scrollingText,#shield,#banner,#search,#toppage,#tabheader,#menu0,#helmetbarheader,#line1,#Footer,img#da_cta,#topmenu,.welcome,.pagefooter,#topmenutabs,.pageheader,.pagetitle,.brandlogo,#footer,#topofpage,#menu,shield img,#banner img,#toppage img,div#chromemenu.chromestyle,div#theheader,div#team_logos,#vsubmenu,#hsubmenu,div.quicklinks
+{ display:none; }	/* hide any of your custom menus or footers */
+
+body
+{ background:#000 url(http://nitrografixx.com/cbsscoreboard/img/cbs_body_bg_v6.png) no-repeat; /* link any bg found here  http://nitrografixx.com/cbsscoreboard/img/ */
+  background-attachment:fixed;
+  background-position:center top;
+  padding:0;
+  margin:0;
+  border:0; }
+
+.pagebody
+{ background:none;
+  margin:10px 0;
+  padding:0;
+  border:0;
+  -moz-box-shadow:none;
+  -webkit-box-shadow:none;
+  box-shadow:none;
+  width:auto;
+  font:normal bold 8pt Arial,Helvetica,sans-serif;
+  min-height:200px;
+  overflow:visible;}
+
+/****** Top Menu Weekly Review Links ******/
+td#myNavigationHolder 
+{ border:0;
+  color:#fff;
+  background:#000 url(http://nitrografixx.com/cbsscoreboard/img/cbs_lineup_th.png) repeat-x scroll center top; }
+
+table.cbsWeeklyNavigation 
+{ text-align:center; 
+  width:100%; }
+
+span.navWeekLink,span.navWeekCurr,span.navWeekInactive
+{ font-size:9pt;
+  vertical-align:middle!important;
+  line-height:16px; }
+
+span.navWeekLink a 
+{ text-decoration:none;
+  color:#ccc;
+  padding:0 3px; }
+
+span.navWeekLink a:hover 
+{ text-decoration:none;
+  color:#ffc000 }
+
+span.navWeekCurr  
+{ color:#ffc000;
+  padding:0 3px; 
+  font-size:11pt; }
+
+span.navWeekInactive 
+{ color:#ccc;
+  padding:0 3px; }
+
+/****** Footer Nav Links ******/
+#homelink
+{ margin-top:-26px;
+  z-index:1;
+  border:1px solid #ffc000;
+  margin-left:1px;
+  width:1038px;
+  background:#000 url(http://nitrografixx.com/cbsscoreboard/img/cbs_lineup_th.png) repeat-x scroll center top;
+  padding:2px; }
+
+#homelink li
+{ display:inline; }
+
+#homelink li a
+{ color:#ffc000;
+  text-decoration:none;
+  font-weight:bold;
+  font-size:10pt;
+  letter-spacing:2px;
+  padding-right:28px;
+  padding-left:28px; }
+
+#homelink li a:hover
+{ color:#fff;
+  text-decoration:none; }
+
+/****** OUTER TABLE ******/
+.cbsOuterTable
+{ width:1024px;
+  border-collapse:collaspe;
+  border:2px solid #fff;
+  border-bottom:30px solid #fff;	/* leave at 30px for bottom nav bar */
+  background:#000;
+  padding:6px; }
+
+.cbsOuterTable td
+{ margin:0;
+  padding:0; }
+
+.cbsOuterTable a:hover
+{ color:#FFC000; }
+
+/****** TICKER SCOREBOARD ******/
+table.cbsMainScoreboard
+{ height:116px; }  /* changeing height will require several changes when using the custom header bg */
+
+#cbsCenterTop
+{ visibility:hidden;}  /* hides league name that displays on header */
+
+.cbsMainScoreboard
+{ width:1028px;
+  color:#fff;
+  border-collapse:collapse;
+  margin:0;
+  padding:0;
+  background:transparent url(http://nitrografixx.com/cbsscoreboard/img/header_YELLOWstyle.png) center top no-repeat; 
+  /* download full psd here to make color changes beware not to disrupt the layout or coding changes needed nitrografixx.com/cbsscoreboard/psd/header.psd */
+  border:1px solid #FFC000; }
+
+.cbsMainScoreboard td
+{ text-align:center; }  /* center header tables do not change */
+
+.cbsScoreboardTitle  /* P-YTD-PMR tables use to change color do not change spacing unless custom coding */
+{ font-weight:bold;
+  font-family:Tahoma;
+  color:#ffc000;
+  width:7%!important;
+  padding-top:2px!important; }
+
+td#cbsRoadTeamName img,td#cbsHomeTeamName img   /* team icon sizing */
+{ max-width:240px;
+  max-height:40px;
+  margin-top:4px; }
+
+td#cbsRoadTeamName img  /* set margin to center icons in graphic box - right side img */
+{ margin-left:0px; }
+
+td#cbsHomeTeamName img  /* set margin to center icons in graphic box - left side image */
+{ margin-right:1px; }
+
+td#cbsRoadTeamName,td#cbsHomeTeamName   /* if using text and not icons for franchises */
+{ height:47px;
+  font-size:12pt;
+  color:#FFC000; } 
+
+td#cbsScoreboardMessage /* color for last updated refresh text time */
+{ color:#ffc000;	font:italic bold 11px Arial;  }
+
+#cbsScoreboardMessageResetTimer  
+{ text-align:center; 
+	font:italic bold 10px Arial; 
+	color:#FFFFFF;
+	background-color:transparent;
+	cursor:pointer;	}
+
+#cbsRoadScore,#cbsHomeScore
+{ color:#ffc000;
+  background:transparent;
+  text-align:center;
+  font:normal bold 36pt Wallpoet;  /* custom font for scores need to link google font */
+  padding-top:0;
+  opacity:1.0;                     /* if using text instead of icons use .80 opacity */
+  filter:alpha(opacity=100);        /* if using text instead of icons use 80 opacity */
+  letter-spacing:5px; 
+  text-shadow:3px 3px #000; }
+
+td#cbsHomeScore img,td#cbsRoadScore img  /* set padding for custom scoring numerals */
+{ padding-left:1px;
+  padding-right:1px; }
+
+/****** TICKER W-L-T ******/
+td#cbsRoadTeamRecord,td#cbsHomeTeamRecord
+{ padding-top:0;
+  width:26%!important;
+  color:#fff;
+  text-align:center;
+  font:bold 11pt"Times New Roman",Georgia,Serif;
+  letter-spacing:4px;}
+
+/****** BOXSCORES TABLE ******/
+.cbsGameLinks
+{ width:100%;  /* important to fill table width */
+  background-color:#000;
+  border:0;
+  border-collapse:collapse; }
+
+.cbsGameLinks td
+{ margin:0;
+  padding:0; }
+
+.cbsGameTable
+{ color:#FFF;
+  background-color:transparent;
+  border-collapse:collapse;
+  margin:0;
+  padding:0;
+  margin-top:2px;
+  border:1px double #666;
+  margin-bottom:2px; }
+
+table.cbsGameTable
+{ width:100%!important;   
+  background:#000 url(http://nitrografixx.com/cbsscoreboard/img/boxscore_bg.png) center bottom; }
+
+.cbsGameTable td
+{ padding:4px;
+  border:1px solid #222; }
+
+.matchupLolite:hover
+{ border:1px solid #ffc000;color:#FFC000; }
+
+.matchupLolite 
+{ text-align:center;
+  font-weight:bold;
+  font-size:9px;
+  width:10px;
+  color:#FFFFFF;
+  background-color:#333333;
+  cursor:pointer;	}
+
+.matchupHilite 
+{	text-align:center;
+	font-weight:bold;
+	font-size:9px;
+	width:10px;
+	color:#000;
+	background-color:#FFC000;
+	cursor:pointer;	}
+
+/****** STARTING LINEUPS BENCH PLAYERS TABLE ******/
+.cbsLineups
+{ width:1020px;
+  padding:0;
+  margin:0;
+  border:1px solid #666;
+  background:#000; }
+
+.cbsTeamLineup
+{ width:509px;
+  color:#fff;
+  border-collapse:collapse;
+  border:0;
+  color:#ccc; }
+
+.cbsTeamLineup td
+{ border:1px solid #222;
+  padding:2px; }
+
+.cbsTeamLineup a:link,.cbsTeamLineup a:active,.cbsTeamLineup a:visited
+{ color:#fff;
+  text-decoration:none; }
+
+.cbsTeamLineup a:hover
+{ color:#ffc000; }
+
+table.cbsTeamLineup th
+{ background:#000 url(http://nitrografixx.com/cbsscoreboard/img/cbs_lineup_th.png) repeat-x scroll center top;
+  border-bottom:1px solid #ffc000;
+  border-top:1px solid #000;
+  height:14px;
+  color:#fff;
+  text-align:center;
+  line-height:14px;
+  font-size:11px;
+  font-weight:bold;
+  font-style:normal; }
+
+.rowGameOver 
+{ background-color:#000000;
+  color:#fff;	}
+
+.rowYTP 
+{ background-color:#111111;
+  color:#fff;	}
+
+.rowCurrentlyPlaying 
+{ background-color:#444;
+  color:#fff;	}
+
+td.hasball img
+{ vertical-align:middle!important; }
+
+td.hasball 
+{ width:28px;
+  text-align:center; 
+  padding:0px;  }
+
+td.cbsPlayerName
+{ width:;
+  text-align:left; }
+
+td.cbsPlayerGame
+{ width:104px;
+  text-indent:3px;
+  text-align:left; }
+
+td.cbsGameClock
+{ text-align:center;
+  width:60px; }
+
+td.cbsPlayerProjections
+{ width:36px;
+  text-align:center; }
+
+td.oppRankAvgMatchup
+{ width:22px; }
+
+td.cbsPlayerPoints
+{ width:40px;
+  text-align:center;
+  color:#ffc000;
+  cursor:pointer; }
+
+td.cbsPlayerPoints:hover
+{ text-align:center;
+  color:#ffffff; }
+
+th.pointTotalTitle,th.pointTotalProj,th.pointTotalActual
+{ background:#000000!important;
+  color:#FFFFFF!important;
+  font-size:9pt!important;
+  border-top:4px double #666666!important;
+  border-bottom:none!important;
+  height:24px!important; }
+
+th.pointTotalActual
+{ background:#FFC000!important;
+  color:#000!important; }
+
+span.injuredPlayer
+{ color:#FFC000;
+  font-weight:bold; }
+
+/****** GAME STRENGTH OF SCHEDULE TD VALUE COLORING ******/
+.oppRankBadMatchup
+{ background-color:#F00;
+  color:#FFF;
+  font-size:10px;
+  text-align:center; }
+
+.oppRankPoorMatchup
+{ background-color:#FF8000;
+  color:#000;
+  font-size:10px;
+  text-align:center; }
+
+.oppRankAvgMatchup
+{ background-color:#FF0;
+  color:#000;
+  font-size:10px;
+  text-align:center; }
+
+.oppRankGoodMatchup
+{ background-color:#01DF01;
+  color:#000;
+  font-size:10px;
+  text-align:center; }
+
+.oppRankGreatMatchup
+{ background-color:#04B404;
+  color:#FFF;
+  font-size:10px;
+  text-align:center; }
+
+
+
+
+
+
+

@@ -1,0 +1,72 @@
+/*   MAIN TEAMS CONTAINER
+========================= */
+#teamsdivisions,.teamsdivisions {text-align:center;width:auto;margin:0 auto;}
+#teamsdivisions li ul,.teamsdivisions li ul {margin:0 auto;text-align:center;}
+
+
+
+/*   CONTAINERS FOR DIVISIONS AND ICONS-NAMES
+============================================= */
+li.division {display:inline-block;background:;margin:0 10px 10px 10px!important;padding:10px!important;vertical-align:top;border:px solid #999;padding:0;background:rgba(22, 22, 22, 0.1);border:2px solid #151515;background:#111;
+-webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);-moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);margin-bottom:0!important;padding-bottom:0!important}   
+li.franchise {margin:10px 0;margin-bottom:0;border:px solid #777;padding:4px!important;background:#;line-height:auto!important;height:auto!important;border:none!important;} 
+.franchises-container {margin-left:0px!important;}
+
+
+
+/*   DIVISION OR CONFERENCE NAMES
+
+li.division span {display:block;text-align:center;text-transform:uppercase;color:#eee;font-weight:bold;font-size:14pt;background:none;} 
+
+li.division00 span
+{background:url(http://nitrografixx.com/2014/PTD/division-images/div2_sm_menu.png)no-repeat!important;border:0px solid #fff!important;font-size:0!important;color:transparent!important;height:44px;padding:0!important;}
+li.division01 span
+{background:url(http://nitrografixx.com/2014/PTD/division-images/div3_sm_menu.png)no-repeat!important;border:0px solid #fff!important;font-size:0!important;color:transparent!important;height:44px;padding:0!important;}
+li.division02 span
+{background:url(http://nitrografixx.com/2014/PTD/division-images/div1_sm_menu.png)no-repeat!important;border:0px solid #fff!important;font-size:0!important;color:transparent!important;height:44px;padding:0!important;}
+================================= */
+
+/*   FRANCHISE NAMES
+==================== */
+li.franchise a {display:block;line-height:auto!important;height:auto!important;font-size:10pt!important;text-align:center!important;margin:0 auto!important}
+li.franchise:hover a {color: #0069de;}
+
+
+/*   FRANCHISE ICONS
+==================== */
+li.franchise img { opacity: 1;-webkit-transition: opacity 1s;-moz-transition: opacity 1s;-o-transition: opacity 1s; -ms-transition: opacity 1s; }
+li.franchise:hover img { opacity: .7;-webkit-transition: opacity 1s;-moz-transition: opacity 1s;-o-transition: opacity 1s; -ms-transition: opacity 1s; }
+li.franchise img,li.franchise a+a {width:164px;} /** 10 teams make icon 170px wide  - 12 teams make icons 140px wide  -  14 teams make icons 118px wide**/
+
+
+
+/*   SINGLE DIVISION HEADER TEXT
+================================ */
+.teamsdivisions .division span, #teamsdivisions .division span {text-decoration:none;text-transform:uppercase;display:block;padding:3px;background: none repeat scroll 0% 0% #141414;border: 1px solid #222222;color: #666666;font-size: 18pt;font-weight: 900;text-transform: uppercase;}
+
+
+
+/*   RESET
+========== */
+li.teamsdivisions,li.division,li.franchise {list-style:none;}
+
+
+/*   ADD THIS TO REMOVE FRANCHISE LOGOS AND DISPLAY TEAM NAMES ONLY
+
+li.franchise img {display:none}
+
+====================================================== */
+
+
+
+/*   ADD THIS TO REMOVE FRANCHISE LOGOS AND DISPLAY TEAM NAMES ONLY
+
+li.franchise a+a {display:none}  
+
+====================================================== */
+
+
+
+/*   ADD IF YOU WANT DIVISIONS TO DISPLAY HORIZONTALLY
+====================================================== */
+#teamsdivisions ul li,.teamsdivisions ul li {display:inline-block;margin:10px 10px 0 10px;vertical-align:top;} 

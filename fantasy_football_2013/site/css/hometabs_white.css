@@ -1,0 +1,25 @@
+/* ###### Start Top Players Tabs ###### */
+#TabbedPanels2 caption,#TabbedPanels2 table caption{display:none}
+#TabbedPanels2 .TabbedPanels{margin:0;padding:0;float:left;clear:none;width:100%;/* IE Hack to force proper layout when preceded by a paragraph. (hasLayout Bug)*/
+}
+#TabbedPanels2 .TabbedPanelsTabGroup{margin:0;padding:0}
+#TabbedPanels2 .TabbedPanelsTab,#TabbedPanels2 .TabbedPanelsTabfirst,#TabbedPanels2 .TabbedPanelsTablast,#TabbedPanels2 .TabbedPanelsTabsecond,#TabbedPanels2 .TabbedPanelsTabthrid{
+  -moz-user-select:none;background:url("../img/topplayertab_white.png");cursor:pointer;float:left;list-style:none outside none;
+  margin:0 0 0 0;padding:6px 8px;position:relative;text-align:center;text-transform:uppercase;margin-bottom:0;border-left:1px solid #ddd;width:76px;margin-left:0;
+  border-bottom:1px solid #eee;color:#44629b;font-weight:400;font-size:12px;border-top:1px solid #b6d7ff;}
+#TabbedPanels2 .TabbedPanelsTabHover{background:#fff url("../img/homemenu_hover.png") center top;color:#fff;}
+#TabbedPanels2 .TabbedPanelsTabfirst{border-left:1px solid #ddd;padding-left:10px;width:42px;}
+#TabbedPanels2 .TabbedPanelsTablast{border-right:1px solid #ddd}
+#TabbedPanels2 .TabbedPanelsTablast,#TabbedPanels2 .TabbedPanelsTabsecond{width:41px}
+#TabbedPanels2 .TabbedPanelsTabthrid{width:88px}
+#TabbedPanels2 .TabbedPanelsTabSelected{background: url("../img/homemenu_hover.png")center top;color:#fff;border-bottom:1px solid #eee;}
+.column2{width:876px;margin-left:-3px;margin-top:0;border-top:0px solid #;margin-top:0px;margin-left:-4px;}
+.column2 .report{padding-top:10px;width:876px;height:406px;float:left}
+#home .franchiseicon{width:140px;height:auto}
+/* ###### END ###### */
+div#TabbedPanels2 div div .report{padding-top:4px;-webkit-border-radius: 0px;-moz-border-radius: 0px;border-radius: 0px;}
+div#TabbedPanels2 form p.form_buttons {margin-top:0px;}
+
+
+
+

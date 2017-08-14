@@ -1,0 +1,1075 @@
+@import url("http://nitrografixx.com/2014/PTD/css/logos.css");
+@import url("http://nitrografixx.com/2014/PTD/css/commissionersetup.css");
+@import url("http://nitrografixx.com/2013/Empire/css/adblocker.css");
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,300,700); 
+
+
+.bodywrap {width:100%;height:100%;margin:0;padding:0;}
+
+div#menu0,.mainmenuon,A.mainmenuon:link,A.mainmenuon:visited,A.mainmenuon:hover,A.mainmenuon:active,.mainmenucurrent,.mainmenuoff,a.mainmenuoff:link,a.mainmenuoff:visited,a.mainmenuoff:hover,a.mainmenuoff:active,a.mainmenucurrent:link,a.mainmenucurrent:visited,a.mainmenucurrent:hover,a.mainmenucurrent:active
+{ visibility:hidden;
+  border:0 !important;
+  background:none;
+  background:transparent;
+  display:none; }
+
+:-moz-any-link:focus
+{ outline:none;}
+
+:focus
+{ outline:none;}
+
+.brandlogo,.welcome,.pagetitle
+{ display:none; }
+
+.pagefooter
+{ display:none; }
+
+.homepagemessage
+{ background:url(http://nitrografixx.com/2014/PTD/img/reports-bg.png);
+  border:2px dotted rgba(0,105,222,0.3);
+  color:#888!important;
+  font:300 15px 'Oswald',sans-serif;
+  left:0;
+  margin: 0px auto 20px;
+  opacity:1;
+  padding:10px;
+  top:0;
+  width:99%;}
+
+.homepagemessage a:link{ color:#fff!important;}
+.homepagemessage a:link:hover{ color:#0069de!important;}
+.homepagemessage span.warning,.homepagemessage h4.warning{ color:#888;}
+
+html,body
+{ margin:0; }
+
+body
+{ background:#000 url(http://nitrografixx.com/2014/PTD/img/html-bg.png) center top;
+  background-attachment:fixed;
+  color:#888;
+  font:400 10.8pt 'Oswald',sans-serif; }
+
+div#banner
+{ position:absolute;
+  margin-left:-177px;
+  top:51px; }
+
+.pastchamps
+{ margin-top:50px;padding-bottom:20px; }
+
+
+#content
+{ border:1px solid rgba(48,48,48,0.2);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  margin:0 auto;
+  background:none;
+  padding-bottom:10px;
+  padding-left:5px;
+  padding-right:5px;
+  width:960px;
+  margin-top:56px;
+  padding-top:10px;
+  margin-bottom:10px;}
+
+/* START HomePage Tabs Layout */
+#homepagetabs{display:none;}
+
+/* Start HomePage Content */
+.homepagetabcontent .report
+{ width:100%!important; }
+
+.homepagecolumn .homepagemodule
+{ width:100%;
+  margin-bottom:15px; }
+
+.homepagecolumn
+{ padding:5px;
+  padding-top:0; }
+
+/* Start Captions */
+caption,.homepagecolumn .homepagemodule caption,.playoffbracket .playoffbracketname
+{ padding:0;
+  color:#555;
+  width:auto;
+  cursor:default;
+  text-transform:uppercase;
+  text-align:right;
+  padding-right:3px;
+  font-weight:400;
+  font-size:10.5pt;
+  line-height:38px;
+  height:33px;
+  border:none;
+  -webkit-border-top-right-radius: 5px;
+  -webkit-border-top-left-radius: 5px;
+  -moz-border-radius-topright: 5px;
+  -moz-border-radius-topleft: 5px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  background:url(http://nitrografixx.com/2014/PTD/img/caption-bg.png)top;
+  border:1px solid#151515;
+  margin-bottom:-1px;
+  text-shadow: 0px -1px #000;border-bottom:1px solid rgba(0,105,222,.4)
+}
+
+caption a:link,caption a:active,caption a:visited
+{ color:#0069de;
+  text-decoration:none; }
+
+caption a:hover
+{ color:#fff;
+  text-decoration:none; }
+
+caption.withfranchiseicon
+{ padding:2px; }
+
+.withfranchiseicon span.ownername
+{ display:none; }
+
+caption>span.module_expand
+{ display:none; }
+
+caption span.module_expand
+{ display:none; }
+
+caption span { }
+
+caption.withfranchiseicon span
+{ background:none;
+  padding-right:0; }
+
+caption a img,th a img,h3 a img
+{ vertical-align:middle; }
+
+/* TH */
+th,#standings h3,#brief_standings h3,.chartmenudivisionhd,.playoffbracket th,.homepagecolumn th
+{ text-align:left;
+  text-indent:2px;
+  text-align:center;
+  background:rgba(0,0,0,.1);
+  border-bottom:0px solid rgba(0,105,222,.2);
+  color:#888;
+  font-size:9pt;
+  font-weight:normal;
+  font-style:normal;
+  text-transform:uppercase; border:1px solid #151515}
+
+th a:link,th a:active,th a:visited
+{ color:#fff;
+  text-decoration:none; }
+
+th a:hover
+{ color:#eee;
+  text-decoration:none; }
+
+/* Text Coloring */
+.oddtablerow a:link,.oddtablerow a:active,.oddtablerow a:visited,.oddtablerow
+{ color:#ccc;
+  text-decoration:none; }
+
+.eventablerow a:link,.eventablerow a:active,.eventablerow a:visited,.eventablerow
+{ color:#ccc;
+  text-decoration:none; }
+
+.oddtablerow a:hover
+{ color:#fff; }
+
+.eventablerow a:hover
+{ color:#fff; }
+
+.eventablerow
+{ background-color: #181818;
+  color:#ccc;
+  font-weight:400;
+  font-size: 10pt;}
+
+.oddtablerow
+{ background-color:#1d1d1d;
+  color:#ccc;
+  font-weight:400;
+  font-size: 10pt;}
+
+.oddtablerow td
+{ font-weight:400;font-size: 10pt;padding:2px }
+
+.eventablerow td
+{ font-weight:400;font-size: 10pt;padding:2px }
+
+.oddtablerow,.eventablerow,th {background:none;border:none;}
+.oddtablerow td{ border-bottom:1px solid #181818; }
+.eventablerow td{ border-bottom:1px solid #181818; }
+
+.reportheader td
+{ color:#aaa; }
+
+.reportheader a:link
+{ color:#aaa;
+  text-decoration:none; }
+
+.reportheader a:visited
+{ color:#aaa;
+  text-decoration:none; }
+
+.reportheader a:hover
+{ color:#fff;
+  text-decoration:underline; }
+
+.reportheader a:active
+{ color:#aaa;
+  text-decoration:none; }
+
+.reportfooter td
+{ color:#aaa; }
+
+.reportfooter a:link
+{ color:#aaa;
+  text-decoration:none; }
+
+.reportfooter a:visited
+{ color:#aaa;
+  text-decoration:none; }
+
+.reportfooter a:hover
+{ color:#fff;
+  text-decoration:underline; }
+
+.reportfooter a:active
+{ color:#aaa;
+  text-decoration:none; }
+
+.newposition td,.newposition th
+{ border-top:2px solid #0069de !important; }
+
+.warning
+{ color:#c81818;
+  font-weight:400;
+  font-size:10pt; }
+
+.oddtablerow td.status span.freeagent
+{ color:#C81818; }
+
+.eventablerow td.status span.freeagent
+{ color:#C81818; }
+
+a:link,a:active,a:visited
+{ color:#fff;
+  font-weight:400;font-size: 10pt; }
+
+a:hover
+{ color:#eee; }
+
+A:link img,A:visited img
+{ border-color:transparent; }
+
+A:hover img
+{ border-color:transparent; }
+
+a:active { background:none; }
+
+h2
+{ font-size:14px;
+  margin:0;
+  background:#222;
+  color:#fff; }
+
+h3 a:link,h3 a:visited,h3 a:active
+{ color:#fff; }
+
+h3 a:hover
+{ color:#fff; }
+
+h3
+{ font-size:15px;
+  color:#888;
+  background-color:none;
+  border:none;
+  padding:4px;
+  margin-bottom:6px;
+  margin-top:4px; }
+
+.myfranchise,.myfranchise a,.myfranchise a:link,.myfranchise a:visited,.myfranchise a:hover,.myfranchise a:active,tr.myfranchise,tr.myfranchise A
+{ font-weight:bold;
+  color:#0069de; }
+
+#livescoring_summary .oddtablerow,#livescoring_summary .eventablerow
+{ font-size:16px;
+  font-weight:400; }
+
+* {-webkit-transition:color .6s;-moz-transition:color .6s;-o-transition:color .6s;-ms-transition:color .6s;transition:color .6s; }
+* select option {-webkit-transition:color 0s;-moz-transition:color 0s;-o-transition:color 0s;-ms-transition:color .6s;transition:color 0s; }
+
+/* TABLE REPORTS CUSTOM */
+.report, .two_column_layout table {
+     background:url(http://nitrografixx.com/2014/PTD/img/reports-bg.png);
+     border: 1px solid rgba(29, 29, 29, 0.2);
+     padding: 1px;
+     text-align: left;
+     width: 99%;
+    border-spacing:0!important}
+
+#board_show td
+{ vertical-align:top; }
+
+#body_board_show textarea
+{ width:99%;
+  margin:0 auto;
+  height:auto;
+  margin-bottom:10px; }
+
+#body_board_show th.messageboardbar
+{ color:#0069de;
+  background:transparent;
+  font-size:14px;
+  font-weight:bold;
+  border:none;
+  padding-right:0;
+  text-decoration:underline; }
+
+#body_board_show .messageboardlink
+{ padding:4px; }
+
+#body_board_show #Footer form
+{ width:auto; }
+
+#body_options_02 form .franchiselogo,#body_options_02 form .franchiseicon
+{ display:none; }
+
+#body_options_02 form caption
+{ background:url("http://nitrografixx.com/2014/PTD/img/submit_lineup.png") no-repeat scroll 0 0 transparent !important;
+  border:medium none;
+  box-shadow:none;
+  height:182px;
+  margin-left:50px; }
+
+textarea
+{ width:96%;
+  height:300px;
+  margin-left:13px; }
+
+#body_options_46 textarea
+{ width:110px; }
+
+#body_options_02 textarea
+{ height:50px; }
+
+form table
+{ width:90%; }
+
+.two_column_layout table
+{ width:472px; }
+
+#body_options_07 #single_roster .two_column_layout .report
+{ width:950px; }
+
+#choose_schedule .report,#options_121 .report,#options_118 .report
+{ width:472px; }
+
+#home select
+{ font-size:12px; }
+
+#options_06 .report,#options_169 .report,#options_07 .report,#submit_lineups .report,#options_178 .report,#options_49 .report,#options_16 .report,#options_15 .report,#options_68 .report
+{ width:472px; }
+
+#body_player .report
+{ width:98%; }
+
+#body_player
+{ margin-bottom:20px; }
+
+div#player.pagebody table tbody tr td table#player_stats_table.report
+{ width:630px; }
+
+#options_12 #MSG
+{ width:940px;
+  margin-bottom:10px;
+  margin-left:10px;
+  background:#fff;
+  padding:0;
+  color:#000; }
+
+#options_01 table.report
+{ width:950px; }
+
+#body_submit_lineups .report
+{ width:750px; }
+
+#body_submit_lineups textarea
+{ height:200px; }
+
+input[type="submit"]
+{ margin:25px; }
+
+.scoresummary
+{ width:456px;
+  border: 1px #151515;
+  padding:3px; }
+
+table.h2hmatchups.report
+{ border: 1px #151515;}
+
+html > body#body_options_16 > div#options_16.pagebody > div#content > table.two_column_layout > tbody > tr > td.two_column_layout > table.report
+{ outline:1px solid #282828!important;
+  padding:5px!important;
+  width:250px;
+  margin:0 10px; }
+
+html > body#body_options_15 > div#options_15.pagebody > div#content > table.two_column_layout > tbody > tr > td.two_column_layout > table.report
+{ width:200px;
+  margin:0 10px; }
+
+div#options_31.pagebody table tbody tr td
+{ width:456px; }
+
+#options_22 .scoresummary
+{ margin-bottom:10px; }
+
+div#options_06.pagebody table.report,div#options_169.pagebody table.report
+{ width:464px; }
+
+#commish_email textarea
+{ height:auto;
+  margin-left:13px; }
+
+#power_rank tr:first-child,.total_points,.total_potential_points,.efficiency,.bench_points,.maxpf,.minpf,.coulda_won,.woulda_lost,.all_play_w,.all_play_l,.all_play_t,.all_play_pct
+{ width:58px;
+  text-align:center; }
+
+div#pro_matchup.pagebody table.two_column_layout table.report
+{ width:450px; }
+
+#body_options_156 .report,#commish_email .report,#accounting_report .report,#body_options_187 .report,#body_options_153 .report,#body_options_119 .report,#body_options_204 .report,#body_options_194 .report
+{ width:800px;
+  height:auto; }
+
+#body_options_07 .report td
+{ text-align:center; }
+
+#body_options_07 .report td.player
+{ text-align:left; }
+
+div#depth_chart.pagebody div#content table.report .oddtablerow,div#depth_chart.pagebody div#content table.report .eventablerow
+{ font-size:10pt!important; }
+
+/* STANDINGS */
+#standings #division00 h3,#standings #division01 h3,#standings #division02 h3,#standings #division03 h3,#standings #division04 h3,#standings #division05 h3
+{ background:#141414;
+  padding:2px;
+  color:#666;
+  text-align:center;
+  font-size:22pt;
+  font-weight:900;
+  border:1px solid #282828;
+  margin:5px 0;
+  text-transform:uppercase; }
+
+#standings td {width:100px;}
+
+#brief_standings #division00 h3,#brief_standings #division01 h3,#brief_standings #division02 h3,#brief_standings #division03 h3
+{ background:#141414;
+  padding:2px;
+  color:#fff;
+  text-align:center;
+  font-size:14pt;
+  font-weight:900;
+  border:1px solid #282828;
+  margin:5px 0;
+  text-transform:uppercase; }
+
+#standings td.fname,#standings th.fname
+{ width:300px;
+  text-align:left; }
+
+#standings td,#standings th
+{ text-align:center; }
+
+#brief_standings td.fname,#brief_standings th.fname
+{ text-align:left; }
+
+#brief_standings td,#brief_standings th
+{ text-align:center; }
+
+/* Bulliton Board */
+#body_options_13 img.franchiselogo
+{ display:none; }
+
+#options_13 .franchiselogo
+{ display:none; }
+
+#body_options_13 h3
+{ background:none;
+  border:none; }
+
+#body_options_13 form
+{ text-align:center; }
+
+/* Calendar */
+#monthly_calendar
+{ padding:5px!important;
+  border-collapse:separate!important;
+  width:950px;
+  background:url(http://nitrografixx.com/2014/PTD/img/reports-bg.png);
+  border: 1px solid rgba(29, 29, 29, 0.2);
+  margin-bottom:0;
+ }
+
+#monthly_calendar td
+{ padding:0!important;border:1px solid rgba(29, 29, 29, 0.2);!important}
+
+#monthly_calendar th
+{ border:0px solid #181818; }
+
+.day_of_week_header th
+{ background:rgba(0,0,0,.1);}
+
+#monthly_calendar td .calendarday
+{ background-color:#111;
+  border-bottom:1px solid #222;
+  border-left:1px solid #222;
+  color:#888;
+  padding-bottom:5px; }
+
+.calendarday
+{ width:50px; }
+
+#monthly_calendar td.today
+{ border:2px dotted #0069de!important; }
+
+/* Articles */
+table#fantasy_articles th select
+{ width:100%!important;
+  margin-left:-2px; }
+
+#article small
+{ font-size:15px; }
+
+#article .articleheadline
+{ background-color:#181818;
+  border:1px solid #161616; }
+
+#article .articleauthor
+{ display:none; }
+
+#article
+{ background:#262626;
+  color:#fff; }
+
+#article th
+{ font-size:15px;
+  font-weight:700;
+  color:#fff;
+  border:1px solid #1C1C1C; }
+
+#article a:link,#article a:active,#article a:visited
+{ text-decoration:none;
+  font-weight:300;
+  font-size:15px;
+  color:#fff; }
+
+#article a:hover
+{ text-decoration:underline;
+  font-weight:300;
+  font-size:15px;
+  color:#fff; }
+
+#article caption
+{ font-size:15px;
+  background-color:transparent;
+  color:#fff; }
+
+#article td
+{ padding-left:4px;
+  padding-right:4px;
+  padding-top:2px;
+  padding-bottom:2px;
+  color:#fff;
+  background-color:#1d1d1d; }
+
+#article .articlecaption
+{ font-size:15px;
+  font-weight:400;
+  color:#fff;
+  background-color:transparent;
+  padding:0;
+  border:none; }
+
+#article img
+{ width:350px;
+  height:auto; }
+
+#article embed
+{ max-width:350px;
+  height:auto; }
+
+#fantasy_articles a:link,#fantasy_articles a:active,#fantasy_articles a:visited
+{ text-decoration:none; }
+
+#fantasy_articles a:hover
+{ color:#eee;
+  text-decoration:none; }
+
+#fantasy_articles .oddtablerow td
+{ background-color:#353535;
+  color:#ccc; }
+
+#fantasy_articles .articlecaption
+{ font-weight:bold;
+  background-color:#353535; }
+
+#fantasy_articles .articlepicture
+{ border:8px solid #282828!important;
+  box-shadow:0 0 10px 5px #161616!important;
+}
+
+#fantasy_articles .oddtablerow td
+{ background-color:#1d1d1d;
+  padding-left:2px;
+  padding-right:2px;
+  padding-top:2px;
+  padding-bottom:2px;
+  border:none !important; }
+
+#options_73 th
+{ background-color:#181818;
+  font-size:15px;
+  font-weight:400;
+  border:none;
+  color:#eee; }
+
+#options_73 td
+{ border:0 solid #000;
+  padding-left:8px;
+  padding-right:8px;
+  padding-top:4px;
+  padding-bottom:6px; }
+
+#options_73 .report
+{ width:860px;
+  border:1px solid #1C1C1C; }
+
+#options_73 .report .eventablerow td
+{ border:0 solid #eee;
+  background-color:#1d1d1d;
+  border:1px solid #1C1C1C;
+  color:#ccc; }
+
+#options_73 .report .oddtablerow td
+{ padding:4px;
+  background-color:#1d1d1d;
+  border:1px solid #1C1C1C;
+  color:#ccc; }
+
+#options_73 .report .oddtablerow a:link,#options_73 .report .oddtablerow a:active,#options_73 .report .oddtablerow a:visited,#options_73 .report .eventablerow a:link,#options_73 .report .eventablerow a:active,#options_73 .report .eventablerow a:visited
+{ color:#ccc;
+  font-weight:400;
+  text-decoration:underline; }
+
+#options_73 .report .oddtablerow a:hover
+{ color:#fff;
+  font-weight:400;
+  text-decoration:underline; }
+
+#options_73 .report .eventablerow a:hover
+{ color:#fff;
+  font-weight:400;
+  text-decoration:underline; }
+
+#options_73 .report .articlepicturetable table
+{ margin-top:2px;
+  border:1px solid #151515; }
+
+#options_73 embed
+{ width:450px;
+  height:auto; }
+
+#options_73 img.articlepicture
+{ width:450px;
+  height:auto;
+  border:1px solid #151515;
+  border:6px solid #282828; }
+
+#options_73 .articlecaption
+{ background-color:#1d1d1d; }
+
+.articlepicture,#my_player_photos img,#fantasy_articles .eventablerow td [align="center"] img
+{ border:6px solid #282828!important; }
+
+.articlepicture
+{ margin-top:6px; }
+
+#fantasy_articles select
+{ font-size:10px;
+  width:440px; }
+
+table#commish_article tbody tr td table th
+{ background:none!important;
+  border:none!important; }
+
+img.articlepicture
+{ max-width:225px!important;
+  height:auto; }
+
+#fantasy_articles .articlecaption
+{ font:400 13px 'Oswald',sans-serif;
+  border:1px solid #151515; }
+
+/* PLAYOFF BRACKETS */
+.playoffbracket td
+{ border:0; }
+
+.playoffbracket
+{ width:950px;
+  padding: 8px 5px 5px;
+  padding-bottom:15px;
+  background:url(http://nitrografixx.com/2014/PTD/img/reports-bg.png);
+  border: 1px solid rgba(29, 29, 29, 0.2);
+ }
+
+.playoffbracket td.topteam
+{ border-bottom:2px solid #333;
+  font-weight:bold; }
+
+.playoffbracket td.bracket
+{ border-right:2px solid #333; }
+
+.playoffbracket td.bottomteam
+{ border-bottom:2px solid #333;
+  border-right:2px solid #333;
+  font-weight:bold; }
+
+.playoffbracket td b
+{ color:#0069de; }
+
+.playoffbracket td
+{ text-align:center;
+  font-size:11pt!important;}
+
+/* BODY CHAT */
+#chat
+{ width:auto;
+  margin-bottom:0;
+  padding-bottom:0;
+  margin-top:0; }
+
+#body_chat h2
+{ display:none;
+  margin-top:10px;
+  background:#fff; }
+
+#league_chat
+{ margin:0; }
+
+table#youtubevideo.homepagemodule.report embed
+{ text-align:center;
+  width:100%; }
+
+img.videoconferenceicon
+{ display:none; }
+
+#my_options li
+{ padding:2px;
+  font-size:10pt; }
+
+/* LIVE SCORING REPORTS */
+#body_live_scoring_summary,body#body_live_scoring
+{ background: url(http://nitrografixx.com/2014/PTD/img/html-bg.png) center top;
+  background-attachment:fixed; }
+
+#body_live_scoring_summary .scoresummary,body#body_live_scoring .scoresummary
+{ border:none;
+  outline:none; }
+
+div#live_scoring_summary.pagebody,div#live_scoring.pagebody
+{ border:1px solid rgba(48,48,48,0.2);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  margin:0 auto;
+  margin-bottom:15px;
+  margin-top:10px;
+  background:none!important;
+  padding-bottom:10px;
+  padding-left:5px;
+  padding-right:5px;
+  width:960px; }
+
+#live_scoring_summary h3,#live_scoring h3
+{ background-color:none;
+  border:1px solid #151515;
+  border-radius:5px 5px 5px 5px;
+  color:#0069de;
+  text-align:left;
+  font-size:20px;
+  line-height:35px;
+  font-weight:400;
+  text-align:center; }
+
+#live_scoring_summary .scoresummary
+{ width:400px;
+  margin-top:10px; }
+
+#live_scoring_summary table
+{ width:960px; }
+
+#live_scoring_summary table.report
+{ width:460px; }
+
+#live_scoring table
+{ width:960px; }
+
+#live_scoring table.report
+{ width:460px; }
+
+div#live_scoring_summary.pagebody tr.total
+{ color:#fff;
+  font-size:18px;
+  background:#161616; }
+
+div#live_scoring_summary.pagebody tr.total th
+{ font-size:18px;
+  text-align:center; }
+
+div#live_scoring_summary.pagebody th
+{ text-align:left; }
+
+div#live_scoring.pagebody tr.grand_total
+{ color:#888;
+  font-size:18px;
+  background:#161616;
+  text-align:center; }
+
+#body_live_scoring_summary h2.warning,#body_live_scoring h2.warning
+{ background:none;
+  width:auto;
+  height:auto;
+  font-size:20px;
+  color:#fff;
+  margin-top:0; }
+
+body#body_live_scoring>h2
+{ font-size:0px;
+  color:transparent; 
+  height:902px;
+  width:172px;
+  background:transparent url('http://nitrografixx.com/2014/PTD/img/historylogo.png')!important;
+  background-repeat:no-repeat;
+  position: absolute!important;
+  top: 0%!important;
+  left: 50%!important;
+  margin-left:-657px;
+  margin-top:1px;
+}
+
+body#body_live_scoring_summary>h2
+{ font-size:0px;
+  color:transparent; 
+  height:902px;
+  width:172px;
+  background:transparent url('http://nitrografixx.com/2014/PTD/img/historylogo.png')!important;
+  background-repeat:no-repeat;
+  position: absolute!important;
+  top: 0%!important;
+  left: 50%!important;
+  margin-left:-657px;
+  margin-top:1px;
+}
+
+/* LIVE SCORING REPORTS HIDE TEMPLATE CONTENT WHEN LEAGUE NOT PURCHASED */
+body#body_live_scoring div#live_scoring.pagebody div#content div#homepagetabsdiv ul#homepagetabs,#body_live_scoring_summary div#live_scoring_summary.pagebody div#content div#homepagetabsdiv ul#homepagetabs
+{ display:none; }
+
+body#body_live_scoring div#live_scoring.pagebody div#content div#navigation_horiz ul,#body_live_scoring_summary div#live_scoring_summary.pagebody div#content div#navigation_horiz ul
+{ display:none; }
+
+body#body_live_scoring div#live_scoring.pagebody div#content,#body_live_scoring_summary div#live_scoring_summary.pagebody div#content
+{ visibility:hidden; }
+
+body#body_live_scoring div#live_scoring.pagebody div#banner,#body_live_scoring_summary div#live_scoring_summary.pagebody div#banner
+{ display:none; }
+
+body#body_live_scoring div#live_scoring.pagebody div#content h3,#body_live_scoring_summary div#live_scoring_summary div#content h3
+{ visibility:visible;
+  border:none; }
+
+/**MY PLAYER PHOTOS**/
+#my_player_photos img
+{ height:125px;
+  width:auto;
+  margin-top:5px;
+  margin-bottom:5px; }
+
+#league_chat b
+{ color:#0069de!important; }
+
+div#options_01 tr.oddtablerow,div#options_01 tr.eventablerow,div#options_01 th.rafters,div#options_01 myoptions
+{ background:none repeat scroll 0 0 rgba(0,0,0,0.2);
+  box-shadow:0 0 5px 5px rgba(0,0,0,0.2); }
+
+#options_01.pagebody > div#content > table.report > tbody > tr > th.rafters
+{ background:none repeat scroll 0 0 rgba(0,0,0,0.2);
+  color:#ccc;
+  font-size:12pt;
+  font-weight:400;
+  box-shadow:0 0 5px 5px rgba(0,0,0,0.2); }
+
+#options_01.pagebody > div#content > table.report > tbody > tr > td.rafterbox
+{ background:none repeat scroll 0 0 rgba(0,0,0,0.2);
+  border:1px solid #181818;
+  box-shadow:0 0 5px 5px rgba(0,0,0,0.2); }
+
+#options_01.pagebody>div#content>table.report>caption
+{ display:none; }
+
+#options_01.pagebody>div#content>table.report
+{ width:880px;
+  border:none;
+  outline:none; }
+
+div#options_01 .eventablerow.tools
+{ display:none; }
+
+#options_01.pagebody>div#content>table.report>tbody>tr>td>img.franchiselogo
+{ margin-bottom:10px!important;
+  background:none;
+  padding:10px;
+  background:#141414;
+  box-shadow:0 0 5px 5px rgba(0,0,0,0.2); }
+
+/**CHAT**/
+#league_chat span img
+{ display:none; }
+
+#home .awardtitle img {
+    max-width: 50px;}
+
+#options_08 #content .oddtablerow,#options_08 #content .eventablerow
+{ font-size:9pt!important; }
+
+#options_08 #content .franchiseicon
+{ width:100px; }
+
+div#top.pagebody>div#content>table.report .oddtablerow,div#top.pagebody>div#content>table.report .eventablerow
+{ font-size:9pt!important; }
+
+div#top.pagebody>div#content>table.report .franchiseicon
+{ width:100px!important; }
+
+html>body#body_options_185>div#options_185.pagebody>div#content>div
+{ height:0px; }
+
+body#body_options_185>div#options_185.pagebody>div#content>table.report>tbody>tr>th>select
+{ z-index:999999;
+  position:relative; }
+
+* embed
+{ height:0!important;
+  display:none!important; }
+
+* object
+{ height:0!important;
+  display:none!important; }
+
+div#content h2.warning {margin-bottom:10px;background:transparent;color:#0069de}
+
+   
+span#restart_refresh h2.warning {background:none;padding:10px;}
+
+#home select {
+    font-family: 'Oswald',sans-serif;
+    font-size: 14px !important;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;}
+select {
+    font-family: 'Oswald',sans-serif !important;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;}
+
+
+
+
+/* REMOVE BACKGROUND COLORS WHEN LINK CLICKED ON MOBILE DEVICES */
+* {-webkit-tap-highlight-color:rgba(0,0,0,0)!important;}
+
+/* FORCE MOBILE SAFARI FOR IPHONE NOT TO ENLARGE BODY TEXT SIZE */
+@media screen and (max-device-width: 480px){
+  body{
+    -webkit-text-size-adjust: none;
+  }
+}
+
+.nav #top_performers tbody tr td a:nth-child(2),.nav #top_fa tbody tr td a:nth-child(2){display:none!important;height:0!imortant;width:0!important;}
+
+/* NEW TABS CSS */
+#newtabs li {display:inline-block!important;padding:0 10px!important;margin:0!important;;cursor:pointer!important;height:20px!important;line-height:20px;!important;font-size:10pt;}
+#newtabs li a{padding:0!important;margin:0!important;cursor:pointer!important;height:20px!important;line-height:20px;!important;color:red;text-decoration:none;font-size:10pt;}
+#newtabs li a:hover{padding:0!important;margin:0!important;cursor:pointer!important;height:20px!important;line-height:20px;!important;color:white;text-decoration:none;font-size:10pt;}
+
+
+/*   REPLACE EMPTY IMAGE IN PLAYER PROFILE BIO
+============================================== */
+#body_player .player_photo img[src='http://www.myfantasyleague.com/player_photos_2010/no_photo_available.jpg'] {
+  display: block;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: transparent url(http://nitrografixx.com/player_news/img/no_player_photo.jpg) no-repeat;
+  width: 92px; /* Width of new image */
+  height: 119px; /* Height of new image */
+  padding-left: 92px; /* Equal to width of new image */
+  border:none!important;
+  -webkit-box-shadow:0 0 15px rgba(0,0,0,1)!important;
+  -moz-box-shadow:0 0 15px rgba(0,0,0,1)!important;
+  box-shadow:0 0 15px rgba(0,0,0,1)!important;
+}
+
+#owner_activity .franchiseicon {width:150px!important;height:auto!important}
+#owner_activity td span {font-size:70%!important}
+#owner_activity .franchise_online {background:none;padding-right:0;}
+#owner_activity .franchise_offline {background:none;padding-right:0;}
+#owner_activity span td img {display:none;}
+#owner_activity > tbody > tr > td:nth-child(2) > a > img{display:none;}
+
+#owner_activity{
+-webkit-border-bottom-right-radius: 5px;
+-webkit-border-bottom-left-radius: 5px;
+-moz-border-radius-bottomright: 5px;
+-moz-border-radius-bottomleft: 5px;
+border-bottom-right-radius: 5px;
+border-bottom-left-radius: 5px;
+}
+
+#brief_standings td#division00 img {visibility:hidden; width:259px;height:40px;}
+#brief_standings td#division01 img {visibility:hidden; width:259px;height:40px;}
+#brief_standings td#division02 img {visibility:hidden; width:259px;height:40px;}
+#brief_standings td#division00 {background: transparent url(http://nitrografixx.com/2014/PTD/division-images/div2_sm_menu.png) no-repeat  center; border: none;height:40px;padding-top:10px}
+#brief_standings td#division00 h3 {visibility:hidden;margin:0;padding:0;}
+#brief_standings td#division01 {background: transparent url(http://nitrografixx.com/2014/PTD/division-images/div3_sm_menu.png) no-repeat center; border: none;height: 40px;padding-top:10px}
+#brief_standings td#division01 h3 {visibility:hidden;margin:0;padding:0;}
+#brief_standings td#division02 {background: transparent url(http://nitrografixx.com/2014/PTD/division-images/div1_sm_menu.png) no-repeat center; border: none;height: 40px;padding-top:10px}
+#brief_standings td#division02 h3 {visibility:hidden;margin:0;padding:0;}
+
+#hof img {max-width:960px;height:auto;padding-bottom:8px;}
+
+#ptdfooter {width:960px;margin:0 auto;padding-top:0px;padding-bottom:40px}
+#ptdfooter .designby {float:left;clear:all}
+#ptdfooter .ptdslogan a{float:right;clear:all;color:#444!important;font:400 10.5pt 'Oswald',sans-serif;}
+
+
+.report {border-bottom:4px solid rgba(0,0,0,0.4);}
+
+
+#league_chat td:nth-child(1) {padding:0 3px;}
+#league_chat td:nth-child(2) {word-break:break-al;word-wrap: break-wor;padding:0px 4px;font-size:10pt!important;}
+
+#options_01 .franchiselogo
+{
+-webkit-box-shadow: 0px 0px 56px 4px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 56px 4px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 56px 4px rgba(0,0,0,0.75);
+padding:5px;
+margin:0 auto;
+margin-top:10px;
+margin-bottom:20px;}

@@ -1,0 +1,93 @@
+/*   Sub Nav Wrapper
+======================= */
+#withmenus.withleft{
+    margin-left:105px;
+    zoom: 1;
+}
+
+/*   Horizontal Sub Nav
+======================= */
+#hsubmenu {
+    padding:5px 0;
+    overflow:hidden;
+    position:relative;
+    zoom:1;
+}
+#hsubmenu ul{
+    float: left;
+    list-style: none;
+    line-height: 1em;
+    padding: 0;
+    margin: 0;
+    position:relative;
+    left:50%;
+    text-align:center;
+   
+}
+#hsubmenu ul li {
+    float: left;
+    padding: 0;
+    margin:0;
+    background:none;
+    list-style:none;
+    border-left:1px solid #ccc;
+    position:relative;
+    right:50%;
+
+}
+#hsubmenu ul li:first-child{
+    border-left:none;
+}
+#hsubmenu ul a {
+    text-decoration: none;
+    padding: 3px 8px;
+    white-space:nowrap;
+    margin:0;
+    display: block;
+}
+
+/*   Vert Sub Nav
+======================= */
+#vsubmenu {
+    float:left;
+    clear:both;
+}
+#vsubmenu ul{
+    list-style:none;
+    width:100px;
+    margin:0;
+    padding:0;
+    line-height:1em;
+}
+#vsubmenu ul li{
+    position:relative;
+    float:left;
+    font-weight:bold;
+    margin:0;
+    padding:8px 5px 0px 5px;
+    background:none;
+    list-style:none;
+    width:100px; /*  total width */
+    w\idth: 90px; /* sbmh fix ie5.5 (width - padding - border = w\idth) */
+}
+#vsubmenu ul li ul li{
+    padding:0;
+    width:100px;
+    font-weight:normal;
+}
+#vsubmenu ul li a {
+    display:block;
+    padding:3px 0px 3px 15px;
+    text-decoration:none;
+    border-top:1px solid #ccc;
+    width:100px; /*  total width */
+    w\idth: 85px; /* sbmh fix ie5.5 (width - padding - border = w\idth) */
+}
+#vsubmenu ul li ul {
+    padding-top:5px;
+    margin-left:-5px;
+}
+/* Fix IE. Hide from IE Mac \*/
+* html #vsubmenu ul li { float: left; height: 1%; }
+* html #vsubmenu ul li a { height: 1%; }
+/* End */

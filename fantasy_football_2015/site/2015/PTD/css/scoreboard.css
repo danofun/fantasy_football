@@ -1,0 +1,471 @@
+/*    SCOREBOARD 
+===================== */
+
+td#myNavigationHolder {
+     background: none;
+}
+ 
+table.cbsWeeklyNavigation {
+     font: normal bold 8pt Arial,Helvetica,sans-serif;
+     text-align: center;
+     width: 100%;
+     color:#65287d;
+     margin-bottom: 5px;
+     height: 30px;
+     background:url(../images/scoreboard_bg.png);
+     cursor: default;
+     margin-top: -5px;
+     padding-top:2px;
+     padding-left:40px;
+     border:1px solid rgba(92,45,109,.25);
+}
+ 
+span.navWeekLink,span.navWeekCurr,span.navWeekInactive {
+     vertical-align: middle!important;
+     font: 400 8pt 'Oswald',sans-serif!important;
+}
+ 
+span.navWeekLink a {
+     text-decoration: none;
+     padding: 0 2px;
+     color:#202020!important;
+}
+ 
+span.navWeekLink a:hover {
+     text-decoration: none; 
+     color:#65287d!important;
+}
+ 
+span.navWeekCurr {
+     color:#65287d!important;
+     padding: 0 2px;
+     font-size: 11pt;
+     background: none;
+}
+ 
+span.navWeekInactive {
+     padding: 0 0px;
+     cursor: default;
+     color: #999!important;
+}
+ 
+span.navdash {
+     color:#65287d;
+     cursor:pointer;
+}
+ 
+.cbsMainScoreboard {
+     table-layout: fixed;
+     width: 1020px!important;
+     border-spacing: 1px!important
+}
+ 
+#cbsRoadTeamName,#cbsHomeTeamName,#cbsRoadScore,#cbsHomeScore {
+     width: 275px!important;
+}
+
+table.cbsMainScoreboard {
+     width: 100%;
+     font: normal bold 8pt Arial,Helvetica,sans-serif;
+     margin-bottom: 0px;
+     margin-top: -5px;
+     text-align: left;
+     border: 1px solid rgba(92,45,109,.25); 
+     background:url(../images/scoreboard_bg.png);
+     padding:2px; 
+}
+
+td#cbsCenterTop {
+     font-size: 0;
+     background: transparent url(../images/scoreboard_banner.png) center no-repeat;
+     border: 1px solid rgba(92,45,109,.25); 
+}
+
+td#cbsRoadTeamRecord,td#cbsHomeTeamRecord {
+     width: auto!important;
+     letter-spacing: 2px;
+     font: 400 8pt 'Oswald',sans-serif!important;
+     border: 1px solid rgba(92,45,109,.25); 
+}
+ 
+td#cbsRoadTeamRecord {
+     background:rgba(92,45,109,.25); 
+     color:#202020;
+     text-align: center;
+     height: 16px;
+}
+ 
+td#cbsHomeTeamRecord {
+     background:rgba(92,45,109,.25); 
+     color:#202020;
+     text-align: center;
+     height: 16px;
+}
+
+#cbsmessage {
+     position:absolute;
+     margin-top:-117px;
+}
+
+td#cbsScoreboardMessage {
+     color: #65287d;
+     font: normal bold 10px Arial;
+     background:rgba(92,45,109,.05);
+     padding:3px 5px;
+     border-radius: 5px;
+     width:100px;
+     text-align:center;
+     border:1px solid rgba(92,45,109,.25);
+}
+
+#cbsScoreboardMessageResetTimer {
+     cursor: pointer;
+     color: #65287d;
+     font: normal bold 10px Arial;
+     background:transparent;
+     padding:1px 5px;
+     border-radius: 5px;
+}
+
+td.cbsScoreboardTitle {
+    color:#65287d; 
+    text-align:center; 
+    background:rgba(92,45,109,.1);
+    box-shadow: inset 0 0 0 1px rgba(92,45,109,.2);
+}
+ 
+td#cbsRoadPlayers,td#cbsRoadYTP,td#cbsRoadPMR,td#cbsHomePlayers,td#cbsHomeYTP,td#cbsHomePMR {
+    color:#202020;
+    width:66px;
+    text-align:center;
+    box-shadow: inset 0 0 0 1px rgba(92,45,109,.2);
+}
+
+td#cbsRoadTeamName img,td#cbsHomeTeamName img {
+     max-height: 50px;
+     max-width: 270px;
+}
+
+td#cbsRoadTeamName,td#cbsHomeTeamName {
+     text-align: center;
+     border: 1px solid rgba(92,45,109,.25); 
+     font-size:15pt;
+     height:55px;
+     text-transform:uppercase;
+     color:#263e68;
+}
+
+td#cbsRoadScore,td#cbsHomeScore {
+     background: transparent;
+     border: 0;
+     padding:0;
+}
+
+td#cbsRoadScore img,td#cbsHomeScore img {
+     padding-top: 0px;
+     margin: 0!important;
+     margin-right:1px!important;
+}
+
+td#cbsHomeLogo img {
+     -moz-transform: scaleX(-1);
+     -o-transform: scaleX(-1);
+     -webkit-transform: scaleX(-1);
+     transform: scaleX(-1);
+     filter: FlipH;
+     -ms-filter: "FlipH";
+}
+
+#cbsFantasyMatchups .cbsGameLinks,#cbsNFLMatchups .cbsGameLinks {
+     width:1020px!important;
+     border: 1px solid rgba(92,45,109,.25); 
+     background:url(../images/scoreboard_bg.png);
+     padding:2px; 
+}
+
+.cbsGameTable {
+     width:100%;
+     min-width:150px;
+     background:url(../images/scoreboard_bg.png);
+}
+ 
+.cbsGameLinks td {
+     margin: 0;
+     padding: 0;
+}
+ 
+.cbsGameTable {
+     border-collapse: collapse;
+     margin: 0;
+     padding: 0;
+     border: 0; 
+}
+ 
+table.cbsGameTable {
+     color: #65287d;
+     margin: 0 auto;
+}
+ 
+.cbsGameTable td {
+     height: 30px;
+}
+
+.cbsNFLGameTable {
+     width:100%;
+     min-width:60px;
+     background:url(../images/scoreboard_bg.png);
+     border:1px solid rgba(92,45,109,.25)!important;
+}
+ 
+table.cbsNFLGameTable a {
+     text-decoration: none;
+     font-size: 9pt;
+     font-weight: 400;
+}
+
+table.cbsLineups,table.cbsLineups a,table.cbsLineups th {
+     font: 400 10pt 'Oswald',sans-serif!important;
+}
+
+.cbsLineups {
+     border-spacing: 0;
+     cursor: default;
+     border: 0 none;
+     width: 100%;
+     border-collapse: collapse;
+}
+ 
+.cbsLineups table {
+     border-spacing:0px!important;
+}
+
+table.cbsOuterTable tbody tr td table.cbsLineups tbody tr td#cbsRoadLineup,table.cbsOuterTable tbody tr td table.cbsLineups tbody tr td#cbsHomeLineup {
+     padding: 3px;
+     width: 498px;
+     display: inline-block;
+     border: 1px solid rgba(92,45,109,.25);
+     background:url(../images/scoreboard_bg.png);
+}
+ 
+table.cbsOuterTable tbody tr td table.cbsLineups tbody tr td#cbsHomeLineup {
+     margin-left: 5px;
+}
+ 
+table.cbsLineups td#cbsBlankLineup {
+     display: none;
+}
+
+.lineupHeaderRow th {
+     border: 0 none;
+     color: #eee!important;
+     border-bottom: 0px solid rgba(92,45,109,1);
+     background:url(../images/menu/menu_bg.png)center;
+}
+
+.cbsTeamLineup td,.cbsTeamLineup td.actual {
+     border: 1px solid rgba(92,45,109,.25);
+     border-top:0;
+     padding: 1px;
+     text-align: center;
+     color: #555;
+}
+.cbsTeamLineup td {
+     border-right:0;
+}
+
+.cbsTeamLineup td.cbsPlayerPoints,td.oppRankNA {
+     border-right:1px solid rgba(92,45,109,.25);
+}
+ 
+span.injuredPlayer {
+     color: #65287d;
+}
+
+.cbsLineups a:link,.cbsLineups a:active,.cbsLineups a:visited {
+     color: #555;
+     text-decoration: none;
+}
+ 
+.cbsLineups a:link:hover,.cbsLineups a:active:hover,.cbsLineups a:visited:hover {
+     color: #65287d;
+}
+ 
+td.cbsPlayerName {
+     text-align: left;
+}
+ 
+.cbsLineups td.cbsPlayerPoints {
+     cursor: pointer;
+     color: #65287d;
+}
+ 
+.cbsLineups td.cbsPlayerPoints:hover {
+     color: #555;
+}
+
+.cbsLineups td.cbsPlayerProjections {
+     color: green;
+     cursor: default;
+}
+
+tr.lineupHeaderRow {
+     background-position: 0;
+     height: 34px;
+}
+ 
+th.lineupHeaderPlayer {
+     text-align: left;
+     text-indent:5px;
+}
+
+.cbsLineups th.pointTotalTitle,.cbsLineups th.pointTotalProj,.cbsLineups th.pointTotalActual {
+     padding-botto: 10px;
+     padding-to: 6px;
+     border: 0;
+     color: #65287d!important;
+     border: 1px solid rgba(92,45,109,.25);
+     box-shadow: 0px 0px 0px 0px #111111 inset;
+     border-top:2px solid rgba(92,45,109,.5);
+     background:rgba(92,45,109,.15);
+}
+.cbsLineups th.pointTotalTitle,.cbsLineups th.pointTotalProj {
+     border-right:0;
+}
+ 
+th.pointTotalTitle {
+     text-align: left;
+}
+
+tr.rowYTP {
+     background: none;
+}
+ 
+tr.rowCurrentlyPlaying {
+     background: rgba(13, 254, 1, .05);
+}
+ 
+tr.rowGameOver {
+     background: rgba(92,45,109,.05);
+}
+
+.cbsLineups .oppRankBadMatchup {
+     background-color: #F00;
+     color: #000;
+     font-size: 11px;
+     text-align: center;
+}
+ 
+.cbsLineups .oppRankPoorMatchup {
+     background-color: #FF8000;
+     color: #000;
+     font-size: 11px;
+     text-align: center;
+}
+ 
+.cbsLineups .oppRankAvgMatchup {
+     background-color: #FF0;
+     color: #000;
+     font-size: 11px;
+     text-align: center;
+}
+ 
+.cbsLineups .oppRankGoodMatchup {
+     background-color: #01DF01;
+     color: #000;
+     font-size: 11px;
+     text-align: center;
+}
+ 
+.cbsLineups .oppRankGreatMatchup {
+     background-color: #04B404;
+     color: #000;
+     font-size: 11px;
+     text-align: center;
+}
+ 
+.cbsLineups td.oppRankNA {
+     color: #FFF;
+     font-size: 10px;
+     text-align: center;
+}
+
+table.playerUpdateContainer {
+     display: none;
+}
+
+table.cbsGameLinks>tbody>tr>td>center {
+     color: #65287d;
+     font-size:12pt;
+}
+ 
+.cbsLineups th.lineupHeaderPlayer {
+     width: 180px;
+     padding: 0;
+}
+ 
+.cbsLineups th.lineupHeaderGames {
+     width: 100px;
+     padding: 0;
+}
+ 
+.cbsLineups th.sos {
+     width: 46px;
+     padding: 0;
+}
+ 
+.cbsLineups th.gamestime {
+     width: 64px;
+     padding: 0;
+}
+ 
+.cbsLineups th.lineupHeaderProj {
+     width: 54px;
+     padding: 0;
+}
+ 
+.cbsLineups th.lineupHeaderActual {
+     width: 54px;
+     padding: 0;
+}
+
+
+/*    HOVER ENTIRE BOX FOR FANTASY MATCHUPS AND REMOVE VIEW AND LIVE TEXT 
+========================================================================== */
+
+.cbsGameTable {
+     position:relative;
+     min-width:157px!important;
+     border:0!important;
+}
+
+.cbsGameTable td{
+     border:1px solid rgba(92,45,109,.25);
+}
+
+tbody.matchupHilite,tbody.matchupHilite:hover {
+     background-color: rgba(92,45,109,.1);
+}
+
+tbody.matchupLolite:hover {
+     background-color: rgba(92,45,109,.1);
+}
+
+tr.matchupLolite {
+     width:100%;
+     height:100%;
+     position:absolute;
+     top:0;
+     left:0;
+}
+
+.cbsGameTable tr {
+     color:#444;
+     font-size:10pt;
+}
+
+.cbsGameTable tr+tr td+td {
+     text-align:center!important;
+     padding:0!important;
+     width:40px;
+     color:#65287d;
+}

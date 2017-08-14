@@ -1,0 +1,102 @@
+ul#rostertabs .currenttab {
+    display:none;
+}
+ul#rostertabs li {
+    list-style:none;
+    position:absolute;
+    margin-top:15px;
+    margin-left:15px;
+    padding:0;
+    width:100px;
+    text-align:center;
+    background:url(../images/menu/menu_bg.png)center;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+ul#rostertabs li a{
+    text-decoration:none;
+    color:#eee;
+    text-transform:uppercase;
+    font-size:9pt;
+    font-weight:400;
+}
+#nitro-roster td {
+    vertical-align:top!important;
+}
+#nitro-roster .report td{
+    text-align:center;
+}
+#nitro-roster th.points,#nitro-roster th.week,#nitro-roster th.salary,#nitro-roster th.year,#nitro-roster th.status,#nitro-roster th.drafted {
+    white-space:nowrap;
+    text-align:center
+}
+#nitro-roster th {
+    white-space: nowrap;
+    text-align:left;
+}
+#nitro-roster td.player {
+    text-align:left;
+    white-space: nowrap;
+}
+#nitro-roster .report caption {
+    text-align:center;
+    padding:0;
+    text-indent:0;
+    background:none;
+    border:0;
+    height:46px;
+    line-height:46px;
+}
+#nitro-roster .report caption span{
+    padding:0;
+    text-indent:0;
+    margin:0;
+    background:none;
+}
+#nitro-roster caption .franchiseicon {
+    width:250px;
+    height:auto;
+}
+#roster_column_left {
+    margin-top:40px;
+}
+#roster_column_left .franchiseicon {
+    width:200px;
+    height:auto;
+    margin-bottom:5px;
+}
+#messageBoxDIV {
+    margin:0 auto;
+    width:99%;
+    height:100px;
+    margin-bottom:0;
+    padding-bottom:0;   
+    height:0;
+}
+#messageBoxDIV th{
+    text-align:center;
+}
+#messageBoxDIV textarea{
+    width:100%;
+    margin:0;
+    padding:0;
+    height:100px;
+}
+#nitro-roster {
+    border:none!important;
+    padding:0;
+    padding-top:10px;
+}
+#nitro-roster table{
+    width:100%;
+    border-spacing:5px;
+}
+#nitro-roster > table:nth-child(2) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1) {
+    width:10%;
+    min-width:210px;
+}
+#nitro-roster > table:nth-child(2) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(2),
+#nitro-roster > table:nth-child(2) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(3){
+    width:40%;
+}

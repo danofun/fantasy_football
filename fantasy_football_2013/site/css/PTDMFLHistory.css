@@ -1,0 +1,373 @@
+body {
+font:11pt/1.8;
+font-weight:bold;
+font-family:Arial, Helvetica, sans-serif;
+color:#fff;
+background-image: url("../img/mflhistorybg_bottom.jpg"), url("../img/mflhistorybg.jpg");
+background-position: center bottom, center top;
+background-repeat: no-repeat;
+background-attachment:fixed;
+margin:0px;
+width: 1000px;
+margin: 0 auto;
+padding-left:10px;
+}
+div#standings.leaguehistorymodule,div#PLAYERHPGSTART.leaguehistorymodule {min-height:1000px}
+.leaguehistorybrandlogo, .leaguehistorypagetitle
+{display:none;}
+.leaguehistorywelcome  {right:10px;position:absolute;}
+.leaguehistorypageheader {
+background-repeat:no-repeat;
+background-image: url("../img/MFLHistoryBANNER.png");
+margin-top:0px;
+width:1059px;
+margin-left:-33px;
+height:162px;
+position:fixed;z-index:999999;
+}
+td.leaguehistorywelcome {margin-right:50px;margin-top:50px;}
+a:link, a:active, a:visited
+{color: #000;}
+a:hover
+{color: #000;}
+.gamescore, td
+{font-weight:bold;}
+.leaguehistorymodule table
+{width: 1000px; }
+#menu {
+height:58px;
+margin:0 auto;
+width:100%;
+background:url("../img/HistoryMenuBg.png") no-repeat scroll right top transparent;
+float:left;
+font-size:11px;
+padding-right:0;
+position:relative;
+z-index:1000;margin-top:160px;
+}
+#mainnav {
+font-size: 1.2em;
+font-weight: bold;
+clear: both;
+margin: 0;
+padding: 0 15px 0 0;
+list-style-type: none;
+voice-family: "\"}\"";
+voice-family:inherit;
+width: 100%;
+}
+#menu ul {
+list-style:none outside none;
+margin-right:0;
+margin-top:16px;
+margin-left:42px;
+padding:0;
+}
+#mainnav LI {
+list-style: none;
+float: left;
+padding: 6px;
+margin: 2px;
+white-space: nowrap;
+}
+#mainnav LI A {
+text-decoration: none;
+border: none;
+padding: 1px;
+padding-bottom:10px;
+margin: 1px;
+display: block;
+font-weight: bold;
+float: left;
+color:#fff;
+}
+#mainnav li a:hover {
+background-image:url("../../index.html");
+background-position:bottom center;
+background-repeat:no-repeat;
+color:#ff4e00;
+}
+
+/* ######### CAPTIONS ######### */
+caption, .leaguehistorymodule caption, #gamecenter caption, h2.lheader {
+text-align:left;
+font-weight:600;
+font-family:'FuturaW01-BoldCondensed 774893';
+font-size:15pt;
+color:#000;
+font-style:italic;
+text-indent:8px;
+-moz-border-radius-topleft: 2px 2px;
+-moz-border-radius-topright: 2px 2px;
+-moz-border-radius-bottomleft: 0px 0px;
+-moz-border-radius-bottomright: 0px 0px;
+-webkit-border-radius-topleft: 2px 2px;
+-webkit-border-radius-topright: 2px 2px;
+-webkit-border-radius-bottomleft: 0px 0px;
+-webkit-border-radius-bottomright: 0px 0px;
+border:none;
+width:auto;
+background:#e0e0e0 url("../img/mflhistorycaption.jpg");
+background-repeat:repeat;  
+background-position:bottom;
+border-bottom:1px solid #aaa;
+}
+/* ######### END ######### */
+
+/* ######### TH ######### */
+th, #standings h3, #brief_standings h3, .chartmenudivisionhd, .playoffbracket th, #gamecenter th, .leaguehistorymodule th {
+text-align:left;
+font-weight:600;
+font-family:'FuturaW01-BoldCondensed 774893';
+font-size:11pt;
+color:#bebebe;
+font-style:italic;
+border: none;
+background:#1d1d1d;
+}
+/* ######### END ######### */
+
+/* ######### Text Coloring ######### */
+.oddtablerow td {
+border: 0px solid #000;
+}
+.eventablerow td {
+border: 0px solid #000;
+}
+.oddtablerow{
+background: #181818;
+color:#dfdfdf;
+border:1px solid #000;
+font-weight:bold;
+}
+.eventablerow{
+background: #1f1f1f;
+color:#dfdfdf;
+border:1px solid #000;
+font-weight:bold;
+}
+.newposition td, .newposition th {
+border-top: 1px solid #666;
+}
+.oddtablerow td.status span.freeagent {
+color: #ff4e00;
+}
+.eventablerow td.status span.freeagent  {
+color: #ff4e00;
+}
+caption a:link, caption a:active, caption a:visited{
+color: #000;
+text-decoration:none;
+}
+caption a:hover{
+color: #000;
+text-decoration:none;
+}
+a:link, a:active, a:visited{
+color:#ff4e00;
+}
+th a:link, th a:active, th a:visited{
+color: #fff;
+}
+.oddtablerow a:link, .oddtablerow a:active, .oddtablerow a:visited, .oddtablerow{
+color:#dfdfdf;
+}
+.eventablerow a:link, .eventablerow a:active, .eventablerow a:visited, .eventablerow{
+color:#dfdfdf;
+}
+a:hover{
+color: #fff;
+}
+.oddtablerow a:hover{
+color: #fff;
+}
+.eventablerow a:hover{
+color: #fff;
+}
+.warning a:link, .warning a:active, .warning a:visited {
+        color: #fff;
+}
+.oddtablerow  .warning a:link, .oddtablerow .warning a:active, .oddtablerow .warning a:visited, .eventablerow  .warning a:link, .eventablerow .warning a:active, .eventablerow .warning a:visited  {
+        color: #fff;
+}
+.oddtablerow .warning, .eventablerow .warning {
+        color: #fff;
+}
+.warning {
+        color: #fff;
+}
+A:link img, A:visited img {border-color: transparent;}
+A:hover img{
+border-color: transparent;
+}
+h3 a:hover{
+color: #ff4e00;
+}
+h3 a:link, h3 a:visited, h3 a:active{
+color: #fff;
+}
+h3 {
+font-size: 10pt;
+font-weight: bold;
+color: #fff;
+background-color: #a16424;
+border-top: 1px solid #222; 
+border-bottom: 1px solid #222;
+padding:4px;
+margin-bottom:6px;
+margin-top:4px;
+}
+h3.warning,h3.warning a:link, h3.warning a:visited, h3.warning a:active {
+width: 100%; 
+margin-left: -3px; 
+background: transparent; 
+border: none; 
+color: #fff;
+}
+.myfranchise, .myfranchise a, .myfranchise a:link, .myfranchise a:visited, .myfranchise a:hover, .myfranchise a:active, tr.myfranchise, tr.myfranchise A {
+font-weight: bold;
+color: #fff;
+}
+.confnamehead {
+background: #b6061e;
+}
+#gamecenter .leaguehistorymodule table {
+width: 494px;
+}
+#gamecenter .oddtablerow{
+background: #181818;
+color:#dfdfdf;
+border:1px solid #000;
+font-weight:bold;
+}
+#gamecenter .eventablerow{
+background: #1f1f1f;
+color:#dfdfdf;
+border:1px solid #000;
+font-weight:bold;
+}
+#gamecenter .gamescore, .winnermark {
+color:#fff;
+}
+#gamecenter{
+color:#fff;
+}
+#gamecenter a:link { 
+color: #ff4e00;
+}
+#gamecenter div#menu a:link { 
+color: #fff;
+}
+#gamecenter a:hover { 
+color: #fff;
+}
+#standings .overallhead,#standings .divname,#standings .divisionhead {background:#ffc000;color:#000;background:#e0e0e0 url("../img/mflhistorycaption.jpg");border-bottom:1px solid #aaa!important}
+#standings table {border:none;}
+.leaguehistorymodule table {border:none;}
+/* ######### END ######### */
+
+div.leaguehistoryfooter {
+background:transparent url("../img/MFLHistoryFooter.png")no-repeat;
+width:1059px;
+margin-left:-33px;
+padding-bottom:70px;
+}
+
+
+
+
+
+
+/* GAMECENTER TABLES */
+
+  table.homepagemodule.gamecentertable>tbody>tr>td{  padding:3px!important;border-collapse:separate;}
+
+	#gamecenter table.homepagemodule { width:486px; }
+
+	table.homepagemodule.gamecentertable>tbody>tr>td { border:none; }
+
+	div#gamecenter>div#gamecenter_content>div#gamecenter>table>tbody>tr>td>table>tbody>tr>td>table { background:#222; }
+
+	div#gamecenter>div#gamecenter_content>div#gamecenter>table>tbody>tr>td>table>tbody>tr>td>table th { background-color:#141414;border:1px solid #1b1b1b!important; }
+
+	.gamescore { text-align:right;color:#69F;font-weight:400!important; }
+
+	.winnermark { display:inline;font-size:medium;color:#69F; }
+
+	div#gamecenter div#gamecenter_content div#gamecenter table tbody tr td table tbody tr td table caption { background:none;text-indent:3px;color:#69F; font-weight:400; font-size: 12pt }
+
+/* STANDINGS */
+
+	table.homepagemodule.standingstable>tbody>tr.standingsheaderrow>th
+	{ height:20px;
+  	  line-height:20px!important; }
+
+	th.divname,th.overallhead,th.divisionhead,th.blankhead
+	{ background:#141414;
+	  padding:2px;
+	  color:#69F;
+	  text-align:center;
+ 	  border:0px solid #282828!important;
+	  margin:5px 0;
+  	text-transform:uppercase;
+	  font-size:16pt;
+	  font-weight:900;
+	  line-height:40px!important; }
+
+	table.homepagemodule.standingstable>tbody>tr.headerrow,table.homepagemodule.standingstable.careerstandingstable>tbody>tr.headerrow>
+	{ height:40px!important;
+	  padding:0!important;
+	  margin:0!important; }
+
+
+
+/* ADD TEXT TO FRANCHISE COLUMN FOR STANDINGS CAREER */
+	table.homepagemodule.standingstable.careerstandingstable>tbody>tr.headerrow>th.blankhead:after
+	{ content:"FRANCHISE";
+	  background:#141414;
+ 	  color:#69F;
+	  text-align:center;
+	  text-transform:uppercase;
+	  font-size:16pt;
+	  font-weight:900;
+	  line-height:40px!important; }
+
+
+
+/* MILESTONES SMALL TEXT */
+	td.gamedetailcell
+	{ font-style:normal!important;
+	  font-size:10pt!important;
+	  color:#ccc!important; }
+
+/* SINGLE GAME TABLES */
+div#single-game-records.leaguehistorypagebody  	table.homepagemodule { width:490px!important;margin:0px 0px!important; padding:0!important;margin:0!important;}
+div#LPG.leaguehistorymodule,#HPIL.leaguehistorymodule,#LCOMB.leaguehistorymodule,#LOWMARGIN.leaguehistorymodule { float:right; }
+
+/* SINGLE SEASON TABLES */
+body#season_records table.homepagemodule { width:490px!important;margin:0px 0px!important; }
+#SEASLOSS.leaguehistorymodule,#SEASHPT.leaguehistorymodule,#SEASWINPCT.leaguehistorymodule,#SEASNONDIVPCT.leaguehistorymodule,#REG_W_STREAK.leaguehistorymodule,#REG_SINGLESEAS_W_STREAK.leaguehistorymodule,
+div#REG_STARTSEAS_W_STREAK.leaguehistorymodule,#REG_ENDSEAS_W_STREAK.leaguehistorymodule { float:right; }
+
+/* CAREER TABLES */
+div#career-records.leaguehistorypagebody table.homepagemodule { width:490px!important;margin:0px 0px!important; }
+#CAREERALLWIN.leaguehistorymodule,#CAREERALLLOSS.leaguehistorymodule,#CAREERALLPCT.leaguehistorymodule,#CAREERALLPTS.leaguehistorymodule,#CAREERALLPPG.leaguehistorymodule
+,#CAREERDIVWIN.leaguehistorymodule,#CAREERDIVLOSS.leaguehistorymodule,#CAREERREGPPS.leaguehistorymodule { float:right; }
+
+/* POSTSEASON TABLES */
+div#postseason-records.leaguehistorypagebody table.homepagemodule { width:490px!important;margin:0px 0px!important; }
+#CAREERPOSTLOSS.leaguehistorymodule,#CAREERPOSTPTS.leaguehistorymodule,#POSTAPPEAR.leaguehistorymodule,#CAREERPOSTPPS.leaguehistorymodule { float:right; }
+
+/* MILESTONES TABLES */
+#milestone-records.leaguehistorypagebody table.homepagemodule { width:490px!important;margin:0px 0px!important; }
+#MILEPTSREG2.leaguehistorymodule,#MILEPTSALL.leaguehistorymodule,#MILEPTSPLAYOFF.leaguehistorymodule,#MILEWINSREG.leaguehistorymodule,#MILELOSSREG.leaguehistorymodule,#MILELOSSALL.leaguehistorymodule,
+#MILEHPWEEK.leaguehistorymodule,#MILEMARGIN.leaguehistorymodule,#MILEMARGIN3.leaguehistorymodule,#MILEPTGAME2.leaguehistorymodule{ float:right; }
+#MILEPTGAME3.leaguehistorymodule,#MILEPTGAME2.leaguehistorymodule { display:none; }
+#MILEPTGAME.leaguehistorymodule>table.homepagemodule { width:950px!important; }
+
+
+div#standings.leaguehistorypagebody table.homepagemodule { width:990px!important;margin:0px 0px!important; }
+div#teampage.leaguehistorypagebody table.homepagemodule { width:990px!important;margin:0px 0px!important; }
+div#gamecenter>table>tbody>tr>td>table>tbody>tr>td>table>caption {color:#ff4e00!important}
+
+

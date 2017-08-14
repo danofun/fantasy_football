@@ -1,0 +1,101 @@
+/*   ZOZO TABS - STANDINGS
+================================ */
+#standingstabs .z-content .report{
+    border:0;
+    margin:0!important;
+    padding:0!important;
+}
+#standingstabs .z-tabs > ul.z-tabs-nav > li,#standingstabs .z-tabs > ul.z-tabs-nav > li > a.z-link {
+    cursor:pointer;
+}
+#standingstabs .z-tabs > .z-container { 
+    padding:0; 
+    margin:0; 
+    background:none; 
+    position:relative;
+}
+#standingstabs .z-tabs > .z-container > .z-content { 
+    display:none; 
+    background:none; 
+}
+#standingstabs .z-tabs > .z-container > .z-content > .z-content-inner { 
+    padding:0px; 
+    height:auto;
+}
+#standingstabs .z-tabs > .z-container > .z-content::after#standingstabs ,#standingstabs .z-tabs > .z-container > .z-content > .z-content-inner::after { 
+    content:"."; 
+    display:block; 
+    height:0; 
+    clear:both; 
+    visibility:hidden; 
+}
+#standingstabs .z-tabs > .z-container > .z-content,#standingstabs .z-tabs > .z-container > .z-content > .z-content-inner { 
+    zoom:1; 
+}
+.z-tabs.z-slide > .z-container { 
+    overflow:hidden; 
+}
+#standingstabs .z-tabs.z-slide > .z-container > .z-content,#standingstabs .z-tabs > .z-container.z-animating > .z-content { 
+    position:absolute; 
+    width:100%; 
+    height:100%; 
+    overflow:hidden; 
+    padding:0; 
+    z-index:0!important; 
+}
+#standingstabs .z-tabs.horizontal > .z-container { 
+    clear:both; 
+    width:100%; 
+    zoom:1; 
+}
+#standingstabs .z-hide-menu,#standingstabs .z-tabs.horizontal > ul.z-tabs-nav {
+    text-align:center;
+    width:auto;
+    margin:0!important;
+    padding:0!important;
+}
+#standingstabs .z-hide-menu > li,#standingstabs .z-tabs.horizontal > ul.z-tabs-nav > li {
+    display:table-cell!important;
+    width:1%!important; 
+    white-space:nowrap;
+    font-size:10pt;
+    margin-left:0!important;
+}
+#standingstabletabs #brief_standings{
+    width:100%!important;
+}
+#standingstabletabs caption{
+    display:none;
+}
+#standingstabs div#tabbed-nav3 .z-tabs-nav{
+    height:34px;
+    line-height:34px;
+    margin-bottom:5px!important;
+    background:none;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.5);
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.5);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.5);
+    border-bottom:1px solid #eee;
+}
+#standingstabs div#tabbed-nav3 .z-tabs-nav li {
+    font-size:10pt;
+    color:#65287d;
+    border:0;
+}
+#standingstabs div#tabbed-nav3 .z-tabs-nav li:hover {
+    font-size:10pt;
+    color:#202020;
+}
+#standingstabs div#tabbed-nav3 .z-tabs-nav li:first-of-type {
+    border-right:0!important;
+}
+#standingstabs div#tabbed-nav3 .z-tabs-nav li:last-of-type {
+    border-left:0!important;
+}
+#standingstabs div#tabbed-nav3 .z-tabs-nav li.z-active {
+    color:#202020;
+    border-bottom:0;
+}

@@ -1,0 +1,942 @@
+@import url(css/logos.css);
+@import url(css/layout1000.css);
+@import url(css/menu.css);
+@import url(css/tabs.css);
+@import url(css/tabs2.css);
+@import url(css/tabsFA.css);
+@import url(css/tabs3.css);
+@import url(css/scoreboard.css);
+@import url(css/images/search.png);
+.pagebody {
+	width:1000px;
+}
+.search {
+	background-image:url(css/images/search.png);
+	background-repeat:no-repeat;
+	background-position:right;
+	margin-top:5px;
+	margin-right:6px;
+}
+.search form input {
+	background-color:transparent;
+	border:medium none;
+	font-size:0.9em;
+	height:27px;
+	padding:0 15px 5px 0;
+margin-right:10px;
+padding: 0px 0px 5px 0px;
+}
+html body div#menu0 {
+	margin-left:-140px;
+	margin-top:25px;
+	border:0px!important;
+	background-color:transparent;
+}
+/*Nav and ticker div*/
+
+#nav_ticker_wrapper {
+	background:url(graphics/NavBG.png) repeat-x scroll center top transparent;
+	height:62px;
+	margin:auto 0 auto -2px;
+	padding:5px 15px 0px 15px;
+	vertical-align:top;
+	width:1000px;
+}
+#navwrapper {
+*padding:8px 10px 0px 10px;
+}
+#tickerwrapper {
+*	width:610px;
+width:550px;
+	margin-right:3px;
+}
+
+
+/*trade screen*/
+#body_options_05 textarea {height:150px;width:200px;}
+#options_05 .report  .franchiseicon{width:150px}
+#trade_button0 {
+margin-left:35px;
+}
+#options_05 ul li {
+margin-left:0px;
+}
+
+/*Habman Ticker*/
+#marqueetable {
+	background:inherit;
+	border-bottom:medium none;
+	font-size:1.1em;
+	margin:0px auto;
+	padding:4px 20px;
+}
+/*REMOVE THIS ONCE ITS INSTALLED FOR REALS*/
+.homepagemessage {
+	display:none;
+}
+html {
+}
+body {
+	font-size : 9pt;
+	font-family : Arial, Helvetica, sans-serif;
+	color : #999999;
+	background-color : #131313;
+	margin-top:25px;
+	background-image:url(css/images/bg.jpg);
+	background-repeat:no-repeat;
+	background-position:top center;
+	text-align:left;
+}
+/*Global Links*/  
+a:link {
+	color : #999999;
+	font-weight:bold;
+	text-decoration:none;
+}
+a:active {
+	color : #999999;
+	font-weight:bold;
+}
+a:visited {
+	color : #999999;
+	font-weight:bold;
+	text-decoration:none;
+}
+a:hover {
+	color : #cccccc;
+	font-weight:bold;
+	text-decoration:underline;
+}
+a:focus {
+	color : #CCCCCC;
+	font-weight:bold;
+}
+/*Table Header found under every Caption*/  	  
+th {
+	background-color:transparent;
+	color:#CEC898;
+	font-size:1.2em;
+	min-height:20px;
+	text-align:center;
+}
+th a:link, th a:visited {
+	color : #CCCCCC;
+}
+th a:hover {
+	color : #1b4f8a;
+}
+li {
+	list-style-image:url(css/images/bullet.gif);
+}
+caption {
+	background-color:transparent;
+	background-image:none;
+	min-height: 20px;
+	text-align:left;
+	padding-left:10px;
+	padding-top:10px;
+	padding-bottom:2px;
+}
+#body_my_tickets caption span, caption span {
+	text-transform:uppercase;
+	font-size:x-small;
+	font-family : arial;
+	font-weight : bolder;
+	color:#EEEEEE;
+	font-size: 1.1em;
+}
+caption a:link {
+	color:#EEEEEE;
+}
+caption a:hover {
+	color:#cccccc;
+}
+caption a:visited {
+	color:#EEEEEE;
+}
+/* Makes the live scoring report easier to read*/	
+#body_live_scoring .eventablerow {
+	background-color:#333333;
+}
+#body_live_scoring .oddtablerow {
+	background-color : #000000;
+}
+.eventablerow {
+	background-color:#111111;
+}
+.oddtablerow {
+	background-color :transparent;
+}
+#home .eventablerow, #Footer .eventablerow {
+	background-color:transparent;
+}
+
+h3 {
+	background-color:#111111;
+	border:1px solid #1e1e1e;
+	color:#FFFFFF;
+	text-transform:uppercase;
+	text-align:left;
+	padding-left:5px;
+	padding-top:5px;
+	padding-bottom:5px;
+	margin-top:5px;
+	margin-bottom:5px;
+	font-size:1.0em;
+	font-weight:bold;
+}
+h3 a:link {
+	color:#FFFFFF;
+}
+h3 a:visited {
+	color:#FFFFFF;
+}
+h3 a:hover {
+	color:#CCCCCC;
+	text-decoration:none;
+}
+/* Common Module Wrapper*/
+.report {
+	border : 1px solid #333333;
+	background-color:transparent;
+}
+/*Prettys up the slideshow when used with mfl modules*/
+#yourSliderId .report {
+	border:none;
+}
+td.pf {
+	text-align:center;
+}
+/*Sets background of pages that are data intesive and hard to read without sperate colors for even and odd tablle row's*/	
+	
+#body_live_scoring .eventablerow {
+	background-color:#1E1E1E;
+}
+#body_options_43 .report {
+	border : 1px solid #1E1E1E;
+}
+#body_options_43 .report .eventablerow {
+	background-color:#1E1E1E;
+}
+#body_options_08 .report .eventablerow {
+	background-color:#1E1E1E;
+}
+#trade_bait .oddtablerow {
+	background-color:#1E1E1E;
+}
+/*makes certain modules standout a bit more*/
+
+#body_home #poll_summary caption span, #body_home #trades caption span {
+	color: inherit;
+}
+#body_home #poll_summary caption, #body_home #trades caption {
+	background-image :none;
+}
+/*homepagetabs*/
+
+#homepagetabsdiv {
+	margin-bottom:10px;
+}
+#homepagetabs {
+	margin: 0;
+	padding-bottom: 19px;
+	padding-left:20px;
+	text-transform:uppercase;
+	font-weight:bold;
+	border-bottom: 1px solid #333333;
+}
+#homepagetabs ul, #homepagetabs li {
+	display: inline;
+	list-style-type: none;
+	margin: 0;
+	border: 1px solid #333333;
+	background: #333333;
+	float: left;
+	line-height: 14px;
+	margin-right: 8px;
+	padding: 2px 10px 2px 10px;
+	text-decoration: none;
+	cursor: pointer;
+}
+#homepagetabs li.currenttab {
+	cursor:default;
+	background-color:#000;
+	color:#CCCCCC;
+	border-bottom: 1px solid #000;
+}
+/*MFL Menu*/
+
+.mainmenucurrent {
+	font-size: .9em;
+	text-decoration: none;
+	background-color: #000000 !important;
+	text-transform:uppercase;
+}
+.mainmenuon, A.mainmenuon:link, A.mainmenuon:visited, A.mainmenuon:hover, A.mainmenuon:active {
+	color: #FFFFFF !important;
+	background-color: #7c7656 !important;
+	font-size: .9em;
+	text-decoration: none;
+	text-transform:uppercase;
+}
+.mainmenuoff, A.mainmenuoff:link, A.mainmenuoff:visited, A.mainmenuoff:hover, A.mainmenuoff:active, A.mainmenucurrent:link, A.mainmenucurrent:visited, A.mainmenucurrent:hover, A.mainmenucurrent:active {
+	color: #CCCCCC !important;
+	background-color: #000000 !important;
+	font-size: .9em;
+	text-decoration: none;
+	text-transform:uppercase;
+}
+
+#habTradePopupBox {background-color:#FFF!important;}
+
+/*Changes the colors of an ownser team name in various reports*/
+tr.myfranchise, tr.myfranchise a {
+	color:#cb9400;
+	font-weight:bold;
+}
+/*Makes the text larger so its more readable*/
+#fantasy_articles small {
+	font-size:1.0em;
+}
+#monthly_calendar {
+	border:1px solid #CCCCCC;
+	border-collapse:collapse;
+	width:100%;
+}
+/*gives a small border between positions on various reports*/
+.newposition td, .newposition th {
+	border-top:1px solid #444;
+}
+html body .mmenucontainer {
+	border:1px solid #333333;
+!important
+}
+#home #yourSliderId .report select {
+	margin-right:50px;
+}
+#yourSliderId {
+	background-color:#111111;
+	border:1px solid #1E1E1E;
+}
+#yourSliderId .report {
+	padding:0px 10px;
+}
+#yourSliderId .report td {
+ padding:0px 10px;
+}
+#yourSliderId #home_standings .report {
+	height:250px;
+	padding:12px 12px 44px;
+	background-color:#1e1e1e;
+	border:1px solid #333333;
+}
+#yourSliderId #home_standings .report td {
+ *padding:0px;
+}
+
+#home_standings #division00 img {visibility:hidden; width:190px;height:30px}
+#home_standings #division01 img {visibility:hidden; width:190px;height:30px}
+#home_standings #division02 img {visibility:hidden; width:190px;height:30px}
+
+#home_standings td#division00 {
+	background: transparent url(http://www.mfladdons.com/gametime/images/Minis/UnitedDivisionmini.png) no-repeat top center
+}
+
+#home_standings td#division00 h3 {
+	visibility:hidden
+}
+#home_standings td#division01 {
+	background: transparent url(http://www.mfladdons.com/gametime/images/Minis/AmericanDivisionmini.png) no-repeat top center
+}
+#home_standings td#division01 h3 {
+	visibility:hidden
+}
+#home_standings td#division02 {
+	background: transparent url(http://www.mfladdons.com/gametime/images/Minis/NationalDivisionmini.png)no-repeat top center
+}
+#home_standings td#division02 h3 {
+	visibility:hidden
+}
+#home td.h2hwlt {
+	font-weight:bold
+}
+#home_standings {
+	width:100%;
+	text-align:center;
+	margin:0px 0 0 0
+}
+
+#home_standings td {
+	width:33%;
+	padding:1px;
+}
+#home_standings h3 {
+	background:none;
+	text-align:center;
+}
+#home_standings #standings th {
+	display:none;
+}
+#home_standings .h2hpct, #home_standings .gb, #home_standings .strk, #home_standings .pa, #home_standings .divwlt, #home_standings .confwlt, #home_standings .pwr, #home_standings .pf, #home_standings th.h2hwlt, #home_standings .avgpf, #home_standings .avgpa, #home_standings .bbidbalance, #standings .divwlt{
+	display:none;
+}
+#home_standings .report caption {
+	display:none;
+}
+#yourSliderId .articlepicture {
+	position:relative;
+	top:-50px;
+	right:-50px;
+}
+#myteamlinks {
+	font-size:1.3em;
+}
+#myteamlinks, #myteamlinks a {
+	color:#ccc;
+	text-decoration:none
+}
+/*Footer*/
+
+#Footer h1, #Footer h2, #Footer h3, #Footer h4, #Footer h5, #Footer h6, #ContentPanel h1, #ContentPanel h2, #ContentPanel h3, #ContentPanel h4, #ContentPanel h5, #ContentPanel h6 {
+	color: #eee;
+} /* headers on dark backgrounds */
+#Footer, #ContentPanel, #cluetip {
+	color: #8F8F8F;
+}
+#Footer ul li {
+	float:left;
+	list-style:none outside none;
+	margin-left:0;
+	padding:2px;
+}
+/* socail network horizontal list (used in footer) */
+	ul.socialLinks {
+	height: 25px;
+	margin: 1em 22px -16px;
+}
+ul.socialLinks li a {
+	display: block;
+	float: right;
+	height: 24px;
+	overflow: hidden;
+	padding: 0 3px 0 2px;
+}
+ul.socialLinks li a:hover, ul.socialLinks li a:active {
+	height: 29px;
+	margin-top: -5px;
+}
+#Footer {
+	background:transparent url(css/images/footer.png) no-repeat scroll bottom center;
+	margin:0px -9px 0;
+	width:1018px;
+
+}
+
+#Footer .report {
+	font-size:.8em;
+	border:none;
+	background-color:transparent;
+}
+#FooterTop {
+	height: 1px;
+	overflow: hidden;
+	background: #666;
+	margin-top:0px;
+}
+#FooterContent {
+	float: left;	/* added because of the IE sucks "hasLayout" bug */
+	background:transparent;
+	padding:-2px 0 -20px 0;
+	width:100%;
+}
+#FooterBottom {
+	background:transparent;
+	height:18px;
+	overflow:hidden;
+	margin:0 -7px;
+	width:1012px;
+}
+#Footer .one-third, #Footer .two-thirds, #Footer .half-page {
+	margin: 10px 0 10px 5px;
+	padding: 0 5px 0 0;
+	background: transparent url(css/images/footerBg-verticalRule.gif) repeat-y 100% 0;
+	float:left;
+}
+#Footer .one-third {
+	width: 100px;
+}
+#Footer .one-third a img{margin:0 0 0px 8px}
+#Footer .two-thirds a img{margin:0 0 0 0}
+#Footer .two-thirds {
+	width: 754px;
+}
+#Footer .half-page {
+	width: 419px;
+}
+#Footer .full-page {
+	margin: 0;
+	padding: 0 25px;
+}
+body #Footer .last {
+	background: none;
+}	/* no right border on last */
+#Footer .contentArea {
+	padding-bottom: 0;
+}
+
+#TabbedPanelsFA #top_fa {margin:-23px 0 0 0; padding: 0 10px;}
+#TabbedPanels1 #top_performers {margin:-23px 0 0 0; padding: 0 10px;}
+#TabbedPanelsFA img {margin:15px 0 20px 30px;}
+#Copyright {margin-top:28px; font-size:1.1em; color:#ccc;}
+
+#Copyright a{ font-weight:bold;color:#ccc;}
+
+#messageboard_cta {border:1px solid #666; }
+
+.darkBg button.btn, .darkBg button.btn span, #Footer button.btn, #Footer button.btn span, #ContentPanel button.btn, #ContentPanel button.btn span {
+	background-image: url(css/images/button-sprite-dark.gif);
+}	/* for buttons on dark backgrounds */
+
+#TabbedPanels15 {
+background:url(css/images/tabsbg_col4.png) repeat-x scroll center top #111111;
+border-color:#1E1E1E #1E1E1E #222222;
+border-style:solid;
+border-width:1px;
+min-height:490px;
+
+}
+#TabbedPanels1 {
+	background: url(css/images/tabsbg_col3.png) repeat-x top center;
+*	border:1px solid #444444;
+	min-height:400px;
+    margin-left:-3px;
+    margin-top:10px;
+}
+#TabbedPanelsFA {
+	background: url(css/images/tabsbg_col3.png) repeat-x top center;
+*	border:1px solid #444444;
+ 	min-height:400px;
+    margin-left:-3px;
+}
+
+.row {
+	width:990px;
+	vertical-align:top;
+	padding-top:5px;
+	margin: 0 0 10px 0
+}
+#row2 { margin-bottom:30px;}
+
+ #column 4 form {
+margin-top:20px;
+text-align:center;
+}
+#league_chat .eventablerow {
+	background-color:#070707;
+	min-height:20px;
+}
+#league_chat .oddtablerow {
+	color:#666666;
+	min-height:20px;
+}
+.eventablerow td {
+	padding:2px;
+}
+.oddtablerow td {
+	padding:2px;
+}
+#league_chat .eventablerow td {
+	padding:5px;
+}
+#league_chat .oddtablerow td {
+	padding:5px;
+}
+#column1  {
+	width:100px
+}
+
+#home #owner_activity {
+*font-size:0.75em;
+margin-top:-5px;
+min-heigth:735px;
+}
+#column1 .franchiseicon{height:25px}
+
+#scoreboardhp {float:right;margin:74px 10px 0 0;}
+
+
+
+#home #owner_activity .oddtablerow td,#home #owner_activity .eventablerow td {padding:0px}
+
+
+#Footer #next_weeks_fantasy_schedule .franchiseicon {
+	width:150px
+}
+
+
+#home #next_weeks_fantasy_schedule img {width:170px}
+
+ul li { margin-left: 3em; }
+
+
+
+.report input {padding:3px 20px; background: #eee url(css/images/tabsbg_col3.png) repeat-x top center; border:groove 1px #ccc}
+.report input:hover, select option:hover {color:#666}
+
+
+select option {padding:3px 10px;}
+
+select{padding:2px 3px 0px;}
+
+/*Live Scoreboard Tweaks*/
+
+#ticker {position:relative;right:25px}
+#ticker img {height:25px;}
+th.tickerheader {display:none;}
+
+
+#yourSliderId .report .franchiseicon, #column3 .report .franchiseicon {
+width:240px;
+}
+
+
+
+
+/* Start Custom Team Logo Sizes */
+
+#owner_activity .franchiseicon {
+	width:150px;
+	height:32px;
+	}
+
+
+#body_email .franchiseicon {
+	width:200px;
+	height:43px;
+	}
+
+
+#standings .franchiseicon {
+	width:200px;
+	height:43px;
+	}
+
+#options_207 .franchiseicon {
+	width:190px;
+	height:40px;
+	}
+
+#options_172 .franchiseicon {
+	width:190px;
+	height:40px;
+	}
+
+#options_105 .franchiseicon {
+	width:240px;
+	height:51px;
+	}
+
+#trades .franchiseicon {
+	width:190px;
+	height:40px;
+	}
+
+#accept_reject .franchiseicon {
+	width:190px;
+	height:40px;
+	}
+
+#submit_lineups .franchiseicon {
+	width:240px;
+	height:51px;
+	}
+
+#options_02 .franchiseicon {
+	width:240px;
+	height:51px;
+	}
+
+
+#submit_lineup .franchiseicon {
+	width:240px;
+	height:51px;
+	}
+
+#waiver_order .franchiseicon {
+	width:240px;
+	height:51px;
+	}	
+
+#homepagecolumn3 #next_weeks_fantasy_schedule  .franchiseicon {
+	width:240px;
+	height:51px;
+    padding:4px;
+	}
+
+#next_weeks_fantasy_schedule .franchiseicon {
+	width:240px;
+	height:51px;
+    padding:4px;
+	}
+#home #franchise_schedule .franchiseicon {
+	width:150px;
+	height:32px;
+    padding-left:47px;
+	}
+#home #franchise_schedule {
+color: #85360c;
+width: 298px;
+}
+
+
+
+#roster .franchiseicon {
+	text-align:center;
+	width:240px;
+	height:51px;
+	background-color:transparent;
+	}
+
+#transactions .franchiseicon {
+	width:150px;
+	height:32px;
+	}
+
+#trade_bait .franchiseicon {
+	width:150px;
+	height:32px;
+	}
+#power_rank .franchiseicon {
+	width:150px;
+	height:32px;
+	padding:1px;
+	background-color:transparent;
+	border:none;
+	}
+#weekly_summary .franchiseicon, #nfl_confidence_pool .franchiseicon, #nfl_survivor_pool .franchiseicon, #fantasy_confidence_pool .franchiseicon {
+	width:150px;
+	height:32px;
+	}
+#options_177 .franchiseicon {
+	width:240px;
+	height:51px;
+	padding:1px;
+	}
+#last_weeks_fantasy_results .franchiseicon {
+	width:150px;
+	height:32px;
+	}
+#options_03 .franchiseicon, #options_05 .franchiseicon, #options_16 .franchiseicon, #options_17 .franchiseicon, #options_20 .franchiseicon, #options_22 .franchiseicon, #options_23 .franchiseicon, #options_31 .franchiseicon, #options_52 .franchiseicon, #options_54 .franchiseicon, #options_119 .franchiseicon, #options_120 .franchiseicon, #options_122 .franchiseicon, #options_169 .franchiseicon, #options_171 .franchiseicon, #options_180 .franchiseicon {
+	width: 240px;
+	height: 51px;
+	padding: 1px;
+	}
+
+#options_15 .franchiseicon {
+	width:240px;
+	height:51px;
+    padding:2px;
+	}
+
+#options_06 .franchiseicon {
+	width:240px;
+	height:51px;
+    padding:2px;
+	}
+
+#options_06 .two_column_layout .franchiseicon {
+	width:240px;
+	height:51px;
+    padding:2px;
+	}
+
+#options_22 caption .franchiseicon, #options_169 caption .franchiseicon {
+	width: 240px;
+	height: 51px;
+	}
+
+#options_177 caption .franchiseicon {
+	width: 150px;
+	height: 32px;
+	}
+
+#welcome .franchiseicon {
+	width:240px;
+	height:51px;
+	}
+#login .franchiseicon {
+	width:240px;
+	height:51px;
+	}
+#options_07 .franchiseicon {
+	width:240px;
+	height:51px;
+margin-bottom: -4px;
+	border:none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto
+
+}
+
+#top .report .franchiseicon {
+	width:150px;
+	height:32px;
+    }
+#options_08 .report .franchiseicon {
+	width:150px;
+	height:32px;
+      }
+
+#player_search .franchiseicon {
+	width:150px;
+	height:32px;
+    }
+
+#options_113 .report .franchiseicon {
+	width:60px;
+	height:20px;
+      }
+#options_118 .report .franchiseicon {
+	text-align:center;
+	width:240px;
+	height:51px;
+	}
+#options_208 .report .franchiseicon {
+	text-align:center;
+	width:240px;
+	height:51px;
+	}
+#accounting_report .report .franchiseicon {
+	text-align:center;
+	width:240px;
+	height:51px;
+	}
+#weekly .franchiseicon {
+	width: 150px;
+	height: 32px;
+	padding: 1px;	
+	}
+#weekly caption .franchiseicon {
+	width: 240px;
+	height: 51px;
+    }
+#options_101 .franchiseicon {
+	height:32px;width:150px;
+	padding:1px;
+	background-color:transparent;
+	border:none;
+	} 
+
+#home #fantasy_recap .franchiseicon {
+	width:200px;
+	height:43px;
+	}
+
+#home #fantasy_preview .franchiseicon {
+	width:200px;
+	height:43px;
+	}
+
+/* End Custom Team Logo Sizes */
+
+
+
+
+/* LIVE SCORING */
+
+
+
+#livescoring caption
+{ display: none; }
+
+#livescoring td{ border: none;}
+
+#livescoring {
+margin: 0px auto;
+width: 654px;
+height: 190px;
+background-color: transparent;
+background-image: url(http://www.faithworkcamps.com/fantasy_football/graphics/scoreboard.png);
+background-repeat: no-repeat;
+background-position: 50% 0%;
+margin-top: 0px;
+padding-bottom: 19px;
+}
+#livescoring table{
+background-color: transparent;
+}
+
+
+
+#livescoring #livescoring_summary {
+border: none;
+background-color: transparent;
+margin-top: 0px;
+padding: 0px;
+}
+
+#body_live_scoring .report, #body_live_scoring_summary .report {
+	width:501px;
+	}
+
+#body_live_scoring_summary .report{
+	width:501px;
+	margin-left:auto;
+	margin-right:auto;}
+
+#body_live_scoring h2, #body_live_scoring_summary h2{
+	width:1000px;
+	margin-left:auto;
+	margin-right:auto;
+	}
+
+
+a.tickerheader:link, a.tickerheader:visited, a.tickerheader:hover, a.tickerheader:active,
+a.tickerteam:link,   a.tickerteam:visited,   a.tickerteam:hover,   a.tickerteam:active,
+a.tickerscore:link,  a.tickerscore:visited,  a.tickerscore:hover,  a.tickerscore:active,
+a.tickerclock:link,  a.tickerclock:visited,  a.tickerclock:hover,  a.tickerclock:active
+{ text-decoration: none; color: #ffffff; }
+
+.tickerscore {
+padding-right: 0px;
+font-size: 18px;
+font-weight: bold;
+background-color: transparent;
+background-image: url();
+color: #ffffff;
+}
+
+
+#livescoring #livescoring_summary {
+border: none;
+background-color: transparent;
+margin-top: 0px;
+padding: 0px;
+}
+
+/* Standings "default settings" to "brief" Standings CSS 
+You'll have to add any other columns you might have 
+*/
+
+#home #standings .h2hpct, #home #standings .gb, #home #standings .strk, #home #standings .avgpf,#home #standings .pa, #home #standings .avgpa, #home #standings .divwlt, #home #standings .confwlt{
+display:none;
+}
+
+#home #standings {
+margin-top:-16px;
+}
+
+
+
+#home #waiver_order {
+margin-top:-16px;
+}
+
+#options_02 .franchiseicon, #options_07 .franchiseicon {
+display:none;
+}
+
+#options_008 {
+    color:#ffffff;
+}

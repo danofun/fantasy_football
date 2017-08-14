@@ -1,0 +1,23 @@
+/* 2 DIVISIONS - - - - - - TEAMS LOGOS AND DIVISIONS */
+#teamsdivisions img { opacity: 1;-webkit-transition: opacity 1s;-moz-transition: opacity 1s;-o-transition: opacity 1s; -ms-transition: opacity 1s; }
+#teamsdivisions img:hover { opacity: .5;-webkit-transition: opacity 1s;-moz-transition: opacity 1s;-o-transition: opacity 1s; -ms-transition: opacity 1s; }
+#teamsdivisions  {display:table;width:960px;border-spacing:5px 6px;margin:0 auto;}
+.division00,.division01,.division02,.division03 {display:inline-table;width:auto;margin:0 auto!important;padding:11px!important;}
+#teamsdivisions li ul  {margin:0!important;padding:0!important;width:400px;margin:0;padding:0;}
+#teamsdivisions li ul li{margin:0!important;list-style:none!important;display:inline;border:none;padding:0!important;}
+#teamsdivisions  li ul li a{display:table-row;}
+#teamsdivisions li span {text-decoration:none;text-transform:uppercase;display:block;padding:0px;background:#444;border: 2px solid #ddd;color: #fff;font-size: 15pt;font-weight: 900;text-transform: uppercase;}
+#teamsdivisions img {width:188px;height:auto;display:block;padding:0!important;margin:0!important;text-align:center;padding:0px;border:0;outline:0;margin-top:5px!important}
+#teamsdivisions div li {margin:0px 11px!important;padding:10px!important;border: 2px solid #151515;border:2px solid #ddd;background:#fff;}
+.division02,.division03,.division04,.division05,.division06,.division07,.division08,.division09,.division10,.division11,.division12,.division13,.division14,.division15,.division16,.division16,.division18,.division19 {display:none;}
+
+/* 2 DIVISIONS - - - - - - HIDE TEAM NAMES AND SHOW ONLY ICONS 
+#teamsdivisions li ul li a+a {display:none;}
+#teamsdivisions li ul li a img {margin-bottom:0px!important;display:inline;}
+ */
+
+/* 2 DIVISIONS - - - - - - HIDE TEAMN LOGOS AND SHOW ONLY NAMES 
+#teamsdivisions li ul li a img {display:none;}
+#teamsdivisions li ul li a {padding:0!important;margin:0!important;line-height:10px!important;height:10px!important;}
+#teamsdivisions li ul li{padding:0!important;margin:0!important;line-height:10px!important;height:10px!important;}
+ */

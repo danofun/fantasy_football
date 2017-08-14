@@ -1,0 +1,134 @@
+/*   FRANCHISE ICONS SIZING
+================================ */
+.franchiseicon{ 
+    width:250px;
+    height:42px;
+    max-height:70px!important;
+    background:none!important;
+    border:none!important;
+    box-shadow:none!important; 
+}
+#home .franchiseicon{  
+    width:167px;
+    height:28px; 
+}
+#fantasy_preview .franchiseicon{ 
+    width:200px;
+    height:auto; 
+}
+#fantasy_recap .franchiseicon{
+    width:200px;
+    height:auto; 
+}
+#roster .franchiseicon,#submit_linup .franchiseicon{ 
+    width:230px;
+    height:auto; 
+}
+#standings .franchiseicon{ width:250px;
+    height:42px;
+    padding-top:2px;
+    padding-bottom:2px; 
+}
+img.ava{ 
+    width:250px;
+    height:auto; 
+}
+#options_93 .franchiseicon,#options_15 .two_column_layout .franchiseicon,#options_16 .two_column_layout .franchiseicon,#options_17 .report .franchiseicon,
+#body_options_171 .report .franchiseicon,#body_options_54 .report .franchiseicon,#body_options_204 .report .franchiseicon,#body_options_67 .franchiseicon,
+.h2hmatchups .franchiseicon,#options_22 .scoresummary .franchiseicon,#options_20 .franchiseicon,#options_122 .franchiseicon,#options_218 .franchiseicon,
+#options_120 .franchiseicon,#options_180 .franchiseicon,#options_31 .franchiseicon,#options_03 .franchiseicon{ 
+    width:200px;
+    height:auto; 
+}
+#body_top .report .franchiseicon,#options_08 .report .franchiseicon,#options_222 .franchiseicon{ 
+    width:150px;
+    height:auto; 
+}
+#options_170 .franchiseicon{ 
+    width:90px;
+    height:auto; 
+}
+#options_113 .franchiseicon{ 
+    width:80px;
+    height:auto;
+    paddin:0;
+    margin:0; 
+}
+#options_05 .franchiseicon {
+    height: auto;
+    width: 160px;
+}
+#options_207 td .franchiseicon,#options_177 td .franchiseicon{ 
+    width:200px;
+    height:auto; 
+}
+#home caption.withfranchiseicon,caption.withfranchiseicon{ 
+    height:auto;
+    text-indent:0;
+    text-align:center;
+    margin-bottom:0px;
+    color:#FFF;
+    border:1px solid #777;
+    padding:5px 0;
+    background:url(../images/menu/menu_bg.png)center;
+}   
+caption.withfranchiseicon span {
+    color:#FFF;
+    background:none;
+    padding:0;
+}
+div#options_105.pagebody td.reallysmall.franchisename{ 
+    text-align:center;
+    vertical-align:middle;
+    width:320px; 
+}
+
+
+/*   TD WIDTHS OF REPORTS WITH ICONS
+======================================= */
+#options_120 td,#options_180 td,#options_122 td,#options_54 td,#options_171 td{ 
+    width:200px; 
+}
+table#nfl_survivor_pool td,table#fantasy_confidence_pool td,table#nfl_confidence_pool td{ 
+    width:170px; 
+}
+div#options_207.pagebody table.report tbody th .franchiseicon,div#options_177.pagebody table.report tbody th .franchiseicon{ 
+    padding-top:5px;
+    padding-bottom:4px;
+    padding-left:5px;
+    padding-right:5px;
+    border:none; 
+}
+.playoffbracket .franchiseicon,#home .playoffbracket .franchiseicon{ 
+    padding:5px 0;
+    vertical-align:middle;
+    width:210px;
+    height:auto; }
+.franchiseicon { 
+    opacity: 1;-webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -o-transition: opacity 1s; 
+    -ms-transition: opacity 1s; 
+}
+.franchiseicon:hover { 
+    opacity: .5;
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -o-transition: opacity 1s; 
+    -ms-transition: opacity 1s; 
+}
+#options_93 .franchiseicon {
+    height: auto;
+    width: 160px !important;
+}
+#options_93 table.report {
+    font-family: 'Oswald',sans-serif;
+    font-size: 9pt;
+    font-weight: 400;
+}
+#options_06 .h2hmatchups {
+    display: none;
+}
+#body_options_02 form .franchiselogo,#body_options_02 form .franchiseicon{ 
+    display:none; 
+}

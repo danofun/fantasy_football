@@ -1,0 +1,29 @@
+.franchiseicon{width:300px;height:50px}
+#home .franchiseicon{width:167px;height:27px}
+#fantasy_preview .franchiseicon{width:300px;height:50px}
+#fantasy_recap .franchiseicon{width:300px;height:50px}
+#home #standings .franchiseicon{width:auto;height:39px}
+#roster .franchiseicon,#submit_linup .franchiseicon{width:300px;height:50px}
+#standings .franchiseicon{width:300px;height:50px;padding-top:2px;padding-bottom:2px}
+img.ava{width:300px;height:auto}
+#options_93 .franchiseicon,#options_15 .two_column_layout .franchiseicon,#options_16 .two_column_layout .franchiseicon,#options_17 .report .franchiseicon,#body_options_171 .report .franchiseicon,#body_options_54 .report .franchiseicon,#body_options_204 .report .franchiseicon,#body_options_67 .franchiseicon,.h2hmatchups .franchiseicon,#options_22 .scoresummary .franchiseicon,#options_20 .franchiseicon,#options_122 .franchiseicon,#options_218 .franchiseicon,#options_120 .franchiseicon,#options_180 .franchiseicon,#options_31 .franchiseicon,#options_03 .franchiseicon{width:200px;height:auto}
+#body_top .report .franchiseicon,#options_08 .report .franchiseicon,#options_222 .franchiseicon{width:150px;height:auto}
+#options_113 .franchiseicon,#options_170 .franchiseicon{width:80px;height:auto;paddin:0;margin:0}
+#options_207 td .franchiseicon,#options_177 td .franchiseicon{width:200px;height:auto}
+#home caption.withfranchiseicon,caption.withfranchiseicon{height:auto;padding-top:5px;padding-bottom:4px;text-indent:0;background:url("../img/icon_captions.jpg")center top;border:none;text-align:center;border:1px solid #3a3a3a;margin-bottom:4px;color:#fff}
+.franchiseicon:hover{opacity:0.9;filter:alpha(opacity=90)}
+div#options_105.pagebody td.reallysmall.franchisename{text-align:center;vertical-align:middle;width:320px}
+td.recap_preview_players .report{background:#000;width:230px}
+/* Set width of td where icon lays in pools areas */
+#options_120 td,#options_180 td,#options_122 td,#options_54 td,#options_171 td{width:200px}
+table#nfl_survivor_pool td,table#fantasy_confidence_pool td,table#nfl_confidence_pool td{width:170px}
+
+div#options_207.pagebody table.report tbody th .franchiseicon,div#options_177.pagebody table.report tbody th .franchiseicon
+{padding-top:5px;padding-bottom:4px;padding-left:5px;padding-right:5px;border:none;}
+
+.playoffbracket .oddtablerow td {text-align:center;font-size:9pt;}
+.playoffbracket .franchiseicon {padding:5px 0px;vertical-align:middle;width:240px;height:auto;}
+.playoffbracket td b {color:#fff;font-size:12pt;text-transform:uppercase;}
+div#options_82.pagebody td.two_column_layout {float:left;}
+div#options_82.pagebody table.report  {width:1140px;}
+div#options_82.pagebody .playoffbracket {width:1140px;}

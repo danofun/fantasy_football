@@ -1,0 +1,459 @@
+/*   PLAYER NEWS ICONS POPUP
+=================================== */
+
+
+
+/*   Popup Overlay
+================== */
+
+#playerPopupOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  filter: alpha(opacity=70);
+  -moz-opacity: 0.7;
+  -khtml-opacity: 0.7;
+  opacity: 0.7;
+  z-index: 99999;
+  display: none;
+}
+
+
+
+/*   Popup Wrapper
+================== */
+
+#playerPopupWrapper {
+  z-index: 99999;
+  display: none;
+  overflow: hidden;
+  position: fixed!important;
+  top: 49%!important;
+  left: 50%!important;
+  background:#fff;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow:0 0 15px rgba(0,0,0,1)!important;
+  -moz-box-shadow:0 0 15px rgba(0,0,0,1)!important;
+  box-shadow:0 0 15px rgba(0,0,0,1)!important;
+  border:1px solid rgba(100,100,100,0.2)!important;
+  padding-bottom:10px;
+}
+#playerPopupWrapper li {
+  list-style-image:none;
+  margin:0;
+}
+
+
+
+/*   Loading Box Image
+====================== */
+
+#playerPopupLoading,#articlePopupLoading {
+  position: absolute;
+  background:#FFF;
+  z-index: 1;
+  text-align: center;
+}
+#playerPopupLoading p,#articlePopupLoading p {
+  font-weight: bold;
+  position: relative;
+  font-size:11pt;
+}
+#playerPopupLoading span,#articlePopupLoading span {
+  content: "";
+  background: url(../images/loading.gif) top center no-repeat;   /****  You can generate your own loading.gif image to match your site by visiting http://www.ajaxload.info/   ****/
+  height: 15px;
+  top: 40px;
+  left: 0px;
+  position: absolute;
+}
+
+
+
+/*   Player Name Caption Area
+============================= */
+
+h3#playerPopupName,h3#articlePopupName {
+  visibility: visible;
+  padding: 0px;
+  margin:0;
+  color:#65287d;
+  text-align:right!important;
+  text-indent:0px;
+  text-transform:uppercase;
+  font-weight:900;
+  font-size:10.5pt;
+  background:#fff;
+  line-height:38px;
+  height:33px;
+  border:0px;
+  padding-right:3px;
+}                                   
+h3#playerPopupName a:hover  {
+  color: #000;
+}
+
+
+
+/*   Popup Box Close Button
+=========================== */
+
+#playerPopupClose,#articlePopupClose {
+  position:absolute;
+  left:5px;
+  top:4px;
+  font-weight: bold;
+  color: #65287d;
+  background:#eee;
+  padding:0!important;
+  padding:0px 5px 0px 5px!important;
+  border:1px solid #ddd;
+  cursor:pointer;
+}  
+
+#playerPopupClose:hover,#articlePopupClose:hover {color:#000}
+
+/*   NO NEWS H3
+=============== */
+
+#player_news > h3:nth-child(4) {
+  visibility: visible!important;
+  color:#65287d!important;
+  text-align:center!important;
+  text-transform:uppercase!important;
+  font-weight:900!important;
+  font-size:13pt!important;
+  line-height:40px!important;
+  height:20px;
+  display:table;
+  padding:0!important;
+  margin-top:20px;
+  float:left;
+  background:none;
+  border: 1px solid rgba(29, 29, 29, 0.2);
+  margin-left:14px;
+  width:508px!important;
+}  
+
+
+
+/*   News - Stat History - Current Years Stats Tabs Style
+========================================================= */
+
+#playerPopupWrapper ul li {
+  margin-left: 0px;
+}
+#playerPopupWrapper ul.content_tabs {
+  width: 100%;
+  padding: 0px;
+  border-bottom: none;
+  list-style: none;
+  margin-top:0px;
+  background:#FFF;
+  height:34px;
+  line-height:34px;
+  margin-top:0px;
+}
+#playerPopupWrapper ul.content_tabs li a {
+  float: left;
+  display: block;
+  text-decoration: none;
+  font-weight: bold;
+  color: #ddd;
+  border: none;
+  margin: 0px;
+  border-right:1px solid #873ba6;
+  background:transparent url(../images/menu/menu_bg.png)center top repeat-x;
+  text-align: center;
+  text-transform:uppercase;
+  border-bottom:1px solid #000;
+}
+#playerPopupWrapper ul.content_tabs li a:focus {
+  outline: none;
+}
+#playerPopupWrapper ul.content_tabs li:last-child a {
+  border-right: 0;
+}
+#playerPopupWrapper ul.content_tabs li.ui-state-active a {
+  font-weight: 900;
+  border-bottom: none;
+  color:#fff;
+  border-bottom:1px solid #000;
+}
+#playerPopupWrapper ul.content_tabs li:hover a {
+  color: #000;
+  background:#ccc;
+  border-bottom:1px solid #873ba6;
+}
+ul.content_tabs li.ui-state-active a {
+  color: #873ba6;
+}
+#playerpopup_tabs ul{
+  padding:0!important;
+  margin:0!important;
+}
+#playerpopup_tabs li{
+  display:table-cell;
+  width:1%;
+  text-align:center;
+}
+
+#player_news > h3:nth-child(4) {
+  visibility: visible!important;}
+
+/*   News Icons Placement and Removal from specific modules
+=========================================================== */
+
+.playerPopupNewsIcon {
+  margin-left:0px;
+}
+.articlepicturetable a[title='news update'],th.articlecaption a[title='news update'],#TabbedPanels8 a[title='news update'],#fantasy_preview a[title='news update'],#fantasy_recap a[title='news update'],
+.articlepicturetable a[title='NEW Update'],th.articlecaption a[title='NEW Update'],#TabbedPanels8 a[title='NEW Update'],#fantasy_preview a[title='NEW Update'],#fantasy_recap a[title='NEW Update'],
+#transactions a[title='NEW Update']
+{display:none!important;}
+
+.articlepicturetable a[title='recent news'],th.articlecaption a[title='recent news'],#TabbedPanels8 a[title='recent news'],#fantasy_preview a[title='recent news'],#fantasy_recap a[title='recent news'],
+.articlepicturetable a[title='Recent News'],th.articlecaption a[title='Recent News'],#TabbedPanels8 a[title='Recent News'],#fantasy_preview a[title='Recent News'],#fantasy_recap a[title='Recent News'],
+#transactions a[title='Recent News']
+{display:none!important;}
+
+.articlepicturetable a[title='news'],th.articlecaption a[title='news'],#TabbedPanels8 a[title='news'],#fantasy_preview a[title='news'],#fantasy_recap a[title='news'], 
+.articlepicturetable a[title='No News'],th.articlecaption a[title='No News'],#TabbedPanels8 a[title='No News'],#fantasy_preview a[title='No News'],#fantasy_recap a[title='No News'],
+#transactions a[title='No News']
+{display:none!important;}
+
+th.articlecaption a.playerPopupNewsIcon {display:none;} 
+
+
+
+/*   Adjustments for pop up content tables area
+=============================================== */
+
+.newsContent table.report,#articlePopupContent .report {
+  border-spacing:1px!important;
+  background-color: #FFF!important;
+  margin-top:0px!important;
+  width:510px!important;
+  float:left;
+  margin-left:14px!important;
+}
+#articlePopupContent .report a {}
+#articlePopupContent .report a:hover {} 
+.newsContent table.report td{ 
+  text-align:center!important; 
+}
+.newsContent #player_stathistory table tr th {  
+  display:table-cell;  width:1%;
+  white-space:nowrap;
+  text-align:center;
+  margin:0;
+  padding:2px;
+}
+.newsContent #player_stathistory table tr td {
+  display:table-cell;
+  width:1%;
+  white-space:nowrap;
+  text-align:center;
+  margin:0;padding:2px;
+}
+#player_stats_table td,#player_stats_table th {  
+  text-align:center;
+}
+.newsContent table.report.biography td {  
+  text-align:left!important;  
+  border-spacing:0px!important;  
+  text-indent:4px;
+}
+.newsContent .biography td.player_photo {  
+  text-align:center!important;
+}
+.newsContent .biography td.player_photo img {  
+  background:#65287d;  
+  padding:5px;  
+  vertical-align:middle!important;
+  border:0!important;
+}
+.newsContent .biography th,.newsContent table.report td.headline {  
+  text-align:left!important;
+}
+.newsContent .biography th {  
+  padding:0 5px
+}
+.newsContent .biography td {  
+  width:100%;
+}
+.newsContent  #player_stats_table th:nth-child(4),.newsContent #player_stats_table th:nth-child(5) {  
+  display:none;
+}
+.newsContent #player_stats_table tr > td:nth-child(4),.newsContent #player_stats_table tr > td:nth-child(5) {  
+  display:none;
+}
+#player_stathistory .report,#player_news > table:nth-child(3),#player_stats_table  {
+  margin-bottom:0px!important;
+}
+.newsContent {
+  clear: both;
+  padding-top:4px;
+}
+.newsContent table.report {
+  clear: both;
+}
+.newsContent div{
+  overflow: hidden;
+  position:relative
+}
+.newsContent .warning.reportfooter{
+  display:table-row;
+  text-indent:5px;
+  color:#65287d;
+  text-transform:uppercase;
+}
+
+
+
+/*   REPLACE EMPTY IMAGE IN PLAYER PROFILE BIO
+============================================== */
+.newsContent .biography .player_photo img[src='http://www.myfantasyleague.com/player_photos_2010/no_photo_available.jpg'] {
+  display: block;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: transparent url(../../../player_news/img/no_player_photo2.jpg) no-repeat;
+  width: 92px; /* Width of new image */
+  height: 119px; /* Height of new image */
+  padding-left: 87px; /* Equal to width of new image */
+  border:none!important;
+}
+
+
+
+/*   
+================================================
+  
+               Custom Scrollbar 
+
+================================================
+*/
+
+.ps-container.ie .ps-scrollbar-x, .ps-container.ie .ps-scrollbar-y {
+  visibility: hidden;
+}
+.ps-container.ie:hover .ps-scrollbar-x, .ps-container.ie:hover .ps-scrollbar-y, .ps-container.ie.hover .ps-scrollbar-x, .ps-container.ie.hover .ps-scrollbar-y {
+visibility: visible;
+}
+
+/*   Y AXIS 
+=========== */
+
+.ps-container .ps-scrollbar-y-rail {
+  position: absolute;
+  right: 3px;
+  width: 10px;
+  background:#FFF;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -o-transition: background-color .2s linear,opacity .2s linear;
+  -webkit-transition: background-color.2s linear,opacity .2s linear;
+  -moz-transition: background-color .2s linear,opacity .2s linear;
+  transition: background-color .2s linear,opacity .2s linear;
+  outline: 0px solid #ccc!important;
+}
+.ps-container .ps-scrollbar-y {
+  position: absolute;
+  right: 2px;
+  width: 6px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -o-transition: background-color .2s linear;
+  -webkit-transition: background-color.2s linear;
+  -moz-transition: background-color .2s linear;
+  transition: background-color .2s linear;
+                                     /****  You can generate your own scroll bar coloring to match your site by visiting www.cssmatic.com/gradient-generator   ****/
+  background: rgba(255,255,255,1);
+  background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(101,40,125,1) 24%, rgba(136,59,166,1) 51%, rgba(101,40,125,1) 77%, rgba(255,255,255,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(24%, rgba(101,40,125,1)), color-stop(51%, rgba(136,59,166,1)), color-stop(77%, rgba(101,40,125,1)), color-stop(100%, rgba(255,255,255,1)));
+  background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(101,40,125,1) 24%, rgba(136,59,166,1) 51%, rgba(101,40,125,1) 77%, rgba(255,255,255,1) 100%);
+  background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(101,40,125,1) 24%, rgba(136,59,166,1) 51%, rgba(101,40,125,1) 77%, rgba(255,255,255,1) 100%);
+  background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(101,40,125,1) 24%, rgba(136,59,166,1) 51%, rgba(101,40,125,1) 77%, rgba(255,255,255,1) 100%);
+  background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(101,40,125,1) 24%, rgba(136,59,166,1) 51%, rgba(101,40,125,1) 77%, rgba(255,255,255,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=0 );
+  box-shadow: inset 0 0 0 1px rgba(102,153,255,.1);
+}
+.ps-container:hover .ps-scrollbar-y-rail, .ps-container.hover .ps-scrollbar-y-rail {
+  opacity: 1;filter: alpha(opacity=100);
+}
+.ps-container .ps-scrollbar-y-rail:hover, .ps-container .ps-scrollbar-y-rail.hover {
+  opacity: 1;filter: alpha(opacity=100);
+}
+.ps-container .ps-scrollbar-y-rail.in-scrolling {
+  opacity: 1;filter: alpha(opacity=100);
+}
+.ps-container.ie6 .ps-scrollbar-y {  
+font-size: 0;
+}
+
+/*   X AXIS 
+=========== */
+
+.ps-container .ps-scrollbar-x-rail {
+  position: absolute;
+  bottom: 0px;
+  height: 10px;
+  background:#FFF;
+  opacity: 0;
+  z-index:1;
+  filter: alpha(opacity=0);
+  -o-transition: background-color .2s linear,opacity .2s linear;
+  -webkit-transition: background-color.2s linear,opacity .2s linear;
+  -moz-transition: background-color .2s linear,opacity .2s linear;
+  transition: background-color .2s linear,opacity .2s linear;
+  width:512px!important;
+  margin-left:16px!important;
+  outline: 0px solid #ccc!important;
+}
+.ps-container .ps-scrollbar-x {
+  position: absolute;
+  bottom: 2px;
+  height: 6px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -o-transition: background-color .2s linear;
+  -webkit-transition: background-color.2s linear;
+  -moz-transition: background-color .2s linear;
+  transition: background-color .2s linear;
+                                     /****  You can generate your own scroll bar coloring to match your site by visiting www.cssmatic.com/gradient-generator   ****/
+  background: rgba(255,255,255,1);
+
+  background: -moz-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(101,40,125,1) 24%, rgba(136,59,166,1) 51%, rgba(101,40,125,1) 77%, rgba(255,255,255,1) 100%);
+
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,255,255,1)), color-stop(24%, rgba(101,40,125,1)), color-stop(51%, rgba(136,59,166,1)), color-stop(77%, rgba(101,40,125,1)), color-stop(100%, rgba(255,255,255,1)));
+
+  background: -webkit-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(101,40,125,1) 24%, rgba(136,59,166,1) 51%, rgba(101,40,125,1) 77%, rgba(255,255,255,1) 100%);
+
+  background: -o-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(101,40,125,1) 24%, rgba(136,59,166,1) 51%, rgba(101,40,125,1) 77%, rgba(255,255,255,1) 100%);
+
+  background: -ms-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(101,40,125,1) 24%, rgba(136,59,166,1) 51%, rgba(101,40,125,1) 77%, rgba(255,255,255,1) 100%);
+
+  background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(101,40,125,1) 24%, rgba(136,59,166,1) 51%, rgba(101,40,125,1) 77%, rgba(255,255,255,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=1 );
+  box-shadow: inset 0 0 0 1px rgba(102,153,255,.1);
+  width:430px!important
+}
+.ps-container:hover .ps-scrollbar-x-rail, .ps-container.hover .ps-scrollbar-x-rail {
+  opacity: 1;filter: alpha(opacity=100);
+}
+.ps-container .ps-scrollbar-x-rail:hover, .ps-container .ps-scrollbar-x-rail.hover {
+  opacity: 1;filter: alpha(opacity=100);
+}
+.ps-container .ps-scrollbar-x-rail.in-scrolling {
+  opacity: 1;filter: alpha(opacity=100);
+}
+.ps-container.ie6 .ps-scrollbar-x {
+  font-size: 0;
+}

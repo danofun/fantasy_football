@@ -1,0 +1,160 @@
+@charset "utf-8";
+
+#commissioner_setup ul {
+    
+}
+
+
+html > body#body_commissioner_setup > div#commissioner_setup.pagebody > div#container > div#header > div#quicknav-wrap > ul.quicknav > li > a {
+     text-decoration: none;}
+
+
+
+#commissioner_setup ul a {
+     font-size: inherit;
+}
+
+
+#commissioner_setup li a:hover{
+text-decoration: underline;}
+
+
+#commissioner_setup .two_column_layout table {
+     margin: 10px;
+     text-align: left;
+     width: 450px;
+}
+
+#commissioner_setup th {    
+border-bottom: 3px solid #6699ff!important;
+background-color: rgba(255, 255, 255, 0.07) !important;
+box-shadow: 0 0 12px 1px rgba(255, 255, 255, 0.03) inset;
+     border-radius:0px;
+     color: #ffffff;
+     font-size: 20px;
+     line-height: 35px;
+     padding: 5px 0px 5px 75px;
+     text-align: left;background-size:auto;
+     border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+#commissioner_setup .oddtablerow td {
+    padding:4px;
+    background-color: rgba(20, 20, 20, 0.1) !important;
+    box-shadow: 0 0 14px 1px rgba(20, 20, 20, 0.4) inset;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+#commissioner_setup .oddtablerow td {
+     background-color: #;
+     border-color: #;
+}
+
+#commissioner_setup th#general_setup {
+     background-image: url("../Commish_Grafix/setting_tools.png");
+     background-position: 10px center;
+     background-repeat: no-repeat;
+}
+
+#commissioner_setup th#commissioner_franchise_setup {
+     background-image: url("../Commish_Grafix/commish_setup.png");
+     background-position: 10px center;
+     background-repeat: no-repeat;
+}
+
+#commissioner_setup th#history_setup {
+     background-image: url("../Commish_Grafix/hourglass.png");
+     background-position: 10px center;
+     background-repeat: no-repeat;
+}
+
+#commissioner_setup th#scoring_setup {
+     background-image: url("../Commish_Grafix/whistle.png");
+     background-position: 10px center;
+     background-repeat: no-repeat;
+}
+
+#commissioner_setup th#players_and_rosters {
+     background-image: url("../Commish_Grafix/group.png");
+     background-position: 10px center;
+     background-repeat: no-repeat;
+}
+
+#commissioner_setup th#adjust_scores {
+     background-image: url("../Commish_Grafix/numeric_stepper.png");
+     background-position: 10px center;
+     background-repeat: no-repeat;
+}
+
+#commissioner_setup th#home_page_message_setup {
+     background-image: url("../Commish_Grafix/widgets.png");
+     background-position: 10px center;
+     background-repeat: no-repeat;
+}
+
+#commissioner_setup th#salary_cap_setup {
+     background-image: url("../Commish_Grafix/chart_curve_edit.png");
+     background-position: 10px center;
+     background-repeat: no-repeat;
+}
+
+#commissioner_setup th#use_with_caution {
+     border: 1px solid rgba(193, 38, 34, 0.6);
+     background-color: rgba(236, 31, 31, 0.6)!important;
+     background-image: url("../Commish_Grafix/error.png");
+     background-position: 10px center;
+     background-repeat: no-repeat;
+     color: #fff;
+}
+
+#commissioner_setup th#playoff_setup {
+     background-image: url("../Commish_Grafix/medal_gold_1.png");
+     background-position: 10px center;
+     background-repeat: no-repeat;
+}
+
+#commissioner_setup th#other_transactions_setup {
+     background-image: url("../Commish_Grafix/small_business.png");
+     background-position: 10px center;
+     background-repeat: no-repeat;
+}
+
+#commissioner_setup th#waivers_setup {
+     background-image: url("../Commish_Grafix/arrow_refresh.png");
+     background-position: 10px center;
+     background-repeat: no-repeat;
+}
+
+#commissioner_setup th#draft_setup {
+     background-image: url("../Commish_Grafix/events.png");
+     background-position: 10px center;
+     background-repeat: no-repeat;
+}
+
+#commissioner_setup th#auction_setup {
+     background-image: url("../Commish_Grafix/auction_hammer_gavel.png");
+     background-position: 10px center;
+     background-repeat: no-repeat;
+}
+
+#commissioner_setup th#fantasy_schedule_setup {
+     background-image: url("../Commish_Grafix/calendar_edit.png");
+     background-position: 10px center;
+     background-repeat: no-repeat;
+}
+
+#commissioner_setup th#appearance_setup {
+     background-image: url("../Commish_Grafix/layout_edit.png");
+     background-position: 10px center;
+     background-repeat: no-repeat;
+}
+
+#commissioner_setup th#recently_used {
+     background-image: url("../Commish_Grafix/recently_used.png");
+     background-position: 10px center;
+     background-repeat: no-repeat;
+}
+
+#commissioner_setup.pagebody span.reportnavigation {
+     display: none;
+}

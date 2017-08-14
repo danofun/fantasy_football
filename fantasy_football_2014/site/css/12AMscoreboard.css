@@ -1,0 +1,143 @@
+html,body,.pagebody,#content,table.cbsTeamLineup { font-family: 'Oswald',sans-serif!important; }
+div#content h2.warning {display:none;}
+
+/*** SCOREBOARD OUTER TABLE  ***/
+table.cbsOuterTable { width:960px; background:transparent; padding:0px; border:0; margin-top:5px;margin-bottom:-5px!important; font:400 8pt 'Oswald',sans-serif!important; }
+
+/***  LIVE SCORING WEEKLY NAV MENU ***/
+td#myNavigationHolder {background:none; }
+table.cbsWeeklyNavigation {text-align:center;width:100%;color:#fff;margin-bottom:8px;border:1px solid #101010;height:30px;margin-top:-10px;background:url(http://nitrografixx.com/2014/PTD/scoreboard/cap-bg.png);font:400 9pt 'Oswald',sans-serif!important;text-transform:uppercase!important}
+span.navWeekLink,span.navWeekCurr,span.navWeekInactive {font:400 9pt 'Oswald',sans-serif!important;}
+span.navWeekLink a { text-decoration:none; color:#bbb; padding:0 2px; }
+span.navWeekLink a:hover { text-decoration:none; color:#fff; }
+span.navWeekCurr { color:#fff; padding:0 2px; background:none;}
+span.navWeekInactive { color:#0069de; padding:0 0px; }
+#mobilelink { display:none;}
+
+/*** TICKER TABLE  ***/
+table.cbsMainScoreboard {width:100%; font:normal bold 8pt Arial,Helvetica,sans-serif; margin-bottom:0px; margin-top:-2px;
+border: 1px solid #181818; background-color:rgba(0, 0, 0, 0.3);padding:3px; }
+     /***  League Name box settings  ***/
+td#cbsCenterTop { background:transparent; color:#fff; text-align:center; font:normal bold 0pt Arial,Helvetica,sans-serif; height:80px;border:0;
+ background:transparent url(http://www.faithworkcamps.com/fantasy_football_2014/site/img/scoreboard.png) center no-repeat;}  
+/****** TICKER W-L-T ******/
+td#cbsRoadTeamRecord,td#cbsHomeTeamRecord { width:auto!important; letter-spacing:2px;border: 1px solid #181818;font:400 8pt 'Oswald',sans-serif!important; }
+td#cbsRoadTeamRecord  { background:url(http://nitrografixx.com/2014/PTD/scoreboard/cap-bg.png); color:#fff; text-align:center; height:16px;}
+td#cbsHomeTeamRecord  { background:url(http://nitrografixx.com/2014/PTD/scoreboard/cap-bg.png); color:#fff; text-align:center; height:16px; }
+     /***  Countdown Update setttings  ***/
+td#cbsScoreboardMessage { background:transparent; color:#bbb; text-align:center; font:normal bold 10px Arial; }
+#cbsScoreboardMessageResetTimer { text-align:center; color:#fff;background-color:transparent;	cursor:pointer; }
+     /***  P-YTD-PMR settings  ***/
+td.cbsScoreboardTitle { background:transparent url(http://nitrografixx.com/2014/PTD/scoreboard/cap-bg.png) center top no-repeat; color:#fff; text-align:center; padding-top:2px!important;}
+td#cbsRoadPlayers,td#cbsRoadYTP,td#cbsRoadPMR,td#cbsHomePlayers,td#cbsHomeYTP,td#cbsHomePMR { background:transparent url(http://nitrografixx.com/2014/PTD/scoreboard/cap-bg.png) center bottom no-repeat; color:#bbb;width:66px!important;text-align:center; }
+     /*** MFL-NFL logo box  ***/
+table.cbsMainScoreboard td#cbsBlank { background:transparent; }
+table.cbsMainScoreboard td#cbsBlank img{ height:30px; width:43px; }
+     /***  Settings for Logos on side  ***/
+td#cbsRoadLogo,td#cbsHomeLogo { vertical-align:middle; text-align:center; width:7%; }
+td#cbsRoadLogo img,td#cbsHomeLogo img { max-width:60px; max-height:100px; }
+     /***  Settings for Logos on top  ***/
+td#cbsRoadTeamName img,td#cbsHomeTeamName img{ max-height:40px; max-width:220px;}
+     /***  Settings for Franchise Names on top   ***/
+td#cbsRoadTeamName,td#cbsHomeTeamName { background:transparent; text-align:center; height:50px; width:26%;border: 1px solid #181818; }
+     /***  Adjust size of scoring numerals  ***/
+td#cbsRoadScore,td#cbsHomeScore  { background:transparent;  }
+td#cbsRoadScore img,td#cbsHomeScore img  { width:36px; height:42px;padding-top:2px; margin:0!important;}
+		/****** FLIP HOME TEAM ICON TO FACE CENTER ******/
+td#cbsHomeLogo img { -moz-transform: scaleX(-1); -o-transform: scaleX(-1); -webkit-transform: scaleX(-1); transform: scaleX(-1); filter: FlipH; -ms-filter: "FlipH"; }
+
+/****** FANTASY MATCHUPS BOXSCORES TABLE ******/
+td#myMiddleTableHolder {}
+.cbsGameLinks { width:100%;  /* important to fill table width */  border:0; border-collapse:collapse; margin-bottom:0px; margin-top:px;height:70px!important}
+.cbsGameLinks td { margin:0; padding:0; }
+.cbsGameTable { border-collapse:collapse; margin:0; padding:0; border:0; height:70px!important}
+table.cbsGameTable { width:100%!important;color:#ccc;background:none}
+.cbsGameTable td { padding:4px; border: 1px solid #181818; }
+.matchupLolite:hover {border-right:1px solid #888!important; color:#fff;background:rgba(0,105,222,0.2) }
+.matchupLolite { text-align:center; font-weight:bold; font-size:9px; width:10px; cursor:pointer; border-right:1px solid #444!important; color:#bbb;background:rgba(0,105,222,0.1) }
+.matchupHilite {text-align:center;font-weight:bold; font-size:9px; width:10px; color:#fff;cursor:pointer;border-right:1px solid #0069de!important;background:rgba(0,105,222,0.3) }
+
+/****** NFL MATCHUPS BOXSCORES TABLE ******/
+table.cbsNFLGameTable {color:#bbb!important;background:rgba(0,0,0,.4);border-spacing:0!important;border:none!important;padding:5px!important}
+div#cbsNFLMatchups>table.cbsGameLinks>tbody>tr>td {border: 1px solid #181818;}
+table.cbsNFLGameTable a {color:#ccc!important;font-size:8pt!important}
+table.cbsNFLGameTable a:hover {color:#fff!important;}
+
+/****** STARTING LINEUPS BENCH PLAYERS TABLE ******/
+.cbsLineups {padding-bottom:0px;margin:0!important;padding:0!important;}
+table.cbsOuterTable tbody tr td table.cbsLineups tbody tr td#cbsRoadLineup,table.cbsOuterTable tbody tr td table.cbsLineups tbody tr td#cbsHomeLineup
+{ widt:474px;background:none;border: 1px solid rgba(29, 29, 29, 0.2);padding: 1px;text-align: left;border-spacing:0!important;}
+table.cbsLineups td#cbsBlankLineup { display:none;  }
+table.cbsTeamLineup {border:0px;}
+.cbsGameLinks a:link,.cbsGameLinks a:active,.cbsGameLinks a:visited{  text-decoration:none; }
+.cbsTeamLineup { width:100%; border-collapse:collapse; border:0; }
+td#cbsRoadLineup { width:40%;padding-right:2px;}
+td#cbsHomeLineup { width:40%;padding-left:2px;}
+.cbsTeamLineup a:link,.cbsTeamLineup a:active,.cbsTeamLineup a:visited { text-decoration:none; }
+.cbsLineups {background:url(http://nitrografixx.com/2014/PTD/img/reports-bg.png);border: 1px solid rgba(29, 29, 29, 0.2);padding: 1px;text-align: left;width:100%;border-spacing:10px!important;font-size:9pt;text-transform:uppercase;}
+table.cbsTeamLineup th
+{ text-align:left;
+  text-indent:2px;
+  text-align:center;
+  background:rgba(0,0,0,.1);
+  border-bottom:0px solid rgba(0,105,222,.2);
+  color:#888;
+  font-size:9pt;
+  font-weight:normal;
+  font-style:normal;
+  text-transform:uppercase;
+  border:1px solid #151515;}
+
+td#cbsHomeLineup,td#cbsRoadLineup {vertical-align:top;}
+td.cbsPlayerGame>img {vertical-align:middle;}
+td.hasball img { vertical-align:middle!important; }
+td.hasball { width:28px; text-align:center; padding:0px; }
+td.cbsPlayerName { text-align:left; }
+td.cbsPlayerGame { width:104px; text-indent:3px; text-align:left; }
+td.cbsGameClock { text-align:center; width:60px; }
+td.cbsPlayerProjections { width:36px; text-align:center;}
+td.oppRankAvgMatchup { width:22px; }
+td.cbsPlayerPoints { width:40px; text-align:center; cursor:pointer;}
+td.cbsPlayerPoints:hover { text-align:center;}
+th.pointTotalTitle,th.pointTotalProj,th.pointTotalActual { background:none!important;border-top:2px solid #0069de!important;padding-bottom:10px!important;}
+th.pointTotalTitle{text-align:left!important}
+span.injuredPlayer { color:#c81818; font-weight:bold; }
+
+/****** GAME STRENGTH OF SCHEDULE TD VALUE COLORING ******/
+.oppRankBadMatchup { background-color:#F00; color:#FFF; font-size:10px; text-align:center; }
+.oppRankPoorMatchup { background-color:#FF8000; color:#000; font-size:10px; text-align:center; }
+.oppRankAvgMatchup { background-color:#FF0; color:#000; font-size:10px; text-align:center; }
+.oppRankGoodMatchup { background-color:#01DF01; color:#000; font-size:10px; text-align:center; }
+.oppRankGreatMatchup { background-color:#04B404; color:#FFF; font-size:10px; text-align:center; }
+td.oppRankNA { background-color:; color:#FFF; font-size:10px; text-align:center;}
+td.cbsPlayerGame {text-align:center!important}
+td.cbsGameClock{text-align:left!important}
+td.oppRankNA {visibility:hidden;}
+.rowGameOver td.cbsPlayerName a,.rowGameOver td.cbsPlayerGame,.rowGameOver td.cbsGameClock,.rowGameOver td.cbsPlayerProjections,tr.rowGameOver td.cbsPlayerPoints {color:#aaa}
+.rowGameOver td.cbsPlayerName a:hover {color:#fff}
+tr.rowGameOver td.cbsPlayerPoints:hover {color:#fff}
+tr.rowGameOver {}
+.rowCurrentlyPlaying td.cbsPlayerName a,.rowCurrentlyPlaying td.cbsPlayerGame,.rowCurrentlyPlaying td.cbsGameClock,.rowCurrentlyPlaying td.cbsPlayerProjections,tr.rowCurrentlyPlaying td.cbsPlayerPoints {}
+.rowCurrentlyPlaying td.cbsPlayerName a:hover {color:#fff}
+tr.rowCurrentlyPlaying td.cbsPlayerPoints:hover {color:#fff}
+tr.rowCurrentlyPlaying {background:rgba(18,255,0,.07)}
+table.cbsTeamLineup>tbody>tr.rowYTP {background:none;color:#ccc;}
+table.cbsTeamLineup>tbody>tr.rowYTP a{background:none;color:#fff;}
+table.cbsTeamLineup>tbody>tr.rowYTP a:hover{color:#0069de;}
+td.cbsPlayerPoints {color:#fff!important}
+td.cbsPlayerPoints:hover {color:#fff!important;}
+td.cbsPlayerProjections,th.pointTotalProj {color:#aaa!important}
+table.cbsTeamLineup td{border-bottom:1px solid #181818;}     
+td.oppRankAvgMatchup,td.oppRankGreatMatchup,td.oppRankPoorMatchup,td.oppRankBadMatchup {width:0px!important;font-weight:bold!important;padding:0 6px!important;font-size:8pt!important;color:#000!important;}
+td.cbsGameClock {text-align:center!important}
+
+th.pointTotalTitle,th.pointTotalProj,th.pointTotalActual {border:none!important;color:#0069de!important;font-size:130%!important;background:rgba(0,0,0,0.3)!important;padding:0!important;margin-bottom:100px!important;}
+
+/****** FOOTER NAV MENU ******/
+#homelink {display:none!important;}
+
+/****** PLAYER UPDATES TABLE ******/
+table.playerUpdateContainer {display:none!important;}
+
+/****** Text for Scoring Message Site Down  ******/
+table.cbsGameLinks>tbody>tr>td>center {color:#fff;font-size:12pt}

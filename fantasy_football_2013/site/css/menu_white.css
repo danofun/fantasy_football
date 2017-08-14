@@ -1,0 +1,90 @@
+#nav_ticker_wrapper{position:absolute;top:-56px;left:472px;width:800px;z-index:10;}
+ul.dropmenu{position:relative;padding:0px;background:transparent;display:block;font:15px;z-index:100;min-width:440px;}
+.dropmenu li{position:relative;list-style:none;float:left;margin:0;padding:0;}
+.dropmenu li a{display:block;cursor:point;color:#ee4f20;text-transform:uppercase;text-decoration:none;font-weight:bold;}
+.dropmenu li a.last{}
+.dropmenu li spa{}
+.dropmenu li a:hover span{}
+.dropmenu li:hover ul,.dropmenu li:hover div{display:block}
+.dropmenu ul{position:absolute;display:none;width:140px;margin:0;padding:0;}
+.dropmenu ul li{border:0;float:none;list-style-image:none}
+.dropmenu ul a{border-bottom:0;white-space:nowrap;display:block;text-decoration:none;text-transform:none}
+.dropmenu ul a:hover{color:#ee4f20;text-decoration:none;background-color:#1e1e1e;background-image:none}
+.dropmenu div ul{position:relative;display:block;}
+.dropmenu li div{background:#fff;z-index:102;padding:5px;display:none;position:absolute;border:1px solid #b6d7ff;}
+.dropmenu li div ul{border:none;background:none;position:relative}
+.dropmenu li div a{border:none;}
+.dropmenu li div div{display:block;position:relative;background:none;border:none}
+.dropmenu li div div a{display:inline;border:none;color:#fff;text-decoration:underline;padding:0;margin:0;text-transform:none}
+.dropmenu li div div a:hover{color:#ee4f20;text-decoration:none}
+ul.left{float:left;width:145px}
+ul.right{float:right;width:145px}
+.small{color:#ee4f20;font-size:15px;padding:10px 5px 8px 5px;display:block;clear:both}
+.products{width:250px;padding:15px;text-align:left;margin-left:-40px}
+.products ul{width:100%}
+.products ul li{border-bottom:1px solid #b6d7ff;height:25px;padding-top:5px;padding-bottom:20px;}
+.products h2{font-size:16px;padding:10px 0 3px 0;margin:0;color:#44629b;text-align:left;width:244px;letter-spacing:1px;}
+.products ul li h2:hover{color:#ee4f20}
+.products p{color:#666;font-size:10px;padding:0;margin:0}
+.products img{float:left;padding-right:10px}
+.products ul li a{display:inline;border:none;text-decoration:none;padding:0;margin:0;text-transform:none}
+.products ul li a:hover{text-decoration:none;background:none}
+.products img{width:75px;height:38px}
+.teams img{width:75px;height:38px}
+.teams{width:940px;padding:15px}
+.teams ul{width:300px;padding-right:10px}
+.teams ul li{border-bottom:1px solid #b6d7ff;height:50px;padding:10px 0}
+.dropmenu li.bottomrow{border-bottom:none}
+.teams h2{font-size:16px;padding:2px 0 3px 0;margin:0 0 0 40px;color:#44629b}
+.teams h2.main{padding:8px 0 3px 20px;margin:0 0 0 34px;color:#454545;font-size:22pt;letter-spacing:1px;text-align:left;}
+.teams p{font-size:10px;padding:0;margin:0;color:#ee4f20;font-weight:700;letter-spacing:1px;}
+.teams img{float:left;padding-right:10px}
+.teams ul li a{display:inline;border:none;text-decoration:underline;padding:0;margin:0;text-transform:none;font-style:.9em}
+.tutorials{width:300px}
+.dropmenu .login{padding:15px !important;width:180px}
+.dropmenu input{background:#1e1e1e;color:#FFF;border:1px solid #333;padding:5px 15px}
+.dropmenu input:hover{background:#1e1e1e;color:#CCC}
+.dropmenu label{padding:0 0 4px 0;display:block}
+.dropmenu button{background:#1e1e1e;color:#FFF;border:1px solid #1e1e1e;padding:4px 10px;width:180px}
+.rafter{height:669px;width:900px;margin-left:-948px}
+.rafter ul{width:100%}
+.rafter ul li{border:none;padding:0 0}
+.rafter h2{font-size:16px;padding:2px 0 3px 0;margin:0}
+.rafter p{color:#666;font-size:10px;padding:0;margin:0}
+.rafter img{float:left;height:669px;width:900px;padding-right:0}
+.rafter ul li a{display:inline;border:none;color:#666;text-decoration:underline;padding:0;margin:0;text-transform:none}
+.rafter ul li a:hover{color:#000;text-decoration:none;background:none}
+.teams{margin-left:-450px}
+td#navwrapper ul#nav-one.dropmenu .teams li a{width:125px;padding:0;margin:0;color:#ee4f20;border:0;}
+td#navwrapper ul#nav-one.dropmenu li .teams a:hover{width:125px;padding:0;margin:0;color:#454545;border:0;background:none;}
+td#navwrapper ul#nav-one.dropmenu li a{width:125px;padding:0;margin:0;color:#44629b;border:0;height:40px;}
+td#navwrapper ul#nav-one.dropmenu li a:hover{width:125px;padding:0;margin:0;color:#ee4f20;border:0}
+td#navwrapper ul#nav-one.dropmenu li a.hometext{padding-left:28px;margin-left:-28px}
+td#navwrapper ul#nav-one.dropmenu li a.hometext:hover{background:transparent url("../img/menu_hovorb_white.png")no-repeat;background-position:-24px -5px;z-index:99999}
+td#navwrapper ul#nav-one.dropmenu li a.teamstext{padding-left:28px;margin-left:-28px}
+td#navwrapper ul#nav-one.dropmenu li a.teamstext:hover{background:transparent url("../img/menu_hovorb_white.png")no-repeat;background-position:-23px -6px;z-index:99999}
+td#navwrapper ul#nav-one.dropmenu li a.leaguetext{padding-left:28px;margin-left:-28px}
+td#navwrapper ul#nav-one.dropmenu li a.leaguetext:hover{background:transparent url("../img/menu_hovorb_white.png")no-repeat;background-position:-23px -6px;z-index:99999}
+td#navwrapper ul#nav-one.dropmenu li a.standingtext{padding-left:28px;margin-left:-28px}
+td#navwrapper ul#nav-one.dropmenu li a.standingtext:hover{background:transparent url("../img/menu_hovorb_white.png")no-repeat;background-position:-20px -6px;z-index:99999}
+td#navwrapper ul#nav-one.dropmenu li a.gametext{padding-left:43px;margin-left:-28px}
+td#navwrapper ul#nav-one.dropmenu li a.gametext:hover{background:transparent url("../img/menu_hovorb_white.png")no-repeat;background-position:-6px -6px;z-index:99999}
+td#navwrapper ul#nav-one.dropmenu li a.last{padding-left:25px;margin-left:-25px}
+td#navwrapper ul#nav-one.dropmenu li a.last:hover{background:transparent url("../img/menu_hovorb_white.png")no-repeat;background-position:-24px -7px;z-index:99999}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

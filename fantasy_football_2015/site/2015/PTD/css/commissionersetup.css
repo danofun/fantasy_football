@@ -1,0 +1,119 @@
+/*   COMMISSIONER SETUP
+================================ */
+#commissioner_setup .two_column_layout table ul{ 
+    padding:0 25 10px 50px; 
+}
+#commissioner_setup .two_column_layout table ul a{ 
+    font-size:1.1em; 
+}
+#commissioner_setup .report,#commissioner_setup .two_column_layout table{ 
+    border:none !important;
+    outline:none !important; 
+}
+#commissioner_setup  tr .oddtablerow{ 
+    background:#f4f4f4;
+}
+#commissioner_setup .two_column_layout table .oddtablerow td{ 
+    border:none;
+}
+#commissioner_setup .two_column_layout table th{ 
+    background-color:#c3c3c3;
+    color:#000;
+    font-size:20px;
+    line-height:35px;
+    padding:5px 0 5px 75px;
+    text-align:left; 
+}
+#commissioner_setup .two_column_layout table ul li{ 
+    margin-left:-1.5em; 
+    color:#000;
+}
+#commissioner_setup th#general_setup{ 
+    background-image:url(../images/commissioner_setup_page/setting_tools.png);
+    background-repeat:no-repeat;
+    background-position:10px center; 
+}
+#commissioner_setup th#commissioner_franchise_setup{ 
+    background-image:url(../images/commissioner_setup_page/commish_setup.png);
+    background-repeat:no-repeat;
+    background-position:10px center; }
+#commissioner_setup th#history_setup{ 
+    background-image:url(../images/commissioner_setup_page/hourglass.png);
+    background-repeat:no-repeat;
+    background-position:10px center; 
+}
+#commissioner_setup th#scoring_setup{ 
+    background-image:url(../images/commissioner_setup_page/whistle.png);
+    background-repeat:no-repeat;
+    background-position:10px center; 
+}
+#commissioner_setup th#players_and_rosters{ 
+    background-image:url(../images/commissioner_setup_page/group.png);
+    background-repeat:no-repeat;
+    background-position:10px center; 
+}
+#commissioner_setup th#adjust_scores{ 
+    background-image:url(../images/commissioner_setup_page/numeric_stepper.png);
+    background-repeat:no-repeat;
+    background-position:10px center; 
+}
+#commissioner_setup th#home_page_message_setup{
+    background-image:url(../images/commissioner_setup_page/widgets.png);
+    background-repeat:no-repeat;
+    background-position:10px center; 
+}
+#commissioner_setup th#salary_cap_setup{
+    background-image:url(../images/commissioner_setup_page/chart_curve_edit.png);
+    background-repeat:no-repeat;
+    background-position:10px center; 
+}
+#commissioner_setup th#use_with_caution{
+    background-image:url(../images/commissioner_setup_page/error.png);
+    background-repeat:no-repeat;
+    background-position:10px center;
+    background-color:#65287d;
+    color:#ddd; 
+}
+#commissioner_setup th#playoff_setup{ 
+    background-image:url(../images/commissioner_setup_page/medal_gold_1.png);
+    background-repeat:no-repeat;
+    background-position:10px center; 
+}
+#commissioner_setup th#other_transactions_setup{ 
+    background-image:url(../images/commissioner_setup_page/small_business.png);
+    background-repeat:no-repeat;
+    background-position:10px center; 
+}
+#commissioner_setup th#waivers_setup{ 
+    background-image:url(../images/commissioner_setup_page/arrow_refresh.png);
+    background-repeat:no-repeat;
+    background-position:10px center; 
+}
+#commissioner_setup th#draft_setup{ 
+    background-image:url(../images/commissioner_setup_page/events.png);
+    background-repeat:no-repeat;
+    background-position:10px center; 
+}
+#commissioner_setup th#auction_setup{ 
+    background-image:url(../images/commissioner_setup_page/auction_hammer_gavel.png);
+    background-repeat:no-repeat;
+    background-position:10px center; 
+}
+#commissioner_setup th#fantasy_schedule_setup{ 
+    background-image:url(../images/commissioner_setup_page/calendar_edit.png);
+    background-repeat:no-repeat;
+    background-position:10px center; 
+}
+#commissioner_setup th#appearance_setup{ 
+    background-image:url(../images/commissioner_setup_page/layout_edit.png);
+    background-repeat:no-repeat;
+    background-position:10px center; 
+}
+#commissioner_setup th#recently_used{ 
+    background-image:url(../images/commissioner_setup_page/recently_used.png);
+    background-repeat:no-repeat;
+    background-position:10px center; 
+}
+#commissioner_setup.pagebody span.reportnavigation{  
+    display:none; 
+}

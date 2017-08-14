@@ -1,0 +1,71 @@
+/* Sets position and main configs */
+.slider_arrow_left
+{ bottom:482px;
+  cursor:pointer !important;
+  height:34px;
+  right:76px;
+  position:absolute;
+  width:34px;
+  z-index:5; }
+
+/* left arrow image */
+.slider_arrow_left
+{ background:url(http://nitrografixx.com/2013Nike/slider/arrows.png) no-repeat top left; }
+.slider_arrow_left:hover
+{ background:url(http://nitrografixx.com/2013Nike/slider/arrows.png) no-repeat 0px -68px; }
+
+/*------------------------ -------------- RIGHT ARROW ------------------------*/
+/* Sets position and main configs */
+.slider_arrow_right
+{ bottom:482px;
+  cursor:pointer;
+  float:left;
+  height:34px;
+  right:30px;
+  position:absolute;
+  width:34px;
+  z-index:5; }
+
+/* Right arrow Background */
+.slider_arrow_right
+{ background:url(http://nitrografixx.com/2013Nike/slider/arrows.png) no-repeat 0px -34px; }
+.slider_arrow_right:hover
+{ background:url(http://nitrografixx.com/2013Nike/slider/arrows.png) no-repeat 0px -102px; }
+
+/*------------------------ ---------------- SELECTORS ------------------------*/
+/* Sets configs for selectors containers:absolute positioned in relation to #slider */
+div.container ul.slider_selector {padding:2px 0px;}
+
+.slider_selector,.slider_selector_dis
+{ bottom:-20px;
+  list-style:none;
+  margin:0 0 0 5px;
+  position:absolute;
+  right:18px;
+  z-index:5; }
+
+/* Sets image of selectors */
+.slider_selector li,.slider_selector_dis li
+{ display:block !important;
+  background:url(http://nitrografixx.com/2013Nike/slider/selector.png) no-repeat top left;
+  cursor:pointer;
+  float:left;
+  margin:0 3px !important;
+  height:18px !important;
+  position:relative !important;
+  width:18px !important; }
+
+/* Sets the current selector */
+.slider_selector li.current,.slider_selector_dis li.current
+{ background:url(http://nitrografixx.com/2013Nike/slider/selector_active.png) no-repeat top left; }
+
+/* Disables the selectors */
+.slider_selector_dis li
+{ cursor:default !important;
+  z-index:5; }
+
+.container
+{ position:relative;
+  z-index:2;
+  margin-bottom:30px;
+  margin-top:5px;}

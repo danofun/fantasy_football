@@ -1,0 +1,187 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf320
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\margl1440\margr1440\vieww9000\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ql\qnatural\pardirnatural
+
+\f0\fs24 \cf0 <script language="JavaScript" type="text/javascript">\
+<!--\
+\
+//Start marquee manually; either true or false\
+   var overviewClickToStart = false;\
+\
+//Display salary/contract column; either true or false\
+   var displayOverviewSalary = false;\
+\
+//Set initial team to display; normally commissioner franchise ID\
+   var overviewDefaultTeam = '0006';\
+\
+//Set the number of decimals for Fantasy Points display\
+   var overviewDecimals = 2;\
+\
+//Display "Not Official Stats" disclaimer\
+   var overviewEnableStatsDisclaimer = true;\
+\
+//The following controls the number of weeks to display in fantasy schedule tab\
+   var overviewScheduleMax = 16;\
+   var overviewScheduleNext = 5;\
+   var overviewSchedulePrev = 5;\
+\
+//Create link to minimize the app\
+   var overviewMinimize = false;\
+\
+// -->\
+</script>\
+<p><style type="text/css">\
+\
+/* THIS IS THE TAB CONTENT CSS CODE */\
+.habOverviewTabs\{\
+  padding: 1px;\
+  font-weight: bold;\
+  list-style-type: none;\
+  text-align: center; \
+\}\
+\
+.habOverviewTabs li \{\
+display: inline;\
+  background-color: silver;\
+  border: 1px solid black;\
+  margin: 0;\
+  padding: 0;\
+  padding-left: 5px;\
+\}\
+\
+.habOverviewTabs li a \{\
+	padding:1px;\
+text-decoration: none;\
+  \
+\}\
+\
+.habOverviewTabs li.selected \{\
+background-color: black;\
+  border-bottom: 2px silver;\
+\}\
+\
+.habOverviewTabContentStyle\{ \
+    margin: 10px 0 10px 163px; /* used to center tabs on screen */\
+	width:750px;\
+	height:450px;\
+border: 1px solid black;\
+  background-color: black;\
+\}\
+\
+.habOverviewTabContent\{\
+display:none;\
+  padding-left: 30px;\
+  padding-top: 30px;\
+  padding-right: 30px;\
+\}\
+\
+#RosterOverviewMain, #RosterOverviewStats, #RosterOverviewSchedule, #RosterOverviewProjections \{\
+text-align: center;\
+min-height: 400px;\
+height: auto !important; /* For Safari & firefox */\
+height: 400px; /* IE6 expands this if needed */\
+vertical-align: top;\
+\}\
+\
+.habOverviewTable \{\
+  width: 100%;\
+  border: 1px solid black;\
+\}\
+\
+.habOverviewTable caption \{\
+	width:100%;\
+	text-align: center;\
+\}\
+\
+.habOverviewTable td \{\
+  padding-left: 5px;\
+  padding-right: 5px;\
+\}\
+\
+.habOverviewTable th \{\
+  border-right: 0px;\
+  border-left: 0px;\
+  height: auto;\
+  font-style: normal;\
+\}\
+\
+#habOverviewSelect \{\
+  font-size: 11px;\
+  font-family: courier new,helvetica;\
+  font-weight: bold;    \
+  color: #00517b;\
+  background-color: silver;\
+\}\
+\
+\
+/* THIS IS THE DYNAMIC DRIVE CSS POPUP WINDOW CODE */\
+.dhtmlwindow\{\
+  position: absolute;\
+  border: 2px solid black;\
+  visibility: hidden;\
+  background-color: white;\
+\}\
+\
+.drag-handle\{ /*CSS for Drag Handle*/\
+  padding: 1px;\
+  text-indent: 3px;\
+  font: bold 14px Arial;\
+  background-color: #CA0000;\
+  color: white;\
+  cursor: move;\
+  overflow: hidden;\
+  width: auto;\
+  filter:progid:DXImageTransform.Microsoft.alpha(opacity=100);\
+  -moz-opacity: 1;\
+  opacity: 1;\
+\}\
+\
+.drag-handle .drag-controls\{ /*CSS for controls (min, close etc) within Drag Handle*/\
+  position: absolute;\
+  right: 1px;\
+  top: 2px;\
+  cursor: hand;\
+  cursor: pointer;\
+\}\
+\
+* html .drag-handle\{ /*IE6 and below CSS hack. Width must be set to 100% in order for opaque title bar to render*/\
+  width: 100%;\
+\}\
+\
+\
+.drag-contentarea\{ /*CSS for Content Display Area div*/\
+  border-top: 1px solid brown;\
+  background-color: white;\
+  color: black;\
+  height: 150px;\
+  padding: 2px;\
+  overflow: auto;\
+\}\
+\
+.drag-statusarea\{ /*CSS for Status Bar div (includes resizearea)*/\
+  border-top: 1px solid gray;\
+  background-color: #F8F8F8;\
+  height: 13px; /*height of resize image*/\
+\}\
+\
+\
+.drag-resizearea\{ /*CSS for Resize Area itself*/\
+  float: right;\
+  width: 13px; /*width of resize image*/\
+  height: 13px; /*height of resize image*/\
+  cursor: nw-resize;\
+  font-size: 0;\
+\}\
+\
+</style></p>\
+<script type="text/javascript" src="http://www.habman.com/mfl/apps/js/habman_common.js"></script> <script type="text/javascript" src="http://www.habman.com/mfl/apps/js/overview.js"></script> <script type="text/javascript" src="http://www.habman.com/mfl/habtabcontent.js"></script>  <script type="text/javascript" src="http://www.habman.com/mfl/apps/js/dhtmlwindow/dhtmlwindow.js">\
+\
+/***********************************************\
+* DHTML Window Widget- \'a9 Dynamic Drive (www.dynamicdrive.com)\
+* This notice must stay intact for legal use.\
+* Visit http://www.dynamicdrive.com/ for full source code\
+***********************************************/\
+\
+</script>}

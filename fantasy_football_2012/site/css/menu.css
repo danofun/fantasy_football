@@ -1,0 +1,335 @@
+#nav_ticker_wrapper {position:absolute; top:47px;left:403px;width:800px;}
+
+ul.dropmenu{
+	color:#6f5b4a;
+	position: relative;
+	margin: 0px;
+	padding: 0px 0px 0px 0px;
+	background:transparent;
+	display:block;
+	height: 30px;
+	font-family:Verdana,Arial,Helvetica,sans-serif;
+	font-size: 12px;
+	z-index:100;
+	min-width:440px;	
+}
+
+.dropmenu li{
+	position: relative;
+	list-style: none;
+	float: left;
+	margin: 0px;
+	padding: 0px;
+}
+
+.dropmenu li a{
+	height: 20px;
+	padding: 12px 34px 12px 34px;
+	display: block;
+	cursor: point;
+	border-right: solid 1px #000; margin-top: 0px;
+	color: #d5a42b;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+.dropmenu li a.last{
+border-right:none;
+	padding: 12px 26px 12px 26px;
+}
+
+.dropmenu li span{
+	display: block;
+	float: right;
+	height: 10px;
+	width: 10px;
+	background:transparent;
+	position: absolute;
+	top: 12px;
+	right: 10px;
+}
+
+.dropmenu li  a:hover span{
+	background:transparent;
+}
+
+.dropmenu li:hover ul, .dropmenu li:hover div{
+	display: block;
+}
+
+.dropmenu ul{
+	position: absolute;
+	display: none;
+	width: 140px;
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 1px solid #222222;
+	background: #111111;
+}
+
+.dropmenu ul li{
+	border: 0;
+	float: none;
+	list-style-image:none;
+}
+
+.dropmenu ul a {
+  border: 1px solid #222222;
+  border-bottom: 0;
+  white-space: nowrap;
+  display:block;
+  color: #fff;
+  text-decoration:none;
+  text-transform: none;
+}
+
+.dropmenu ul a:hover {
+	color:#d5a42b;
+	text-decoration: none;
+	background-color: #1e1e1e;
+	background-image: none;
+}
+.dropmenu div ul{
+	position: relative;
+	display: block;
+}
+.dropmenu li div{
+	background: #000;
+	z-index:102;
+	padding: 5px;
+	display: none;
+	position: absolute;border: 1px solid #635143;margin-top:-5px;
+}
+.dropmenu li div ul{
+	border: none;
+	background: none;
+	position: relative;
+}
+.dropmenu li div a{
+	border: none;
+	border-bottom: 1px solid #222222;
+}
+.dropmenu li div div{
+	display: block;
+	position: relative;
+	background: none;
+	border: none;
+}
+.dropmenu li div div a{
+	display: inline;
+	border: none;
+	color: #fff;
+	text-decoration: underline;
+	padding: 0px;
+	margin: 0px;
+	text-transform: none;
+}
+.dropmenu li div div a:hover{
+	color: #d5a42b;
+	text-decoration: none;
+}
+ul.left{
+	float: left;
+	width: 145px;
+}
+ul.right{
+	float: right;
+	width: 145px;
+}
+.small{
+	color: #d5a42b;
+	font-size: 12px;
+	padding: 10px 5px 8px 5px;
+	display: block;
+	clear: both;
+}
+.products{
+	width: 250px;
+	padding: 15px;text-align:left;
+}
+.products ul{
+	width: 100%;
+}
+.products ul li{
+	border-bottom: 1px solid #111;
+	height: 25px;
+	padding: 13px 0px;
+}
+.products h2{
+	font-size: 16px;
+	padding: 10px 0px 3px 0px;
+	margin: 0px; color: #fff;
+        text-align:left;width:244px;
+}
+.products ul li h2:hover {color: #d5a42b;}
+
+.products p{
+	color: #666;
+	font-size: 10px;
+	padding: 0px;
+	margin: 0px; 
+}
+.products img{
+	float: left;
+	padding-right: 10px;
+}
+.products  ul li a{
+	display: inline;
+	border: none;
+	color: #666;
+	text-decoration: none;
+	padding: 0px;
+	margin: 0px;
+	text-transform: none; 
+}
+.products  ul li  a:hover{
+	color: #CCC;
+	text-decoration: none;
+	background: none;
+}
+
+.products img {width:75px; height:38px;}
+.teams img {width:62px; height:50px;}
+
+.teams{
+	width: 620px;
+	padding: 15px;
+}
+
+
+.teams ul{
+	width: 300px;
+	padding-right:10px;
+}
+.teams ul li{
+	border-bottom: 1px solid #6f5b4a;
+	height: 50px;
+	padding: 10px 0px;
+}
+.teams h2{
+	font-size: 16px;
+	padding: 2px 0px 3px 0px;
+	margin: 0px 0 0 40px; 
+        color:#fff;
+}
+.teams h2.main{
+	font-size: 19px;
+	padding: 8px 0px 13px 20px;
+	margin: 0px 0 0 40px; 
+        color:#6f5b4a;
+        text-decoration:underline;font-style:italic; text-align:left;
+}
+.teams p{
+	font-size: 10px;
+	padding: 0px;
+	margin: 0px;color: #fff;
+}
+.teams img{
+	float: left;
+	padding-right: 10px;
+}
+.teams  ul li a{
+	display: inline;
+	border: none;
+	color: #d5a42b;
+	text-decoration: underline;
+	padding: 0px;
+	margin: 0px;
+	text-transform: none;
+	font-style:.9em;
+}
+.teams  ul li  a:hover{
+	color: #CCC;
+	text-decoration: none;
+	background: none;
+}
+
+
+.tutorials{
+	width: 300px;
+}
+
+.dropmenu .login{
+	padding: 15px !important;
+	width: 180px;
+}
+.dropmenu input{
+	background: #1e1e1e;
+	color: #FFF;
+	border:1px solid #333333;
+	padding: 5px 15px;
+
+}
+.dropmenu input:hover{background: #1e1e1e; color:#CCC}
+.dropmenu label{
+	padding: 0px 0px 4px 0px;
+	display:block;
+}
+.dropmenu button{
+	background: #1e1e1e;
+	color: #FFF;
+	border:1px solid #1e1e1e;
+	padding: 4px 10px;
+	width: 180px; 
+}
+
+
+.rafter {height: 326px; width: 943px; margin-left: -916px;}
+.rafter ul{
+	width: 100%;
+}
+.rafter ul li{
+	border:none;
+	padding: 0px 0px;
+}
+.rafter h2{
+	font-size: 16px;
+	padding: 2px 0px 3px 0px;
+	margin: 0px;
+}
+.rafter p{
+	color: #666;
+	font-size: 10px;
+	padding: 0px;
+	margin: 0px;
+}
+.rafter img{
+	float: left; height: 326px; width: 943px;
+	padding-right: 0px;
+}
+.rafter  ul li a{
+	display: inline;
+	border: none;
+	color: #666;
+	text-decoration: underline;
+	padding: 0px;
+	margin: 0px;
+	text-transform: none;
+}
+.rafter  ul li  a:hover{
+	color: #000;
+	text-decoration: none;
+	background: none;
+}
+
+.teams  {margin-left: -390px;}
+
+
+ul#nav-one a {}
+ul#nav-one a:hover { font-weight: bold;
+color: #000; 
+text-align: center;font-weight: bold;
+background:transparent url(http://faithworkcamps.com/fantasy_football_2012/site/img/nav_hov.png) repeat-x top; border-top:1px solid #000;margin-top:-1px;
+}
+
+
+ul#nav-one .teams a {color:#d5a42b; background-color: transparent; width: 80px; text-align: center;font-weight: bold; height: 29px;border-top: 1px solid #000; border:none;}
+ul#nav-one .teams a:hover { font-weight: bold;
+color: #fff; 
+width: 80px;
+text-align: center;font-weight: bold;
+background: transparent; border:none; text-decoration: underline;
+}
+
+
+
+

@@ -1,0 +1,253 @@
+@import url("logos_white.css");@import url("commishsetup_white.css");@import url("../../Empire-2012/css/DONOTCOPY_adblocker.css");@import url("http://fonts.googleapis.com/css?family=Oswald:400,300,700");
+:-moz-any-link:focus { outline:none; }
+:focus { outline:none; }
+.pageheader{display:none}
+.pagefooter{display:none}
+.homepagemessage{border:1px solid #222;display:none}
+html{overflow-y:scroll;margin:0;padding:0}
+#head{background:transparent;width:1200px;margin:0 auto;margin-top:20px;border-bottom:none;height:118px;padding-top:0}
+.pagebody{text-align:left;position:relative;background:transparent url("../img/bodybg_white.png") center top;width:1200px;margin:0 auto;min-height:750px;color:#454545;padding:0;padding-left:20px;padding-right:20px;margin-top:132px;padding-top:20px;padding-bottom:20px;}
+body{font-size:15px;font-weight:300;font-family: 'Oswald',sans-serif;color:#454545;background-image:url("../img/bg_white.jpg");background-position:center top;background-repeat:no-repeat;background-attachment:fixed;margin:0;margin-bottom:62px}
+#banner{position:absolute;top:-134px;margin-left:-28px}
+#logo{position:absolute;top:-83px;margin-left:6px}
+#textfooter{position:absolute;bottom:-61px;margin-left:-28px}
+#designby{position:absolute;bottom:-38px;margin-left:20px}
+/* ###### SEARCH ###### */
+#search-nav-wrap{position:absolute;left:1016px;top:-114px;z-index:2}
+#search input{background:transparent;width:158px;height:24px;font-weight:700;;padding-left:3px;padding-right:3px;padding-top:3px;color:#44629b;text-align:center;border:none;-moz-border-radius-topleft:5px 5px;-moz-border-radius-topright:5px 5px;-moz-border-radius-bottomleft:5px 5px;-moz-border-radius-bottomright:5px 5px;-webkit-border-radius-topleft:5px 5px;-webkit-border-radius-topright:5px 5px;-webkit-border-radius-bottomleft:5px 5px;-webkit-border-radius-bottomright:5px 5px;}
+#search .btn{width:25px;height:25px;position:absolute;top:1px;left:152px;background:transparent;border:none}
+#search .btn:hover{width:20px;height:20px;position:absolute;top:4px;left:163px;background:transparent url("../img/searchglass.png") no-repeat;border:none}
+#searchsubmit{margin-left:12px}
+  
+
+/* MFL Menu */
+.mmenucontainer { -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(enabled=false)" !important; }
+#menu0.mmenucontainer{top:20px !important;border:0 solid #366ba1 !important;background-color:transparent !important;font-weight:400;}
+#menu0 td.mainmenuoff{background-color:transparent !important;}
+#menu0 td.mainmenucurrent{background-color:transparent !important}
+#menu0 td.mainmenuon{background-color:transparent !important}
+#menu0 a{font-size:90% !important;margin-bottom:8px !important}
+#menu0 a.mainmenuoff{color:#ee4f20 !important;background-color:transparent !important}
+.mainmenuoff{color:#454545}
+#menu0 a.mainmenuon{color:#ee4f20 !important;background-color:transparent !important;text-decoration:none !important}
+#menu0 a.mainmenucurrent{color:#ee4f20 !important;background-color:transparent !important}
+#menu0 img{opacity:0.8;margin-top:-2px !important}
+#menu0 td.mainmenucurrent img{border-color:#fff transparent transparent}
+#menu0 td.mainmenuon img{border-color:#ee4f20 transparent transparent}
+
+/*--- sub levels ---*/
+.mmenucontainer{border:0 solid #366ba1 !important;background-color:#fff !important;}
+.mmenucontainer td.mainmenuoff{background-color:transparent !important}
+.mmenucontainer td.mainmenuon{background-color:#e9e9e9 !important}
+.mmenucontainer a{font-size:90% !important;letter-spacing:1px;}
+.mmenucontainer a.mainmenuoff{color:#454545 !important;background-color:transparent !important}
+.mmenucontainer a.mainmenuon{color:#ee4f20 !important;background-color:transparent !important;text-decoration:none !important}
+.mmenucontainer a.mainmenucurrent{color:#ee4f20 !important;background-color:transparent !important}
+.mmenucontainer img{opacity:0.8}
+
+/*--- indent text ---*/
+.mainmenuon,A.mainmenuon:link,A.mainmenuon:visited,A.mainmenuon:hover,A.mainmenuon:active{text-indent:3px}
+#menu0 .mainmenuon{text-indent:0;padding-right:0}
+.mainmenuoff{padding-right:3px}
+#menu0 .mainmenuoff{padding-right:0}
+
+/* Replace the down and right arrows with CSS triangles */
+#menu0 img{border-style:solid;border-width:6.9px 4px 0 4px;border-color:#fff transparent transparent transparent;height:0 ! important;width:0 ! important}
+.mmenucontainer img{width:0 !important;height:0 !important;border-style:solid;border-width:4px 0 4px 6.9px;border-color:transparent transparent transparent #fff;margin:3px !important}
+.mmenucontainer td.mainmenucurrent img{border-color:transparent transparent transparent #fff}
+.mmenucontainer td.mainmenuon img{border-color:transparent transparent transparent #ee4f20}
+/* make the main div use a transparent background and set a transparent border with thickness */
+.mmenucontainer{background-color:transparent !important;border:1px solid transparent !important}
+
+/* set background for the table tag to some color. Could be an image instead. */
+.milonictable{background-color:#e9e9e9}
+td.mainmenuon .milonictable{background-color:#e9e9e9}
+
+
+/* Reset the background color of the main menu back to transparent so it will show through whatever color was previously defined */
+#menu0 .milonictable{background-color:transparent}
+#topmenu{position:absolute;top:-90px;left:1035px;z-index:4;color:#454545;width:330px;}
+#topmenu  li{display:inline;padding:0px;height:1px;}
+#topmenu li a{color:#454545;text-decoration:none;font-size:10px;font-weight:400;text-transform:uppercase;height:1px;}
+#topmenu li a:hover{color:#ee4f20;text-decoration:none}
+#togglelogin {position:absolute;z-index:1;top:-90px;left:832px;text-align:right;width:200px;list-style:none;}
+#togglelogin a{text-decoration:none;color:#454545;font-size:10px;font-weight:400;text-transform:uppercase;}
+#togglelogin a:hover{text-decoration:none;color:#ee4f20;}
+/* ###### CAPTIONS ###### */
+caption,.homepagecolumn .homepagemodule caption,.dctop,#options_02 .panel2 caption{text-align:center;padding:0;font-weight:900;font-size:13pt;color:#44629b;width:auto;background:#fff;cursor:default;text-transform:uppercase;
+-webkit-border-top-left-radius: 5px;-webkit-border-top-right-radius: 5px;-moz-border-radius-topleft: 5px;-moz-border-radius-topright: 5px;border-top-left-radius: 5px;border-top-right-radius: 5px;border:1px solid #b6d7ff;border-bottom:none;
+padding-top:8px}
+caption a:link,caption a:active,caption a:visited{color:#000;text-decoration:none}
+caption a:hover{color:#000;text-decoration:none}
+caption.withfranchiseicon{padding:2px}
+.withfranchiseicon span.ownername{display:none}
+/* ###### TH ###### */
+th,#standings h3,#brief_standings h3,.chartmenudivisionhd,.playoffbracket th{text-align:left;font-weight:400;font-size:14px;color:#ee4f20;border:none;background:#fff;font-style:normal;border:1px solid #b6d7ff;text-indent:2px;}
+th a:link,th a:active,th a:visited{color:#ee4f20;text-decoration:none}
+/* ###### Text Coloring ###### */
+.oddtablerow{background:#fff;font-weight:300;}
+.eventablerow{background:#fff;font-weight:300;}
+.oddtablerow td { border:1px solid #b6d7ff; }
+.eventablerow td { border:1px solid #b6d7ff; }
+.newposition td,.newposition th{border-top:2px solid #44629b;}
+.oddtablerow td.status span.freeagent{color:#ee4f20}
+.eventablerow td.status span.freeagent{color:#ee4f20}
+.oddtablerow a:link,.oddtablerow a:active,.oddtablerow a:visited,.oddtablerow{color:#454545}
+.eventablerow a:link,.eventablerow a:active,.eventablerow a:visited,.eventablerow{color:#454545}
+a:link,a:active,a:visited{color:#44629b}
+a:hover{color:#ee4f20}
+a:active { background:none; }
+.oddtablerow a:hover{color:#ee4f20}
+.eventablerow a:hover{color:#ee4f20}
+.warning a:link,.warning a:active,.warning a:visited{color:red}
+.oddtablerow .warning a:link,.oddtablerow .warning a:active,.oddtablerow .warning a:visited,.eventablerow .warning a:link,.eventablerow .warning a:active,.eventablerow .warning a:visited{color:red}
+.oddtablerow .warning,.eventablerow .warning{color:red}
+.warning{color:red;font-size:15px;}
+A:link img,A:visited img{border-color:transparent}
+A:hover img{border-color:transparent}
+h3 a:link,h3 a:visited,h3 a:active{color:#454545}
+h3 a:hover{color:#ee4f20}
+h3{font-size:15px;color:#44629b;background-color:#fff;border-top:0 solid #222;border-bottom:0 solid #222;padding:4px;margin-bottom:6px;margin-top:4px}
+h3.warning,h3.warning a:link,h3.warning a:visited,h3.warning a:active{width:100%;margin-left:-3px;background:transparent;border:none;color:red;font-size:15px;}
+.myfranchise,.myfranchise a,.myfranchise a:link,.myfranchise a:visited,.myfranchise a:hover,.myfranchise a:active,tr.myfranchise,tr.myfranchise A{font-weight:bold;color:#ee4f20}
+#league_chat b{color:#ee4f20}
+/* ###### END ###### */
+/* ###### TABLE REPORTS CUSTOM ###### */
+.report,.two_column_layout table{border:none;padding:5px;padding-top:8px;text-align:left;width:96%;border:none;background:#fff;border:1px solid #b6d7ff;
+-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;
+-webkit-border-top-left-radius: 0px;-webkit-border-top-right-radius: 0px;-moz-border-radius-topleft: 0px;-moz-border-radius-topright: 0px;border-top-left-radius: 0px;border-top-right-radius: 0px;border-top:none;}
+
+div#pro_matchup.pagebody table.two_column_layout tbody tr td.two_column_layout table.report tbody tr td table.report,#body_options_72 div#options_72.pagebody form table.report,#body_options_158 .report,
+#body_options_23 .report,#body_options_81 .report,#body_options_54 .report,#body_options_17 .report,#generate_embed.pagebody form table.report,#body_options_113 .report,#body_options_03 .report,#accounting_report.pagebody table.report
+,#body_options_26 .report,#body_options_112 .report,#body_options_119 .report,#body_options_236 .report,#body_options_08 .report,#body_options_37 .report,#free_agents.pagebody table.report,#menu_page.pagebody table.report,
+#options_151.pagebody form table.report,#options_02.pagebody form table.report,#waivers.pagebody table.report tbody tr td table.report,#edit_poll.pagebody form table.report,#body_options_68 .report,#body_commish_email .report
+,#body_options_69 .report,#board_show.pagebody .report,#body_league_setup1 .report,#options_62 .report,#options_40 .report,#options_65 .report,#options_28 .report,#options_161 .report,#options_128 .report,#options_103 .report,#options_93 .report,  
+#options_110 .report,#options_45 .report,#options_64 .report,#options_30 .report,#options_108 .report,#options_124 .report,#options_173 .report,#options_141 .report,#body_scoring_setup1 .report,#options_12 .report,#options_144 .report,
+#options_186 .report,#options_63 .report,#options_149 .report,#options_111 .report,#options_94 .report,#options_95 .report,#options_128 .report,#options_58 .report,#options_56 .report,#options_57 .report,#options_61 .report,
+#options_59 .report,#options_35 .report,#options_55 .report,#options_25 .report,#options_114 .report,#options_139 .report,#options_168 .report,#options_105 .report,#options_82 .report,#options_77 .report,#options_78 .report,
+#options_140 .report,#options_237 .report,#options_87 .report,#options_85 .report,#options_86 .report,#options_41 .report,#options_110 .report,#options_109 .report,#options_106 .report,#options_89 .report,#options_92 .report,
+#taxi_squad.pagebody table.report tbody tr td table.report,#options_98 .report,#ir.pagebody table.report tbody tr td table.report,#options_18 .report,#options_96 .report,#import_future_draft_picks.pagebody table.report,#options_133 .report,
+div#processed_waivers.pagebody table.report,#options_67 .report,#options_167 .report,#options_45 .report
+{-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;border-top:1px solid #b6d7ff;}
+
+#body_options_23 .report caption,#body_options_81 .report caption,#accounting_report.pagebody table.report caption,#body_options_119 .report caption,#menu_page.pagebody table.report caption,#options_52.pagebody form table caption,
+#new_predraft.pagebody form table caption,#body_options_68 .report caption,#board_show.pagebody .report caption,#body_league_setup1 .report caption,#options_110 .report caption,#options_93 .report caption,#body_scoring_setup1 .report caption,
+#options_95 .report caption,#options_82 .report caption,#options_110 .report caption,#options_98 .report caption,#options_18 .report caption,#options_133 .report caption,#options_45 .report caption
+{-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px; margin-bottom:5px;border-bottom:1px solid #b6d7ff;padding-bottom:6px;}
+
+div#player.pagebody table tbody tr td table#player_stats_table.report {width:790px;}
+#board_show td{vertical-align:top}
+#body_board_show form{width:90%;margin:0 auto}
+#body_board_show textarea{width:100%;margin:0 auto;height:auto}
+#body_board_show th.messageboardbar{color:#ee4f20;background:transparent;font-size:14px;font-weight:bolb;border:none;padding-right:0;text-decoration:underline}
+#body_board_show .messageboardlink{padding:4px;}
+#body_board_show #Footer form{width:auto}
+#monthly_calendar{margin-top:10px;margin-bottom:10px;width:1144px;}
+#monthly_calendar th{border:1px solid #000;border:1px solid #b6d7ff}
+#monthly_calendar caption{}
+#monthly_calendar td{border:1px solid #b6d7ff;}
+table#monthly_calendar.report div.calendarday {color:#ee4f20;}
+#monthly_calendar td.today{border:4px double #ee4f20}
+#body_options_02 form .franchiselogo,#body_options_02 form .franchiseicon{display:none}
+#body_options_02 form caption{background:url("../../PTD2012/img/roster_lineup.png") 0 0;border:none;height:180px;background-repeat:no-repeat;margin-left:280px;-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none}
+textarea{width:90%;height:500px;margin-left:13px}
+#body_options_46 textarea{width:110px}
+#body_options_02 textarea{height:50px}
+form table{width:90%}
+.two_column_layout table{width:572px}
+#body_options_07 #single_roster .two_column_layout .report{width:1000px}
+#choose_schedule .report,#options_121 .report,#options_118 .report{width:500px}
+#home select{font-size:12px}
+#options_06 .report,#options_169 .report,#options_07 .report,#submit_lineups .report,#options_178 .report,#options_49 .report,#options_16 .report,#options_15 .report,#options_68 .report{width:572px}
+#body_player .report{width:90%}
+div#options_31.pagebody table tbody tr td{width:500px}
+#options_12 #MSG{width:1080px;margin-bottom:10px;margin-left:60px;background:#fff;padding:0;color:#000}
+.scoresummary{width:450px;border:1px solid #b6d7ff;-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;padding:6px;}
+#options_22 .scoresummary{margin-bottom:10px;}
+#options_01 table.report{width:1144px}
+#body_submit_lineups .report{width:750px}
+#body_submit_lineups textarea{height:200px}
+input{margin-bottom:10px}
+
+#commish_email textarea{height:auto;margin-left:13px}
+#body_options_156 .report,#commish_email .report,#accounting_report .report,#body_options_187 .report,#body_options_153 .report,#body_options_119 .report,#body_options_204 .report,#body_options_194 .report{width:550px;height:auto}
+#standings .report{width:1144px;border:1px solid #b6d7ff;-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;}
+#standings .confwlt,#standings .acct,#standings .salary,#standings .vp,#standings .bbidbalance,#standings .pwr,#standings .h2hw,#standings .h2hl,#standings .bbidspent,#standings .h2ht,#standings .gb,#standings .strk,#standings .pf,#standings .pa,#standings .divw,#standings .divl,#standings .h2hwlt,#standings .h2hpct,#standings .avgpf,#standings .avgpa,#standings .divwlt{text-align:center;font-size:12px;width:100%;}
+#standings #division00 h3,#standings #division01 h3,#standings #division02 h3,#standings #division03 h3{background:transparent;color:#000;border:none;padding:2px;color:#000;font-size:13pt;text-align:center}
+#standings td.fname{width:300px}
+#standings caption{display:none;}
+#brief_standings #division00 h3,#brief_standings #division01 h3,#brief_standings #division02 h3,#brief_standings #division03 h3 {background:#ee4f20;color:#fff;text-align:center;font-size:15pt}
+#power_rank tr:first-child,.total_points,.total_potential_points,.efficiency,.bench_points,.maxpf,.minpf,.coulda_won,.woulda_lost,.all_play_w,.all_play_l,.all_play_t,.all_play_pct{width:58px;text-align:center}
+/* LIVE SCORING REPORTS */
+#body_live_scoring_summary h2,#body_live_scoring h2{background:url("../img/livescoringbanner_white.png");width:1256px;height:134px;margin-top:2px;margin-bottom:0;margin-left:auto;margin-right:auto;font-size:0;color:transparent}
+#body_live_scoring_summary div#live_scoring_summary.pagebody,#body_live_scoring div#live_scoring.pagebody{background:transparent url("../img/bodybg_white.png") center top;width:1200px;padding-left:20px;padding-right:20px;padding-bottom:20px;margin-bottom:-62px;padding-bottom:20px;margin-top:0}
+#live_scoring_summary h3,#live_scoring h3{margin-bottom:10px;border:1px solid #ccc;padding:5px}
+#live_scoring_summary h3,#live_scoring h3.warning{margin-bottom:0;border:0 solid #666;padding:0;text-align:center;font-size:10pt}
+#live_scoring_summary .scoresummary{width:400px;margin-top:10px}
+#live_scoring_summary table{width:1020px}
+#live_scoring_summary table.report{width:570px}
+#live_scoring table{width:1144px}
+#live_scoring table.report{width:530px}
+div#live_scoring.pagebody,div#live_scoring_summary.pagebody{margin-bottom:0;padding-bottom:0}
+div#live_scoring_summary.pagebody tr.total{color:#000;font-size:18px;background:#fff}
+div#live_scoring_summary.pagebody tr.total th{font-size:18px;text-align:center}
+div#live_scoring_summary.pagebody th{text-align:left}
+div#live_scoring.pagebody tr.grand_total{color:#000;font-size:18px;background:#fff;text-align:center}
+#body_live_scoring_summary h2.warning,#body_live_scoring h2.warning{background:#000;width:auto;height:auto;font-size:20px;color:#fff;margin-top:0}
+/* PLAYOFF BRACKETS */
+.playoffbracket td{border:0 solid #000}
+.playoffbracket{width:1144px;border-top:none;padding:4px;padding-bottom:15px;background:#fff;border:1px solid #b6d7ff;
+-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;
+-webkit-border-top-left-radius: 0px;-webkit-border-top-right-radius: 0px;-moz-border-radius-topleft: 0px;-moz-border-radius-topright: 0px;border-top-left-radius: 0px;border-top-right-radius: 0px;border-top:none;
+}
+.playoffbracket .oddtablerow{color:#44629b;font-size:11pt;font-weight:bold;background:#fff}
+.playoffbracket td.topteam{border-bottom:2px solid #ee4f20;font-weight:bold}
+.playoffbracket td.bracket{border-right:2px solid #ee4f20}
+.playoffbracket td.bottomteam{border-bottom:2px solid #ee4f20;border-right:2px solid #ee4f20;font-weight:bold}
+.playoffbracket .playoffbracketname{background:#000;color:#888;font-size:16pt;height:25px;border:1px solid #000}
+#home .playoffbracket{width:1144px}
+.playoffbracket b{color:#44629b}
+.playoffbracket td{text-align:center}
+/* Bulliton Board */
+#body_options_13 img.franchiselogo{display:none}
+#options_13 .franchiselogo{display:none}
+#body_options_13 h3{background:none;border:none}
+#body_options_13 form{text-align:center}
+/* Articles */
+#fantasy_preview th {text-align:center;padding-bottom:5px}
+#fantasy_recap th {text-align:center;padding-bottom:5px}
+#fantasy_articles .oddtablerow a:link,#fantasy_articles .oddtablerow a:active,#fantasy_articles .oddtablerow a:visited{color:#ee4f20}
+#fantasy_articles th{background:#fff;}
+#article .articleheadline{padding:2px 4px 4px;font-size:16px;font-weight:bold;text-align:left;color:#fff}
+#article th.articleauthor{padding-left:4px;text-align:left}
+.articlepicture,.articlecaption{border:1px solid #b6d7ff;padding:2px;color:#ee4f20}
+.articlepicturetable td{padding:0 !important}
+.articlepicturetable{padding-left:5px}
+#article .oddtablerow td,#options_73 #main-content .oddtablerow td{padding:5px;background-color:transparent}
+#article td div,#options_73 #main-content td div{padding:5px}
+#article p,#options_73 #main-content p{margin-top:0}
+#article a,#options_73 #main-content a{color:#ee4f20}
+#article img{max-width:240px;height:auto}
+#article th{background:#fff;color:#ee4f20}
+#options_73 img.articlepicture{max-width:300px;height:auto}
+#fantasy_articles .oddtablerow a:link,#fantasy_articles .oddtablerow a:active,#fantasy_articles .oddtablerow a:visited{color:#ee4f20}
+img.videoconferenceicon{display:none}
+#addtrade{display:none}
+#body_options_07 .report td{text-align:center}
+#body_options_07 .report td.player{text-align:left}
+#home #owner_activity .franchiseicon{width:108px;height:auto}
+#home #owner_activity {width:318px;margin-top:0px;height:316px;font-size:12px;}
+#owner_activity.homepagemodule.report {-webkit-border-radius: 0px;-moz-border-radius: 0px;border-radius: 0px;padding:0}
+#home #owner_activity .oddtablerow,#home #owner_activity .eventablerow,#home #owner_activity th{background:transparent}
+#home #owner_activity caption{-webkit-border-radius: 0px;-moz-border-radius: 0px;border-radius: 0px;font-weight:400;font-size:12px;height:15px;line-height:10px;}
+#home #owner_activity th{display:none;}
+#owner_activity td.franchisename {width:108px;}
+
+#sliderbg {position:absolute;margin-left:1px}
+#chat{ width:auto; margin-bottom:0px;padding-bottom:0px;margin-top:0px;background:#fff;}
+#body_chat h2{ display:none; margin-top:10px;background:#fff;}
+#league_chat{margin:0px;}
+#TabbedPanels2 #league_chat th{display:none;}
+table#youtubevideo.homepagemodule.report embed{text-align:center;width:100%;}
+
+

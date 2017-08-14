@@ -1,0 +1,47 @@
+
+#roster .franchiseicon,#TabbedPanels3 .franchiseicon,#submit_lineup .franchiseicon  {
+width:250px;
+height:40px;
+margin-bottom: 2px; 
+margin-top: 2px;
+} 
+.franchiseicon  {
+width:250px;
+height:40px;
+margin-bottom: 2px; 
+margin-top: 2px;
+} 
+#options_207 td .franchiseicon, #options_177 td .franchiseicon  {
+width:140px;
+height:auto;
+} 
+#standings .franchiseicon  {
+width:250px;
+height:40px;
+margin-bottom: 2px; 
+margin-top: 2px;
+} 
+img.ava {
+width:250px;
+height:auto;
+}
+#options_07 caption, #subcap caption{
+text-align: center;
+}
+#roster .franchiseicon, #roster caption {
+text-align: center; 
+vertical-align: center;
+}
+#options_16 .two_column_layout .franchiseicon,#options_17 .report .franchiseicon,#body_top .report .franchiseicon,#options_08 .report .franchiseicon, .h2hmatchups .franchiseicon,#options_22 .scoresummary .franchiseicon, #options_20 .franchiseicon, #body_options_204 .report .franchiseicon {
+width:150px;
+height:auto;
+}
+#options_113 .franchiseicon,#options_222 .franchiseicon {
+width: 64px;
+height: auto;
+}
+.franchiseicon:hover, .tickerteam:hover {
+opacity:0.7;	/*Firefox & Chrome*/
+filter:alpha(opacity=70);
+}
+#body_options_06 .two_column_layout caption,#body_options_22 .two_column_layout caption,#body_options_169 .two_column_layout caption,#options_207 td caption,#options_177 td caption,#options_118 .report caption {text-align:center;}

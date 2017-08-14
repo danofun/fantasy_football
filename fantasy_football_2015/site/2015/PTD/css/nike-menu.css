@@ -1,0 +1,198 @@
+             /***  RESET NAV LOCATION FOR MOBILE  ***/
+             .mobile .pageheader,.tablet .pageheader {position:absolute;}
+
+
+/***  RESET MFL CSS  ***/
+ul.topLevel li { margin-left: 0em; }
+.subInner ul li ul li,.subInner ul li,.subInner li { margin-left: 0em;list-style:none; }
+A:link img { border-color:transparent; }
+/*  PURPLE COLOR IS HEX #65287d */
+/*  BODY GREY COLOR IS HEX #c3c3c3 */
+/***  NIKE MENU TOP  ***/
+.wrap {background:url(../images/menu/menu_bg.png)center top;position:fixed;top:0;left:0;width:100%;z-index:3}
+.nav {width:970px; text-align:center; z-index:100;margin:0 auto;font:400 12pt 'Oswald',sans-serif; }
+
+                          /***  RESET NAV LOCATION FOR MOBILE  ***/
+                                      .mobile .wrap,.tablet .wrap {position:absolute; top:0;}
+
+.navInner {width:970px;text-align:left;}
+ul.topLevel {padding:0; margin:0; list-style:none; white-space:nowrap;}
+.commishWrap ul.topLevel > li {display:inline-block; height:28px; padding:11px 12px 11px 8px; border-right:1px solid rgba(0,0,0,.5);cursor:pointer;text-align:left!important;}
+ul.topLevel > li {display:inline-block; height:28px; padding:11px 19px 11px 14px;cursor:pointer;text-align:left!important;border-right:1px solid rgba(0,0,0,.5);}
+ul.topLevel > li:last-of-type {border-right:}
+.commishWrap ul.topLevel > li:last-of-type {border-right:none}
+ul.topLevel > li {*display:inline;} /* for IE7 */
+ul.topLevel > li > a {display:block; float:left; font:400 13px/28px 'Oswald', arial, sans-serif; color:#ccc;text-shadow: 1px 1px 0px rgba(0, 0, 0, 1); padding:0px 15px 0px 5px; background:url(../images/menu/nav_arrowright.png) no-repeat right center; text-decoration:none;} 
+ul.topLevel > li.current > a {color:#873ba6; background:url(../images/menu/nav_arrowdown.png) no-repeat right center;-webkit-transition:0.5s;-moz-transition:0.5s;-o-transition:0.5s;transition:0.5s;}
+ul.topLevel > li:hover {    background-color:#000;-webkit-transition: background-color 1000ms linear;-moz-transition: background-color 1000ms linear;-o-transition: background-color 1000ms linear;-ms-transition: background-color 1000ms linear;transition: background-color 1000ms linear;}
+ul.topLevel > li.current {background:#000; transition: all 300ms linear 0s;}
+ul.topLevel > li.current a span.inner {opacity:1; filter: alpha(opacity=100);}
+
+/* MENU HOME IMAGE LINK */
+ul.topLevel > li.home > a span.offset {position:absolute; left:-9999px;}
+ul.topLevel > li.home {padding:11px 0 11px 10px;}
+ul.topLevel > li.home > a {width:31px; height:29px; background:url(../images/menu/home.png) no-repeat left top; padding:0 10px;}
+ul.topLevel > li.home > a span.inner {display:block; width:31px; height:29px; float:left; margin-left:-10px; background:url(../images/menu/home.png) no-repeat left bottom; opacity:0; filter: alpha(opacity=0);-webkit-transition:0.5s;-moz-transition:0.5s;-o-transition:0.5s;transition:0.5s;}
+ul.topLevel > li.home:hover {background:none}
+ul.topLevel > li.home > a:hover span.inner {opacity:1; filter: alpha(opacity=100);}
+ul.topLevel > li.home.current:after{display:none;}
+ul.topLevel > li.home.current {background:none;}
+
+/* MENU LOGIN IMAGE */
+ul.topLevel > li.login {display:inline-block; height:28px; padding:11px 14px 11px 10px;cursor:pointer;text-align:left!important;}
+.commishWrap ul.topLevel > li.login {display:inline-block; height:28px; padding:11px 12px 11px 8px;text-align:left!important;}
+ul.topLevel > li.login {border:0;}
+ul.topLevel > li.login a {padding-left: 0px;}
+ul.topLevel > li.login a span.outer {display:block; float:left; width:22px; margin:4px 8px 0 0; height:20px; background:url(../images/menu/login_circles.png) no-repeat left top;}
+ul.topLevel > li.login a span.inner {display:block; width:22px; height:20px; background:url(../images/menu/login_circles.png) no-repeat left bottom; opacity:0; filter: alpha(opacity=0);-webkit-transition:0.5s;-moz-transition:0.5s;-o-transition:0.5s;transition:0.5s;}
+ul.topLevel > li.login{margin-left:805px!important;position:absolute;z-index:99999!important;width:83px}
+.commishWrap li.login {width:83px}
+li.login .sub {position:fixed!important;}
+li.login .subInner {z-index:9999999!important;padding-top:25px!important;background:none!important;border:none!important;box-shadow:none!important;margin-top:0!imporant;padding-top:18px!important;}
+ul.topLevel > li.current a span.inner {opacity:1; filter: alpha(opacity=100);}
+                          /***  RESET FOR MOBILE  ***/   
+                                      .mobile li.login .sub,.tablet li.login .sub {position:absolute!important;left:-880px!important;height:0!important;}
+                                      .mobile li.login,.tablet li.login {margin-left:810px!important;position:absolute;z-index:99999!important;}
+                                      .mobile li.login .menulinks,.tablet li.login .menulinks {position:absolute;bottom:2px;display:none;}
+
+/* HELP FORM */
+li.help li a.search form  {padding:0!important;margin:0!important;display:inline-block;color:#ccc!important;height:18px;line-height:18px;}
+li.help li a.search input {color:#000!important;font-weight:400;text-transform:uppercase;margin-left:10px;height:18px;line-height:18px;padding:0;vertical-align:top;}
+                          /***  RESET FOR MOBILE  ***/   
+                                      .mobile .help > ul:nth-child(1) > li:nth-child(2),.tablet .help > ul:nth-child(1) > li:nth-child(2) {display:none}
+
+/* SHADOW EFFECT UNDER MAIN MENU BAR */
+.leftPanel {width:50%; height:1px; position:absolute; left:0; top:48px; z-index:101;-webkit-box-shadow:0 2px 2px rgba(255,255,255,.3);-moz-box-shadow:0 2px 2px rgba(255,255,255,.3);box-shadow:0 2px 2px rgba(255,255,255,.3);}
+.rightPanel {width:50%; height:1px; position:absolute; right:0; top:48px; z-index:101;-webkit-box-shadow:0 2px 2px rgba(255,255,255,.3);-moz-box-shadow:0 2px 2px rgba(255,255,255,.3);box-shadow:0 2px 2px rgba(255,255,255,.3);}
+
+/* PLAYER SEARCH BOX */
+#search-nav-wrap {position:fixed;top:0px;z-index:99999;margin-left:721px;}
+#search {padding:10px 15px 9px 15px;border-right:1px solid rgba(0,0,0,.5);}
+#search input {border:none;!important;outline:none!important;background:#000;border: 1px solid #222222;box-shadow: 0px 0px 1px #222222;font: 400 12px 'Oswald',sans-serif;text-align: center;text-transform: uppercase;color:#873ba6;padding:5px 2px;width:110px;}
+
+                          /***  RESET SEARCH LOCATION FOR MOBILE ***/   
+                                      .mobile #search-nav-wrap,.tablet #search-nav-wrap {position:absolute; top:0px;z-index:99999;margin-left:721px;}  
+
+/* FORUMS IMAGE LINK */
+.commishWrap li.forum {display:none!important;}
+ul.topLevel > li.forum{display:none;}
+
+/* DROP DOWN BOX */
+ul.topLevel > li .sub {width:100%; position:absolute; left:-9999px; top:50px; z-index:100; text-align:center;height:auto;} 
+.nav .subPanel {position:absolute; width:100%; left:0;height:0;overflow:hidden; text-align:center; background:#000;
+-webkit-box-shadow: 0 3px 3px -2px rgba(0,0,0,.4);-moz-box-shadow: 0 3px 3px -2px rgba(0,0,0,.4);box-shadow: 0 3px 3px -2px rgba(0,0,0,.4);}
+ul.topLevel > li .sub .subInner {white-space:normal; display:none; margin:0 auto;background:rgba(22, 22, 22, 0.1);border:0;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);-moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);-webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);margin-top:17px;padding:10px;width:940px;}
+.subInner ul {padding:0;margin:0;text-align:center!important;margin:0 auto!important;width:940px}
+.subInner ul li ul li {*display:inline;} /* for IE7 */
+.subInner #simulationlinks li ul li  {list-style:none;display:inline-block;margin:6px 0;padding:0 7px;margin-left:0px;margin-right:-1px;border-left:1px solid #65287d; border-right:1px solid #65287d;}
+.subInner #simulationlinks li ul li a{display:inline-block;font:400 12pt/12pt 'Oswald', arial, sans-serif;color:#c3c3c3;text-decoration:none;text-transform:uppercase;}
+.subInner #simulationlinks li ul li a:hover {color:#873ba6;}
+
+/* FANTASY AND REPORTS IMAGE LINKS */
+.imagelink a {border-right:1px solid #65287d!important;font:400 12pt/12pt 'Oswald', arial, sans-serif;color:#ccc!important;text-transform:uppercase;text-decoration:none;}
+.imagelink a:hover{color:#873ba6!important}
+.imagelink a:last-of-type {border-right:0px solid red!important;}
+ul#imglinks {width:100%!important;padding:0!important;margin:0!important;}
+ul#imglinks a{display:table-cell!important;width:1%!important;text-align:center!important;}
+ul#imglinks a img {display:block;text-align:center;margin:0 auto!important;width:125px;}
+div.imagelink {padding-left:0!important;padding-right:0!important;}
+
+/* Transition for images in Fantasy and Reports */
+img.button{-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;opacity:1;filter:alpha(opacity=100);}
+img.button {height:89px ;width:125px ;overflow: hidden;border:solid 0px;}
+img.button:hover {cursor: pointer;opacity:0.5;filter:alpha(opacity=50);}
+.focus {-webkit-transition: all .5s ease;-moz-transition: all .5s ease;-o-transition: all .5s ease;-ms-transition: all .5s ease;transition: all .5s ease;}
+.focus:hover {border: 10px solid transparent;border-radius: 0%;}
+
+/* MENU FOOTER AREA AND  LINKS */
+.baseline {background:#c3c3c3;width:100%;height:43px;position:absolute;bottom:0;left;border-top:1px solid #873ba6;border-bottom:1px solid #873ba6;}
+div.extralinks {position:absolute;bottom:12px;width:940px;}
+div.extralinks a{display:table-cell;width:1%;font:400 10pt/16pt 'Oswald', arial, sans-serif;text-decoration:none;text-transform:uppercase;
+list-style:none;border-right:1px solid #eee!important;border-left:1px solid #65287d!important;margin:0px -1px 0px -1px!important;color:#000;}
+div.extralinks a:hover{color:#65287d;}
+div.extralinks a:first-of-type  {border-left:0!important;}
+div.extralinks a:last-of-type {border-right:0!important;}
+
+div.menulinks {position:absolute;bottom:5px;width:940px}
+div.menulinks a{display:table-cell;width:1%;border-right:1px solid #eee!important;border-left:1px solid #65287d!important;margin:0px -1px 0px -1px!important;}
+div.menulinks img {height:34px;width:auto;}
+div.menulinks a:first-of-type  {border-left:0!important;}
+div.menulinks a:last-of-type {border-right:0!important;}
+div.menulinks img { opacity: 1;-webkit-transition: opacity 1s;-moz-transition: opacity 1s;-o-transition: opacity 1s; -ms-transition: opacity 1s; }
+div.menulinks img:hover { opacity: .5;-webkit-transition: opacity 1s;-moz-transition: opacity 1s;-o-transition: opacity 1s; -ms-transition: opacity 1s; }
+
+/* MENU WELCOME REPORT */
+.subInner .report caption {display:none;}
+.subInner #welcome {width:300px!important;text-align:center!important;text-transform:uppercase;border-bottom:0;border:2px solid #111;padding:10px;}
+.subInner #welcome th {font:400 12pt/16pt 'Oswald', arial, sans-serif;color:#000;cursor:default!important}
+.subInner #welcome td {border:none;}
+.subInner #welcome > tbody:nth-child(2) > tr:nth-child(3) > td:nth-child(2) > input:nth-child(1),#welcome > tbody:nth-child(2) > tr:nth-child(2) > td:nth-child(2) > select:nth-child(1) {cursor:pointer;width:100%;border:none;padding:0!important;background:#111;color:#eee;}
+.subInner #welcome > tbody:nth-child(2) > tr:nth-child(4) > td:nth-child(1) > input:nth-child(1) {background:url(../../../2014/NIKE2014/img/menu-links-bg.png);border:none;border:1px solid #222;text-transform:uppercase;
+font:400 12pt/16pt 'Oswald', arial, sans-serif;color:#aaa;-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;cursor:pointer;padding:5px;}
+.subInner #welcome > tbody:nth-child(2) > tr:nth-child(4) > td:nth-child(1) > input:nth-child(1):hover {color:#fff;}
+
+/* TOP PERFORMERS */
+.topplayerlist table#top_performers caption,.topplayerlist table#top_fa caption{display:none;}
+.topplayerlist table#top_performers th,.topplayerlist table#top_fa th{display:none; }
+.topplayerlist table#top_performers a,.topplayerlist table#top_fa a{margin:0;padding:0;}
+.topplayerlist table#top_performers{border:none!important;}
+.topplayerlist table#top_fa{border:none!important;}
+.topplayerlist table#top_fa .oddtablerow td,.topplayerlist table#top_fa .eventablerow td {}
+.topplayerlist table#top_performers .oddtablerow td,.topplayerlist table#top_performers .eventablerow td {}
+.topplayerlist td.points {text-align:center!important;width:60px;}
+.topplayerlist td.rank{text-align:center!important;width:30px;}
+.topplayerlist a.position_def {font-size:90%;}
+#tabbed-nav5 ul.z-tabs-nav li{display:table-cell;width:1%;font:400 10pt/16pt 'Oswald', arial, sans-serif;text-decoration:none;text-transform:uppercase;
+border-right:1px solid #eee!important;border-left:1px solid #65287d!important;color:#000;text-decoration:none;}
+#tabbed-nav5 ul.z-tabs-nav li:last-of-type{border-right:0px!important;}
+#tabbed-nav5 ul.z-tabs-nav li:first-of-type{border-left:0px!important;}
+#tabbed-nav5 ul.z-tabs-nav li.z-active {color:#873ba6;}
+#tabbed-nav5 ul.z-tabs-nav a:active{color:#873ba6!important}
+#tabbed-nav5 ul.z-tabs-nav a:hover{color:#873ba6!important}
+div.topplayerlist .z-tabs.z-slide > .z-container {overflow:visible;}
+.lefttop,.righttop {width:450px;float:left;background:#000;margin:0 5px;border:2px solid #111;vertical-align:top!important;}
+img.topplayerimg,img.topfaimg {width:197;height:287px;border:0;float:left;vertical-align:top!important}
+.lefttop #top_performers.homepagemodule.report,.righttop #top_fa.homepagemodule.report{vertical-align:top!important;width:253px;border:0;background:none;padding:0px;height:286px!important;margin:0px;margin-bottom:1px;display:table;}
+.topplayerlist table#top_performers td{height:100%}
+.topplayerlist table#top_fa td{height:100%}
+.topplayerlist ul#tabmenu {position:absolute;bottom:12px;width:940px;}
+
+/* MENU TABS */
+.basictabs .z-tabs > .z-container {padding:0; margin:0; position:relative;}
+.basictabs .z-tabs.z-slide > .z-container { overflow:hidden; }
+.basictabs .z-tabs.z-slide > .z-container > .z-content,.basictabs .z-tabs > .z-container.z-animating > .z-content { width:100%; height:100%; overflow:hidden; padding:0;  }
+.basictabs{width:100%;overflow:hidden;height:130px;padding:0!important;margin:0!important;}
+ul#tabgroup {position:absolute;bottom:12px;width:940px;}
+ul#tabgroup.z-tabs-nav li{display:table-cell;width:1%;font:400 10pt/16pt 'Oswald', arial, sans-serif;text-decoration:none;text-transform:uppercase;
+border-right:1px solid #eee!important;border-left:1px solid #65287d!important;color:#000;text-decoration:none;}
+#tabbed-nav6 ul li ul li  {list-style:none;display:inline-block;margin:6px 0;padding:0 7px;margin-left:0px;margin-right:-1px;border-left:1px solid #65287d; border-right:1px solid #65287d;}
+ul.simulationlinks li.reports-franchise ul li,
+ul.simulationlinks li.reports-player ul li, 
+ul.simulationlinks li.reports-standings ul li,
+ul.simulationlinks li.reports-rules ul li, 
+ul.simulationlinks li.reports-wireless ul li,
+ul.simulationlinks li.reports-league ul li, 
+ul.simulationlinks li.reports-records ul li,
+ul.simulationlinks li.reports-nfl ul li, 
+ul.simulationlinks li.links-nfllinks ul li,
+ul.simulationlinks li.links-leaguelinks ul li,
+ul.simulationlinks li.links-mylinks ul li
+{margin-left:-2px!important;margin-right:-3px!important;}
+
+#tabbed-nav6 ul li ul li a{display:inline-block;font:400 12pt/12pt 'Oswald', arial, sans-serif;color:#c3c3c3;text-decoration:none;text-transform:uppercase;}
+#tabbed-nav6 ul li ul li a:hover {color:#873ba6;}
+#tabbed-nav6 ul.z-tabs-nav li:last-of-type{border-right:0px!important;}
+#tabbed-nav6 ul.z-tabs-nav li:first-of-type{border-left:0px!important;}
+#tabbed-nav6 ul.z-tabs-nav li.z-active {color:#c3c3c3;}
+#tabbed-nav6 ul.z-tabs-nav a:active{color:#873ba6!important}
+#tabbed-nav7 ul.z-tabs-nav a:hover{color:#c3c3c3!important}
+#tabbed-nav8 ul.z-tabs-nav a:hover{color:#c3c3c3!important}
+#tabgroup li.z-active {color:#873ba6!important}
+#tabbed-nav6 ul.z-tabs-nav a:hover{color:#873ba6;}
+
+ul#subtabgroup {width:99%;background:#000;border:2px solid #111;padding:1px 0;}
+ul#subtabgroup.z-tabs-nav li{display:table-cell;width:1%;font:400 10pt/16pt 'Oswald', arial, sans-serif;text-decoration:none;text-transform:uppercase;
+border-right:1px solid #444!important;border-left:1px solid #65287d!important;color:#873ba6;text-decoration:none;}
+#tabbed-nav7 ul li ul li  {margin-left:-2px;margin-right:-2px;}
+#tabbed-nav8 ul li ul li  {margin-left:-2px;margin-right:-2px;}

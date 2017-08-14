@@ -1,0 +1,17 @@
+/* ###### Start Top Players Tabs ###### */
+#TabbedPanels1 .report{border:none}
+#TabbedPanels1 caption,#TabbedPanels5 table caption{display:none}
+#TabbedPanels1 .TabbedPanels{margin:0;padding:0;float:left;clear:none;width:100%;/* IE Hack to force proper layout when preceded by a paragraph. (hasLayout Bug)*/
+}
+#TabbedPanels1 .TabbedPanelsTabGroup{margin:0;padding:0}
+#TabbedPanels1 .TabbedPanelsTab,#TabbedPanels1 .TabbedPanelsTabfirst{-moz-user-select:none;background:url("../img/topplayertab.png");cursor:pointer;float:left;font:bold 0.9em sans-serif;list-style:none outside none;margin:0 0 0 0;padding:6px 8px;position:relative;text-align:center;text-transform:uppercase;top:1px;margin-bottom:0;border-left:1px solid #473b30;width:28px;margin-left:0;border-bottom:1px solid #ccc;color:#000}
+#TabbedPanels1 .TabbedPanelsTabHover,#TabbedPanels1 .TabbedPanelsTabfirst:hover{background:url("../img/topplayertab_hover_blue.png");color:#fff}
+#TabbedPanels1 .TabbedPanelsTabfirst{border-left:none;padding-left:10px;color:#000}
+#TabbedPanels1 .TabbedPanelsTabSelected{background:url("../img/topplayertab_hover_blue.png");color:#fff;border-bottom:1px solid #fff}
+.column1{width:316px;height:421px;border:1px solid #3a3a3a;background:url("../img/topplayer_bg.jpg");margin-bottom:25px}
+.column1 .report{padding-top:10px;font-size:8pt;font-weight:normal;width:314px;height:234px;border:none}
+.column1 td.rank{width:10px;text-align:center}
+.column1 td.points{width:10px;text-align:center}
+.column1 img{width:310px;height:auto;padding-top:5px;padding-bottom:5px}
+/* ###### END ###### */
+

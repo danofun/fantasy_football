@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* Icon CSS Document */
+
+/*These codes below reduce the size of logo's so they fit within the page.*/
+caption span .franchiseicon {
+	height:20px;
+	}
+#column2 .franchiselogo {
+	width:518px;
+	max-width:518px;
+	}
+#column2 .report .franchiseicon, #column3 .report .franchiseicon {
+	width:250px;
+	}
+#column2 #standings .franchiseicon {
+	height: 25px;
+	width:150px;
+	}
+	
+/*ensures the select box for the featured article or log in team names that are longer fit within the page*/
+#home select {font-size: 12px;}
+
+/*creates cool mouseover effect for cta buttons*/
+.cta img:hover,  .franchiseicon:hover{
+	opacity:0.7;	/*Firefox & Chrome*/
+	filter:alpha(opacity=70);	/* IE */
+}
+.cta img, .franchiseicon {
+	opacity:1;		/*Firefox & Chrome*/
+	filter:alpha(opacity=100);   /* IE */
+}
+
+/* Expands some of the columns on the standngs page when using icon and name*/
+#standings .ficonname {
+	max-width:110px;
+}
+
+a img {border:none;}
+
+/* Makes the any image in the log in module max out at 300px*/
+#welcome_login img {max-width:300px;}
+
+#column2 .standingslogo {max-width:490px;}

@@ -1,0 +1,193 @@
+/* HIDE AS MUCH OF THE DEFAULT HTML AS POSSIBLE WITH CSS */
+#scrollingText,#shield,#banner,#search,#toppage,#tabheader,#menu0,#helmetbarheader,#line1,#Footer,img#da_cta,#topmenu,.welcome,.pagefooter,#topmenutabs,.pageheader,.pagetitle,.brandlogo,#footer,#topofpage,#menu,shield img,#banner img,#toppage img,
+div#chromemenu.chromestyle,div#theheader,div#team_logos,#vsubmenu,#hsubmenu,div.quicklinks,div#maincontainer,div#team-sites-header-bar.dd,div#mflline,div#footer-nav-wrap,img.leaguelogo,#scoreboardlink,div#linebottom,div#logo,
+div#head,table#nav_ticker_wrapper,div#designby,div#HabmanBar,div#utility,div#bannermenu,div#bannermenu,div#flashfooter,div#scoreboardheader1,table#scoreboardheader,h1,div#hd-scorestrip,div#habboxscore,ul#nitrolink.nitromenu,#league_reminders.homepagemessage
+,#nav_buttons,#league_logo,#footer_links_wrapper,div#pulldown.close,div#menutop,table.homepagemessage,div#mybanner,div#mypageheader,#textfooter,#togglelogin,#home div#homepagetabsdiv,div#login_buttons,div#chatlink
+{ display:none; }
+
+	/* ADVANCED: by wrapping any custom headers that you have added to your site
+	   you can hide them by wrapping them in a div tag <div id="myCustomerHeader"> </div>
+	*/
+	#myCustomHeader { display:none; }
+	#myCustomFooter { display:none; }
+
+/*** AT THIS POINT WE SHOULD NOW HAVE NO HTML ON OUR SCREEN HOWEVER THERE STILL MIGHT BE A BACKGROUND IMAGE TO DEAL WITH  ***/
+
+.pagebody{ position:relative;margin-top:0px;
+background-image: url("../img/top_bg.png");
+background-position: center top;background-repeat: no-repeat,no-repeat; background-attachment:scroll;min-height:800px;padding:0px;} 
+
+li { display:inline;  list-style-image:none;  margin:0px;  padding:0px; }
+a:link,a:active,a:visited { color:; text-decoration:none; }
+td { margin:0; padding:0; vertical-align:middle;}
+
+
+
+/*** SCOREBOARD OUTER TABLE  ***/
+.cbsOuterTable { width:auto;  border-collapse:collaspe;  border:0px;  border-bottom:0px;  background:none;  padding:0px;   box-shadow: 0px 0px 0px 0px #000;}
+table.cbsOuterTable { width:1000px; background:transparent; padding:5px; border:0;margin-top:20px }
+.cbsOuterTable a:hover { color:#ee4f20; background:none!important; }
+
+/***  LIVE SCORING WEEKLY NAV MENU ***/
+td#myNavigationHolder {background:none; }
+table.cbsWeeklyNavigation {  text-align:center; background:none; border:0;  width:100%; color:#454545; margin-bottom:8px;font:normal bold 8pt Arial,Helvetica,sans-serif; margin-top:15px; }
+span.navWeekLink,span.navWeekCurr,span.navWeekInactive { vertical-align:middle!important; line-height:16px; }
+span.navWeekLink a { text-decoration:none; color:#ee4f20; padding:0 2px; }
+span.navWeekLink a:hover { text-decoration:none; color:#44629b; }
+span.navWeekCurr { color:#44629b; padding:0 2px; font-size:11pt; background:none;}
+span.navWeekInactive { color:#44629b; padding:0 0px; }
+
+/****** MOBILE ICON ******/
+#mobilelink { position:absolute; margin-top:-9px!important; margin-left:6px!important; }
+#mobilelink img{ height:17px; width:auto; padding-right:2px; }
+
+/*** TICKER TABLE  ***/
+table.cbsMainScoreboard { background:transparent; border:0px solid transparent; width:100%; border-collapse:collapse;  margin-bottom:8px; margin-top:-2px;}
+     /***  League Name box settings  ***/
+td#cbsCenterTop { background:transparent; color:transparent;height:80px;font-size:1px;}    /***  Set color:transparency and font-size:0pt if you want to install custom bg header ***/
+/****** TICKER W-L-T ******/
+td#cbsRoadTeamRecord,td#cbsHomeTeamRecord { width:auto!important; letter-spacing:0px; padding-top:3px; }
+td#cbsRoadTeamRecord  {  color:#000; text-align:center; height:16px; font-weight:400; }
+td#cbsHomeTeamRecord  { color:#000; text-align:center; height:16px;  font-weight:400; }
+     /***  Countdown Update setttings  ***/
+td#cbsScoreboardMessage { background:transparent; color:#fff; text-align:center;font-size:0px;font-weight:0;color:transparent}
+#cbsScoreboardMessageResetTimer { text-align:center; color:#fff;background-color:transparent;	cursor:pointer;font-size:0px;font-weight:0;color:transparent }
+     /***  P-YTD-PMR settings  ***/
+td.cbsScoreboardTitle { background:transparent url() center top no-repeat; color:#ee4f20; text-align:center; font-size:12px;font-weight:400;height:25px;}
+td#cbsRoadPlayers,td#cbsRoadYTP,td#cbsRoadPMR,td#cbsHomePlayers,td#cbsHomeYTP,td#cbsHomePMR { background:transparent url() center bottom no-repeat; color:#44629b;width:66px!important;text-align:center; font-size:12px;font-weight:400;}
+     /*** MFL-NFL logo box  ***/
+table.cbsMainScoreboard td#cbsBlank { background:transparent; }
+table.cbsMainScoreboard td#cbsBlank img{ height:30px; width:43px; }
+     /***  Settings for Logos on side  ***/
+td#cbsRoadLogo,td#cbsHomeLogo { background:#171717; vertical-align:middle; text-align:center; width:7%; }
+td#cbsRoadLogo img,td#cbsHomeLogo img { max-width:60px; max-height:100px; border:none; }
+     /***  Settings for Logos on top  ***/
+td#cbsRoadTeamName img,td#cbsHomeTeamName img{ max-height:40px; max-width:250px; border:none; }
+     /***  Settings for Franchise Names on top   ***/
+td#cbsRoadTeamName,td#cbsHomeTeamName { background:transparent; color:#e05d15; text-align:center; height:60px; width:26%; }
+     /***  Adjust size of scoring numerals  ***/
+td#cbsRoadScore,td#cbsHomeScore  { background:transparent;padding-left:2px;padding-top:2px;}
+td#cbsRoadScore img,td#cbsHomeScore img  { width:36px;}
+td#cbsRoadScore{padding-left:3px;}
+		/****** FLIP HOME TEAM ICON TO FACE CENTER ******/
+td#cbsHomeLogo img { -moz-transform: scaleX(-1); -o-transform: scaleX(-1); -webkit-transform: scaleX(-1); transform: scaleX(-1); filter: FlipH; -ms-filter: "FlipH"; }
+
+/****** FANTASY MATCHUPS BOXSCORES TABLE ******/
+td#myMiddleTableHolder {font-weight:400;font-size:11px;padding-bottom:3px;}
+.cbsGameLinks { width:100%;  /* important to fill table width */  border:0; border-collapse:collapse; margin-bottom:0px; margin-top:0px; }
+.cbsGameLinks td { margin:0; padding:0; }
+.cbsGameTable { border-collapse:collapse; margin:0; padding:0; border:0; }
+table.cbsGameTable { width:100%!important; background:#fff; color:#454545;}
+.cbsGameTable td { padding:1px; border:1px solid #b6d7ff; }
+.matchupLolite:hover { border-right:1px solid #ee4f20!important; color:#454545; background:#b6d7ff; }
+.matchupLolite { text-align:center; font-size:9px; width:13px; cursor:pointer; border-right:1px solid #ee4f20!important; color:#fff; background:#44629b; height:60px}
+.matchupHilite {	text-align:center;font-size:9px; width:13px; color:#454545; background:#ddd; cursor:pointer;	border-right:1px solid #44629b!important; height:60px}
+
+/****** NFL MATCHUPS BOXSCORES TABLE ******/
+table.cbsNFLGameTable {color:#999999!important;background:#fff;height:62px;border:0!important}
+div#cbsNFLMatchups>table.cbsGameLinks>tbody>tr>td {border:1px solid #b6d7ff;}
+
+/****** STARTING LINEUPS BENCH PLAYERS TABLE ******/
+.cbsLineups { width:100%; padding:0; margin:0; border:0px; background:none; margin-bottom:10px;}
+table.cbsLineups td#cbsBlankLineup { display:none;  }
+table.cbsTeamLineup {border:0px;}
+.cbsGameLinks a:link,.cbsGameLinks a:active,.cbsGameLinks a:visited{  text-decoration:none; font:bold 8pt"Times New Roman",Georgia,Serif; }
+.cbsTeamLineup { width:100%; border-collapse:collapse; border:0; }
+td#cbsRoadLineup { width:50%; }
+td#cbsRoadLineup { width:50%; }
+.cbsTeamLineup td { border:1px solid #b6d7ff; padding:2px;font-size:12px;font-weight:400; }
+.cbsTeamLineup a:link,.cbsTeamLineup a:active,.cbsTeamLineup a:visited { color:#a1a1a1; text-decoration:none;}
+.cbsTeamLineup a:hover { color:#ee4f20!important; }
+table.cbsTeamLineup th { background:#ee4f20; border:0; border-bottom:1px solid #fff; color:#fff; text-align:center;font-size:12px;font-weight:400;padding-bottom:4px;padding-top:2px; border:1px solid #b6d7ff;}
+.rowGameOver { background-color:#fff; color:#a1a1a1; }
+.rowYTP,.rowYTP a:link,.rowYTP a:visited { background-color:#fff; color:#44629b;	}
+.rowCurrentlyPlaying,.rowCurrentlyPlaying a:link,.rowCurrentlyPlaying a:visited { background-color:#fff; color:#fff;	}
+td#cbsHomeLineup,td#cbsRoadLineup {vertical-align:top;}
+td.cbsPlayerGame>img {vertical-align:middle;}
+td.hasball img { vertical-align:middle!important; }
+td.hasball { width:28px; text-align:center; padding:0px; }
+td.cbsPlayerName { text-align:left; }
+td.cbsPlayerGame { width:104px; text-indent:3px; text-align:left; }
+td.cbsGameClock { text-align:center; width:60px; }
+td.cbsPlayerProjections { width:36px; text-align:center; }
+td.oppRankAvgMatchup { width:22px; }
+td.cbsPlayerPoints { width:40px; text-align:center; cursor:pointer; color:#ee4f20}
+td.cbsPlayerPoints:hover { text-align:center; color:#fff; }
+th.pointTotalTitle,th.pointTotalProj,th.pointTotalActual { background:#44629b!important; color:#fff!important; font-size:10pt!important; border-bottom:4px solid #fff!important;border-top:0!important; height:18px!important; line-height:18px!important;}
+th.pointTotalActual { background:#b6d7ff!important; color:#ee4f20!important; }
+span.injuredPlayer { color:#ee4f20; font-weight:bold; }
+
+/****** GAME STRENGTH OF SCHEDULE TD VALUE COLORING ******/
+.oppRankBadMatchup { background-color:#F00; color:#FFF; font-size:10px; text-align:center; }
+.oppRankPoorMatchup { background-color:#FF8000; color:#000; font-size:10px; text-align:center; }
+.oppRankAvgMatchup { background-color:#FF0; color:#000; font-size:10px; text-align:center; }
+.oppRankGoodMatchup { background-color:#01DF01; color:#000; font-size:10px; text-align:center; }
+.oppRankGreatMatchup { background-color:#04B404; color:#FFF; font-size:10px; text-align:center; }
+td.oppRankNA { background-color:#fff; color:#000; font-size:10px; text-align:center; border:none;}
+
+/****** FOOTER NAV MENU ******/
+#homelink { margin:0; margin-top:6px; border:0; background:none; padding:0px; position:absolute; bottom:-65px; margin-left:-10px;background:url("../img/bottom_bg.png");width:1044px;height:65px;} 
+
+/****** Set width 2px smaller in width then scoreboard outer table ******/
+#homelink li { display:inline; list-style-image:none; margin:0px; padding:0px;}
+#homelink li a { text-decoration:none;  padding-right:24px; padding-left:32px; height:65px!important; line-height:65px!important;font-family: 'Oswald',sans-serif;font-size:16px;letter-spacing:1px;color:#44629b;font-weight:bold}
+#homelink li a:hover { text-decoration:none; background:none; color:#ee4f20;}
+#chatlink { position:absolute; margin-top:-31px!important; margin-left:966px!important; }   /****** Set absolute position of chat icon image  ******/
+#chatlink a:hover { background:none!important; }
+
+/****** PLAYER UPDATES TABLE ******/
+table.playerUpdateContainer { width:auto; background:none; border:0px; padding-bottom:0px; margin-bottom:75px;  box-shadow: none;}
+tr.playerUpdateHeaderRow { background:#ee4f20; color:#fff; }
+table.updateHistoryHeader>tbody>tr>td>i{ color:#fff; padding-left:10px;font-style:normal; font-weight:400;font-size:13px}
+td#playerUpdateHeader { background:#44629b!important; color:#fff!important;font-weight:400; font-size:13px}
+table.updateHistoryPlayer { margin:0 auto; background:#fff; width:690px; border-collapse:collapse; }
+th {font-size:12px}}
+table.updateHistoryPlayer td a { color:#a1a1a1; font-weight:bold; }
+table.updateHistoryPlayer td a:hover { color:#fff; text-decoration:none; }
+table.updateHistoryPlayer>tbody>tr>td { border-bottom:1px solid #000!important; background:#121212!important; color:#a1a1a1; font-size:8pt; }
+table.updateHistoryHeader>tbody>tr>td>form>select#fantasyteamselect,table.updateHistoryHeader>tbody>tr>td>form>select#fantasyplayerselect { width:170px!important; overflow:hidden; margin:0; padding:0; margin-right:10px; }
+table.updateHistoryHeader input {margin:0;padding:0;}
+table.updateHistoryHeader select {margin:0;padding:0;font-size:10pt!important;}
+
+/****** CHAT POP OUT  ******/
+div#root_CBS { background:#44629b!important; color:#000!important; border:0px!important; }
+div#handle_CBS>table>tbody>tr>td>img {margin-right:3px!important; }
+div#handle_CBS { background:#ee4f20!important; color:#fff!important; border:0px!important; padding:4px 0px!important; margin:0px!important; margin-bottom:2px!important; width:auto!important;}
+#habMiniChatContainer_CBS { background:#44629b!important; border:0px!important; width:auto!important;  } 
+#habMiniChatOuterTable_CBS { border:2px solid #44629b!important; border-top:none!important; } 
+#habMiniChatOuterTable_CBS td { border:0px!important; background:#44629b!important;  } 
+#habMiniChatTable_CBS td { border:1px solid #b6d7ff!important; } 
+#habMiniChatTable_CBS .oddtablerow td { background:#fff!important; color:#44629b!important; font-weight:800; } 
+#habMiniChatTable_CBS .eventablerow td { background:#fff!important; color:#44629b!important;  font-weight:800;} 
+#habMiniChatTable_CBS .pmoddtablerow td { background:#fff!important; color:#ee4f20!important;  font-weight:800;}  
+#habMiniChatTable_CBS .pmeventablerow td { background:#fff!important; color:#ee4f20!important; font-weight:800; } 
+div#habMiniChatContainer_CBS table { margin-left:px!important; margin-bottom:2px!important; }
+td#chatTextAreaBottom_CBS { padding-bottom:10px!important; }
+table#habMiniChatTable_CBS.homepagemodule.report td > i {color:#fff!important;}
+div#habMiniChatOnline { padding:3px!important; background: #fff!important; color:#000!important; border:2px solid #000!important; border-top:0!important; }
+div#habMiniChatContainer_CBS>table>tbody>tr>td {border:1px solid #ee4f20!important; background:#fff!important; color:#000!important;font-size:12px;}
+div#habMiniChatHideOnline_CBS> a,div#habMiniChatShowOnline_CBS> a { color:#000!important; }
+
+/****** LINEUP POP OUT  ******/
+table#submit_lineup.cbsTeamLineup caption,table#submit_lineup.cbsTeamLineup caption.withfranchiseicon   {padding-bottom:10px;}
+table#submit_lineup.cbsTeamLineup caption span a {}
+table#submit_lineup.cbsTeamLineup caption span a:hover {}
+table#submit_lineup.cbsTeamLineup>tbody>tr>th.pointTotalTitle {}
+
+/****** LOGIN POP OUT  ******/
+table#welcome.cbsTeamLineup caption  {}
+table#welcome.cbsTeamLineup caption span  {display:block;}
+
+/****** MY NEWS POP OUT  ******/
+table#my_news.cbsTeamLineup caption {}
+table#my_news.cbsTeamLineup caption span  {display:block;}
+
+/****** Text for Scoring Message Site Down  ******/
+table.cbsGameLinks>tbody>tr>td>center {color:#ee4f20;font-size:14pt;font-weight:900}
+#myTopTableHolder {height:138px;}
+div#inline2 form table#submit_lineup.cbsTeamLineup {width:480px;}
+
+
+
+
+

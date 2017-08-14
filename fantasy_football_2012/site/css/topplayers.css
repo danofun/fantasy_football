@@ -1,0 +1,126 @@
+/* ######### Start Top Players Tabs ######### */
+#TabbedPanels1 .report {
+border:none;
+}
+#TabbedPanels1 caption, #TabbedPanels5 table caption {
+display:none
+}
+#TabbedPanels1 .TabbedPanels {
+margin: 0px;
+padding: 0px;
+float: left;
+clear: none;
+width: 100%;/* IE Hack to force proper layout when preceded by a paragraph. (hasLayout Bug)*/
+}
+#TabbedPanels1 .TabbedPanelsTabGroup {
+margin: 0px;
+padding: 0px;
+}
+#TabbedPanels1 .TabbedPanelsTab {
+-moz-user-select:none;
+background:transparent;
+cursor:pointer;
+float:left;
+font:bold 0.9em sans-serif;
+list-style:none outside none;
+margin:0 0px 0 0;
+padding:6px 8px;
+position:relative;
+text-align:center;
+text-transform:uppercase;
+top:1px;
+margin-bottom: 0px;
+border-left:1px solid #473b30;
+width:29px; margin-left: -1px;border-bottom:1px solid #fff;
+}
+
+#TabbedPanels1 .TabbedPanels .report caption {
+display:none;
+}
+#TabbedPanels1 .TabbedPanelsTabHover {
+color:#1f1813;
+background: #fff;
+}
+#TabbedPanels1 .TabbedPanelsTabSelected {
+background:url("http://faithworkcamps.com/fantasy_football_2012/site/img/toptabactivebg.png") repeat scroll top;
+color:#302821;
+}
+#TabbedPanels1 .TabbedPanelsTab a {
+color: black;
+text-decoration: none;
+}
+#TabbedPanels1 .TabbedPanelsContentGroup {
+clear: both;
+height:378px;
+background:#180f00 url();
+background-repeat:repeat-x;  
+background-position:bottom;
+-moz-border-radius-topleft: 0px 0px;
+ -moz-border-radius-topright: 0px 0px;
+-moz-border-radius-bottomleft: 3px 3px;
+-moz-border-radius-bottomright: 3px 3px;
+-webkit-border-radius-topleft: 0px 0px;
+-webkit-border-radius-topright: 0px 0px;
+-webkit-border-radius-bottomleft: 3px 3px;
+-webkit-border-radius-bottomright: 3px 3px;
+
+border: 1px solid rgb(255, 208, 0);
+border: 1px solid rgba(255, 208, 0, .16);
+-moz-border-radius-topleft: 0px 0px;
+ -moz-border-radius-topright: 0px 0px;
+-moz-border-radius-bottomleft: 5px 5px;
+-moz-border-radius-bottomright: 5px 5px;
+-webkit-border-radius-topleft: 0px 0px;
+-webkit-border-radius-topright: 0px 0px;
+-webkit-border-radius-bottomleft: 5px 5px;
+-webkit-border-radius-bottomright: 5px 5px;
+}
+#TabbedPanels1 .TabbedPanelsContent {
+padding: 0px;
+}
+#TabbedPanels1 .TabbedPanelsContentVisible {
+}
+#TabbedPanels1 .VTabbedPanels .TabbedPanelsTabGroup {
+float: left;
+width: 10em;
+height: 20em;
+position: relative; 
+}
+#TabbedPanels1 .VTabbedPanels .TabbedPanelsTab {
+float: none;
+margin: 0px;
+border-top: none;
+border-left: none;
+border-right: none;
+}
+#TabbedPanels1 .VTabbedPanels .TabbedPanelsContentGroup {
+clear: none;
+float: left;
+padding: 0px;
+width: 30em;
+height: 20em;
+}
+.column1 {
+background: #000 url("http://faithworkcamps.com/fantasy_football_2012/site/img/cap.png") repeat scroll center;
+border:none;
+margin-top: 0px;
+width: 316px;
+margin-left: 6px;
+margin-bottom:0px;
+color: #473b30;
+height: 400px;
+margin-top:1px;
+}
+.column1 .report {
+margin-top: 0px;
+padding: 0px;
+padding-top: 10px;
+font-size:8pt;
+font-weight:normal;
+width: 314px;
+margin-left: 0px;
+}
+.column1 td.rank  {width:10px;text-align:center;}
+.column1 td.points  {width:10px;text-align:center;}
+.column1 img {width:312px;border:1px solid #000;border-bottom:1px solid #000;}
+/* ######### END ######### */

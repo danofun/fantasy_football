@@ -1,0 +1,203 @@
+/*   SLIDER - 6 IMAGES
+============================ */
+.csslider1{
+  display:none;
+}
+#home .csslider1{
+  display:block;
+}
+.csslider1 {
+  height: 900px;
+  max-width:1500px;
+  width: 100%;
+  z-index:0;
+  max-width:1500px;
+  position:absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top:165px;
+}
+.csslider1,
+.csslider1 *,
+.csslider1 *:after,
+.csslider1 *:before {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+.csslider1 > .cs_anchor {
+  display: none;
+}
+.csslider1 > ul {
+  position: relative;
+  z-index: 1;
+  font-size: 0;
+  line-height: 0;
+  margin: 0 auto;
+  padding: 0;
+  height: 900px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.csslider1 > ul > .cs_skeleton {
+  width: 100%;
+  visibility: hidden;
+  font-size: 0px;
+  line-height: 0;
+}
+
+.csslider1 > ul > .slide.img img {
+  width: 100%;
+}
+
+
+
+.csslider1 > ul > .slide.img a {
+  font-size: 0pt;
+  color: transparent;
+}
+.csslider1 > ul > .slide {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  font-size: 15px;
+  font-size: initial;
+  line-height: normal;
+  white-space: normal;
+  vertical-align: top;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+.csslider1 .cs_engine{
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+  font-size: 0pt;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+
+.csslider1 > ul > li.img,
+.csslider1 > .cs_arrowprev,
+.csslider1 > .cs_arrownext,
+.csslider1 > .cs_bullets,
+.csslider1 > .cs_play_pause {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+/* ------------- /General Styles ------------- */
+
+/* ------------- Effect ------------- */
+
+.csslider1 > #cs_slide1_0:checked ~ ul > .slide.num0,
+.csslider1 > #cs_pause1_0:checked ~ ul > .slide.num0,
+.csslider1 > #cs_slide1_1:checked ~ ul > .slide.num1,
+.csslider1 > #cs_pause1_1:checked ~ ul > .slide.num1,
+.csslider1 > #cs_slide1_2:checked ~ ul > .slide.num2,
+.csslider1 > #cs_pause1_2:checked ~ ul > .slide.num2,
+.csslider1 > #cs_slide1_3:checked ~ ul > .slide.num3,
+.csslider1 > #cs_pause1_3:checked ~ ul > .slide.num3,
+.csslider1 > #cs_slide1_4:checked ~ ul > .slide.num4,
+.csslider1 > #cs_pause1_4:checked ~ ul > .slide.num4,
+.csslider1 > #cs_slide1_5:checked ~ ul > .slide.num5,
+.csslider1 > #cs_pause1_5:checked ~ ul > .slide.num5 {
+  opacity: 1;
+  z-index: 2;
+}
+
+.csslider1 > ul > .slide {
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  z-index: 1;
+  
+  -webkit-transition: opacity 2000ms ease;
+  transition: opacity 2000ms ease;
+
+  
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+
+
+@-webkit-keyframes fade1 {
+  0%, 20.833333333333336%, 100%  { opacity: 0; }
+  4.166666666666667%, 16.666666666666668%  { opacity: 1; }
+  0%, 16.665666666666667%  { z-index: 2; }
+  16.66766666666667%, 100%  { z-index: 1; }
+}
+@keyframes fade1 {
+  0%, 20.833333333333336%, 100%  { opacity: 0; }
+  4.166666666666667%, 16.666666666666668%  { opacity: 1; }
+  0%, 16.665666666666667%  { z-index: 2; }
+  16.66766666666667%, 100%  { z-index: 1; }
+}
+
+.csslider1 > #cs_play1:checked ~ ul > .slide.num0 {
+  -webkit-animation: fade1 48000ms infinite -2000ms;
+  animation: fade1 48000ms infinite -2000ms;
+}
+.csslider1 > #cs_play1:checked ~ ul > .slide.num1 {
+  -webkit-animation: fade1 48000ms infinite 6000ms;
+  animation: fade1 48000ms infinite 6000ms;
+}
+.csslider1 > #cs_play1:checked ~ ul > .slide.num2 {
+  -webkit-animation: fade1 48000ms infinite 14000ms;
+  animation: fade1 48000ms infinite 14000ms;
+}
+.csslider1 > #cs_play1:checked ~ ul > .slide.num3 {
+  -webkit-animation: fade1 48000ms infinite 22000ms;
+  animation: fade1 48000ms infinite 22000ms;
+}
+.csslider1 > #cs_play1:checked ~ ul > .slide.num4 {
+  -webkit-animation: fade1 48000ms infinite 30000ms;
+  animation: fade1 48000ms infinite 30000ms;
+}
+.csslider1 > #cs_play1:checked ~ ul > .slide.num5 {
+  -webkit-animation: fade1 48000ms infinite 38000ms;
+  animation: fade1 48000ms infinite 38000ms;
+}
+
+
+
+.csslider1 > #cs_play1:checked ~ ul > .slide,
+.csslider1 > .pause:checked ~ ul > .slide {
+  -webkit-transition: none;
+  transition: none;
+}
+
+
+/* ------------- /Effect ------------- */
+/* hide description & bullets on mobile devices */
+@media
+only screen and (max-width: 480px),
+only screen and (-webkit-max-device-pixel-ratio: 2)      and (max-width: 480px),
+only screen and (   max--moz-device-pixel-ratio: 2)      and (max-width: 480px),
+only screen and (     -o-max-device-pixel-ratio: 2/1)    and (max-width: 480px),
+only screen and (        max-device-pixel-ratio: 2)      and (max-width: 480px),
+only screen and (                max-resolution: 192dpi) and (max-width: 480px),
+only screen and (                max-resolution: 2dppx)  and (max-width: 480px) { 
+  .csslider1 > .cs_description,
+  .csslider1 > .cs_bullets {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1500px) {
+  .csslider1,
+  .csslider1 > ul {
+    height: auto;
+  }
+}

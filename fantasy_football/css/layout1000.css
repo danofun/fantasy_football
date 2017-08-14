@@ -1,0 +1,39 @@
+@import url("http://www.mfladdons.com/templates/common_css/layout.css");
+
+
+@charset "utf-8";
+
+/*LAYOUT*/
+/* Sets the overall width of the page effects the banner and top links*/
+.pagebody {
+	width : 1000px;
+      }
+	  
+/*Sets the Width of the content of the page*/
+#contentframe {
+	width: 1000px;
+      }
+	
+	
+/*Sets the Width of live scoring pages*/
+#body_live_scoring .report, #body_live_scoring_summary .report {
+	width:490px;
+	}
+#body_live_scoring_summary .report{
+	width:490px;
+}
+#body_live_scoring h2, #body_live_scoring_summary h2{
+	width:1000px;
+
+	}
+
+	  
+
+/*Expands Pages with 2 columns to fill the entire page*/  	
+.two_column_layout table{
+	width: 495px;
+	}
+#body_options_07 #single_roster .two_column_layout .report{
+	width:1000px;
+	}
+

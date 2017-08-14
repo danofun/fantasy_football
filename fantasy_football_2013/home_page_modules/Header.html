@@ -1,0 +1,519 @@
+<!-- Disable Commish/Owner Login Link -->
+
+<script type="text/javascript">
+
+if(franchise_id==undefined) { //hide both owner and commish if not logged in
+
+var franchise_id;
+
+document.write("<style type='text/css'>");
+
+document.write("#togglelogin li.owner { display: none; }");
+
+document.write("#togglelogin li.commish { display: none; }");
+
+document.write("</style>");
+
+} else if(franchise_id=="0001") { //hide owner if logged in as owner
+
+document.write("<style type='text/css'>");
+
+document.write("#togglelogin li.owner { display: none; }");
+
+document.write("</style>");
+
+} else if(franchise_id=="0000") { //hide commish if logged in as commish
+
+document.write("<style type='text/css'>");
+
+document.write("#togglelogin li.commish { display: none; }");
+
+document.write("</style>");
+
+} else { // hide both if logged in as any other franchise
+
+document.write("<style type='text/css'>");
+
+document.write("#togglelogin li.owner { display: none; }");
+
+document.write("#togglelogin li.commish { display: none; }");
+
+document.write("</style>");
+
+}
+
+// -->
+
+</script>
+
+
+
+<div id="togglelogin">
+
+<li class="owner" ><a href="http://football2.myfantasyleague.com/2013/logout?L=13790&BECOME=0001">BECOME OWNER</a> / </li>
+
+<li class="commish" ><a href="http://football2.myfantasyleague.com/2013/logout?L=13790&BECOME=0000">BECOME COMMISSIONER</a> / </li>
+
+</div>
+
+
+
+
+
+
+
+
+
+<div id="banner">
+
+<img src="http://www.faithworkcamps.com/fantasy_football_2013/site/img/headerbg.png" >
+
+</div>
+
+
+
+
+
+
+<div id="logo">
+
+<img src="http://www.faithworkcamps.com/fantasy_football_2013/site/img/textlogo.png" width="387" height="87" alt="12AM 2K13 Home" title="12AM 2K13 Home" onclick="location.href='http://www.myfantasyleague.com/2013/home/13790';" style="cursor:pointer;" >
+
+</div>
+
+
+
+<div id="topmenu">
+
+<li><a href="http://football2.myfantasyleague.com/2013/login?L=13790">LOG IN</a> / <li><a href="http://football2.myfantasyleague.com/2013/home/13790?MODULE=MESSAGE19" target="_blank">SCOREBOARD</a>
+
+</div>
+
+
+
+<div id="search-nav-wrap">
+
+<div id="search">
+
+<form method='get' action='http://football.myfantasyleague.com/2013/player_search'><input type='text' name='NAME' value='NFL Player Search' size='10' class='reallysmall cleardefault'><input type='hidden' name='L' value=13790>
+
+<input type="image" src="http://www.faithworkcamps.com/fantasy_football_2013/site/img/searchbtn.png" id="searchsubmit" value="Search" class="btn" />
+
+</form>
+
+</div>
+
+</div>
+
+
+
+
+
+
+
+<script type="text/javascript" src="http://www.faithworkcamps.com/fantasy_football_2013/site/js/util-functions.js"></script>
+
+<script type="text/javascript" src="http://www.faithworkcamps.com/fantasy_football_2013/site/js/clear-default-text.js"></script>
+
+<script src="http://www.faithworkcamps.com/fantasy_football_2013/site/js/SpryTabbedPanels.js" type="text/javascript"></script><!-- Add StyleSheet -->
+
+<link rel="stylesheet" href="http://www.faithworkcamps.com/fantasy_football_2013/site/css/menu.css" type="text/css"/>
+
+
+
+<script type="text/javascript" src="http://www.faithworkcamps.com/fantasy_football_2013/site/js/jquery.js"></script>
+
+<script type="text/javascript" src="http://www.faithworkcamps.com/fantasy_football_2013/site/js/dropmenu.js"></script>
+
+<script type="text/javascript">
+
+$(document).ready(function(){
+
+$("#navone");
+
+});
+
+
+
+</script>
+
+
+
+
+
+<table id="nav_ticker_wrapper">
+
+<tr>
+
+<td id="navwrapper">
+
+
+
+<ul id="nav-one" class="dropmenu">
+
+
+
+<li> <a class="hometext" href="http://www.myfantasyleague.com/2013/home/13790">Home</a>
+
+
+
+
+
+
+
+
+
+<li> <a class="teamstext" href="#">Teams</a>
+
+<div class="teams">
+
+<div class="small"><p id="myteamlinks" align="center"><strong >My Team Management: &nbsp;&nbsp;</strong><a href="http://football2.myfantasyleague.com/2013/options?L=13790&O=02">Submit Lineup</a> | <a href="http://football2.myfantasyleague.com/2013/options?L=13790&O=46">Add Player</a> | <a href="http://football2.myfantasyleague.com/2013/options?L=13790&O=74">Drop Player</a> | <a href="http://football2.myfantasyleague.com/2013/options?LEAGUE_ID=13790&O=05">Trade</a></p></div>
+
+<table>
+
+<tr>
+
+<td><h2 class="main">National Division</h2><ul >
+
+<li><img src="http://www.faithworkcamps.com/fantasy_football/header_logos_2010/MangyMoose.png" width="75" height="38" alt="Thumb" border="0" />
+
+<h2>Mangy Moose Jr.</h2>
+
+<p align="center"><a href="http://football2.myfantasyleague.com/2013/options?L=13790&F=0001&O=01">Options</a> | <a href="http://football2.myfantasyleague.com/2013/options?L=13790&O=07&F=0001">Roster</a> | <a href="http://football2.myfantasyleague.com/2013/options?L=13790&O=16&F=0001">Schedule</a></p>
+
+</li>
+
+<li><img src="http://www.faithworkcamps.com/fantasy_football/header_logos_2010/CoxSuckers.png" width="75" height="38" alt="Thumb" border="0" />
+
+<h2>Cox Suckers</h2>
+
+<p align="center"><a href="http://football2.myfantasyleague.com/2013/options?L=13790&F=0003&O=01">Options</a> | <a href="http://football2.myfantasyleague.com/2013/options?L=13790&O=07&F=0003">Roster</a> | <a href="http://football2.myfantasyleague.com/2013/options?L=13790&O=16&F=0003">Schedule</a></p>
+
+</li>
+
+<li><img src="http://www.faithworkcamps.com/fantasy_football/header_logos_2010/Chill.png" width="75" height="38" alt="Thumb" border="0" />
+
+<h2>Chill</h2>
+
+<p align="center"><a href="http://football2.myfantasyleague.com/2013/options?L=13790&F=0007&O=01">Options</a> | <a href="http://football2.myfantasyleague.com/2013/options?L=13790&O=07&F=0007">Roster</a> | <a href="http://football2.myfantasyleague.com/2013/options?L=13790&O=16&F=0007">Schedule</a></p>
+
+</li>
+<li><img src="http://www.faithworkcamps.com/fantasy_football/header_logos_2010/MMS.png" width="75" height="38" alt="Thumb" border="0" />
+
+<h2>Mangy Moose Sr.</h2>
+
+<p align="center"><a href="http://football2.myfantasyleague.com/2013/options?L=13790&F=0008&O=01">Options</a> | <a href="http://football2.myfantasyleague.com/2013/options?L=13790&O=07&F=0008">Roster</a> | <a href="http://football2.myfantasyleague.com/2013/options?L=13790&O=16&F=0008">Schedule</a></p>
+
+</li>
+
+<li class="bottomrow"><img src="http://www.faithworkcamps.com/fantasy_football/header_logos_2010/TeamBottles.png" width="75" height="38" alt="Thumb" border="0" />
+
+<h2>Team Bottles</h2>
+
+<p align="center"><a href="http://football2.myfantasyleague.com/2013/options?L=13790&F=0009&O=01">Options</a> | <a href="http://football2.myfantasyleague.com/2013/options?L=13790&O=07&F=0009">Roster</a> | <a href="http://football2.myfantasyleague.com/2013/options?L=13790&O=16&F=0009">Schedule</a></p>
+
+</li>
+
+</ul></td><td><h2 class="main">American Division</h2><ul>
+<li><img src="http://www.faithworkcamps.com/fantasy_football/header_logos_2010/TexasRangers.png" width="75" height="38" alt="Thumb" border="0" />
+
+<h2>Texas Rangers</h2>
+
+<p align="center"><a href="http://football2.myfantasyleague.com/2013/options?L=13790&F=0002&O=01">Options</a> | <a href="http://football2.myfantasyleague.com/2013/options?L=13790&O=07&F=0002">Roster</a> | <a href="http://football2.myfantasyleague.com/2013/options?L=13790&O=16&F=0002">Schedule</a></p>
+
+</li>
+
+<li><img src="http://www.faithworkcamps.com/fantasy_football/header_logos_2010/Madden.png" width="75" height="38" alt="Thumb" border="0" />
+
+<h2>Mark Madden</h2>
+
+<p align="center"><a href="http://football2.myfantasyleague.com/2013/options?L=13790&F=0004&O=01">Options</a> | <a href="http://football2.myfantasyleague.com/2013/options?L=13790&O=07&F=0004">Roster</a> | <a href="http://football2.myfantasyleague.com/2013/options?L=13790&O=16&F=0004">Schedule</a></p>
+
+</li>
+
+<li><img src="http://www.faithworkcamps.com/fantasy_football/header_logos_2010/Danomites.png" width="75" height="38" alt="Thumb" border="0" />
+
+<h2>Hemberglars</h2>
+
+<p align="center"><a href="http://football2.myfantasyleague.com/2013/options?L=13790&F=0006&O=01">Options</a> | <a href="http://football2.myfantasyleague.com/2013/options?L=13790&O=07&F=0006">Roster</a> | <a href="http://football2.myfantasyleague.com/2013/options?L=13790&O=16&F=0006">Schedule</a></p>
+
+</li>
+
+<li><img src="http://www.faithworkcamps.com/fantasy_football/header_logos_2010/ArnersArmy.png" width="75" height="38" alt="Thumb" border="0" />
+
+<h2>Arners Army</h2>
+
+<p align="center"><a href="http://football2.myfantasyleague.com/2013/options?L=13790&F=0005&O=01">Options</a> | <a href="http://football2.myfantasyleague.com/2013/options?L=13790&O=07&F=0005">Roster</a> | <a href="http://football2.myfantasyleague.com/2013/options?L=13790&O=16&F=0005">Schedule</a></p>
+
+</li>
+
+<li class="bottomrow"><img src="http://www.faithworkcamps.com/fantasy_football/header_logos_2010/PhillyPoolboys.png" width="75" height="38" alt="Thumb" border="0" />
+
+<h2>Philly Poolboys</h2>
+
+<p align="center"><a href="http://football2.myfantasyleague.com/2013/options?L=13790&F=0010&O=01">Options</a> | <a href="http://football2.myfantasyleague.com/2013/options?L=13790&O=07&F=0010">Roster</a> | <a href="http://football2.myfantasyleague.com/2013/options?L=13790&O=16&F=0010">Schedule</a></p>
+
+</li>
+
+</ul>
+
+</td></tr></table>
+
+
+
+</div>
+
+</li>
+
+<li> <a class="leaguetext" href="#">LEAGUE</a>
+
+<div class="products">
+
+<table>
+
+<tr>
+
+<td><ul>
+
+
+
+<li><a href="http://football8.myfantasyleague.com/2013/menu_page?L=13790&NAME=REPORTS_RECORDS"><img src="http://www.faithworkcamps.com/fantasy_football_2013/site/menu/history.png" width="75" height="38" alt="Thumb" border="0" />
+
+<h2>League History</h2></a>
+
+</li>
+
+</li>
+
+<li><a href="http://football2.myfantasyleague.com/2013/options?L=13790&O=15"><img src="http://www.faithworkcamps.com/fantasy_football_2013/site/menu/headtohead.png" width="75" height="38" alt="Thumb" border="0" />
+
+<h2>Schedule</h2></a>
+
+</li>
+
+<li><a href="http://football2.myfantasyleague.com/2013/options?L=13790&O=133"><img src="http://www.faithworkcamps.com/fantasy_football_2013/site/menu/trade.png" width="75" height="38" alt="Thumb" border="0" />
+
+<h2>Trade Bait</h2></a>
+
+</li>
+
+<li><a href="http://football2.myfantasyleague.com/2013/options?L=13790&O=07"><img src="http://www.faithworkcamps.com/fantasy_football_2013/site/menu/rosters.png" width="75" height="38" alt="Thumb" border="0" />
+
+<h2>Rosters</h2></a>
+
+</li>
+
+<li><a href="http://football2.myfantasyleague.com/2013/options?L=13790&O=03"><img src="http://www.faithworkcamps.com/fantasy_football_2013/site/menu/transactions.png" width="75" height="38" alt="Thumb" border="0" />
+
+<h2>Transactions</h2></a>
+
+
+
+
+
+<li><a href="http://football8.myfantasyleague.com/2013/options?L=13790&O=26"><img src="http://www.faithworkcamps.com/fantasy_football_2013/site/menu/bylaws.png" width="75" height="38" alt="Thumb" border="0" />
+
+<h2>League Bylaws</h2></a>
+
+</li>
+
+
+
+
+
+
+</ul></td>
+
+</ul>
+
+</td></tr></table>
+
+</div>
+
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li> <a class="standingtext" href="#">STANDINGS</a>
+
+<div class="products">
+
+<table>
+
+<tr>
+
+<td><ul>
+
+
+
+<li><a href="http://football2.myfantasyleague.com/2013/standings?L=13790"><img src="http://www.faithworkcamps.com/fantasy_football_2013/site/menu/Iconstandings.png" width="75" height="38" alt="Thumb" border="0" />
+
+<h2>Standings</h2></a>
+
+</li>
+
+<li><a href="http://football2.myfantasyleague.com/2013/options?L=13790&O=22"><img src="http://www.faithworkcamps.com/fantasy_football_2013/site/menu/IconResults.png" width="75" height="38" alt="Thumb" border="0" />
+
+<h2>Results</h2></a>
+
+</li>
+
+<li><a href="http://football2.myfantasyleague.com/2013/options?L=13790&O=101"><img src="http://www.faithworkcamps.com/fantasy_football_2013/site/menu/Iconpowerrank.png" width="75" height="38" alt="Thumb" border="0" />
+
+<h2>Power Rank</h2></a>
+
+</li>
+
+<li><a href="http://football2.myfantasyleague.com/2013/options?L=13790&O=119"><img src="http://www.faithworkcamps.com/fantasy_football_2013/site/menu/IconTiebreakers.png" width="75" height="38" alt="Thumb" border="0" />
+
+<h2>Tiebreakers</h2></a>
+
+</li>
+
+</ul>
+
+<div class="small">Who's on Top?</div>
+
+</div>
+
+</li>
+
+
+
+</ul></td>
+
+</ul>
+
+</td></tr></table>
+
+</div>
+
+</li>
+
+
+
+
+
+
+
+
+
+<li> <a class="gametext" href="#">GAMEDAY</a>
+
+<div class="products">
+
+<table>
+
+<tr>
+
+<td><ul>
+
+
+
+<li><a href="http://football2.myfantasyleague.com/2013/options?L=13790&O=02"><img src="http://www.faithworkcamps.com/fantasy_football_2013/site/menu/football.png" width="75" height="38" alt="Thumb" border="0" />
+
+<h2>Submit Lineup</h2></a>
+
+</li>
+
+<li><a href="http://www8.myfantasyleague.com/2013/home/13790?MODULE=MESSAGE19"><img src="http://www.faithworkcamps.com/fantasy_football_2013/site/menu/live_scoring.png" width="75" height="38" alt="Thumb" border="0" />
+
+<h2>Live Scoring</h2></a>
+
+</li>
+
+<li><a href="http://football2.myfantasyleague.com/2013/news_articles?MYNEWS=1&L=13790"><img src="http://www.faithworkcamps.com/fantasy_football_2013/site/menu/mynews.png" width="75" height="38" alt="Thumb" border="0" />
+
+<h2>My News</h2></a>
+
+</li>
+
+<li><a href="http://football2.myfantasyleague.com/2013/news_articles?L=13790&PLAYERS=&SOURCE=*&TEAM=*&POSITION=*&DAYS=7"><img src="http://www.faithworkcamps.com/fantasy_football_2013/site/menu/news.png" width="75" height="38" alt="Thumb" border="0" />
+
+<h2>Latest News</h2></a>
+
+</li>
+
+</ul>
+
+<div class="small">Keep up to date!</div>
+
+</div>
+
+</li>
+
+
+
+
+
+</ul></td>
+
+</ul>
+
+</td></tr></table>
+
+</div>
+
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li> <a class="last" href="#">Champions</a>
+
+<div class="rafter">
+
+<ul>
+
+<li><img src="http://faithworkcamps.com/fantasy_football_2013/site/img/rafters.png" width="1096" height="326" alt="Thumb" border="0" />
+
+</li>
+
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+</ul>
+
+
+
+</td>
+
+</table>

@@ -1,0 +1,23 @@
+/* 3 DIVISIONS - - - - - - TEAMS LOGOS AND DIVISIONS */
+#teamsdivisions img { opacity: 1;-webkit-transition: opacity 1s;-moz-transition: opacity 1s;-o-transition: opacity 1s; -ms-transition: opacity 1s; }
+#teamsdivisions img:hover { opacity: .5;-webkit-transition: opacity 1s;-moz-transition: opacity 1s;-o-transition: opacity 1s; -ms-transition: opacity 1s; }
+#teamsdivisions  {display:table;width:100%;margin:0 auto;text-align:center;}
+.division00,.division01,.division02 {display:inline-table;width:auto;margin:0 auto!important;padding:11px!important;}
+#teamsdivisions li ul  {margin:0!important;padding:0!important;}
+#teamsdivisions li ul li {display:block;border:none;margin:0!important;padding:0!important;font-weight:bold;font-size:10pt;border:0;outline:0;line-height:auto!important;height:auto!important;}
+#teamsdivisions li span {text-decoration:none;text-transform:uppercase;display:block;padding:0px;background:url(../img/bg2.png);border: 2px solid #ddd;color: #fff;font-size: 15pt;font-weight: 900;text-transform: uppercase;}
+#teamsdivisions img {width:250px;height:auto;display:block;margin:0 auto;margin-top:-15px;padding:0px;border:0;outline:0;margin-bottom:5px!important;}
+#teamsdivisions div li {border: 2px solid #151515;margin:0px 11px!important;padding:10px!important;border:2px solid #ddd;background:#fff;}
+.division03,.division04,.division05,.division06,.division07,.division08,.division09,.division10,.division11,.division12,.division13,.division14,.division15,.division16,.division16,.division18,.division19 {display:none;}
+
+
+/* 3 DIVISIONS - - - - - - HIDE TEAM NAMES AND SHOW ONLY ICONS 
+#teamsdivisions li ul li a+a {display:none;}
+#teamsdivisions li ul li a img {margin-bottom:0px!important;display:inline;margin:3px 0px!important;padding:0!important;width:240px;}
+*/
+
+/* 3 DIVISIONS - - - - - - HIDE TEAMN LOGOS AND SHOW ONLY NAMES 
+#teamsdivisions li ul li a img {display:none;}
+#teamsdivisions li ul li a+a {line-height:25px!important;height:25px!important;}
+.division00,.division01,.division02 {width:250px;}
+*/

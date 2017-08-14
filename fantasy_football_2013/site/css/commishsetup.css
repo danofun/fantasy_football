@@ -1,0 +1,38 @@
+/* ######### SETUP PAGE ######### */
+#commissioner_setup .two_column_layout table li{padding:0px 0px 0px 0px;list-style-image: url("");list-style-position: inside;color:#ff4e00;}
+#commissioner_setup .two_column_layout table ul{padding:1px 0px 1px 20px;}
+#commissioner_setup .two_column_layout table th{font-size:16px;font-style:normal;padding:8px 0 8px 60px;text-align:center;border-radius:3px;-moz-border-radius:3px;-web-kit-border-radius:3px;text-align:left;background:#111;color:#ff4e00;border:1px solid #333;}
+#commissioner_setup .two_column_layout table ul a{font-size:1.1em;vertical-align:top;text-decoration:none;}
+#commissioner_setup .two_column_layout .oddtablerow td{border:1px solid #000;}
+#commissioner_setup .two_column_layout table{background:none;border:none;}
+#commissioner_setup th{background:;}
+/* ######### LEFT TABLES ######### */
+#commissioner_setup th#recently_used {background-image:url("../NITRO-2012/commishpage/img/recentlyused.png");background-repeat:no-repeat;background-position:10px center;}
+#commissioner_setup th#general_setup{background-image:url("../NITRO-2012/commishpage/img/generalsetup.png");background-repeat:no-repeat;background-position:10px center;}
+#commissioner_setup th#commissioner_franchise_setup{background-image:url("../NITRO-2012/commishpage/img/commishsetup.png");background-repeat:no-repeat;background-position:10px center;}
+#commissioner_setup th#history_setup{background-image:url("../NITRO-2012/commishpage/img/historysetup.png");background-repeat:no-repeat;background-position:10px center;}
+#commissioner_setup th#scoring_setup{background-image:url("../NITRO-2012/commishpage/img/scoringsetup.png");background-repeat:no-repeat;background-position:10px center;}
+#commissioner_setup th#players_and_rosters{background-image:url("../NITRO-2012/commishpage/img/playerssetup.png");background-repeat:no-repeat;background-position:10px center;}
+#commissioner_setup th#adjust_scores{background-image:url("../NITRO-2012/commishpage/img/scoresetup.png");background-repeat:no-repeat;background-position:10px center;}
+#commissioner_setup th#home_page_message_setup{background-image:url("../NITRO-2012/commishpage/img/messagesetup.png");background-repeat:no-repeat;background-position:10px center;}
+#commissioner_setup th#use_with_caution{background-image:url("../NITRO-2012/commishpage/img/cautionsetup.png");background-repeat:no-repeat;background-position:10px center;background-color:#f84848;color:#b70000;}
+/* ######### RIGHT TABLES ######### */
+#commissioner_setup th#appearance_setup{background-image:url("../NITRO-2012/commishpage/img/appearancesetup.png");background-repeat:no-repeat;background-position:10px center;}
+#commissioner_setup th#fantasy_schedule_setup{background-image:url("../NITRO-2012/commishpage/img/schedulesetup.png");background-repeat:no-repeat;background-position:10px center;}
+#commissioner_setup th#auction_setup{background-image:url("../NITRO-2012/commishpage/img/auctionsetup.png");background-repeat:no-repeat;background-position:10px center;}
+#commissioner_setup th#draft_setup{background-image:url("../NITRO-2012/commishpage/img/draftsetup.png");background-repeat:no-repeat;background-position:10px center;}
+#commissioner_setup th#waivers_setup{background-image:url("../NITRO-2012/commishpage/img/waiversetup.png");background-repeat:no-repeat;background-position:10px center;}
+#commissioner_setup th#other_transactions_setup{background-image:url("../NITRO-2012/commishpage/img/transactionsetup.png");background-repeat:no-repeat;background-position:10px center;}
+#commissioner_setup th#playoff_setup{background-image:url("../NITRO-2012/commishpage/img/playoffsetup.png");background-repeat:no-repeat;background-position:10px center;}
+#commissioner_setup th#salary_cap_setup{background-image:url("../NITRO-2012/commishpage/img/salerysetup.png");background-repeat:no-repeat;background-position:10px center;}
+
+
+
+
+
+div#commissioner_setup.pagebody span.reportnavigation {display:none;}
+
+
+
+
+

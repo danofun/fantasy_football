@@ -1,0 +1,52 @@
+* * This file can be used to apply a style to all web pages you view * Rules without !important are overruled by author rules if the * author sets any. Rules with !important overrule author rules. */
+
+
+html iframe
+{ display:none; }
+
+#body_live_scoring iframe,#body_live_scoring_summary iframe,#body_live_scoring img,#body_live_scoring_summary img,#body_live_scoring object,#body_live_scoring_summary object
+{ display:none; }
+
+#body_news_articles object,#body_news_articles iframe,#body_news_articles embed,#body_news_articles .report form
+{ display:none; }
+
+#options_207 iframe,#body_options_177 iframe,#body_options_185 iframe
+{ display:none; }
+
+#body_player iframe,#body_player object,#body_player table td div
+{ display:none; }
+
+#body_view_news_article iframe,#body_view_news_article object,#body_view_news_article .report form
+{ display:none; }
+
+#body_live_scoring_summary div,#body_live_scoring div {height:0px;}
+#body_live_scoring_summary .pagebody,#body_live_scoring .pagebody {background:#000;height:100%;}
+
+table.report td > div#ticker {display:block;}
+#news_articles table.report td > div {
+display:none;
+}
+#RGvideoWall {display:none;}
+
+
+
+A:link[HREF*="addata"] IMG,A:link[HREF*="ad."] IMG,A:link[HREF*="ads."] IMG,A:link[HREF*="/ad"] IMG,A:link[HREF*="/A="] IMG,A:link[HREF*="/click"] IMG,A:link[HREF*="?click"] IMG,A:link[HREF*="?banner"] IMG,A:link[HREF*="=click"] IMG,A:link[HREF*="clickurl="] IMG,A:link[HREF*=".atwola."] IMG,A:link[HREF*="spinbox."] IMG,A:link[HREF*="transfer.go"] IMG,A:link[HREF*="adfarm"] IMG,A:link[HREF*="adSpace"] IMG,A:link[HREF*="adserve"] IMG,A:link[HREF*=".banner"] IMG,A:link[HREF*="bluestreak"] IMG,A:link[HREF*="doubleclick"] IMG,A:link[HREF*="/rd."] IMG,A:link[HREF*="/0AD"] IMG,A:link[HREF*=".falkag."] IMG,A:link[HREF*="trackoffer."] IMG,A:link[HREF*="casalemedia."] IMG,A:link[HREF*="valueclick."] IMG,A:link[HREF*="betterbasketball."] IMG,A:link[HREF*="sponsors.phtml"] IMG,A:link[HREF*="realgmtix.phtml"] IMG,A:link[HREF*="BurstingPipe"] IMG,A:link[HREF*="ebayobjects"] IMG,A:link[HREF*="tracksponsor."] IMG
+{ display:none ! important; }
+
+IFRAME[SRC*="addata"],IFRAME[SRC*="ad."],IFRAME[SRC*="ads."],IFRAME[SRC*="/ad"],IFRAME[SRC*="/A="],IFRAME[SRC*="/click"],IFRAME[SRC*="?click"],IFRAME[SRC*="?banner"],IFRAME[SRC*="=click"],IFRAME[SRC*="clickurl="],IFRAME[SRC*=".atwola."],IFRAME[SRC*="spinbox."],IFRAME[SRC*="transfer.go"],IFRAME[SRC*="adfarm"],IFRAME[SRC*="adSpace"],IFRAME[SRC*="adserve"],IFRAME[SRC*="adjuggler"],IFRAME[SRC*=".banner"],IFRAME[SRC*="bluestreak"],IFRAME[SRC*="doubleclick"],IFRAME[SRC*="/rd."],IFRAME[SRC*="/0AD"],IFRAME[SRC*=".falkag."],IFRAME[SRC*="trackoffer."],IFRAME[SRC*="connextra."],IFRAME[ID*="merchandisingMERC"],IFRAME[SRC*="tracksponsor."]
+{ display:none ! important; }
+
+A:link[onmouseover*="AdSolution"] IMG,*[class=sponsors],*[class=sp_links],*[class=advertising],*[ID=sponsors],*[ID=ad],*[ID=inlinead],*[ID=ad_creative],*[ID=contextualLinks],IMG[SRC*=".msads."]
+{ display:none ! important; }
+
+A:link[HREF*="/add"] IMG,A:link[HREF*="/adsl"] IMG,A:link[HREF*="thread."] IMG,A:link[HREF*="download."] IMG,A:link[HREF*="downloads."] IMG,A:link[HREF*="netflix.com/AddToQueue"] IMG,A:link[HREF*="load."],A:link[HREF*="loads."],IFRAME[SRC*="load."],IFRAME[SRC*="loads."],A:link[HREF*="click.mp3"] IMG
+{ display:inline ! important; }
+
+#usmg_ad_NFL.general_fantasy_sports_728x90_1a,
+#aswift_0_anchor,
+ins#aswift_0_anchor
+{display:none;}
+
+
+
+

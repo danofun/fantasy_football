@@ -1,0 +1,50 @@
+/* ###### Start Top Players Tabs ###### */
+#TabbedPanels3 caption,#TabbedPanels3 table caption{display:none}
+#TabbedPanels3 .TabbedPanels{margin:0;padding:0;float:left;clear:none;width:100%;/* IE Hack to force proper layout when preceded by a paragraph. (hasLayout Bug)*/
+}
+#TabbedPanels3 .TabbedPanelsTabGroup{margin:0;padding:0}
+#TabbedPanels3 .TabbedPanelsTab,#TabbedPanels3 .TabbedPanelsTabfirst,#TabbedPanels3 .TabbedPanelsTablast{-moz-user-select:none;background: transparent url("../img/standings_tab.png")center top;
+  cursor:pointer;float:left;list-style:none outside none;margin:0 0 0 0;padding:6px 0px;position:relative;text-align:center;text-transform:uppercase;top:1px;font-weight:bolder;
+  margin-bottom:0;border-left:0px solid #000;width:92px;border-bottom:1px solid #ff4e00;color:#444;margin-left:3px;
+-webkit-border-top-left-radius: 5px;-webkit-border-top-right-radius: 5px;-moz-border-radius-topleft: 5px;-moz-border-radius-topright: 5px;border-top-left-radius: 5px;border-top-right-radius: 5px;}
+#TabbedPanels3 .TabbedPanelsTabHover{color:#000;}
+#TabbedPanels3 .TabbedPanelsTabfirst{}
+#TabbedPanels3 .TabbedPanelsTablast{}
+#TabbedPanels3 .TabbedPanelsTabSelected{color:#000;}
+.column3{width:286px;margin-left:587px;margin-top:2px;position:absolute;}
+.column3 .report{padding-top:10px;font-size:8pt;font-weight:normal;width:286px;height:280px;clear:both;}
+/* ###### END ###### */
+div#TabbedPanels3>div>div .report{border:1px solid #3a3a3a}
+
+#TabbedPanels3 #brief_standings td.fname {width:170px;}
+#TabbedPanels3 #brief_standings td.pf {text-align:center;}
+#TabbedPanels3 #brief_standings th.pf,#TabbedPanels3 #brief_standings th.h2hwlt {text-align:center;}
+#TabbedPanels3 #brief_standings .report,#TabbedPanels3 #brief_standings .oddtablerow,#TabbedPanels3 #brief_standings .eventablerow,#TabbedPanels3 #brief_standings,#TabbedPanels3 #brief_standings th,
+#TabbedPanels3 #brief_standings h3
+{background:none;border:none;}
+#TabbedPanels3 #brief_standings th {border-bottom:1px solid #222;height:20px;}
+
+#brief_standings td#division00 img {visibility:hidden; width:273px;height:24px;}
+#brief_standings td#division01 img {visibility:hidden; width:273px;height:24px;}
+#brief_standings td#division02 img {visibility:hidden; width:273px;height:24px;}
+#brief_standings td#division00 {background: transparent url("../img/AFC.png") no-repeat top center; border: none;height:24px;}
+#brief_standings td#division00 h3 {visibility:hidden;margin:0;padding:0;}
+#brief_standings td#division01 {background: transparent url("../img/NFC.png") no-repeat top center; border: none;height: 24px;}
+#brief_standings td#division01 h3 {visibility:hidden;margin:0;padding:0;}
+#brief_standings td#division02 {background: transparent url("../img/NationalDivisionSMALL.png") no-repeat top center; border: none;height: 24px;}
+#brief_standings td#division02 h3 {visibility:hidden;margin:0;padding:0;}
+
+#TabbedPanels3 #brief_standings .oddtablerow a:link,#TabbedPanels3 #brief_standings .oddtablerow a:active,#TabbedPanels3 #brief_standings .oddtablerow a:visited,#TabbedPanels3 #brief_standings .oddtablerow{}
+#TabbedPanels3 #brief_standings .eventablerow a:link,#TabbedPanels3 #brief_standings .eventablerow a:active,#TabbedPanels3 #brief_standings .eventablerow a:visited,#TabbedPanels3 #brief_standings .eventablerow{}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,50 @@
+#slide {margin:0;margin-bottom:15px;}
+
+#yourSliderId
+{ height:500px;
+  width:100%;
+  background:transparent;
+  margin:0;
+  padding:0;
+  position:relative !important; }
+
+#yourSliderId li
+{ display:none;
+  float:left;
+  margin:0;
+  position:absolute;
+  width:100%;}
+
+#yourSliderId li.current
+{ display:block;
+  z-index:2 !important; }
+
+#yourSliderId li.next
+{ display:block;
+  z-index:1 !important; }
+
+#yourSliderId li ul li
+{ display:block !important;
+  position:relative !important; }
+
+#yourSliderId .report{width:100%!important;height:470px;}
+#yourSliderId .report caption {background:none;color:#333;line-height:25px;border:none;}
+#yourSliderId caption span {background:transparent url('http://nitrografixx.com/2013Nike/img/caption_after.png') right center no-repeat;padding-right:15px;}
+#yourSliderId table#league_chat caption span a img {display:none;}
+#yourSliderId .report th {height:20px;}
+#yourSliderId .report td {vertical-align:top;}
+#yourSliderId a:link,#yourSliderId a:active,#yourSliderId a:visited,#yourSliderId a:hover,#yourSliderId .oddtablerow a:link{}
+
+#yourSliderId li.image img {width:715px; height:500px;padding:0;margin:0;margin-left:-1px;}
+#yourSliderId li.image a.head{position:absolute;top:0px;left:10px;color:#333;cursor:default;text-transform:uppercase;text-align:left;font-weight:400;font-size:12pt;
+background:transparent url('http://nitrografixx.com/2013Nike/img/caption_after.png') right center no-repeat;padding-right:15px;}
+
+
+
+
+
+
+
+
+
+

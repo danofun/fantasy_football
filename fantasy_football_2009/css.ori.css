@@ -1,0 +1,1600 @@
+.pagebody {
+	width : 1024px;
+	margin-right: auto;
+	margin-left: auto;
+        background-color:#000;
+	margin-top: auto;
+	margin-bottom: auto;
+        font-weight: bold;
+        overflow: hidden;
+        background: url(http://nitrografixx.com/graphics/templates/template_3/old_school/transparent_bg.png);
+        background-position:left top;
+        position:relative;
+        padding-bottom: 175px;
+        min-height: 640px;
+}
+
+body {
+	font-size : 12px;
+	font-family : Arial, Helvetica, sans-serif;
+	color : #fff;
+	margin-top: auto;
+	margin-bottom: auto;
+	text-align:left;
+	background-color:#D2B48C;
+	margin-right: auto;
+	margin-left: auto;
+	background:  url(http://nitrografixx.com/graphics/templates/template_3/old_school/BG.png) ;
+        background-repeat:repeat;  
+
+}
+
+:root {
+	overflow-y: scroll !important;
+}
+
+.welcome, .brandlogo, .pagetitle, .pageheader, .pagefooter table, .pagefooter {
+	display:none;
+}
+
+.rsimage { 
+	padding-top: 0px;
+}
+
+	
+.oddtablerow {
+	background-color:#ffefd5;
+}
+
+.eventablerow {
+	background-color:#e5cfac;
+}
+  
+
+
+.report {
+border: 1px solid #464646;
+width: 90%;
+}
+
+#body_standings .report {
+border: none;
+width: 850px;
+}
+
+.two_column_layout { 
+	width: 800px;
+}
+
+
+#body_commissioner_setup table { 
+width: 100%;
+}
+
+
+#monthly_calendar {
+	width: 80%;
+}
+
+#flashfooter {
+        overflow: hidden;
+	position: absolute; right: 0px; bottom: 0px;
+}
+
+.textarea {
+    width: 90%;
+}
+
+#MSG {
+    width: 950px;
+margin-left: 35px;
+}
+
+#options_22 .report,#options_22 table,
+#body_injury table, #nfl_team_stats .report {
+	width: 355px; 
+}
+
+#options_22 .scoresummary {
+border: 1px solid black;
+}
+
+#options_31 .report {
+width: 300px;
+}
+
+
+/* ######### START Custom Content Layout ######### */
+
+
+#tabcontent0, #tabcontent1, #tabcontent2, #tabcontent3, #tabcontent4, #tabcontent5, #tabcontent6, #tabcontent7, #tabcontent8 {
+	min-height: 550px;
+}
+
+#ownerdesk {
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.tabcontentstyle {
+	width: 800px;
+	min-height: 500px;
+}
+
+#left {
+	height:100%;
+	margin-left: 0px;
+	margin-right: 0px;
+	background-color: #0A1E26;
+	width: 122px;
+        border: 1px solid #000;
+}
+
+#homepagecolumn1 {
+	
+	padding: 10px 0px 0px 6px;
+	margin: 0px 0px 0px 0px;
+}
+
+
+#homepagecolumn2 {
+	width: auto;
+	padding: 10px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	font-size:100%;
+}
+
+#homepagecolumn3 {
+	width: atuo;
+	padding: 10px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	font-size:100%;
+}
+
+#MSG { width: 908px;
+margin-left: 54px;
+margin-right: 0px;
+}
+
+#homepagecolumn4 {
+	padding: 10px 0px 0px 0px;
+}
+
+
+/* ######### End Custom Content Layout ######### */
+
+
+
+
+/* ######### START MFL Menu ######### */
+	
+.mainmenucurrent { 
+	font-size: 90%; 
+	text-decoration: none; 
+	background-color: #000;  
+        font-weight: bold;
+
+}
+
+.mainmenuon, A.mainmenuon:link, A.mainmenuon:visited, A.mainmenuon:hover, A.mainmenuon:active { 
+	color: #ffefd5; 
+	background-color: #000; 
+	font-size: 90%; 
+	text-decoration: none; 
+        font-weight: bold;
+
+}
+
+
+.mainmenuoff, A.mainmenuoff:link, A.mainmenuoff:visited, A.mainmenuoff:hover, A.mainmenuoff:active, A.mainmenucurrent:link, A.mainmenucurrent:visited, A.mainmenucurrent:hover, A.mainmenucurrent:active { 
+	color: #be7c14; 
+	background-color: #000; 
+	font-size: 90%; 
+        font-weight: bold;
+	text-decoration: none; 
+}
+
+#menu0 {
+	margin-top: -8px;
+
+}
+
+/* ######### END MFL Menu ######### */
+
+
+
+/* ######### START Table Headers ######### */
+
+th, #brief_standings h3, .chartmenudivisionhd, #standings h3 {
+	margin: -1px;
+	padding: 0 2px;
+	height: 17px;
+	line-height: 9px;
+	color: #fff;
+	background-color: #000;
+	background-image:url(http://nitrografixx.com/graphics/norcal_dynasty/Navtab.png);
+	background-repeat: repeat-x;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: bold;
+	text-align: center;
+	border-bottom: 1px solid #854005;
+}
+
+/* ######### END Table Headers ######### */
+
+
+
+
+
+/* ######### START Captions ######### */
+
+caption, .homepagecolumn .homepagemodule caption, #article caption, .dctop {
+        padding: 0px;
+	width: auto;
+	height: 29px;
+	line-height:29px;
+	color:#fff;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	background-color:#000;
+	background:#000 url(http://nitrografixx.com/graphics/MastersFantasyLeague_2009/footballanimatedcap.gif);
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-top: 4px;
+        margin-bottom: 4px;
+        padding-bottom: 4px;
+	border-left: 1px solid #a97f5f;
+	border-right: 1px solid #a97f5f;
+        overflow: hidden;
+}
+
+#top_performers caption { display: none; }
+#top_fa caption { display: none;}
+
+
+#monthly_calendar caption {
+   background:  center url(http://nitrografixx.com/graphics/MastersFantasyLeague_2009/calendar.png)  no-repeat;
+   height: 82px;
+   width: 557px;
+   border: none;
+}
+
+#monthly_calendar span, #options_02 span {
+visibility:hidden;
+}
+
+#options_02 caption {
+   background:  center url(http://nitrografixx.com/graphics/MastersFantasyLeague_2009/submit_lineup.jpg)  no-repeat;
+   height: 125px;
+   width: 1000;
+   border: none;
+}
+
+#homepagecolumn1 #standings caption, #homepagecolumn2 #standings caption, #homepagecolumn3 #standings caption, #homepagecolumn4 #standings caption {
+   background:  center url(http://nitrografixx.com/graphics/templates/template_3/old_school/league_standing_tabbed.png)  no-repeat;
+   height: 66px;
+   width: 559px;
+   border: none;
+}
+
+#standings caption {
+   background:  center url(http://nitrografixx.com/graphics/templates/template_3/old_school/Standings_large_banner.jpg)  no-repeat;
+   height: 66px;
+   width: 850px;
+   border: none;
+}
+
+#standings span {
+visibility:hidden;
+}
+
+#power_rank caption, #options_101 caption {
+   background:  center url(http://nitrografixx.com/graphics/templates/template_3/old_school/power.jpg)  no-repeat;
+   height: 66px;
+   width: 560px;
+   border: none;
+}
+
+#power_rank span, #options_101 span {
+visibility:hidden;
+}
+
+
+
+/* ######### END Captions ######### */
+
+
+/* ######### START TEXT COLORING ######### */
+
+caption a:link, caption a:active, caption a:visited {
+	color: #fff;
+}
+
+a:link, a:active, a:visited {
+	color: #fff;
+}
+
+th a:link, th a:active, th a:visited {
+	color: #fff;
+}
+
+
+.oddtablerow a:link, .oddtablerow a:active, .oddtablerow a:visited {
+	color:#000;
+}
+
+.eventablerow a:link, .eventablerow a:active, .eventablerow a:visited {
+	color:#000;
+}
+
+a:hover {
+	color: #854005;
+}
+
+.oddtablerow a:hover { 
+	color: #6c3d27;
+}
+
+.eventablerow a:hover {
+	color: #6c3d27;
+}
+
+.warning a:link, .warning a:active, .warning a:visited {
+	color: #800000;
+}
+
+.warning  {
+	color: #800000;
+}
+
+h1, h2, h3, h4 {
+   	text-align: center;
+   	font-family: Arial;
+        color: #6c3d27;   	
+}
+
+.oddtablerow, .eventablerow { color: #000;}
+
+#options_22 table, #options_06 table, #live_scoring table, #live_scoring_summary .report {
+        font-weight: bold; 
+}
+
+.report {
+text-align: left;
+}
+
+
+
+/* ######### END TEXT COLORING ######### */
+
+
+
+
+/* ######### START Main Menu ######### */
+
+
+#mainnavlist {
+	height:20px;
+	margin-left: auto;
+	margin-right: auto;
+	z-index: 1;
+	background: transparent;
+	padding: 0px 0px 12px 0px;
+        margin-top: -2px;
+}
+
+#mainnavlist ul {
+top: -15px;
+	height:19px;
+	line-height: 20px;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-align: center;
+	position: relative;
+	z-index: 2;
+	background-image: url();
+	background-repeat:repeat-x;
+        width: auto;
+}
+
+#mainnavlist li {
+	display: inline;
+	text-align: center;
+	margin: 0 -3px;
+
+}
+
+#mainnavlist li a {
+	color:#865b4a;
+	font-size: 9px;
+	font-weight:bold;
+	padding: 2px 8px 1px 8px;
+	text-decoration: none;
+	background-image: url();
+	border: 1px solid #;
+
+
+}
+
+#mainnavlist li a:hover {
+	color: #f7d59e;
+
+}
+
+/* ######### END Main Menu ######### */
+
+
+
+
+/* ######### START Left Nav Bar ######### */
+
+#leftnavbar {
+	height:100%;
+	margin-left: 0px;
+	margin-right: 0px;
+	background-color: #000;
+	width: 122px;
+
+}
+
+#leftnavbar ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	width: 122px;
+}
+
+#leftnavbar li {
+	background-image: url(http://nitrografixx.com/graphics/templates/template_3/old_school/BG_Normal.png);
+	background-position: center center;
+	display: block;
+	text-align: left;
+	margin: 0;
+	padding: 0;
+	height: 17px;
+	line-height: 17px;
+	width: 122px;
+	border-bottom: 1px solid #944700;
+
+}
+
+#leftnavbar li a {
+	padding-left: 3px;
+	color:#e5cfac;
+	font-size: 8pt;
+	font-weight:bold;
+	text-decoration: none;
+	height: 17px;
+	line-height: 17px;
+	width: 121px;
+	display: block;
+
+}
+
+#leftnavbar li a:hover {
+	height: 17px;
+	line-height: 17px;
+	width: 119px;
+	color: #ffefd5;
+	display: block;
+	background-image: url(http://nitrografixx.com/graphics/templates/template_3/old_school/BG_hover.png);
+	background-position: center center;
+	border-bottom: 1px solid #ffefd5;
+}
+
+.leftnavhead {
+	margin: 0px;
+	margin-top: 1px;
+	width: 122px;
+	height: 23px;
+	line-height: 23px;
+	color: #e5cfac;
+	background-color:#673000;
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+	background-image: url();
+	background-repeat: repeat-x;
+}
+
+.leftnavdivider {
+	margin: 0;
+	padding: 0;
+	height: 1px;
+	line-height: 1px;
+	font-size : 1px;
+	width: 122px;
+	background-color:#000;
+}
+
+#leftnavbar img{
+	margin: 4px auto; border: 0px; width: 122px;
+}
+
+#leftnavbar div#owners{
+height: 51px;
+margin: -2px 0px 0px 0px;
+padding-bottom: 0px;
+background: #000000 url(http://nitrografixx.com/graphics/templates/template_3/old_school/owner_desk.png) no-repeat;
+}
+
+#leftnavbar div#locker{
+height: 51px;
+margin: 0px 0px 0px 0px;
+background: #000000 url(http://nitrografixx.com/graphics/templates/template_3/old_school/locker.png) no-repeat;
+}
+
+#leftnavbar div#reports{
+height: 51px;
+margin: 1px 0px 0px 0px;
+padding: 0;
+background: #000000 url(http://nitrografixx.com/graphics/templates/template_3/old_school/reports.png) no-repeat;
+}
+
+#leftnavbar div#playerstat{
+height: 51px;
+margin: 1px 0px 0px 0px;
+padding: 0;
+background: #000000 url(http://nitrografixx.com/graphics/templates/template_3/old_school/playerstat.png) no-repeat;
+}
+
+#leftnavbar div#league{
+height: 51px;
+margin: 1px 0px 0px 0px;
+padding: 0;
+background: #000000 url(http://nitrografixx.com/graphics/templates/template_3/old_school/league.png) no-repeat;
+}
+
+
+/* ######### END Left Nav Bar ######### */
+
+
+
+/* ######### START Custom Welcome Box ######### */
+
+
+#welcome_form, #welcome_form td {
+        width: 300px;
+	background-color:#000;
+	text-align:center;
+	margin-bottom:10px;
+	margin-left:auto;
+	margin-right:auto;
+
+}
+
+#welcome_form .eventablerow td input {
+	width:175px;
+}
+
+#welcome_form .oddtablerow td select {
+	width:175px;
+}
+
+
+
+
+
+
+/* ######### END Custom Welcome Box ######### */
+
+
+
+
+
+
+/* ######### START HomePage Tabs Layout ######### */
+
+
+#homepagetabs {
+        float:left;
+        left:49%;
+        position:relative;
+	text-align:left;
+	padding-bottom:4px;
+        height: 15px;
+        border: none;
+}
+
+#homepagetabs li:hover { 
+        color: #D2B48C;
+	background-color:#823d03;
+}
+
+#homepagetabs ul, #homepagetabs li {
+        float:left; 
+        color: #D2B48C;
+        position:relative;
+        right:50%;
+        top: 0px;
+        margin: 1px;
+        display: inline;
+	list-style-type: none;
+	background-color:#823d03;
+	line-height: 20px;
+	padding: 0px 20px 0px 20px;
+	text-decoration: none;
+        border: 1px solid #b79578;
+        font-weight: bold;
+}
+
+#homepagetabs li.currenttab {
+	background-image: url(http://nitrografixx.com/graphics/templates/template_3/old_school/tab_bg.png);
+        background-position: right;
+        font-weight: bold;
+	background-color:#000;
+	color:#fff;
+        border: 1px solid #b79578;
+        text-decoration: underline;
+}
+
+
+.homepagetabcontent {clear:both;}
+
+
+/* ######### END HomePage Tabs Layout ######### */
+
+
+
+
+
+
+/* ######### START Reports Tab Shade ######### */
+
+.middleshade .selected {
+	text-decoration: none;
+	color:#ffefd5;
+}
+ 
+.middleshade {
+	font: bold 11px Verdana;
+	font-family:Arial, Helvetica, sans-serif;
+	list-style-type: none;
+	text-align: center; /*set to left, center, or right to align the menu as desired*/
+	background-image: url(http://nitrografixx.com/graphics/templates/template_3/old_school/reportsshadetab.png);
+	background-position:center top;
+	background-repeat: no-repeat;
+	height: 30px;
+	line-height:32px;
+	color:#ccad7a;
+	padding: 0px 0px 0px 0px;
+	margin-top: 5px;
+	margin-bottom: 0px;
+}
+    
+.middleshade li{
+	position: relative;
+	top: -1px;
+	color: #ccad7a;
+	font-weight: bold;
+	font-size: 11px;
+	background-color: transparent; 
+	border: transparent;
+	display: inline;
+	margin: 0px;
+	padding: 6px;
+}
+
+.middleshade li a{
+	padding: 0px px px 0px;
+	text-decoration: none;
+	color: #ccad7a;
+	outline: none;
+}
+
+
+
+.middleshade li a:hover{
+	text-decoration: none;
+	color: #ffefd5;
+text-weight: bold;
+}
+
+ 
+
+/* ######### END Reports Tab Shade ######### */
+
+
+
+
+
+/* ######### START Top Player Tab Shade ######### */
+
+.topshade .selected {
+	text-decoration: underline;
+	color:#000;
+}
+ 
+.topshade{
+	font: bold 11px Verdana;
+	font-family:Arial, Helvetica, sans-serif;
+	list-style-type: none;
+	text-align: center; /*set to left, center, or right to align the menu as desired*/
+	background-image: url(http://nitrografixx.com/graphics/templates/template_3/old_school/Top%20Player.png);
+	background-position:center top;
+	background-repeat: no-repeat;
+	height: 90px;
+	line-height:154px;
+	color:#000;
+	padding: 0px 0px 0px 5px;
+	margin-bottom: 0px;
+        margin-left: 0px;
+}
+    
+.topshade li{
+	display: inline;
+	margin: 0px;
+	padding: 8px;
+}
+
+.topshade li a{
+	padding: 0px 0px 0px 0px;
+	text-decoration: none;
+	color: #000;
+	outline: none;
+}
+
+.topshade li a:visited{
+	color: #000;
+}
+
+.topshade li a:hover{
+	text-decoration: underline;
+	color: #000;
+}
+
+.topshade li.selected{
+	text-decoration: underline;
+	color: #000;
+}
+
+.topshade li.selected a{ /*selected main tab style */
+	text-decoration: underline;
+	border-bottom: none;
+	color: #000;
+}
+
+.topshade li.selected a:hover{ /*selected main tab style */
+	text-decoration: none;
+}
+
+
+
+/* ######### END Top Player Tab Shade ######### */
+
+
+
+
+/* ######### START Top FA Tab Shade ######### */
+
+
+.topfashade .selected {
+	text-decoration: underline;
+	color:#000;
+}
+ 
+.topfashade{
+	font: bold 11px Verdana;
+	font-family:Arial, Helvetica, sans-serif;
+	list-style-type: none;
+	text-align: center; /*set to left, center, or right to align the menu as desired*/
+	background-image: url(http://nitrografixx.com/graphics/templates/template_3/old_school/TopFAs.png);
+	background-position:center top;
+	background-repeat: no-repeat;
+	height: 90px;
+	line-height:154px;
+	color:#000;
+	padding: 0px 0px 0px 5px;
+	margin-bottom: 0px;
+        margin-left: 0px;
+}
+    
+.topfashade li{
+	display: inline;
+	margin: 0px;
+	padding: 8px;
+}
+
+.topfashade li a{
+	padding: 0px 0px 0px 0px;
+	text-decoration: none;
+	color: #000;
+	outline: none;
+}
+
+.topfashade li a:visited{
+	color: #000;
+}
+
+.topfashade li a:hover{
+	text-decoration: underline;
+	color: #000;
+}
+
+.topfashade li.selected{
+	text-decoration: underline;
+	color: #000;
+}
+
+.topfashade li.selected a{ /*selected main tab style */
+	text-decoration: underline;
+	border-bottom: none;
+	color: #000;
+}
+
+.topfashade li.selected a:hover{ /*selected main tab style */
+	text-decoration: none;
+}
+
+
+/* ######### END Top FA Tab Shade ######### */
+
+
+
+
+/* ######### START Front Page Shadetab ######### */
+
+.loginshade .selected {
+	text-decoration: underline;
+}
+ 
+.loginshade{
+	font: bold 11px Verdana;
+	font-family:Arial, Helvetica, sans-serif;
+	list-style-type: none;
+	text-align: center; /*set to left, center, or right to align the menu as desired*/
+	background-image:  url(http://nitrografixx.com/graphics/templates/template_3/old_school/shadetab.png) ;
+	background-position:center top;
+	background-repeat: repeat-x;
+	background-repeat:repeat-y;
+	height: 25px;
+	line-height:25px;
+	color:#000;
+	padding: 0px 0px 0px 0px;
+	margin-top: -2px;
+	margin-bottom: 5px;
+}
+  
+.loginshade li{
+	display: inline;
+	margin: 0px;
+	padding: 1px;
+}
+
+.loginshade li a{
+	padding: 0px 0px 0px 0px;
+	text-decoration: none;
+	color: #e5cfac;
+	outline: none;
+}
+
+.loginshade li a:visited{
+	color: #fff;
+}
+
+.loginshade li a:hover{
+	text-decoration: underline;
+	color: #ffefd5;
+}
+
+.loginshade li.selected{
+	text-decoration: underline;
+	color: #999999;
+}
+
+.loginshade li.selected a{ /*selected main tab style */
+	text-decoration: underline;
+	border-bottom: none;
+	color: #000;
+}
+
+.loginshade li.selected a:hover{ /*selected main tab style */
+	text-decoration: none;
+}
+ 
+.loginshade {
+	width: 100%;
+}
+
+/* ######### END Front Page Shadetab ######### */
+
+
+
+
+/* ######### START Front Page Shadetab ######### */
+
+.standingtabbed .selected {
+	text-decoration: underline;
+}
+ 
+.standingtabbed {
+	font: bold 14px Verdana;
+	font-family:Arial, Helvetica, sans-serif;
+	list-style-type: none;
+	text-align: center; /*set to left, center, or right to align the menu as desired*/
+	background-image:  url(http://nitrografixx.com/graphics/Huddle_Ladder_2009/standingshadetab.png) ;
+	background-position:center top;
+	background-repeat: repeat-x;
+	background-repeat:repeat-y;
+	height: 30px;
+	line-height:29px;
+	color:#000;
+	padding: 0px 0px 0px 0px;
+	margin-top: 2px;
+	margin-bottom: 5px;
+}
+  
+.standingtabbed li{
+	display: inline;
+	margin: 0px;
+	padding: 20px;
+}
+
+.standingtabbed li a{
+	padding: 0px 0px 0px 0px;
+	text-decoration: none;
+	color: #e5cfac;
+	outline: none;
+}
+
+.standingtabbed li a:visited{
+	color: #fff;
+}
+
+.standingtabbed li a:hover{
+	text-decoration: underline;
+	color: #ffefd5;
+}
+
+.standingtabbed li.selected{
+	text-decoration: underline;
+	color: #999999;
+}
+
+.standingtabbed li.selected a{ /*selected main tab style */
+	text-decoration: underline;
+	border-bottom: none;
+	color: #000;
+}
+
+.standingtabbed li.selected a:hover{ /*selected main tab style */
+	text-decoration: none;
+}
+ 
+.standingtabbed {
+	width: 100%;
+}
+
+/* ######### END Front Page Shadetab ######### */
+
+
+
+/* ######### Body Support Layout ######### */
+
+#body_support .rsimage { 
+	margin-top: -19px;
+}
+
+#body_support .pagefooter {
+	display:none;
+}
+
+#body_live_scoring_summary {
+	margin-top: 0px;
+}
+
+#body_live_scoring_summary h2 {
+	display: none;
+}
+
+
+#body_support a:hover {
+        color: #133775;
+        text-decoration: none;
+        background: transparent;
+		
+}
+
+#body_support .pagefooter {
+	display: none;
+}
+
+/* ######### END Body Support Layout ######### */
+
+
+
+
+/* ######### START Playoffs ######### */
+
+#playoff1  { 
+	width: 800px; 
+}
+
+#playoff2  { 
+	width: 800px; 
+}
+
+#playoff3  { 
+	width: 800px; 
+}
+
+#playoff4  { 
+	width: 800px; 
+}
+
+#playoff5, #playoff6, #playoff7, #playoff8, #playoff9, #playoff10  { 
+	width: 800px; 
+}
+
+
+#options_79 .oddtablerow, #playoff1 .oddtablerow, #playoff2 .oddtablerow, #playoff3 .oddtablerow, #playoff4 .oddtablerow, #playoff5 .oddtablerow, #playoff6 .oddtablerow, #playoff7 .oddtablerow, #playoff8 .oddtablerow, #playoff9 .oddtablerow, #playoff10 .oddtablerow { 
+	background-color: #e5cfac; color: #823d03; font-size: 10pt; font-weight: bold; 
+}
+
+.topteam { border-bottom: 2px #000 solid; }
+.bracket { border-right: 2px #000solid; }
+.bottomteam { border-bottom: 2px #000 solid; border-right: 2px #000 solid; }
+
+
+/* ######### End Playoffs ######### */
+
+
+
+
+
+
+/* ######### Start Custom Fantasy Aticle ######### */
+
+
+#fantasy_articles .articlepicturetable {
+	border: 1px solid #000;
+        margin-right: 0px;
+}
+
+#fantasy_articles .oddtablerow a:link, #fantasy_articles .oddtablerow a:link, #fantasy_articles .oddtablerow a:active, #fantasy_articles .oddtablerow a:visited { 
+	color: #e5cfac;
+}
+
+#fantasy_articles td {
+	background-image:  url(http://nitrografixx.com/graphics/templates/template_3/old_school/article-background.png) ;
+background-position: center top;
+	color: 000;
+border: 1px solid #D2B48C;
+}
+
+#fantasy_articles { border: none;
+height: 320px;
+text-transform: capitalize;
+
+}
+
+#fantasy_articles a:link {
+	color: #e5cfac;
+}
+
+#fantasy_articles th, #body_options_185 th {
+	background: #8c5326;
+border: 1px solid #e5cfac;
+
+}
+
+/* ######### END Custom Fantasy Aticle ######### */
+
+
+
+
+
+
+
+#brief_standings  {width: 296px;}
+
+#brief_standings caption {display: none;}
+
+#brief_standings  {
+border: 2px solid #e0ab5e;
+}  
+#brief_standings h3 {display: none;}
+
+#brief_standings caption { margin-bottom: 5px; margin-top: 3px; }
+
+/* ######### Ticker ######### */
+
+#homepagecolumn3 #livescoring_summary caption {
+border: none;
+display:none;
+}
+
+#homepagecolumn3 #livescoring_summary {
+border: none;
+background-color: #000;
+
+
+}
+
+#homepagecolumn3 #livescoring_summary .oddtablerow {
+	text-decoration: none;
+	text-decoration: none;background-color: transparent;
+}
+
+.tickerinnertable {   
+        margin-top: 7px;
+	text-decoration: none;width: 290px;
+	text-decoration: none;height:125px;
+
+
+}
+
+.tickerheader {
+	
+	text-decoration: none;border:none;
+	text-decoration: none;background-image: url();
+	text-decoration: none;background-color: transparent;
+	text-decoration: underline;
+
+}
+
+a.tickerheader:link, a.tickerheader:visited, a.tickerheader:hover, a.tickerheader:active
+{ text-decoration: none; color: #000 }
+
+a.tickerscore:link,  a.tickerscore:visited,  a.tickerscore:hover,  a.tickerscore:active,
+a.tickerclock:link,  a.tickerclock:visited,  a.tickerclock:hover,  a.tickerclock:active
+{ text-decoration: none; color: #fff }
+
+a.tickerteam:link,   a.tickerteam:visited,   a.tickerteam:hover,   a.tickerteam:active,
+{ text-decoration: none; color: #fff; }
+
+.tickerteam {
+	text-decoration: none;font-size: 17px;
+	text-decoration: none;padding: 8px 0px 12px 8px;
+	text-decoration: none;margin: 0px;
+	text-decoration: none;padding-top: 4px;
+	text-decoration: none;background-color: transparent;
+	text-decoration: none;font-weight: bold;
+
+}
+
+.tickerscore {
+	text-decoration: none;font-size: 17px;
+	text-decoration: none;padding: 0px 40px 8px 0px;
+	text-decoration: none;font-weight: bold;
+	text-decoration: none;background-color: transparent;
+	text-decoration: none;color: #fff;
+}
+
+.tickerclock {
+	text-decoration: none;font-size: 12px;
+	text-decoration: none;padding: 0px;
+	text-decoration: none;background-color: transparent;
+
+}
+.tickericon {
+	text-decoration: none;height:; /* Use #px for fixed width i.e. 100px */
+	text-decoration: none;width:;  
+}
+.tickerspread {
+	text-decoration: none;font-size: 8px;
+	text-decoration: none;color: red;
+}
+
+#ticker {
+	text-decoration: none;background-image: url(http://nitrografixx.com/graphics/Huddle_Ladder_2009/scoreboard.png);
+	text-decoration: none;background-repeat: no-repeat;
+	text-decoration: none;width: 284px;
+	text-decoration: none;height:140px;
+	text-decoration: none;border: none;
+        margin-top: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        overflow: hidden;
+}
+
+
+#livescoring .tickerteam  a:link {
+	color:#fff
+}
+/* ######### END Ticker ######### */
+
+
+#homepagecolumns #nfl_survivor_pool, #nflschedule {
+    width: 420px;
+    margin-left: 14px;
+}
+
+#homepagecolumns #nfl_confidence_pool, #next_weeks_fantasy_schedule {
+    width: 420px;
+    margin-right: 14px;
+}
+
+#homepagecolumns #fantasy_confidence_pool {
+    width: 420px;
+    margin-left: 14px;
+}
+
+#homepagecolumns #top_survivor_picks {
+    width: 420px;
+    margin-right: 14px;
+}
+
+#body_live_scoring_summary .pagebody  {
+background: #000;
+}
+
+#body_live_scoring_summary .report {
+width: 400px;
+}
+
+#body_live_scoring  {
+     margin-top: -25px;
+}
+
+#body_live_scoring .report  {
+     width: 275px;
+}
+
+#middletab2 {margin-top: 5px;}
+
+#standings #division00 {
+  background:  center url(http://nitrografixx.com/graphics/MastersFantasyLeague_2009/HallofFame_standings.jpg)  no-repeat;
+  height: 28px;
+  width: 850px;
+  border: none;
+}
+
+#standings #division01 {
+  background:  center url(http://nitrografixx.com/graphics/MastersFantasyLeague_2009/all_pro_standings.jpg)  no-repeat;
+  height: 28px;
+  width: 850px;
+  border: none;
+}
+
+#standings #division02 {
+  background:  center url(http://nitrografixx.com/graphics/MastersFantasyLeague_2009/practicesquad_standings.jpg)  no-repeat;
+  height: 28px;
+  width: 850px;
+  border: none;
+}
+
+#standings #division00 h3, #standings #division01 h3, #standings #division02 h3, #standings #division03 h3, #standings #division04 h3 {
+visibility: hidden;
+}
+
+#shield {margin-top: 35px;}
+
+#tabstanding {width: 500px;}
+
+
+
+#tabcontent0 #homepagecolumn3, #tabcontent1 #homepagecolumn3,#tabcontent2 #homepagecolumn3,#tabcontent3 #homepagecolumn3 {width: 308px;}
+
+#standings table{
+	width: 880px;
+}
+
+/* ######### START Standing Report ######### */
+
+.franchiseicon, img.franchiseicon { 
+	width: 240px; height: 50px; 
+}
+
+
+.ficon { 
+	width: 240px; margin: 0; padding: 0; 
+}
+
+.h2hwlt { 
+	width: 100px; 
+}
+
+.h2hpct { 
+	width: 100px; 
+}
+
+.gb { 
+	width: 100px; 
+}
+
+.strk { 
+	width: 100px; 
+}
+
+#standings .pf { 
+	width: 100px; 
+}
+
+.avgpf { 
+	width: 100px; 
+}
+
+.pa { 
+	width: 100px; 
+}
+
+.avgpa { 
+	width: 100px; 
+}
+
+.divwlt, .h2hl, .h2hw { 
+	width: 100px; 
+}
+
+.bbidspent { 
+	width: 100px; 
+}
+
+#options_101 .franchisename { 
+	width: 240px; 
+}
+
+#options_101 .total_points, #options_101 .total_potential_points, #options_101 .maxpf, #options_101 .minpf,
+#options_101 .coulda_won, #options_101 .all_play_w, #options_101 .all_play_l, #options_101 .all_play_t, 
+#options_101 .all_play_pct7 {
+width: 35px;
+text-align: center;
+}
+
+#options_101 .coulda_won, #options_101 .power_rank, #options_101 .woulda_lost,  #options_101 .All-Play Record, #options_101 .efficiency, #options_101 .bench_points {
+width: 75px;
+text-align: center;
+}
+
+
+/* ######### End Standing Report ######### */
+
+#standings .franchiseicon { 
+	height:50px;width:240px;
+}
+
+
+/* ######### START Roster Tabs ######### */
+
+#squad_icon {
+	width: 245px;
+	padding-bottom: 0px;
+}
+
+#roster_table td {
+	border: 1px solid #865b4a;
+	padding: 0px;
+}
+
+#show_hide_rosters {
+	width: 890px;
+	margin-top: 10px;
+	font-size: 16px;
+	margin-bottom: 0px;
+	font-weight: bold;
+margin-bottom: 10px;
+}
+
+#Squad1 caption, #Squad2 caption, #Squad3 caption, #Squad4 caption, #Squad5 caption, 
+#Squad6 caption, #Squad7 caption, #Squad8 caption, #Squad9 caption, #Squad10 caption, 
+#Squad11 caption, #Squad12 caption, #Squad13 caption, #Squad14 caption, 
+#Squad15 caption, #Squad16 caption {
+	display:none;
+}
+
+/* ######### END Roster Tabs ######### */
+
+
+
+#options_06 .report, #options_169 .report {width: 480px;}
+
+#helmetbar  {margin-top: -12px;}
+
+#topic_show .ava {
+width: 240px;
+height: 55px;
+}
+
+
+
+/* ######### Start Custom Team Logo Sizes ######### */
+
+#owner_activity .franchiseicon {
+	width:132px;
+	height:32px;
+}
+
+#waiver_order .franchiseicon {
+	width:150px;
+	height:31px;
+}	
+
+#next_weeks_fantasy_schedule .franchiseicon {
+	width:190px;
+	height:42px;
+        padding:2px;
+}
+
+#home #franchise_schedule .franchiseicon {
+	width:160px;
+	height:31px;
+        padding-left:47px;
+}
+
+#home #franchise_schedule {
+	color: #800000;
+	width: 298px;
+}
+
+#roster .franchiseicon {
+	text-align:center;
+	width:240px;
+	height:50px;
+	background-color:transparent;
+}
+
+#transactions .franchiseicon {
+	width:120px;
+	height:30px;
+}
+
+#trade_bait .franchiseicon {
+	width:94px;
+	height:20px;
+}
+
+#power_rank .franchiseicon {
+	width:240px;
+	height:50px;
+	padding:1px;
+	background-color:transparent;
+	border:none;
+}
+
+#weekly_summary .franchiseicon, #nfl_confidence_pool .franchiseicon, #nfl_survivor_pool .franchiseicon, #fantasy_confidence_pool .franchiseicon {
+	width:150px;
+	height:31px;
+}
+
+#fantasy_recap .franchiseicon {
+	width:150px;
+	height:31px;
+	padding:1px;
+}
+
+#last_weeks_fantasy_results .franchiseicon {
+	width:150px;
+	height:31px;
+}
+
+#options_03 .franchiseicon, #options_05 .franchiseicon, #options_16 .franchiseicon, #options_17 .franchiseicon, #options_20 .franchiseicon, #options_22 .franchiseicon, #options_23 .franchiseicon, #options_31 .franchiseicon, #options_52 .franchiseicon, #options_54 .franchiseicon, #options_119 .franchiseicon, #options_120 .franchiseicon, #options_122 .franchiseicon,  #options_171 .franchiseicon, #options_177 .franchiseicon, #options_180 .franchiseicon {
+	width: 150px;
+	height: 31px;
+	padding: 1px;
+}
+
+#options_169 .franchiseicon {
+	width:224px;
+	height:48px;
+        padding:2px;
+	}
+
+#options_15 .franchiseicon {
+	width:224px;
+	height:48px;
+        padding:2px;
+	}
+
+#options_06 .franchiseicon {
+	width:224px;
+	height:47px;
+        padding:2px;
+}
+
+#options_06 .two_column_layout .franchiseicon {
+	width:250px;
+	height:50px;
+        padding:2px;
+}
+
+#options_22 caption .franchiseicon, #options_169 caption .franchiseicon, #options_177 caption .franchiseicon {
+	width: 240px;
+	height: 50px;
+}
+
+#welcome .franchiseicon {
+	width:240px;
+	height:50px;
+}
+
+#login .franchiseicon {
+	width:240px;
+	height:50px;
+}
+
+#options_07 .franchiseicon {
+	width:240px;
+	height:50px;
+	border:none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border:none; 
+        margin-bottom: -15px;
+}
+
+#options_07 caption {
+        height: 60px;
+}
+
+#top .report .franchiseicon {
+	width:94px;
+	height:20px;
+}
+
+#options_08 .report .franchiseicon {
+	width:94px;
+	height:20px;
+}
+
+#player_search .franchiseicon {
+	width:94px;
+	height:20px;
+}
+
+#options_113 .report .franchiseicon {
+	width:60px;
+	height:13px;
+}
+
+#options_118 .report .franchiseicon {
+	text-align:center;
+	width:240px;
+	height:50px;
+}
+
+#weekly .franchiseicon {
+	width: 150px;
+	height: 31px;
+	padding: 1px;	
+}
+
+#weekly caption .franchiseicon {
+	width: 240px;
+	height: 50px;
+}
+
+#options_101 .franchiseicon {
+	height:50px;width:240px;
+	padding:1px;
+	background-color:transparent;
+	border:none;
+} 
+
+#standings .franchiseicon { 
+	height:50px;width:240px;
+}
+
+#body_topic_show .ava { 
+	height:50px;width:240px;
+}
+
+/* ######### END Custom Team Logo Sizes ######### */
+
+
+/* ######### Start Remove Captions For Team Logo ######### */
+
+#body_options_129 caption, #body_options_169 caption,  #body_options_02 caption, #body_waivers caption, #roster caption, #submit_lineup caption, #options_197 caption, #options_195 caption, #options_22 caption, #options_118 caption {
+	background: none;
+	height: 50px;
+border: 1px solid #a97f5f;
+}
+
+#options_07 caption {
+	background: none;
+	height: 60px;
+border: 1px solid #a97f5f;
+}
+
+#options_06 .two_column_layout caption {
+	background: none;
+	height: 50px;
+border: 1px solid #a97f5f;
+}
+
+
+
+/* ######### END Remove Captions For Team Logo ######### */

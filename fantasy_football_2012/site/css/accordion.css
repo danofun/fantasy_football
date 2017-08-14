@@ -1,0 +1,46 @@
+/* ######### DO NOT CHANGE SETTINGS BELOW UNLESS EXPERIENCED ######### */
+.easy-accordion{display:block;position:relative;overflow:hidden;padding:0;margin:0}
+.easy-accordion dt,.easy-accordion dd{margin:0;padding:0;}
+.easy-accordion dt,.easy-accordion dd{position:absolute;}
+.easy-accordion dt{margin-bottom:0;margin-left:0;z-index:5;/* Safari */ -webkit-transform: rotate(-90deg); /* Firefox */ -moz-transform: rotate(-90deg);-moz-transform-origin: 10px -10px;  /* Internet Explorer */ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);-ms-transform: rotate(0deg);cursor:pointer;}
+.easy-accordion dd{z-index:1;opacity:0;overflow:hidden;}
+.easy-accordion dd.active{opacity:1;}
+.easy-accordion dd.no-more-active{z-index:2;opacity:1;}
+.easy-accordion dd.active{z-index:3;}
+.easy-accordion dd.plus{z-index:4;}
+/* ######### END ######### */
+
+.easy-accordion dd {overflow-y:auto;}
+#accordion-1 dd img {margin: 0 0 0 0;}
+#accordion-1{width:840px;height:395px;padding:0px;background:#000;border:1px solid #000;}
+#accordion-1 dl{width:840px;height:395px;}	
+#accordion-1 dt{padding:0 15px 0 0;background: #000 url(http://faithworkcamps.com/fantasy_football_2012/site/accordion/calendar-tab.png) center no-repeat;color:#fff;width:395px;height:27px;padding-top:1px;}
+#accordion-1 dt.active{cursor:pointer;color:#0e0900;background: #000 url(http://faithworkcamps.com/fantasy_football_2012/site/accordion/calendaractive-tab.png) center no-repeat; width:395px; height:27px;padding-top:1px;}
+#accordion-1 dt.hover{background: #000 url(http://faithworkcamps.com/fantasy_football_2012/site/accordion/acc_hover.png) center no-repeat;}
+#accordion-1 dt.active.hover{color:#000;background: #000 url(http://faithworkcamps.com/fantasy_football_2012/site/accordion/calendaractive-tab.png) center no-repeat; }
+#accordion-1 dt{line-height:27px;text-align:left;font-size:15px;font-weight:bold;color:#ffc000;text-transform:;letter-spacing:1px;font-variant: small-caps;text-indent:234px;}
+#accordion-1 dt.hover{color:#ffc000;}
+#accordion-1 dt c{position:absolute;right:354px;line-height:29px;font-size:19px;width:29px;bottom:7px;color:#ffc000;text-indent:17px;/* Safari */ -webkit-transform: rotate(90deg); /* Firefox */ -moz-transform: rotate(90deg);  /* Internet Explorer */ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);-ms-transform: rotate(0deg);}	
+#accordion-1 dt.active c{color:#ffc000;}
+#accordion-1 dd{padding-top:0px;background: #231912 url() bottom left repeat-x;border:1px solid #000;;margin-right:0px;margin-left:-10px;}
+#accordion-1 dd.active .activeimg  {height:20px; width:20px;position:absolute;left:8px;top:16px;background: url(http://faithworkcamps.com/fantasy_football_2012/site/accordion/active_arrow.png) center no-repeat;}
+#accordion-1 a{color:#fff;}
+#accordion-1 {margin:0 auto;}
+
+#accordion_bg {width:868px;padding-top:8px;padding-bottom:8px;background: transparent url(http://faithworkcamps.com/fantasy_football_2012/site/accordion/acc_bg.png) center no-repeat;margin:0 auto;margin-left:4px;}
+
+#accordion-1 .oddtablerow{border:1px solid #000;font-weight:bold;}
+#accordion-1 .eventablerow{border:1px solid #000;font-weight:bold;}
+#accordion-1 caption {background:none;color:#fff;text-align:left;padding-left:10px;font-size:16px;border:none;display:none;}
+#accordion-1 .report th {text-align:left;height:10px;}
+#accordion-1 .franchiseicon {height:25px; width:auto;}
+#accordion-1 .franchisename {width:140px;text-align:center;}
+#accordion-1 #nfl_survivor_pool th {width:140px;text-align:center;}
+#accordion-1 #nfl_confidence_pool th {width:140px;text-align:center;}
+#accordion-1 #nfl_confidence_pool,#accordion-1 #nfl_survivor_pool,#accordion-1 #transactions,#Fantasy_Schedule .report {width:660px;height:386px;margin-top:4px;margin-left:14px;padding:0;padding-right:0px;border:none;}
+#accordion-1 #weekly_calendar {width:661px;height:386px;margin-top:4px;margin-left:14px;padding:0;padding-right:0px;border:none;}
+#accordion-1 #weekly_calendar th{text-align:center;}
+#accordion-1 #league_chat {height:380px;margin-top:4px;margin-left:14px;padding:0;padding-right:0px;border:none;width:647px;}
+#accordion-1 input {margin-bottom: 0px;}
+
+

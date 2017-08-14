@@ -1,0 +1,110 @@
+/* ######### Start Top Players Tabs ######### */
+#TabbedPanels2 .report {
+border:none;
+}
+#TabbedPanels2 caption, #TabbedPanels5 table caption {
+display:none
+}
+#TabbedPanels2 .TabbedPanels {
+margin: 0px;
+padding: 0px;
+float: left;
+clear: none;
+width: 100%;/* IE Hack to force proper layout when preceded by a paragraph. (hasLayout Bug)*/
+}
+#TabbedPanels2 .TabbedPanelsTabGroup {
+margin: 0px;
+padding: 0px;
+}
+#TabbedPanels2 .TabbedPanelsTab {
+-moz-user-select:none;
+background:transparent;
+cursor:pointer;
+float:left;
+font:bold 0.9em sans-serif;
+list-style:none outside none;
+margin:0 0px 0 0;
+padding:4px 8px;
+position:relative;
+text-align:center;
+text-transform:uppercase;
+top:1px;
+margin-bottom: 0px;
+border-left:1px solid #473b30;
+width:62px; margin-left: -1px;border-bottom:1px solid #fff;
+}
+#TabbedPanels2 .TabbedPanels .report caption {
+display:none;
+}
+#TabbedPanels2 .TabbedPanelsTabHover {
+color:#1f1813;
+background: #fff;
+}
+#TabbedPanels2 .TabbedPanelsTabSelected {
+background:url("http://faithworkcamps.com/fantasy_football_2012/site/img/toptabactivebg.png") repeat scroll top;
+color:#302821;
+}
+#TabbedPanels2 .TabbedPanelsTab a {
+color: black;
+text-decoration: none;
+}
+#TabbedPanels2 .TabbedPanelsContentGroup {
+clear: both;
+background:#44392f url(http://faithworkcamps.com/fantasy_football_2012/site/img/newsbg.png);
+background-repeat:repeat;  
+background-position:bottom;
+height:328px;
+-moz-border-radius-topleft: 0px 0px;
+ -moz-border-radius-topright: 0px 0px;
+-moz-border-radius-bottomleft: 5px 5px;
+-moz-border-radius-bottomright: 5px 5px;
+-webkit-border-radius-topleft: 0px 0px;
+-webkit-border-radius-topright: 0px 0px;
+-webkit-border-radius-bottomleft: 5px 5px;
+-webkit-border-radius-bottomright: 5px 5px;
+}
+.column2 {
+background: #000 url("http://faithworkcamps.com/fantasy_football_2012/site/img/cap.png") repeat scroll center;
+border:none;
+width: 312px;
+left: 6px;
+color: #473b30;
+height: 300px;
+        margin-left:8px;
+margin-bottom:58px;
+}
+.column2 .report {
+font-size:8pt;
+font-weight:normal;
+width: 312px;
+height:318px;
+}
+.column2 td.rank  {width:10px;text-align:center;}
+.column2 td.points  {width:10px;text-align:center;}
+.column2 .franchiseicon {width:100px; height:auto;}
+/* ######### END ######### */
+
+.column2 .report{
+background:none;
+padding:0;
+margin:0;
+padding-left:6px;
+padding-right:6px;
+}
+.column2 .oddtablerow,.column2 .eventablerow{
+background:none;
+}
+.column2 th{
+background:none;color:#fff;height:20px;border-bottom:1px solid #473b30;
+}
+.column2 .oddtablerow a:link, .column2 .oddtablerow a:active, .column2 .oddtablerow a:visited, .column2 .oddtablerow{
+color:#fff;
+}
+.column2 .eventablerow a:link, .column2 .eventablerow a:active, .column2 .eventablerow a:visited, .column2 .eventablerow{
+color:#fff;
+}
+.TabbedPanelsContent {height:200px;padding:0; margin:0;}
+.column2 #news_articles .timestamp {font-size:9px;width:70px;}
+.column2 #owner_activity  td {font-size:9px;}
+
+

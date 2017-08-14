@@ -1,0 +1,81 @@
+#nav_ticker_wrapper{position:absolute;top:-55px;left:472px;width:800px;z-index:10;}
+ul.dropmenu{color:#6f5b4a;position:relative;margin:0;padding:0 0 0 0;background:transparent;display:block;height:30px;font:12px Verdana,Arial,Helvetica,sans-serif;z-index:100;min-width:440px}
+.dropmenu li{position:relative;list-style:none;float:left;margin:0;padding:0;}
+.dropmenu li a{height:20px;padding:12px 34px 12px 34px;display:block;cursor:point;border-right:solid 1px #000;margin-top:0;color:#ff4e00;text-transform:uppercase;text-decoration:none;font-weight:bold;}
+.dropmenu li a.last{border-right:none;padding:12px 26px 12px 26px;}
+.dropmenu li span{display:block;float:right;height:10px;width:10px;background:transparent;position:absolute;top:12px;right:10px}
+.dropmenu li a:hover span{background:transparent}
+.dropmenu li:hover ul,.dropmenu li:hover div{display:block}
+.dropmenu ul{position:absolute;display:none;width:140px;padding:0;margin:0;border-bottom:1px solid #222;background:#111}
+.dropmenu ul li{border:0;float:none;list-style-image:none}
+.dropmenu ul a{border:1px solid #222;border-bottom:0;white-space:nowrap;display:block;color:#fff;text-decoration:none;text-transform:none}
+.dropmenu ul a:hover{color:#ff4e00;text-decoration:none;background-color:#1e1e1e;background-image:none}
+.dropmenu div ul{position:relative;display:block}
+.dropmenu li div{background:#000;z-index:102;padding:5px;display:none;position:absolute;border:1px solid #222;}
+.dropmenu li div ul{border:none;background:none;position:relative}
+.dropmenu li div a{border:none;border-bottom:1px solid #222}
+.dropmenu li div div{display:block;position:relative;background:none;border:none}
+.dropmenu li div div a{display:inline;border:none;color:#fff;text-decoration:underline;padding:0;margin:0;text-transform:none}
+.dropmenu li div div a:hover{color:#ff4e00;text-decoration:none}
+ul.left{float:left;width:145px}
+ul.right{float:right;width:145px}
+.small{color:#ff4e00;font-size:12px;padding:10px 5px 8px 5px;display:block;clear:both}
+.products{width:250px;padding:15px;text-align:left;margin-left:-40px}
+.products ul{width:100%}
+.products ul li{border-bottom:1px solid #111;height:25px;padding:13px 0}
+.products h2{font-size:16px;padding:10px 0 3px 0;margin:0;color:#fff;text-align:left;width:244px}
+.products ul li h2:hover{color:#ff4e00}
+.products p{color:#666;font-size:10px;padding:0;margin:0}
+.products img{float:left;padding-right:10px}
+.products ul li a{display:inline;border:none;color:#666;text-decoration:none;padding:0;margin:0;text-transform:none}
+.products ul li a:hover{color:#CCC;text-decoration:none;background:none}
+.products img{width:75px;height:38px}
+.teams img{width:75px;height:38px}
+.teams{width:940px;padding:15px}
+.teams ul{width:300px;padding-right:10px}
+.teams ul li{border-bottom:1px solid #222;height:50px;padding:10px 0}
+.teams ul li.bottomrow{border-bottom:0 solid #222}
+.teams h2{font-size:16px;padding:2px 0 3px 0;margin:0 0 0 40px;color:#fff}
+.teams h2.main{padding:8px 0 13px 0px;margin:0 0 0 40px;color:#444;text-decoration:underline;font-size:22px;font-style:italic;text-align:left}
+.teams p{font-size:10px;padding:0;margin:0;color:#fff}
+.teams img{float:left;padding-right:10px}
+.teams ul li a{display:inline;border:none;color:#ff4e00;text-decoration:underline;padding:0;margin:0;text-transform:none;font-style:.9em}
+.teams ul li a:hover{color:#CCC;text-decoration:none;background:none}
+.tutorials{width:300px}
+.dropmenu .login{padding:15px !important;width:180px}
+.dropmenu input{background:#1e1e1e;color:#FFF;border:1px solid #333;padding:5px 15px}
+.dropmenu input:hover{background:#1e1e1e;color:#CCC}
+.dropmenu label{padding:0 0 4px 0;display:block}
+.dropmenu button{background:#1e1e1e;color:#FFF;border:1px solid #1e1e1e;padding:4px 10px;width:180px}
+.rafter{height:669px;width:900px;margin-left:-948px}
+.rafter ul{width:100%}
+.rafter ul li{border:none;padding:0 0}
+.rafter h2{font-size:16px;padding:2px 0 3px 0;margin:0}
+.rafter p{color:#666;font-size:10px;padding:0;margin:0}
+.rafter img{float:left;height:669px;width:900px;padding-right:0}
+.rafter ul li a{display:inline;border:none;color:#666;text-decoration:underline;padding:0;margin:0;text-transform:none}
+.rafter ul li a:hover{color:#000;text-decoration:none;background:none}
+.teams{margin-left:-450px}
+ul#nav-one .teams a{color:#ff4e00;background-color:transparent;width:80px;text-align:center;font-weight:bold;height:29px;border-top:1px solid #000;border:none}
+ul#nav-one .teams a:hover{color:#fff;width:80px;text-align:center;font-weight:bold;font-weight:bold;background:transparent;border:none;text-decoration:underline}
+td#navwrapper ul#nav-one.dropmenu .teams li a{width:125px;padding:0;margin:0;color:#ff4e00;border:0}
+td#navwrapper ul#nav-one.dropmenu li .teams a:hover{width:125px;padding:0;margin:0;color:#ff4e00;border:0}
+td#navwrapper ul#nav-one.dropmenu li a{width:125px;padding:0;margin:0;color:#fff;border:0;height:35px;}
+td#navwrapper ul#nav-one.dropmenu li a:hover{width:125px;padding:0;margin:0;color:#fff;border:0}
+td#navwrapper ul#nav-one.dropmenu li a.hometext{padding-left:28px;margin-left:-28px}
+td#navwrapper ul#nav-one.dropmenu li a.hometext:hover{background:transparent url("../img/menu_hovorb.png")no-repeat;background-position:-25px -10px;z-index:99999}
+td#navwrapper ul#nav-one.dropmenu li a.teamstext{padding-left:28px;margin-left:-28px}
+td#navwrapper ul#nav-one.dropmenu li a.teamstext:hover{background:transparent url("../img/menu_hovorb.png")no-repeat;background-position:-25px -10px;z-index:99999}
+td#navwrapper ul#nav-one.dropmenu li a.leaguetext{padding-left:28px;margin-left:-28px}
+td#navwrapper ul#nav-one.dropmenu li a.leaguetext:hover{background:transparent url("../img/menu_hovorb.png")no-repeat;background-position:-24px -10px;z-index:99999}
+td#navwrapper ul#nav-one.dropmenu li a.standingtext{padding-left:28px;margin-left:-28px}
+td#navwrapper ul#nav-one.dropmenu li a.standingtext:hover{background:transparent url("../img/menu_hovorb.png")no-repeat;background-position:-21px -10px;z-index:99999}
+td#navwrapper ul#nav-one.dropmenu li a.gametext{padding-left:43px;margin-left:-28px}
+td#navwrapper ul#nav-one.dropmenu li a.gametext:hover{background:transparent url("../img/menu_hovorb.png")no-repeat;background-position:-7px -10px;z-index:99999}
+td#navwrapper ul#nav-one.dropmenu li a.last{padding-left:25px;margin-left:-25px}
+td#navwrapper ul#nav-one.dropmenu li a.last:hover{background:transparent url("../img/menu_hovorb.png")no-repeat;background-position:-25px -10px;z-index:99999}
+
+
+
+
+

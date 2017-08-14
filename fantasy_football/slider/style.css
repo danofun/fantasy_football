@@ -1,0 +1,119 @@
+@charset "utf-8";
+
+/* resets all styles */
+@import url("reset.css");
+
+
+
+/*------------------------
+	---------------- NAVS
+	------------------------*/
+
+
+		/*------------------------
+		--------------- LEFT ARROW
+		------------------------*/
+		
+		/* Sets position and main configs */
+		.slider_arrow_left {
+			
+			bottom: 3px;
+			cursor: pointer !important;
+			float: left;
+			height: 22px;
+			left: 35px;
+			position: absolute;
+			width: 22px;
+			z-index: 5;
+			
+		}
+		
+		/* left arrow image */
+		.slider_arrow_left {
+			
+			background: url(images/left_arrow.png) no-repeat top left;
+			
+		}
+
+
+		/*------------------------
+		-------------- RIGHT ARROW
+		------------------------*/
+		
+		/* Sets position and main configs */
+		.slider_arrow_right {
+			
+			bottom: 3px;
+			cursor: pointer;
+			float: left;
+			height: 22px;
+			left: 62px;
+			position: absolute;
+			width: 22px;
+			z-index: 5;
+			
+		}
+		
+		/* Right arrow Background */
+		.slider_arrow_right {
+			
+			background: url(images/right_arrow.png) no-repeat top left;
+			
+		}
+
+
+
+
+	/*------------------------
+	---------------- SELECTORS
+	------------------------*/
+	
+	/* Sets configs for selectors containers : absolute positioned in relation to #slider */
+	.slider_selector, .slider_selector_dis {
+		
+		bottom: 3px;
+		list-style: none;
+		margin: 0 0 0 5px;
+		position: absolute;
+		right: 10px;
+		z-index: 5;
+		
+	}
+	
+		/* Sets image of selectors */
+		.slider_selector li, .slider_selector_dis li {
+			
+			display: block !important;
+			background: url(images/slider_selector.png) no-repeat top left;
+			cursor: pointer;
+			float: left;
+			margin: 0 3px !important;
+			height: 10px !important;
+			position: relative !important;
+			width: 10px !important;
+			
+		}
+		
+		/* Sets the current selector */
+		.slider_selector li.current, .slider_selector_dis li.current {
+			
+			background: url(images/slider_selector_current.png) no-repeat top left;
+			
+		}
+	
+	/* Disables the selectors */
+	.slider_selector_dis li {
+		
+		cursor: default !important;
+		z-index: 5;
+		
+	}
+	
+	.container {
+		
+		float: left;
+		position: relative;
+		width: 100%;
+		z-index: 15;
+		
+	}
